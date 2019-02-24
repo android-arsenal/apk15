@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.eightbitlab.blurview_sample",
+    "label" : "BlurView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2158,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1\" package=\"com.eightbitlab.blurview_sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"BlurView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.eightbitlab.blurview_sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 5220047,
+  "crc32" : 1723669613,
+  "sha256" : "33a85db2906bf8319abb150578f77c2e5746091ee188c5736e66fb34bcc6d7e2",
+  "buildTime" : 1542553563000
+}

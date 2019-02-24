@@ -1,0 +1,41 @@
+{
+  "meta" : {
+    "packageName" : "com.pro100svitlo.nfccardread",
+    "label" : "NFC Credit Card Reader",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.2",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.NFC" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.nfc",
+      "required" : true
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACKFBMVEUAAAD/mwD/lwD/mQD/lQD/mAD/mAD/mAD//wD/ngD/lgD/mAD/mAD/mAD/mQD/mAD/mAD/mQD/mgD/mAD/mAD/lwD/mAD/mwD/qgD/mAD/mAD/mAD/mQD/jgD/lwD/mAD/mQD/mQD/gAD/mQD/mAD/mQD/mAD/mAD/mgD/lwD/mAD/mAD/gAD/mQD/mAD/mAD/mAD/mQD/qgD/mAD/mAD/mQD/mQD/mAD/lQD/lwD/mAD/mQD/mAD/nQD/lwD/mAD/mAD/lwD/mQD/lwD/mwD/mAD/lwD/mgD/mAD/ngD/mAD/mAD/mQD/lwD/mAD/mAD/mQD/mAD/mQD/lwD/mQD/mQD/mAD/mAD/mQD/mAD/mQD/mQD/lwD/mgD/mgD/mQD/mgD/mAD/mwD/lwD/mAD/mAD/mgD/kgD/mAD/mgD/mwD/lwD/mAD/mgD/mQD/nQD/mAD/mAD/mQD/nAD/lwD/lwD/lwD/mAD/mAD/lAD/lQD/mAD/mQD/lwD/mgD/mAD/mAD/mAD/mAD/mAD/mAD/lwD/mAD/mAD/nAD/lwD/mAD/mAD/lwD/mgD/mAD/mAD/mAD/mAD/mAD/lwD/lwD/mAD/mAD/kgD/mgD/mQD/mAD/mAD/mAD/mQD/mAD/lgD/mwD/lwD/mAD/lwD/mAD/mQD/mAD/mQD/mAD/mAD/mAD/mAD/mQD/mAD/mwD/mQD/mQD/mQD/mAD/mAD/mAD/mgD/mQD/mABk3IiEAAAAuHRSTlMAQrusHdz/rgEVJ735OS3n93BW/qFb6RcG4+x+fwkb8IdVBDz9najHMJtSzQIy+0/4GQPi1A/glQyR7UbvGjvI3spsdjhh6kT6HaSLUFN5jQr0jKU3boHXmcEjBYWwK3pJTT2MnypTB4ZRKaCQNXgNfPLbJEDAFnJeExj2HjEm8eG+39hoLKNZEoJc9WJMrbD8RcRCZ21IDkdxd+TCacMiIbaZYDRf60vzQ7y6zJIufRSK0L+XP5jJfNg+OwAAAqRJREFUSMftlfdXE0EQx0cCXw8IBDhDiZpIPAU1RgxIUYHYY8cCglE0IirWgAVDjRVERcUuqICCvRDbv+fcJSrv3RGSn3zP5/yQnZudz87uzM6G6L9oyJQYXWxUQBwwVYjQNz6BPRMBfVJk/smGlFSiNBGYFhlgBNIzKDMLMMWH98ycPmMmD2YLwCFmAcjWcrP+1mZLmCOPc4EcK+UyME/Df/4Coy2kLrRDSuZxEZC3mBz5QIFD5b+kEFJRcWhLnMoSHjOWAsuUQMtLVUAZJwPlCcGPEsDJGbWtAFYSrQLE1SpgDWRZm63UaJ0E13oeNwAbiTbxxGYVsEUBoN9aIVdsGyR5ze3ADqKdbK9UAVXArmo7B6/ZTeS2KJunPcBeoloGqlTAPj6Bdb+B5wweOYJ4gI11wEGiek3gEJB/mMwxPOk60iDBfpSNx4DjRCfYdlIF1LvgOsXV86YED9OYSSTkKKXmcsCoAiqagNOyciZOAc6yes6kHKVZM610PiXdpygtOglK/uWlW+OV5Da2qQGhvSOkuVM74eftCTrggoMcF4FL7kk6obmef9s6gctEVzje1Yj6oQvwdxNdY6AnIqCj8PoNzpsTsJRG1nLF3XyzbvKt7I3m1bgF3L4TDeAH+hzRAD3O8tq/9Iaavd678g3x3qP7Xlke8NfDR4+fGM3aAPdVP5dpAAVUqFy/IiJPk6h5tX8B8lNRMw4oa0Rf6tO69okBfXsIePZ8cNAnDCGxYuIzMOBHjSMIZFUPD+f6TEijsEBlv/jiz5YaYu14GR4Y6RL7CxTANTo6+qrlNd5MAtje8soy8E5+z9zv8UEID9DH1nEAjUh5nzpikz6HAYSx8YB1TA9R0v5z4LYMBDxEvi+BXhoKfA3abN++D/zQJdE/Jj8B0g2AtfpOmb4AAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2697,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.0.2\" package=\"com.pro100svitlo.nfccardread\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.NFC\" />\n\t<uses-feature android:name=\"android.hardware.nfc\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0a008d\" android:label=\"NFC Credit Card Reader\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0a0037\" android:label=\"NFC Credit Card Reader\" android:name=\"com.pro100svitlo.nfccardread.MainActivity\" android:launchMode=\"singleTask\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.nfc.action.TECH_DISCOVERED\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"android.nfc.action.TECH_DISCOVERED\" android:resource=\"res/xml/nfc_tech_filter.xml\" />\n\t\t</activity>\n\t\t<intent-filter>\n\t\t\t<action android:name=\"android.nfc.action.TECH_DISCOVERED\" />\n\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t</intent-filter>\n\t\t<meta-data android:name=\"android.nfc.action.TECH_DISCOVERED\" android:resource=\"res/xml/nfc_tech_filter.xml\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2307879,
+  "crc32" : 2043473062,
+  "sha256" : "426226fa754000dde8756da45488900bdd66da80941cac4f7ebd37ef43b70c15",
+  "buildTime" : 1545031028000
+}

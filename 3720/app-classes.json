@@ -1,0 +1,4 @@
+{
+  "com.majeur.cling" : [ "ActionItemTarget", "BuildConfig", "Cling", "Cling$1", "Cling$Builder", "ClingManager", "ClingManager$1", "ClingManager$1$1", "ClingManager$2", "ClingManager$Callbacks", "ClingView", "ClingView$1", "ClingView$2", "ClingView$3", "ClingView$4", "MessageView", "PathInterpolator", "R", "R$string", "Target", "Target$1", "ViewTarget" ],
+  "com.majeur.clingapp" : [ "BuildConfig", "DemoActivity", "FirstLaunchDemoActivity", "FirstLaunchDemoActivity$1", "FirstLaunchDemoActivity$2", "MainActivity", "MainActivity$1", "MainActivity$2", "R", "R$attr", "R$color", "R$id", "R$layout", "R$menu", "R$mipmap", "R$string", "R$style" ]
+}

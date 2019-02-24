@@ -1,0 +1,166 @@
+2018-11-21 00:23:39,727 INFO  DownloadService - Downloading "https://github.com/Devlight/NavigationTabStrip/archive/master.zip", attempt 3
+2018-11-21 00:23:41,625 INFO  DownloadService - Downloaded https://github.com/Devlight/NavigationTabStrip/archive/master.zip, attempt 3
+2018-11-21 00:23:41,625 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/master.zip": 155 KB
+2018-11-21 00:23:41,625 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-21 00:23:41,628 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/master.zip: true
+2018-11-21 00:23:41,628 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src'.
+2018-11-21 00:23:41,646 INFO  FullProcessService - Size of directory with sources: 242 KB
+2018-11-21 00:23:41,646 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src]
+2018-11-21 00:23:41,670 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/.git/
+
+2018-11-21 00:23:41,673 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/gradlew
+2018-11-21 00:23:41,676 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/build.gradle
+2018-11-21 00:23:41,678 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/settings.gradle
+2018-11-21 00:23:41,679 INFO  ProjectBuildService - Remote scripts: none
+2018-11-21 00:23:41,679 INFO  ProjectFixService - Fixing project...
+2018-11-21 00:23:41,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/local.properties
+2018-11-21 00:23:41,686 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 00:23:41,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/local.properties
+2018-11-21 00:23:41,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 00:23:41,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/local.properties
+2018-11-21 00:23:41,688 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-21 00:23:41,688 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-21 00:23:41,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 00:23:41,689 INFO  ProjectFixService - Project was maybe fixed
+2018-11-21 00:23:41,689 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-21 00:23:41,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-21 00:23:49,364 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-21 00:23:49,364 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-21 00:23:49,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-21 00:24:18,083 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:navigationtabstrip:preBuild UP-TO-DATE
+:navigationtabstrip:preDebugBuild UP-TO-DATE
+:navigationtabstrip:checkDebugManifest
+:navigationtabstrip:processDebugManifest
+:app:preDebugBuild
+:navigationtabstrip:compileDebugAidl
+:app:compileDebugAidl
+:navigationtabstrip:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:navigationtabstrip:compileDebugRenderscript
+:navigationtabstrip:generateDebugResValues
+:navigationtabstrip:generateDebugResources
+:navigationtabstrip:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:navigationtabstrip:platformAttrExtractor
+:navigationtabstrip:generateDebugBuildConfig
+:navigationtabstrip:prepareLintJar
+:navigationtabstrip:javaPreCompileDebug
+:navigationtabstrip:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:navigationtabstrip:mergeDebugShaders
+:navigationtabstrip:compileDebugShaders
+:navigationtabstrip:generateDebugAssets
+:navigationtabstrip:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:navigationtabstrip:compileDebugNdk NO-SOURCE
+:navigationtabstrip:mergeDebugJniLibFolders
+:navigationtabstrip:transformNativeLibsWithMergeJniLibsForDebug
+:navigationtabstrip:transformNativeLibsWithStripDebugSymbolForDebug
+:navigationtabstrip:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:navigationtabstrip:preReleaseBuild UP-TO-DATE
+:navigationtabstrip:checkReleaseManifest
+:navigationtabstrip:processReleaseManifest
+:app:preReleaseBuild
+:navigationtabstrip:compileReleaseAidl
+:app:compileReleaseAidl
+:navigationtabstrip:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:navigationtabstrip:compileReleaseRenderscript
+:navigationtabstrip:generateReleaseResValues
+:navigationtabstrip:generateReleaseResources
+:navigationtabstrip:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:navigationtabstrip:generateReleaseBuildConfig
+:navigationtabstrip:javaPreCompileRelease
+:navigationtabstrip:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:navigationtabstrip:mergeReleaseShaders
+:navigationtabstrip:compileReleaseShaders
+:navigationtabstrip:generateReleaseAssets
+:navigationtabstrip:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:navigationtabstrip:compileReleaseNdk NO-SOURCE
+:navigationtabstrip:mergeReleaseJniLibFolders
+:navigationtabstrip:transformNativeLibsWithMergeJniLibsForRelease
+:navigationtabstrip:transformNativeLibsWithStripDebugSymbolForRelease
+:navigationtabstrip:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:navigationtabstrip:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:navigationtabstrip:generateDebugSources
+:navigationtabstrip:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/src/main/java/com/gigamole/navigationtabstrip/NavigationTabStrip.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:navigationtabstrip:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/src/main/java/com/gigamole/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:navigationtabstrip:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:navigationtabstrip:generateReleaseSources
+:navigationtabstrip:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/navigationtabstrip/src/main/java/com/gigamole/navigationtabstrip/NavigationTabStrip.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:navigationtabstrip:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/src/main/java/com/gigamole/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2018-11-21 00:24:18,162 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734619724-0/src/NavigationTabStrip-master/app/build/outputs/apk/debug/app-debug.apk

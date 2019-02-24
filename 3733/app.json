@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.xiaofeng.androidlibs",
+    "label" : "AndroidLibs",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB9VBMVEUAAAD///////////////////////8amf8OmfwMmPsMmPsMl/oNl/gMmPsolfovlfonlfoMl/oRl/odlvoYlvoUlvoNl/oMkO0AAAAMlvhWkvr5hvr9h/v9h/v6h/tRkvoMl/q2jPv1iPtKk/oclvrgifv8hvqPj/wMkfC8vLzW1tYMlvh0kPr9h/ttkfrdifu5jfwMku+kpKTIyMgMlvienp76h/tRkvrHi/v8h/tXkvojlfr0iPupjvwolfoglvpAlPo3lPo4lPodl/sYlvoclvo8lPo6lPoPl/pMk/q/i/tskfp2kPrsiPuEj/qMjvs9lPrSivvaifufjftbkvr4h/v7h/tlkfoalvoblvrTivuPjvsglvpikfrJivs8lPpakvo1lPrFi/s4lPoSl/pokfpBk/oNl/o9lPpNk/pLk/pKk/o7lPpdkvr8h/unjfuVjvsWlvrxiPvhifu4jPvtiPvLy8vKivt7kPprkfoVlvrdifumpqatra0MlfYMl/kMl/oblvoalvovlfpNk/pNk/oslPkNmfwMj+yHh4eqqqoAAAALg9gMlvcMlfYKesoAAAAAHjcKesgMjOcMj+wMj+wMjegKdsQAHTQAAAAAAABCQkJZWVlYWFhXV1dbW1tcXFxdXV1GRkZmZmYAAAAAAAC/v79zxLI4AAAAp3RSTlMAAwQCEx4dCpbo7JaY/////////////5oB6v/5/fz8/Pz8/Pz8/Pn/6hcl7///////7yol7ir///////////z///////z////////////////8//////////////z///z////8//z//Pz///////z//////P/8J/z////8Kxzs+f38/Pz8/fn/7CIDCKn//60DKrDt8O/tsSwJIEJNS0xMS01CBQsOBMeLgvAAAAHkSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnNzscB3MDDy8fPxwICAoKCQMAiKCgqLCcCAmLgHVwMjAIiklLSMLA3LyCopghpKyiipMUEZNXUOTAeJzJgYtbR1ZXQTQE9SHMvgRgrIGhkZApRANxiZEaTBFaNAehBqk5BBSZuaCFmCGpZW1DUKDLbKntQXtUOLB3gEEHAUFncxhQN4ZVYOLKyoQEhRzcgMDdw9BEFDgRdHgqaSLCrwEvWFMH2waUDwNAr6CfjCm/3DVEBAYhAqCBUNCIerDwrFpEFQQxAARkIwTKYhNg5OqLxKIso/2RQNRMagaYlH94Baniw7ih5+GBBQNlolJGBqSUTWkpOoggRDBND804J2OFnEZmVDgKiiSBaKzRQVzcpEAmg0OeTCr8wULIAy/wiJkJxWjajCH+6FEMB/CKHBF8UPpYNdgQqKGMm2BcljO0RGssATnm8oqX2QN1byGNVANjAy1dbz1DQpw0KgCBE0KCs0tCNDa1t7RydAFrbK6e3rbedvxAt72vv5ueB03YeKkyVOmTsEDpk6ZNn3GBEQ1OnPW7Dlz586dNx87WLBgwcJFs2YiV9SLlywlAJYsRq38u5YRAF10a8UAAPitgMEfgkJBAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1947,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.xiaofeng.androidlibs\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f0a008d\" android:label=\"AndroidLibs\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0a0037\" android:label=\"AndroidLibs\" android:name=\"com.xiaofeng.androidlibs.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.xiaofeng.androidlibs.SettingsActivity\" android:parentActivityName=\"com.xiaofeng.androidlibs.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1553046,
+  "crc32" : 3445180838,
+  "sha256" : "c0d895aa9fd1742b3004d98000110f2ba5e7a5e932c4c4078c771d3bb44ac543",
+  "buildTime" : 1542474383000
+}

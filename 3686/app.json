@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.firebase.jobdispatcher.testapp",
+    "label" : "FJD TestApp",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.8.5",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECEIVE_BOOT_COMPLETED" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2304,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.8.5\" package=\"com.firebase.jobdispatcher.testapp\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<application android:theme=\"resourceId:0x7f0e0116\" android:label=\"FJD TestApp\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"Jobs\" android:name=\"com.firebase.jobdispatcher.testapp.JobListActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\".JobDetailActivity\" android:name=\"com.firebase.jobdispatcher.testapp.JobDetailActivity\" />\n\t\t<activity android:label=\"Schedule a job\" android:name=\"com.firebase.jobdispatcher.testapp.JobFormActivity\" />\n\t\t<service android:name=\"com.firebase.jobdispatcher.testapp.DemoJobService\" android:exported=\"false\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.firebase.jobdispatcher.ACTION_EXECUTE\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<service android:name=\"com.firebase.jobdispatcher.GooglePlayReceiver\" android:permission=\"com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.gms.gcm.ACTION_TASK_READY\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1867297,
+  "crc32" : 2760358820,
+  "sha256" : "4b5ea060b5b596ba6be83ca3ade72df70b80e026e4c8bcae490803b70bd4529f",
+  "buildTime" : 1522188695000
+}

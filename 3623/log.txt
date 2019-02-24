@@ -1,0 +1,11 @@
+2018-11-20 14:32:51,880 INFO  DownloadService - Downloading "https://github.com/fabian7593/MagicalCamera/archive/master.zip", attempt 3
+2018-11-20 14:34:22,938 INFO  DownloadService - Downloaded https://github.com/fabian7593/MagicalCamera/archive/master.zip, attempt 3
+2018-11-20 14:34:22,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699171878-0/master.zip": 44 MB
+2018-11-20 14:34:22,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-20 14:34:22,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699171878-0/master.zip: true
+2018-11-20 14:34:22,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699171878-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699171878-0/src'.
+2018-11-20 14:34:23,295 INFO  FullProcessService - Size of directory with sources: 51 MB
+2018-11-20 14:34:23,295 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-11-20 14:34:23,295 ERROR FullProcessService - Project will not be processed
+2018-11-20 14:34:23,295 ERROR FullProcessService - Project build has not produced APK file
+2018-11-20 14:34:23,299 ERROR FullProcessService - Could not find generated or existed APK file

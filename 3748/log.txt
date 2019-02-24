@@ -1,0 +1,8 @@
+2016-07-18 03:04:18,630 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/actorapp/actor-platform/archive/master.zip", attempt 3
+2016-07-18 03:04:21,782 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/actorapp/actor-platform/archive/master.zip, attempt 3
+2016-07-18 03:04:33,579 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/3748/master.zip' into '/tmp/rdisk/3748/src'.
+2016-07-18 03:04:36,173 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 53 MB
+2016-07-18 03:04:36,173 ERROR c.g.v.a.s.FullProcessService - Source directory should be less than 40 MB
+2016-07-18 03:04:36,174 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-18 03:04:36,174 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-18 03:04:36,426 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

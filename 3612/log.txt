@@ -1,0 +1,703 @@
+2018-12-16 23:18:31,554 INFO  DownloadService - Downloading "https://github.com/Ashok-Varma/BottomNavigation/archive/master.zip", attempt 3
+2018-12-16 23:18:34,181 INFO  DownloadService - Downloaded https://github.com/Ashok-Varma/BottomNavigation/archive/master.zip, attempt 3
+2018-12-16 23:18:34,181 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/master.zip": 1 MB
+2018-12-16 23:18:34,181 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-16 23:18:34,187 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/master.zip: true
+2018-12-16 23:18:34,187 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src'.
+2018-12-16 23:18:34,237 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-16 23:18:34,238 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src]
+2018-12-16 23:18:34,255 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/.git/
+
+2018-12-16 23:18:34,259 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/gradlew
+2018-12-16 23:18:34,263 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/build.gradle
+2018-12-16 23:18:34,267 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/install_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/bintray_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/settings.gradle
+2018-12-16 23:18:34,268 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 23:18:34,268 INFO  ProjectFixService - Fixing project...
+2018-12-16 23:18:34,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/local.properties
+2018-12-16 23:18:34,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-16 23:18:34,282 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-16 23:18:34,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/local.properties
+2018-12-16 23:18:34,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-16 23:18:34,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-16 23:18:34,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/local.properties
+2018-12-16 23:18:34,287 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-16 23:18:34,288 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-16 23:18:34,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-16 23:18:34,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-16 23:18:34,291 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 23:18:34,291 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 23:18:34,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 23:18:41,320 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-12-16 23:18:41,320 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-16 23:18:41,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-16 23:19:00,502 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottom-navigation-bar:preBuild UP-TO-DATE
+:bottom-navigation-bar:preDebugBuild UP-TO-DATE
+:bottom-navigation-bar:compileDebugAidl NO-SOURCE
+:bottom-navigation-bar:compileDebugRenderscript
+:bottom-navigation-bar:checkDebugManifest
+:bottom-navigation-bar:generateDebugBuildConfig
+:bottom-navigation-bar:generateDebugResValues
+:bottom-navigation-bar:generateDebugResources
+:bottom-navigation-bar:packageDebugResources
+:bottom-navigation-bar:processDebugManifest
+:bottom-navigation-bar:generateDebugRFile
+:bottom-navigation-bar:prepareLintJar
+:bottom-navigation-bar:generateDebugSources
+:bottom-navigation-bar:javaPreCompileDebug
+:bottom-navigation-bar:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottom-navigation-bar:extractDebugAnnotations
+:bottom-navigation-bar:mergeDebugConsumerProguardFiles
+:bottom-navigation-bar:mergeDebugShaders
+:bottom-navigation-bar:compileDebugShaders
+:bottom-navigation-bar:generateDebugAssets
+:bottom-navigation-bar:packageDebugAssets
+:bottom-navigation-bar:packageDebugRenderscript NO-SOURCE
+:bottom-navigation-bar:processDebugJavaRes NO-SOURCE
+:bottom-navigation-bar:transformResourcesWithMergeJavaResForDebug
+:bottom-navigation-bar:transformClassesAndResourcesWithSyncLibJarsForDebug
+:bottom-navigation-bar:compileDebugNdk NO-SOURCE
+:bottom-navigation-bar:mergeDebugJniLibFolders
+:bottom-navigation-bar:transformNativeLibsWithMergeJniLibsForDebug
+:bottom-navigation-bar:transformNativeLibsWithStripDebugSymbolForDebug
+:bottom-navigation-bar:transformNativeLibsWithSyncJniLibsForDebug
+:bottom-navigation-bar:bundleDebugAar
+:bottom-navigation-bar:compileDebugSources
+:bottom-navigation-bar:assembleDebug
+:bottom-navigation-bar:preReleaseBuild UP-TO-DATE
+:bottom-navigation-bar:compileReleaseAidl NO-SOURCE
+:bottom-navigation-bar:compileReleaseRenderscript
+:bottom-navigation-bar:checkReleaseManifest
+:bottom-navigation-bar:generateReleaseBuildConfig
+:bottom-navigation-bar:generateReleaseResValues
+:bottom-navigation-bar:generateReleaseResources
+:bottom-navigation-bar:packageReleaseResources
+:bottom-navigation-bar:processReleaseManifest
+:bottom-navigation-bar:generateReleaseRFile
+:bottom-navigation-bar:generateReleaseSources
+:bottom-navigation-bar:javaPreCompileRelease
+:bottom-navigation-bar:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottom-navigation-bar:extractReleaseAnnotations
+:bottom-navigation-bar:mergeReleaseConsumerProguardFiles
+:bottom-navigation-bar:mergeReleaseShaders
+:bottom-navigation-bar:compileReleaseShaders
+:bottom-navigation-bar:generateReleaseAssets
+:bottom-navigation-bar:packageReleaseAssets
+:bottom-navigation-bar:packageReleaseRenderscript NO-SOURCE
+:bottom-navigation-bar:processReleaseJavaRes NO-SOURCE
+:bottom-navigation-bar:transformResourcesWithMergeJavaResForRelease
+:bottom-navigation-bar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:bottom-navigation-bar:compileReleaseNdk NO-SOURCE
+:bottom-navigation-bar:mergeReleaseJniLibFolders
+:bottom-navigation-bar:transformNativeLibsWithMergeJniLibsForRelease
+:bottom-navigation-bar:transformNativeLibsWithStripDebugSymbolForRelease
+:bottom-navigation-bar:transformNativeLibsWithSyncJniLibsForRelease
+:bottom-navigation-bar:bundleReleaseAar
+:bottom-navigation-bar:compileReleaseSources
+:bottom-navigation-bar:mergeReleaseResources
+:bottom-navigation-bar:verifyReleaseResources
+:bottom-navigation-bar:assembleRelease
+:bottom-navigation-bar:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BadgeItem.java:3: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BadgeItem.java:4: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPropertyAnimatorCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BadgeItem.java:5: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPropertyAnimatorListener;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BadgeTextView.java:6: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.AppCompatTextView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BadgeTextView.java:17: error: cannot find symbol
+class BadgeTextView extends AppCompatTextView {
+                            ^
+  symbol: class AppCompatTextView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationTab.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.CallSuper;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationTab.java:11: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:11: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:12: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:10: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:11: error: package android.support.design.widget does not exist
+import android.support.design.widget.FloatingActionButton;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:12: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:13: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:14: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPropertyAnimatorCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:15: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.LinearOutSlowInInterpolator;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:43: error: package CoordinatorLayout does not exist
+@CoordinatorLayout.DefaultBehavior(BottomVerticalScrollBehavior.class)
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:82: error: cannot find symbol
+    private ViewPropertyAnimatorCompat mTranslationAnimator;
+            ^
+  symbol:   class ViewPropertyAnimatorCompat
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:11: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:692: error: cannot find symbol
+    public void setFab(FloatingActionButton fab) {
+                       ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:702: error: cannot find symbol
+    private void setFab(FloatingActionButton fab, @FabBehaviour int fabBehaviour) {
+                        ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/TextBadgeItem.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/TextBadgeItem.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/TextBadgeItem.java:8: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:52: error: cannot find symbol
+    @IntDef({MODE_DEFAULT, MODE_FIXED, MODE_SHIFTING, MODE_FIXED_NO_TITLE, MODE_SHIFTING_NO_TITLE})
+     ^
+  symbol:   class IntDef
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:61: error: cannot find symbol
+    @IntDef({BACKGROUND_STYLE_DEFAULT, BACKGROUND_STYLE_STATIC, BACKGROUND_STYLE_RIPPLE})
+     ^
+  symbol:   class IntDef
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:71: error: cannot find symbol
+    @IntDef({FAB_BEHAVIOUR_TRANSLATE_AND_STICK, FAB_BEHAVIOUR_DISAPPEAR, FAB_BEHAVIOUR_TRANSLATE_OUT})
+     ^
+  symbol:   class IntDef
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:7: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:21: error: package CoordinatorLayout does not exist
+public abstract class VerticalScrollingBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
+                                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:77: error: cannot find symbol
+    public boolean onStartNestedScroll(@NonNull CoordinatorLayout coordinatorLayout, @NonNull V child, @NonNull View directTargetChild, @NonNull View target, int nestedScrollAxes) {
+                                                ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:92: error: cannot find symbol
+    public void onNestedScroll(@NonNull CoordinatorLayout coordinatorLayout, @NonNull V child, @NonNull View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed) {
+                                        ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:118: error: cannot find symbol
+    public void onNestedPreScroll(@NonNull CoordinatorLayout coordinatorLayout, @NonNull V child, @NonNull View target, int dx, int dy, @NonNull int[] consumed) {
+                                           ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:134: error: cannot find symbol
+    public boolean onNestedFling(@NonNull CoordinatorLayout coordinatorLayout, @NonNull V child, @NonNull View target, float velocityX, float velocityY, boolean consumed) {
+                                          ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:148: error: cannot find symbol
+    public abstract void onNestedVerticalScrollUnconsumed(CoordinatorLayout coordinatorLayout, V child, @ScrollDirection int scrollDirection, int currentOverScroll, int totalScroll);
+                                                          ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:158: error: cannot find symbol
+    public abstract void onNestedVerticalScrollConsumed(CoordinatorLayout coordinatorLayout, V child, @ScrollDirection int scrollDirection, int currentOverScroll, int totalConsumedScroll);
+                                                        ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:172: error: cannot find symbol
+    public abstract void onNestedVerticalPreScroll(CoordinatorLayout coordinatorLayout, V child, View target, int dx, int dy, int[] consumed, @ScrollDirection int scrollDirection);
+                                                   ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:185: error: cannot find symbol
+    protected abstract boolean onNestedDirectionFling(CoordinatorLayout coordinatorLayout, V child, View target, float velocityX, float velocityY, boolean consumed, @ScrollDirection int scrollDirection);
+                                                      ^
+  symbol:   class CoordinatorLayout
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/VerticalScrollingBehavior.java:43: error: cannot find symbol
+    @IntDef({ScrollDirection.SCROLL_DIRECTION_UP, ScrollDirection.SCROLL_DIRECTION_DOWN})
+     ^
+  symbol:   class IntDef
+  location: class VerticalScrollingBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class VerticalScrollingBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:3: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:4: error: package android.support.design.widget does not exist
+import android.support.design.widget.FloatingActionButton;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:5: error: package android.support.design.widget does not exist
+import android.support.design.widget.Snackbar;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:6: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:7: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPropertyAnimatorCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:8: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:23: error: package CoordinatorLayout does not exist
+public class BottomNavBarFabBehaviour extends CoordinatorLayout.Behavior<FloatingActionButton> {
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:23: error: cannot find symbol
+public class BottomNavBarFabBehaviour extends CoordinatorLayout.Behavior<FloatingActionButton> {
+                                                                         ^
+  symbol: class FloatingActionButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:25: error: cannot find symbol
+    ViewPropertyAnimatorCompat mFabTranslationYAnimator;
+    ^
+  symbol:   class ViewPropertyAnimatorCompat
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:43: error: cannot find symbol
+    public boolean layoutDependsOn(CoordinatorLayout parent, FloatingActionButton child, View dependency) {
+                                   ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:43: error: cannot find symbol
+    public boolean layoutDependsOn(CoordinatorLayout parent, FloatingActionButton child, View dependency) {
+                                                             ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:48: error: cannot find symbol
+    public boolean onLayoutChild(CoordinatorLayout parent, FloatingActionButton child, int layoutDirection) {
+                                 ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:48: error: cannot find symbol
+    public boolean onLayoutChild(CoordinatorLayout parent, FloatingActionButton child, int layoutDirection) {
+                                                           ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:58: error: cannot find symbol
+    public boolean onDependentViewChanged(CoordinatorLayout parent, FloatingActionButton child, View dependency) {
+                                          ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:58: error: cannot find symbol
+    public boolean onDependentViewChanged(CoordinatorLayout parent, FloatingActionButton child, View dependency) {
+                                                                    ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:68: error: cannot find symbol
+    public void onDependentViewRemoved(CoordinatorLayout parent, FloatingActionButton child,
+                                       ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:68: error: cannot find symbol
+    public void onDependentViewRemoved(CoordinatorLayout parent, FloatingActionButton child,
+                                                                 ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:83: error: cannot find symbol
+    private void updateFabTranslationForBottomNavigationBar(CoordinatorLayout parent, FloatingActionButton fab, View dependency) {
+                                                            ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:83: error: cannot find symbol
+    private void updateFabTranslationForBottomNavigationBar(CoordinatorLayout parent, FloatingActionButton fab, View dependency) {
+                                                                                      ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:126: error: cannot find symbol
+    private float[] getFabTranslationYForBottomNavigationBar(CoordinatorLayout parent,
+                                                             ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:127: error: cannot find symbol
+                                                             FloatingActionButton fab) {
+                                                             ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:143: error: cannot find symbol
+    private float getFabTranslationYForSnackBar(CoordinatorLayout parent,
+                                                ^
+  symbol:   class CoordinatorLayout
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:144: error: cannot find symbol
+                                                FloatingActionButton fab) {
+                                                ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java:166: error: cannot find symbol
+    private void ensureOrCancelAnimator(FloatingActionButton fab) {
+                                        ^
+  symbol:   class FloatingActionButton
+  location: class BottomNavBarFabBehaviour
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:4: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:5: error: package android.support.design.widget does not exist
+import android.support.design.widget.Snackbar;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:6: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:7: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:33: error: cannot find symbol
+    public boolean onLayoutChild(CoordinatorLayout parent, final V child, int layoutDirection) {
+                                 ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:55: error: cannot find symbol
+    public boolean layoutDependsOn(CoordinatorLayout parent, V child, View dependency) {
+                                   ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:64: error: cannot find symbol
+    public boolean onDependentViewChanged(CoordinatorLayout parent, V child, View dependency) {
+                                          ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:73: error: cannot find symbol
+    private void updateSnackBarPosition(CoordinatorLayout parent, V child, View dependency) {
+                                        ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:77: error: cannot find symbol
+    private void updateSnackBarPosition(CoordinatorLayout parent, V child, View dependency, float translationY) {
+                                        ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:83: error: cannot find symbol
+    private Snackbar.SnackbarLayout getSnackBarInstance(CoordinatorLayout parent, V child) {
+                                                        ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:83: error: package Snackbar does not exist
+    private Snackbar.SnackbarLayout getSnackBarInstance(CoordinatorLayout parent, V child) {
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:99: error: cannot find symbol
+    public void onNestedVerticalScrollUnconsumed(CoordinatorLayout coordinatorLayout, V child, @ScrollDirection int scrollDirection, int currentOverScroll, int totalScroll) {
+                                                 ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:104: error: cannot find symbol
+    public void onNestedVerticalPreScroll(CoordinatorLayout coordinatorLayout, V child, View target, int dx, int dy, int[] consumed, @ScrollDirection int scrollDirection) {
+                                          ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:109: error: cannot find symbol
+    protected boolean onNestedDirectionFling(CoordinatorLayout coordinatorLayout, V child, View target, float velocityX, float velocityY, boolean consumed, @ScrollDirection int scrollDirection) {
+                                             ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:117: error: cannot find symbol
+    public void onNestedVerticalScrollConsumed(CoordinatorLayout coordinatorLayout, V child, @ScrollDirection int scrollDirection, int currentOverScroll, int totalConsumedScroll) {
+                                               ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java:121: error: cannot find symbol
+    private void handleDirection(CoordinatorLayout parent, V child, int scrollDirection) {
+                                 ^
+  symbol:   class CoordinatorLayout
+  location: class BottomVerticalScrollBehavior<V>
+  where V is a type-variable:
+    V extends View declared in class BottomVerticalScrollBehavior
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:39: error: cannot find symbol
+    @IntDef({SHAPE_OVAL, SHAPE_RECTANGLE, SHAPE_HEART, SHAPE_STAR_3_VERTICES, SHAPE_STAR_4_VERTICES, SHAPE_STAR_5_VERTICES, SHAPE_STAR_6_VERTICES})
+     ^
+  symbol:   class IntDef
+  location: class ShapeBadgeItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationTab.java:194: error: cannot find symbol
+    @CallSuper
+     ^
+  symbol:   class CallSuper
+  location: class BottomNavigationTab
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:89: error: cannot find symbol
+    public ShapeBadgeItem setShapeColorResource(@ColorRes int colorResource) {
+                                                 ^
+  symbol:   class ColorRes
+  location: class ShapeBadgeItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/ShapeBadgeItem.java:99: error: cannot find symbol
+    public ShapeBadgeItem setShapeColor(@Nullable String colorCode) {
+                                         ^
+  symbol:   class Nullable
+  location: class ShapeBadgeItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:285: error: cannot find symbol
+    public BottomNavigationBar setActiveColor(@ColorRes int activeColor) {
+                                               ^
+  symbol:   class ColorRes
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:303: error: cannot find symbol
+    public BottomNavigationBar setInActiveColor(@ColorRes int inActiveColor) {
+                                                 ^
+  symbol:   class ColorRes
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationBar.java:321: error: cannot find symbol
+    public BottomNavigationBar setBarBackgroundColor(@ColorRes int backgroundColor) {
+                                                      ^
+  symbol:   class ColorRes
+  location: class BottomNavigationBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:49: error: cannot find symbol
+    public BottomNavigationItem(@DrawableRes int mIconResource, @NonNull String mTitle) {
+                                 ^
+  symbol:   class DrawableRes
+  location: class BottomNavigationItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:49: error: cannot find symbol
+    public BottomNavigationItem(@DrawableRes int mIconResource, @NonNull String mTitle) {
+                                                                 ^
+  symbol:   class NonNull
+  location: class BottomNavigationItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:58: error: cannot find symbol
+    public BottomNavigationItem(Drawable mIcon, @NonNull String mTitle) {
+                                                 ^
+  symbol:   class NonNull
+  location: class BottomNavigationItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:67: error: cannot find symbol
+    public BottomNavigationItem(Drawable mIcon, @StringRes int mTitleResource) {
+                                                 ^
+  symbol:   class StringRes
+  location: class BottomNavigationItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/bottom-navigation-bar/src/main/java/com/ashokvarma/bottomnavigation/BottomNavigationItem.java:76: error: cannot find symbol
+    public BottomNavigationItem(@DrawableRes int mIconResource, @StringRes int mTitleResource) {
+                                 ^
+  symbol:   class DrawableRes
+  location: class BottomNavigationItem
+
+100 warnings
+:bottom-navigation-bar:javadocJar
+:bottom-navigation-bar:sourcesJar
+:bottom-navigation-bar:assemble
+:bottom-navigation-bar:build
+
+BUILD SUCCESSFUL in 18s
+48 actionable tasks: 48 executed
+
+2018-12-16 23:19:00,566 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 23:19:00,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 23:19:07,791 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-16 23:19:07,791 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 23:19:07,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 23:19:52,135 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottom-navigation-bar:preBuild UP-TO-DATE
+:bottom-navigation-bar:preDebugBuild UP-TO-DATE
+:bottom-navigation-bar:compileDebugAidl NO-SOURCE
+:bottom-navigation-bar:compileDebugRenderscript UP-TO-DATE
+:bottom-navigation-bar:checkDebugManifest UP-TO-DATE
+:bottom-navigation-bar:generateDebugBuildConfig UP-TO-DATE
+:bottom-navigation-bar:generateDebugResValues UP-TO-DATE
+:bottom-navigation-bar:generateDebugResources UP-TO-DATE
+:bottom-navigation-bar:packageDebugResources UP-TO-DATE
+:bottom-navigation-bar:processDebugManifest UP-TO-DATE
+:bottom-navigation-bar:generateDebugRFile UP-TO-DATE
+:bottom-navigation-bar:prepareLintJar UP-TO-DATE
+:bottom-navigation-bar:generateDebugSources UP-TO-DATE
+:bottom-navigation-bar:javaPreCompileDebug UP-TO-DATE
+:bottom-navigation-bar:compileDebugJavaWithJavac UP-TO-DATE
+:bottom-navigation-bar:processDebugJavaRes NO-SOURCE
+:bottom-navigation-bar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:bottom-navigation-bar:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:bottom-navigation-bar:mergeDebugShaders UP-TO-DATE
+:bottom-navigation-bar:compileDebugShaders UP-TO-DATE
+:bottom-navigation-bar:generateDebugAssets UP-TO-DATE
+:bottom-navigation-bar:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:bottom-navigation-bar:compileDebugNdk NO-SOURCE
+:bottom-navigation-bar:mergeDebugJniLibFolders UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:bottom-navigation-bar:preReleaseBuild UP-TO-DATE
+:bottom-navigation-bar:compileReleaseAidl NO-SOURCE
+:bottom-navigation-bar:compileReleaseRenderscript UP-TO-DATE
+:bottom-navigation-bar:checkReleaseManifest UP-TO-DATE
+:bottom-navigation-bar:generateReleaseBuildConfig UP-TO-DATE
+:bottom-navigation-bar:generateReleaseResValues UP-TO-DATE
+:bottom-navigation-bar:generateReleaseResources UP-TO-DATE
+:bottom-navigation-bar:packageReleaseResources UP-TO-DATE
+:bottom-navigation-bar:processReleaseManifest UP-TO-DATE
+:bottom-navigation-bar:generateReleaseRFile UP-TO-DATE
+:bottom-navigation-bar:generateReleaseSources UP-TO-DATE
+:bottom-navigation-bar:javaPreCompileRelease UP-TO-DATE
+:bottom-navigation-bar:compileReleaseJavaWithJavac UP-TO-DATE
+:bottom-navigation-bar:processReleaseJavaRes NO-SOURCE
+:bottom-navigation-bar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:bottom-navigation-bar:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4f38076405a221161dc6d7adb1425fca/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:bottom-navigation-bar:mergeReleaseShaders UP-TO-DATE
+:bottom-navigation-bar:compileReleaseShaders UP-TO-DATE
+:bottom-navigation-bar:generateReleaseAssets UP-TO-DATE
+:bottom-navigation-bar:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:bottom-navigation-bar:compileReleaseNdk NO-SOURCE
+:bottom-navigation-bar:mergeReleaseJniLibFolders UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:bottom-navigation-bar:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 43s
+92 actionable tasks: 61 executed, 31 up-to-date
+
+2018-12-16 23:19:52,272 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977111550-0/src/BottomNavigation-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

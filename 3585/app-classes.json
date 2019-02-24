@@ -1,0 +1,4 @@
+{
+  "com.example.androidndkgif" : [ "BuildConfig", "ExampleActivity", "ExampleActivity$1", "ExampleActivity$1$1", "ExampleActivity$2", "ExampleActivity$2$1", "ExampleActivity$3", "ExampleActivity$4", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string" ],
+  "com.waynejo.androidndkgif" : [ "BuildConfig", "GifDecoder", "GifDecoder$1", "GifEncoder", "GifEncoder$EncodingType", "GifImage", "GifImageIterator", "R" ]
+}

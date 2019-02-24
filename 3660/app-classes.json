@@ -1,0 +1,5 @@
+{
+  "com.azimolabs.sampleapp" : [ "BuildConfig", "R", "R$attr", "R$id", "R$layout", "R$string", "TesterActivity", "TesterWebViewClient", "TesterWebViewClient$1", "TesterWebViewClient$2", "TesterWebViewClient$3", "TesterWebViewClient$4" ],
+  "com.azimolabs.webviewautomator" : [ "BuildConfig" ],
+  "com.azimolabs.webviewtester" : [ "WebViewTester", "WebViewTester$1", "WebViewTester$DummyValueCallback", "WebViewTester$ValueGetListener" ]
+}

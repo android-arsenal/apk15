@@ -1,0 +1,47 @@
+2018-12-17 13:54:31,778 INFO  DownloadService - Downloading "https://github.com/Sloy/gallego/archive/master.zip", attempt 3
+2018-12-17 13:55:32,951 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-17 13:55:33,968 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-17 13:55:33,969 INFO  DownloadService - Downloading "https://github.com/Sloy/gallego/archive/master.zip", attempt 3
+2018-12-17 13:56:35,362 DEBUG FullProcessService - Repository https://github.com/Sloy/gallego available: true
+2018-12-17 13:56:35,362 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-17 13:56:35,362 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Sloy/gallego, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src]
+2018-12-17 13:56:37,316 INFO  SysUtils - 
+2018-12-17 13:56:37,332 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/.git": true
+2018-12-17 13:56:37,333 INFO  FullProcessService - Size of directory with sources: 110 KB
+2018-12-17 13:56:37,334 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src]
+2018-12-17 13:56:37,351 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/.git/
+
+2018-12-17 13:56:37,352 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/gradlew
+2018-12-17 13:56:37,354 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle
+2018-12-17 13:56:37,355 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/settings.gradle
+2018-12-17 13:56:37,355 INFO  ProjectBuildService - Remote scripts: none
+2018-12-17 13:56:37,356 INFO  ProjectFixService - Fixing project...
+2018-12-17 13:56:37,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/local.properties
+2018-12-17 13:56:37,359 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.9-all.zip
+2018-12-17 13:56:37,360 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.9-bin.zip)
+2018-12-17 13:56:37,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-17 13:56:37,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-17 13:56:37,361 INFO  ProjectFixService - Project was maybe fixed
+2018-12-17 13:56:37,361 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-17 13:56:37,361 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-17 13:56:41,652 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-12-17 13:56:41,653 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-17 13:56:41,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029671775-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-17 13:56:48,206 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJava
+Download https://jcenter.bintray.com/com/artjimlop/chernobyl/1.0.0/chernobyl-1.0.0.pom
+Download https://jcenter.bintray.com/com/artjimlop/chernobyl/1.0.0/chernobyl-1.0.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+:processResources UP-TO-DATE
+:classes
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.043 secs
+
+2018-12-17 13:56:48,208 ERROR FullProcessService - Project build has not produced APK file
+2018-12-17 13:56:48,210 ERROR FullProcessService - Could not find generated or existed APK file

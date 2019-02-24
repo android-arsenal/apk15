@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "github.nisrulz.projecteasydeviceinfo",
+    "label" : "EasyDeviceInfo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE", "android.permission.BLUETOOTH", "android.permission.READ_PHONE_STATE", "android.permission.GET_ACCOUNTS", "com.google.android.providers.gsf.permission.READ_GSERVICES" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABNVBMVEUAAAAAAABYYmZncXhncXlmcHhXXGMAAABNVl9LVFsAAAAAAAA4Q0w4QkoAAAAAAAA3QksAAABCgq1Be6VFkMRDibhCibhAc5c9a4s2QEc3QEk1QEk2P0cmLTQmLjQcIykaHyUZHyQcIiYdJSkAAAAAAAAAAAAAAAAAAAAAAABATVZHV2FEU10/S1Vrdn6Kk5pmcnlHV2JMXGlATllLW2c/TFY4RU9GV2RCUl2BjJOttrystrt5hYxHWGVNYW49S1ZMX2xMX206R1FFj8FIoNxHoNw5mN1Gn9w/m90+m908md1Hn9w1lt1BnNw4l91CndxAm901ld09mt03lt1Dndw0ld1FntxCfqdBTlheanNfa3RdanKVn6XL1NiLlp1ueYGmsLansbemsLVnc3svOkIwO0QvOUKirznEAAAAKnRSTlMAAXrd49tvBt/UBQvl2QoN5Azk3+Th4eTe2trk2+fekOXq5IQbLjM0LRnoNJaDAAABEElEQVRIx2NgGF6AkYmZBQtgZcOlgZ1DS1tHFwT09IHAQNfQyNjExFSLkwuHBm4eM3MLMxCwtLKysrYxs7Wzd3B0MuPlw6GBX8AMK+AVxKVByBkrEMapQcQFKxDFp8HVzd3Fw9PFxcubOA2uPr4uHn4k2ODm7+LiS4qTXEEKvANI8ANIfaA/8Ro8g1y8g0NIcFKAi3doCEnBGubjT1I8hIWGkRZxfmGkxrTLqIZRDaMa8GoQw6lBPBwrkBAksbiXJKwhIjIqKtoUxpMirCEmFgjiCGuQhimJT0hMTEqG8WRwapBNScUC0uRwaeCWV1DEApSUcVWKXCqqauoYQE1DE1e1y8DFxy2IAbj5uOjbvgAAsezxN5uyJmcAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 2496,
+  "locales" : [ "", "kk_KZ", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "bs_BA", "gu_IN", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "is", "si", "de", "es_US", "ca", "te", "az_AZ", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "sq_AL", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "pa_IN", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "iw", "en_IN", "mk_MK", "be_BY", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"github.nisrulz.projecteasydeviceinfo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"N\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />\n\t<uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"EasyDeviceInfo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"github.nisrulz.projecteasydeviceinfo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"9256000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2204226,
+  "crc32" : 4152071848,
+  "sha256" : "19f69c70c35c91dda9bd2b937688ab8ff6389d50545557c27a145afa973d470e",
+  "buildTime" : 1496784536000
+}

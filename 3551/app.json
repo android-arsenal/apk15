@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "fr.tvbarthel.intentsharesample",
+    "label" : "IntentShare Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2668,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2\" package=\"fr.tvbarthel.intentsharesample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900a0\" android:label=\"IntentShare Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"fr.tvbarthel.intentsharesample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"fr.tvbarthel.intentsharesample.SharingFileProvider\" android:exported=\"false\" android:authorities=\"fr.tvbarthel.intentsharesample.fileprovider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/file_provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:theme=\"resourceId:0x7f09003b\" android:name=\"fr.tvbarthel.intentshare.TargetChooserActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1924577,
+  "crc32" : 875095577,
+  "sha256" : "395e3e6342b820fe8c4c89dd3604de1eb42cd224fc33a8d1a25c68c304ffa1c6",
+  "buildTime" : 1524205049000
+}

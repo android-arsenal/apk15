@@ -1,0 +1,21 @@
+2018-11-17 21:40:17,285 INFO  DownloadService - Downloading "https://github.com/arlindiDev/CircleCheckBox/archive/master.zip", attempt 3
+2018-11-17 21:41:17,917 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-17 21:41:19,013 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-17 21:41:19,013 INFO  DownloadService - Downloading "https://github.com/arlindiDev/CircleCheckBox/archive/master.zip", attempt 3
+2018-11-17 21:42:20,415 DEBUG FullProcessService - Repository https://github.com/arlindiDev/CircleCheckBox available: true
+2018-11-17 21:42:20,415 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-17 21:42:20,415 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/arlindiDev/CircleCheckBox, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542465617278-0/src]
+2018-11-17 21:42:22,002 INFO  SysUtils - 
+2018-11-17 21:42:22,010 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542465617278-0/src/.git": true
+2018-11-17 21:42:22,011 INFO  FullProcessService - Size of directory with sources: 22 KB
+2018-11-17 21:42:22,011 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542465617278-0/src]
+2018-11-17 21:42:22,030 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542465617278-0/src/.git/
+
+2018-11-17 21:42:22,031 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-11-17 21:42:22,031 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-11-17 21:42:22,032 INFO  ProjectBuildService - Build script(s): none
+2018-11-17 21:42:22,033 INFO  ProjectBuildService - All script(s): none
+2018-11-17 21:42:22,033 INFO  ProjectBuildService - Remote scripts: none
+2018-11-17 21:42:22,033 ERROR FullProcessService - Project is not correct Gradle project
+2018-11-17 21:42:22,033 ERROR FullProcessService - Project build has not produced APK file
+2018-11-17 21:42:22,034 ERROR FullProcessService - Could not find generated or existed APK file

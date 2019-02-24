@@ -1,0 +1,5 @@
+{
+  "android.support.annotation" : [ "AnimRes", "AnimatorRes", "AnyRes", "ArrayRes", "AttrRes", "BinderThread", "BoolRes", "CallSuper", "CheckResult", "ColorInt", "ColorRes", "DimenRes", "DrawableRes", "FloatRange", "FractionRes", "IdRes", "IntDef", "IntRange", "IntegerRes", "InterpolatorRes", "Keep", "LayoutRes", "MainThread", "MenuRes", "NonNull", "Nullable", "PluralsRes", "RawRes", "RequiresPermission", "RequiresPermission$Read", "RequiresPermission$Write", "Size", "StringDef", "StringRes", "StyleRes", "StyleableRes", "TransitionRes", "UiThread", "VisibleForTesting", "WorkerThread", "XmlRes" ],
+  "ru.katso.livebutton" : [ "BuildConfig", "LiveButton", "R", "R$attr", "R$string", "R$styleable" ],
+  "ru.katso.livebutton.sample" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable" ]
+}

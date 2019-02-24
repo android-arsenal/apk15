@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.riontech.staggeredtextgridview",
+    "label" : "StaggeredTextGridView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1542,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.riontech.staggeredtextgridview\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090036\" android:label=\"StaggeredTextGridView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"StaggeredTextGridView\" android:name=\"com.riontech.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1305399,
+  "crc32" : 643674965,
+  "sha256" : "2d7d765c14ad4ca61f0f5deec3b321c164f0b970a0ff4da24b5a85f7bf225edd",
+  "buildTime" : 1543676955000
+}

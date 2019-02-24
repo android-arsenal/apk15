@@ -1,0 +1,200 @@
+2018-11-25 17:36:43,079 INFO  DownloadService - Downloading "https://github.com/akarnokd/RxAgera/archive/master.zip", attempt 3
+2018-11-25 17:36:43,615 INFO  DownloadService - Downloaded https://github.com/akarnokd/RxAgera/archive/master.zip, attempt 3
+2018-11-25 17:36:43,616 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/master.zip": 102 KB
+2018-11-25 17:36:43,616 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-25 17:36:43,621 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/master.zip: true
+2018-11-25 17:36:43,621 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src'.
+2018-11-25 17:36:43,637 INFO  FullProcessService - Size of directory with sources: 166 KB
+2018-11-25 17:36:43,637 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src]
+2018-11-25 17:36:43,653 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/.git/
+
+2018-11-25 17:36:43,655 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradlew
+2018-11-25 17:36:43,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle
+2018-11-25 17:36:43,659 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradle/publish-android-lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradle/artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/settings.gradle
+2018-11-25 17:36:43,664 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-11-25 17:36:44,996 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-11-25 17:36:44,996 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-11-25 17:36:44,996 INFO  ProjectFixService - Fixing project...
+2018-11-25 17:36:45,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/local.properties
+2018-11-25 17:36:45,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2018-11-25 17:36:45,009 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=28]
+2018-11-25 17:36:45,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/local.properties
+2018-11-25 17:36:45,011 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
+2018-11-25 17:36:45,011 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
+2018-11-25 17:36:45,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2018-11-25 17:36:45,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=28]
+2018-11-25 17:36:45,013 INFO  ProjectFixService - Project was maybe fixed
+2018-11-25 17:36:45,013 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:36:45,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:37:00,254 INFO  ProjectTaskService - Detected possible tasks: 88
+2018-11-25 17:37:00,254 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:37:00,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/rxagera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:37:12,719 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+[buildinfo] Not using buildInfo properties file for this build.
+:rxagera:preBuild UP-TO-DATE
+:rxagera:preDebugBuild UP-TO-DATE
+:rxagera:compileDebugNdk UP-TO-DATE
+:rxagera:compileLint
+:rxagera:copyDebugLint UP-TO-DATE
+:rxagera:checkDebugManifest
+:rxagera:preDebugAndroidTestBuild UP-TO-DATE
+:rxagera:preDebugUnitTestBuild UP-TO-DATE
+:rxagera:preReleaseBuild UP-TO-DATE
+:rxagera:preReleaseUnitTestBuild UP-TO-DATE
+:rxagera:prepareComGoogleAndroidAgeraAgera100RC1Library
+:rxagera:prepareDebugDependencies
+:rxagera:compileDebugAidl
+:rxagera:compileDebugRenderscript
+:rxagera:generateDebugBuildConfig
+:rxagera:generateDebugAssets UP-TO-DATE
+:rxagera:mergeDebugAssets
+:rxagera:generateDebugResValues
+:rxagera:generateDebugResources
+:rxagera:mergeDebugResources
+:rxagera:processDebugManifest
+:rxagera:processDebugResources
+:rxagera:generateDebugSources
+:rxagera:compileDebugJavaWithJavac
+:rxagera:extractDebugAnnotations
+:rxagera:mergeDebugProguardFiles
+:rxagera:packageDebugRenderscript UP-TO-DATE
+:rxagera:packageDebugResources
+:rxagera:processDebugJavaRes UP-TO-DATE
+:rxagera:transformResourcesWithMergeJavaResForDebug
+:rxagera:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxagera:mergeDebugJniLibFolders
+:rxagera:transformNative_libsWithMergeJniLibsForDebug
+:rxagera:transformNative_libsWithSyncJniLibsForDebug
+:rxagera:bundleDebug
+:rxagera:compileDebugSources
+:rxagera:assembleDebug
+:rxagera:compileReleaseNdk UP-TO-DATE
+:rxagera:copyReleaseLint UP-TO-DATE
+:rxagera:checkReleaseManifest
+:rxagera:prepareReleaseDependencies
+:rxagera:compileReleaseAidl
+:rxagera:compileReleaseRenderscript
+:rxagera:generateReleaseBuildConfig
+:rxagera:generateReleaseAssets UP-TO-DATE
+:rxagera:mergeReleaseAssets
+:rxagera:generateReleaseResValues
+:rxagera:generateReleaseResources
+:rxagera:mergeReleaseResources
+:rxagera:processReleaseManifest
+:rxagera:processReleaseResources
+:rxagera:generateReleaseSources
+:rxagera:compileReleaseJavaWithJavac
+:rxagera:extractReleaseAnnotations
+:rxagera:mergeReleaseProguardFiles
+:rxagera:packageReleaseRenderscript UP-TO-DATE
+:rxagera:packageReleaseResources
+:rxagera:processReleaseJavaRes UP-TO-DATE
+:rxagera:transformResourcesWithMergeJavaResForRelease
+:rxagera:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxagera:mergeReleaseJniLibFolders
+:rxagera:transformNative_libsWithMergeJniLibsForRelease
+:rxagera:transformNative_libsWithSyncJniLibsForRelease
+:rxagera:bundleRelease
+:rxagera:compileReleaseSources
+:rxagera:assembleRelease
+:rxagera:generateReleaseJavadocjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+
+1 warning
+:rxagera:generateReleaseJavadocJar
+:rxagera:generateReleaseSourcesJar
+:rxagera:signArchives SKIPPED
+:rxagera:assemble
+:rxagera:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.984 secs
+
+2018-11-25 17:37:12,730 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:37:12,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:37:20,510 INFO  ProjectTaskService - Detected possible tasks: 87
+2018-11-25 17:37:20,510 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:37:20,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142203070-0/src/RxAgera-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:37:28,427 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+[buildinfo] Not using buildInfo properties file for this build.
+:rxagera:preBuild UP-TO-DATE
+:rxagera:preDebugBuild UP-TO-DATE
+:rxagera:compileDebugNdk UP-TO-DATE
+:rxagera:compileLint
+:rxagera:copyDebugLint UP-TO-DATE
+:rxagera:checkDebugManifest
+:rxagera:preDebugAndroidTestBuild UP-TO-DATE
+:rxagera:preDebugUnitTestBuild UP-TO-DATE
+:rxagera:preReleaseBuild UP-TO-DATE
+:rxagera:preReleaseUnitTestBuild UP-TO-DATE
+:rxagera:prepareComGoogleAndroidAgeraAgera100RC1Library UP-TO-DATE
+:rxagera:prepareDebugDependencies
+:rxagera:compileDebugAidl UP-TO-DATE
+:rxagera:compileDebugRenderscript UP-TO-DATE
+:rxagera:generateDebugBuildConfig UP-TO-DATE
+:rxagera:generateDebugAssets UP-TO-DATE
+:rxagera:mergeDebugAssets UP-TO-DATE
+:rxagera:generateDebugResValues UP-TO-DATE
+:rxagera:generateDebugResources UP-TO-DATE
+:rxagera:mergeDebugResources UP-TO-DATE
+:rxagera:processDebugManifest UP-TO-DATE
+:rxagera:processDebugResources UP-TO-DATE
+:rxagera:generateDebugSources UP-TO-DATE
+:rxagera:compileDebugJavaWithJavac UP-TO-DATE
+:rxagera:extractDebugAnnotations UP-TO-DATE
+:rxagera:mergeDebugProguardFiles UP-TO-DATE
+:rxagera:packageDebugRenderscript UP-TO-DATE
+:rxagera:packageDebugResources UP-TO-DATE
+:rxagera:processDebugJavaRes UP-TO-DATE
+:rxagera:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:rxagera:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:rxagera:mergeDebugJniLibFolders UP-TO-DATE
+:rxagera:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:rxagera:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:rxagera:bundleDebug UP-TO-DATE
+:rxagera:compileDebugSources UP-TO-DATE
+:rxagera:assembleDebug UP-TO-DATE
+:rxagera:compileReleaseNdk UP-TO-DATE
+:rxagera:copyReleaseLint UP-TO-DATE
+:rxagera:checkReleaseManifest
+:rxagera:prepareReleaseDependencies
+:rxagera:compileReleaseAidl UP-TO-DATE
+:rxagera:compileReleaseRenderscript UP-TO-DATE
+:rxagera:generateReleaseBuildConfig UP-TO-DATE
+:rxagera:generateReleaseAssets UP-TO-DATE
+:rxagera:mergeReleaseAssets UP-TO-DATE
+:rxagera:generateReleaseResValues UP-TO-DATE
+:rxagera:generateReleaseResources UP-TO-DATE
+:rxagera:mergeReleaseResources UP-TO-DATE
+:rxagera:processReleaseManifest UP-TO-DATE
+:rxagera:processReleaseResources UP-TO-DATE
+:rxagera:generateReleaseSources UP-TO-DATE
+:rxagera:compileReleaseJavaWithJavac UP-TO-DATE
+:rxagera:extractReleaseAnnotations UP-TO-DATE
+:rxagera:mergeReleaseProguardFiles UP-TO-DATE
+:rxagera:packageReleaseRenderscript UP-TO-DATE
+:rxagera:packageReleaseResources UP-TO-DATE
+:rxagera:processReleaseJavaRes UP-TO-DATE
+:rxagera:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxagera:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxagera:mergeReleaseJniLibFolders UP-TO-DATE
+:rxagera:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rxagera:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rxagera:bundleRelease UP-TO-DATE
+:rxagera:compileReleaseSources UP-TO-DATE
+:rxagera:assembleRelease UP-TO-DATE
+:rxagera:generateReleaseJavadoc UP-TO-DATE
+:rxagera:generateReleaseJavadocJar UP-TO-DATE
+:rxagera:generateReleaseSourcesJar UP-TO-DATE
+:rxagera:signArchives SKIPPED
+:rxagera:assemble
+:rxagera:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.423 secs
+
+2018-11-25 17:37:28,438 ERROR FullProcessService - Project build has not produced APK file
+2018-11-25 17:37:28,448 ERROR FullProcessService - Could not find generated or existed APK file

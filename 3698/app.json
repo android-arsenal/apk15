@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ftinc.scoop.example",
+    "label" : "Scoops Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2101,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ftinc.scoop.example\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08010e\" android:label=\"Scoops Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.ftinc.themeenginetest.MainApp\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.ftinc.themeenginetest.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f080100\" android:name=\"com.ftinc.scoop.ui.ScoopSettingsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1611744,
+  "crc32" : 4003861750,
+  "sha256" : "69b443c45be4cbf9f10f6112f62041069d9628b45a6952a5c490a89fbfd63648",
+  "buildTime" : 1496784543000
+}

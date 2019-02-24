@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "github.nisrulz.projectrecyclerviewhelper",
+    "label" : "RecyclerViewHelper",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1544,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"github.nisrulz.projectrecyclerviewhelper\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"RecyclerViewHelper\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"github.nisrulz.projectrecyclerviewhelper.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1673552,
+  "crc32" : 1970364154,
+  "sha256" : "6b6659289d32ed8c34682efec0ad9ba1595f6e40a3932da8bc3dfd3d6642138b",
+  "buildTime" : 1544977301000
+}

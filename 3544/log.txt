@@ -1,0 +1,888 @@
+2018-12-01 21:12:54,431 INFO  DownloadService - Downloading "https://github.com/hitherejoe/Bourbon/archive/master.zip", attempt 3
+2018-12-01 21:13:13,226 INFO  DownloadService - Downloaded https://github.com/hitherejoe/Bourbon/archive/master.zip, attempt 3
+2018-12-01 21:13:13,226 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/master.zip": 9 MB
+2018-12-01 21:13:13,226 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-01 21:13:13,227 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/master.zip: true
+2018-12-01 21:13:13,227 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src'.
+2018-12-01 21:13:13,384 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-12-01 21:13:13,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src]
+2018-12-01 21:13:13,404 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/.git/
+
+2018-12-01 21:13:13,414 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew
+2018-12-01 21:13:13,423 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/build.gradle
+2018-12-01 21:13:13,434 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/config/quality/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear-androidTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear/build.gradle
+2018-12-01 21:13:13,434 INFO  ProjectBuildService - Remote scripts: none
+2018-12-01 21:13:13,434 INFO  ProjectFixService - Fixing project...
+2018-12-01 21:13:13,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/local.properties
+2018-12-01 21:13:13,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/local.properties
+2018-12-01 21:13:13,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/local.properties
+2018-12-01 21:13:13,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile/local.properties
+2018-12-01 21:13:13,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv-androidTest/local.properties
+2018-12-01 21:13:13,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv-androidTest/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv/local.properties
+2018-12-01 21:13:13,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/tv/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear-androidTest/local.properties
+2018-12-01 21:13:13,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear-androidTest/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear/local.properties
+2018-12-01 21:13:13,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/wear/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/local.properties
+2018-12-01 21:13:13,463 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-12-01 21:13:13,463 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-12-01 21:13:13,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2018-12-01 21:13:13,465 INFO  ProjectFixService - Project was maybe fixed
+2018-12-01 21:13:13,465 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-01 21:13:13,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-01 21:14:04,963 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-01 21:14:04,963 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-01 21:14:04,963 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-01 21:14:04,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-01 21:14:21,777 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-01 21:14:21,777 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:AndroidTestCommon:preBuild UP-TO-DATE
+:AndroidTestCommon:preDebugBuild UP-TO-DATE
+:AndroidTestCommon:compileDebugNdk UP-TO-DATE
+:AndroidTestCommon:compileLint
+:AndroidTestCommon:copyDebugLint UP-TO-DATE
+:AndroidTestCommon:checkDebugManifest
+:AndroidTestCommon:preDebugAndroidTestBuild UP-TO-DATE
+:AndroidTestCommon:preDebugUnitTestBuild UP-TO-DATE
+:AndroidTestCommon:preReleaseBuild UP-TO-DATE
+:AndroidTestCommon:preReleaseUnitTestBuild UP-TO-DATE
+:CoreCommon:preBuild UP-TO-DATE
+:CoreCommon:preDebugBuild UP-TO-DATE
+:CoreCommon:compileDebugNdk UP-TO-DATE
+:CoreCommon:compileLint
+:CoreCommon:copyDebugLint UP-TO-DATE
+:CoreCommon:checkDebugManifest
+:CoreCommon:preDebugAndroidTestBuild UP-TO-DATE
+:CoreCommon:preDebugUnitTestBuild UP-TO-DATE
+:CoreCommon:preReleaseBuild UP-TO-DATE
+:CoreCommon:preReleaseUnitTestBuild UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:CoreCommon:prepareComAndroidSupportAppcompatV72330Library
+:CoreCommon:prepareComAndroidSupportCustomtabs2330Library
+:CoreCommon:prepareComAndroidSupportDesign2330Library
+:CoreCommon:prepareComAndroidSupportPercent2330Library
+:CoreCommon:prepareComAndroidSupportRecyclerviewV72330Library
+:CoreCommon:prepareComAndroidSupportSupportV42330Library
+:CoreCommon:prepareComAndroidSupportSupportVectorDrawable2330Library
+:CoreCommon:prepareComJakewhartonTimberTimber410Library
+:CoreCommon:prepareIoReactivexRxandroid110Library
+:CoreCommon:prepareDebugDependencies
+:CoreCommon:compileDebugAidl
+:CoreCommon:compileDebugRenderscript
+:CoreCommon:generateDebugBuildConfig
+:CoreCommon:mergeDebugShaders
+:CoreCommon:compileDebugShaders
+:CoreCommon:generateDebugAssets
+:CoreCommon:mergeDebugAssets
+:CoreCommon:generateDebugResValues
+:CoreCommon:generateDebugResources
+:CoreCommon:mergeDebugResources
+:CoreCommon:processDebugManifest
+:CoreCommon:processDebugResources
+:CoreCommon:generateDebugSources
+:CoreCommon:incrementalDebugJavaCompilationSafeguard
+:CoreCommon:compileDebugJavaWithJavac
+:CoreCommon:extractDebugAnnotations
+:CoreCommon:mergeDebugProguardFiles
+:CoreCommon:packageDebugRenderscript UP-TO-DATE
+:CoreCommon:packageDebugResources
+:CoreCommon:processDebugJavaRes UP-TO-DATE
+:CoreCommon:transformResourcesWithMergeJavaResForDebug
+:CoreCommon:transformClassesAndResourcesWithSyncLibJarsForDebug
+:CoreCommon:mergeDebugJniLibFolders
+:CoreCommon:transformNative_libsWithMergeJniLibsForDebug
+:CoreCommon:transformNative_libsWithSyncJniLibsForDebug
+:CoreCommon:bundleDebug
+:AndroidTestCommon:prepareBourbonMasterCoreCommonUnspecifiedLibrary
+:AndroidTestCommon:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:AndroidTestCommon:prepareComAndroidSupportAppcompatV72330Library
+:AndroidTestCommon:prepareComAndroidSupportCustomtabs2330Library
+:AndroidTestCommon:prepareComAndroidSupportDesign2330Library
+:AndroidTestCommon:prepareComAndroidSupportPercent2330Library
+:AndroidTestCommon:prepareComAndroidSupportRecyclerviewV72330Library
+:AndroidTestCommon:prepareComAndroidSupportSupportV42330Library
+:AndroidTestCommon:prepareComAndroidSupportSupportVectorDrawable2330Library
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoContrib221Library
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoCore221Library
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoIntents221Library
+:AndroidTestCommon:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library
+:AndroidTestCommon:prepareComAndroidSupportTestRules041Library
+:AndroidTestCommon:prepareComAndroidSupportTestRunner041Library
+:AndroidTestCommon:prepareComJakewhartonTimberTimber410Library
+:AndroidTestCommon:prepareIoReactivexRxandroid110Library
+:AndroidTestCommon:prepareDebugDependencies
+:AndroidTestCommon:compileDebugAidl
+:AndroidTestCommon:compileDebugRenderscript
+:AndroidTestCommon:generateDebugBuildConfig
+:AndroidTestCommon:mergeDebugShaders
+:AndroidTestCommon:compileDebugShaders
+:AndroidTestCommon:generateDebugAssets
+:AndroidTestCommon:mergeDebugAssets
+:AndroidTestCommon:generateDebugResValues
+:AndroidTestCommon:generateDebugResources
+:AndroidTestCommon:mergeDebugResources
+:AndroidTestCommon:processDebugManifest
+:AndroidTestCommon:processDebugResources
+:AndroidTestCommon:generateDebugSources
+:AndroidTestCommon:incrementalDebugJavaCompilationSafeguard
+:AndroidTestCommon:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/src/main/java/com/hitherejoe/androidtestcommon/runner/UnlockDeviceAndroidJUnitRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:AndroidTestCommon:extractDebugAnnotations
+:AndroidTestCommon:mergeDebugProguardFiles
+:AndroidTestCommon:packageDebugRenderscript UP-TO-DATE
+:AndroidTestCommon:packageDebugResources
+:AndroidTestCommon:processDebugJavaRes UP-TO-DATE
+:AndroidTestCommon:transformResourcesWithMergeJavaResForDebug
+:AndroidTestCommon:transformClassesAndResourcesWithSyncLibJarsForDebug
+:AndroidTestCommon:mergeDebugJniLibFolders
+:AndroidTestCommon:transformNative_libsWithMergeJniLibsForDebug
+:AndroidTestCommon:transformNative_libsWithSyncJniLibsForDebug
+:AndroidTestCommon:bundleDebug
+:AndroidTestCommon:compileDebugSources
+:AndroidTestCommon:assembleDebug
+:AndroidTestCommon:compileReleaseNdk UP-TO-DATE
+:AndroidTestCommon:copyReleaseLint UP-TO-DATE
+:AndroidTestCommon:checkReleaseManifest
+:AndroidTestCommon:prepareReleaseDependencies
+:AndroidTestCommon:compileReleaseAidl
+:AndroidTestCommon:compileReleaseRenderscript
+:AndroidTestCommon:generateReleaseBuildConfig
+:AndroidTestCommon:mergeReleaseShaders
+:AndroidTestCommon:compileReleaseShaders
+:AndroidTestCommon:generateReleaseAssets
+:AndroidTestCommon:mergeReleaseAssets
+:AndroidTestCommon:generateReleaseResValues
+:AndroidTestCommon:generateReleaseResources
+:AndroidTestCommon:mergeReleaseResources
+:AndroidTestCommon:processReleaseManifest
+:AndroidTestCommon:processReleaseResources
+:AndroidTestCommon:generateReleaseSources
+:AndroidTestCommon:incrementalReleaseJavaCompilationSafeguard
+:AndroidTestCommon:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/src/main/java/com/hitherejoe/androidtestcommon/runner/UnlockDeviceAndroidJUnitRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:AndroidTestCommon:extractReleaseAnnotations
+:AndroidTestCommon:mergeReleaseProguardFiles
+:AndroidTestCommon:packageReleaseRenderscript UP-TO-DATE
+:AndroidTestCommon:packageReleaseResources
+:AndroidTestCommon:processReleaseJavaRes UP-TO-DATE
+:AndroidTestCommon:transformResourcesWithMergeJavaResForRelease
+:AndroidTestCommon:transformClassesAndResourcesWithSyncLibJarsForRelease
+:AndroidTestCommon:mergeReleaseJniLibFolders
+:AndroidTestCommon:transformNative_libsWithMergeJniLibsForRelease
+:AndroidTestCommon:transformNative_libsWithSyncJniLibsForRelease
+:AndroidTestCommon:bundleRelease
+:AndroidTestCommon:compileReleaseSources
+:AndroidTestCommon:assembleRelease
+:AndroidTestCommon:assemble
+:AndroidTestCommon:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':AndroidTestCommon:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':AndroidTestCommon:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 16.275 secs
+
+2018-12-01 21:14:21,883 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-01 21:14:21,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-01 21:14:29,954 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-01 21:14:29,954 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-01 21:14:29,954 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-01 21:14:29,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/CoreCommon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-01 21:14:50,440 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-01 21:14:50,440 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:CoreCommon:preBuild UP-TO-DATE
+:CoreCommon:preDebugBuild UP-TO-DATE
+:CoreCommon:compileDebugNdk UP-TO-DATE
+:CoreCommon:compileLint
+:CoreCommon:copyDebugLint UP-TO-DATE
+:CoreCommon:checkDebugManifest
+:CoreCommon:preDebugAndroidTestBuild UP-TO-DATE
+:CoreCommon:preDebugUnitTestBuild UP-TO-DATE
+:CoreCommon:preReleaseBuild UP-TO-DATE
+:CoreCommon:preReleaseUnitTestBuild UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportAnimatedVectorDrawable2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportAppcompatV72330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportCustomtabs2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportDesign2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportPercent2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportRecyclerviewV72330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportSupportV42330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportSupportVectorDrawable2330Library UP-TO-DATE
+:CoreCommon:prepareComJakewhartonTimberTimber410Library UP-TO-DATE
+:CoreCommon:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:CoreCommon:prepareDebugDependencies
+:CoreCommon:compileDebugAidl UP-TO-DATE
+:CoreCommon:compileDebugRenderscript UP-TO-DATE
+:CoreCommon:generateDebugBuildConfig UP-TO-DATE
+:CoreCommon:mergeDebugShaders UP-TO-DATE
+:CoreCommon:compileDebugShaders UP-TO-DATE
+:CoreCommon:generateDebugAssets UP-TO-DATE
+:CoreCommon:mergeDebugAssets UP-TO-DATE
+:CoreCommon:generateDebugResValues UP-TO-DATE
+:CoreCommon:generateDebugResources UP-TO-DATE
+:CoreCommon:mergeDebugResources UP-TO-DATE
+:CoreCommon:processDebugManifest UP-TO-DATE
+:CoreCommon:processDebugResources UP-TO-DATE
+:CoreCommon:generateDebugSources UP-TO-DATE
+:CoreCommon:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:CoreCommon:compileDebugJavaWithJavac
+:CoreCommon:extractDebugAnnotations UP-TO-DATE
+:CoreCommon:mergeDebugProguardFiles UP-TO-DATE
+:CoreCommon:packageDebugRenderscript UP-TO-DATE
+:CoreCommon:packageDebugResources UP-TO-DATE
+:CoreCommon:processDebugJavaRes UP-TO-DATE
+:CoreCommon:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:CoreCommon:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:CoreCommon:mergeDebugJniLibFolders UP-TO-DATE
+:CoreCommon:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:CoreCommon:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:CoreCommon:bundleDebug UP-TO-DATE
+:CoreCommon:compileDebugSources
+:CoreCommon:assembleDebug
+:CoreCommon:compileReleaseNdk UP-TO-DATE
+:CoreCommon:copyReleaseLint UP-TO-DATE
+:CoreCommon:checkReleaseManifest
+:CoreCommon:prepareReleaseDependencies
+:CoreCommon:compileReleaseAidl
+:CoreCommon:compileReleaseRenderscript
+:CoreCommon:generateReleaseBuildConfig
+:CoreCommon:mergeReleaseShaders
+:CoreCommon:compileReleaseShaders
+:CoreCommon:generateReleaseAssets
+:CoreCommon:mergeReleaseAssets
+:CoreCommon:generateReleaseResValues
+:CoreCommon:generateReleaseResources
+:CoreCommon:mergeReleaseResources
+:CoreCommon:processReleaseManifest
+:CoreCommon:processReleaseResources
+:CoreCommon:generateReleaseSources
+:CoreCommon:incrementalReleaseJavaCompilationSafeguard
+:CoreCommon:compileReleaseJavaWithJavac
+:CoreCommon:extractReleaseAnnotations
+:CoreCommon:mergeReleaseProguardFiles
+:CoreCommon:packageReleaseRenderscript UP-TO-DATE
+:CoreCommon:packageReleaseResources
+:CoreCommon:processReleaseJavaRes UP-TO-DATE
+:CoreCommon:transformResourcesWithMergeJavaResForRelease
+:CoreCommon:transformClassesAndResourcesWithSyncLibJarsForRelease
+:CoreCommon:mergeReleaseJniLibFolders
+:CoreCommon:transformNative_libsWithMergeJniLibsForRelease
+:CoreCommon:transformNative_libsWithSyncJniLibsForRelease
+:CoreCommon:bundleRelease
+:CoreCommon:compileReleaseSources
+:CoreCommon:assembleRelease
+:CoreCommon:assemble
+:CoreCommon:checkstyle
+Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.5/checkstyle-6.5.pom
+Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.5/checkstyle-6.5.jar
+:CoreCommon:findbugs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':CoreCommon:findbugs'.
+> FindBugs encountered an error. Run with --debug to get more information.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':CoreCommon:findbugs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: FindBugs encountered an error. Run with --debug to get more information.
+	at org.gradle.api.plugins.quality.FindBugs.evaluateResult(FindBugs.groovy:291)
+	at org.gradle.api.plugins.quality.FindBugs.run(FindBugs.groovy:258)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+Caused by: java.io.IOException: No files to analyze could be opened
+	at edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:276)
+	at org.gradle.api.plugins.quality.internal.findbugs.FindBugsExecuter.runFindbugs(FindBugsExecuter.java:44)
+	at org.gradle.api.plugins.quality.internal.findbugs.FindBugsWorkerServer.execute(FindBugsWorkerServer.java:44)
+	at org.gradle.api.plugins.quality.internal.findbugs.FindBugsWorkerServer.execute(FindBugsWorkerServer.java:35)
+	at org.gradle.api.plugins.quality.internal.findbugs.FindBugsWorkerServer.execute(FindBugsWorkerServer.java:26)
+	at org.gradle.process.internal.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:85)
+	at org.gradle.process.internal.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:37)
+	at org.gradle.process.internal.child.ImplementationClassLoaderWorker.execute(ImplementationClassLoaderWorker.java:87)
+	at org.gradle.process.internal.child.ImplementationClassLoaderWorker.execute(ImplementationClassLoaderWorker.java:41)
+	at org.gradle.process.internal.child.IsolatedApplicationClassLoaderWorker.call(IsolatedApplicationClassLoaderWorker.java:48)
+	at org.gradle.process.internal.launcher.IsolatedGradleWorkerMain.run(IsolatedGradleWorkerMain.java:47)
+	at org.gradle.process.internal.launcher.IsolatedGradleWorkerMain.main(IsolatedGradleWorkerMain.java:52)
+
+
+BUILD FAILED
+
+Total time: 19.95 secs
+
+2018-12-01 21:14:50,560 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-01 21:14:50,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-01 21:14:57,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-01 21:14:57,858 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-01 21:14:57,858 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-01 21:14:57,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-01 21:15:19,692 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-01 21:15:19,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:AndroidTestCommon:preBuild UP-TO-DATE
+:AndroidTestCommon:preDebugBuild UP-TO-DATE
+:AndroidTestCommon:compileDebugNdk UP-TO-DATE
+:AndroidTestCommon:compileLint
+:AndroidTestCommon:copyDebugLint UP-TO-DATE
+:AndroidTestCommon:checkDebugManifest
+:AndroidTestCommon:preDebugAndroidTestBuild UP-TO-DATE
+:AndroidTestCommon:preDebugUnitTestBuild UP-TO-DATE
+:AndroidTestCommon:preReleaseBuild UP-TO-DATE
+:AndroidTestCommon:preReleaseUnitTestBuild UP-TO-DATE
+:CoreCommon:preBuild UP-TO-DATE
+:CoreCommon:preDebugBuild UP-TO-DATE
+:CoreCommon:compileDebugNdk UP-TO-DATE
+:CoreCommon:compileLint
+:CoreCommon:copyDebugLint UP-TO-DATE
+:CoreCommon:checkDebugManifest
+:CoreCommon:preDebugAndroidTestBuild UP-TO-DATE
+:CoreCommon:preDebugUnitTestBuild UP-TO-DATE
+:CoreCommon:preReleaseBuild UP-TO-DATE
+:CoreCommon:preReleaseUnitTestBuild UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportAnimatedVectorDrawable2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportAppcompatV72330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportCustomtabs2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportDesign2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportPercent2330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportRecyclerviewV72330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportSupportV42330Library UP-TO-DATE
+:CoreCommon:prepareComAndroidSupportSupportVectorDrawable2330Library UP-TO-DATE
+:CoreCommon:prepareComJakewhartonTimberTimber410Library UP-TO-DATE
+:CoreCommon:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:CoreCommon:prepareDebugDependencies
+:CoreCommon:compileDebugAidl UP-TO-DATE
+:CoreCommon:compileDebugRenderscript UP-TO-DATE
+:CoreCommon:generateDebugBuildConfig UP-TO-DATE
+:CoreCommon:mergeDebugShaders UP-TO-DATE
+:CoreCommon:compileDebugShaders UP-TO-DATE
+:CoreCommon:generateDebugAssets UP-TO-DATE
+:CoreCommon:mergeDebugAssets UP-TO-DATE
+:CoreCommon:generateDebugResValues UP-TO-DATE
+:CoreCommon:generateDebugResources UP-TO-DATE
+:CoreCommon:mergeDebugResources UP-TO-DATE
+:CoreCommon:processDebugManifest UP-TO-DATE
+:CoreCommon:processDebugResources UP-TO-DATE
+:CoreCommon:generateDebugSources UP-TO-DATE
+:CoreCommon:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:CoreCommon:compileDebugJavaWithJavac UP-TO-DATE
+:CoreCommon:extractDebugAnnotations UP-TO-DATE
+:CoreCommon:mergeDebugProguardFiles UP-TO-DATE
+:CoreCommon:packageDebugRenderscript UP-TO-DATE
+:CoreCommon:packageDebugResources UP-TO-DATE
+:CoreCommon:processDebugJavaRes UP-TO-DATE
+:CoreCommon:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:CoreCommon:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:CoreCommon:mergeDebugJniLibFolders UP-TO-DATE
+:CoreCommon:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:CoreCommon:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:CoreCommon:bundleDebug UP-TO-DATE
+:AndroidTestCommon:prepareBourbonMasterCoreCommonUnspecifiedLibrary UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportAnimatedVectorDrawable2330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportAppcompatV72330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportCustomtabs2330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportDesign2330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportPercent2330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportRecyclerviewV72330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportSupportV42330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportSupportVectorDrawable2330Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoContrib221Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoCore221Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestEspressoEspressoIntents221Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestRules041Library UP-TO-DATE
+:AndroidTestCommon:prepareComAndroidSupportTestRunner041Library UP-TO-DATE
+:AndroidTestCommon:prepareComJakewhartonTimberTimber410Library UP-TO-DATE
+:AndroidTestCommon:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:AndroidTestCommon:prepareDebugDependencies
+:AndroidTestCommon:compileDebugAidl UP-TO-DATE
+:AndroidTestCommon:compileDebugRenderscript UP-TO-DATE
+:AndroidTestCommon:generateDebugBuildConfig UP-TO-DATE
+:AndroidTestCommon:mergeDebugShaders UP-TO-DATE
+:AndroidTestCommon:compileDebugShaders UP-TO-DATE
+:AndroidTestCommon:generateDebugAssets UP-TO-DATE
+:AndroidTestCommon:mergeDebugAssets UP-TO-DATE
+:AndroidTestCommon:generateDebugResValues UP-TO-DATE
+:AndroidTestCommon:generateDebugResources UP-TO-DATE
+:AndroidTestCommon:mergeDebugResources UP-TO-DATE
+:AndroidTestCommon:processDebugManifest UP-TO-DATE
+:AndroidTestCommon:processDebugResources UP-TO-DATE
+:AndroidTestCommon:generateDebugSources UP-TO-DATE
+:AndroidTestCommon:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:AndroidTestCommon:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/AndroidTestCommon/src/main/java/com/hitherejoe/androidtestcommon/runner/UnlockDeviceAndroidJUnitRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:AndroidTestCommon:extractDebugAnnotations UP-TO-DATE
+:AndroidTestCommon:mergeDebugProguardFiles UP-TO-DATE
+:AndroidTestCommon:packageDebugRenderscript UP-TO-DATE
+:AndroidTestCommon:packageDebugResources UP-TO-DATE
+:AndroidTestCommon:processDebugJavaRes UP-TO-DATE
+:AndroidTestCommon:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:AndroidTestCommon:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:AndroidTestCommon:mergeDebugJniLibFolders UP-TO-DATE
+:AndroidTestCommon:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:AndroidTestCommon:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:AndroidTestCommon:bundleDebug UP-TO-DATE
+:mobile:preBuild UP-TO-DATE
+:mobile:preDebugBuild UP-TO-DATE
+:mobile:checkDebugManifest
+:mobile:preReleaseBuild UP-TO-DATE
+:mobile:prepareBourbonMasterCoreCommonUnspecifiedLibrary
+:mobile:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:mobile:prepareComAndroidSupportAppcompatV72330Library
+:mobile:prepareComAndroidSupportCustomtabs2330Library
+:mobile:prepareComAndroidSupportDesign2330Library
+:mobile:prepareComAndroidSupportPercent2330Library
+:mobile:prepareComAndroidSupportRecyclerviewV72330Library
+:mobile:prepareComAndroidSupportSupportV42330Library
+:mobile:prepareComAndroidSupportSupportVectorDrawable2330Library
+:mobile:prepareComJakewhartonTimberTimber410Library
+:mobile:prepareDeHdodenhofCircleimageview200Library
+:mobile:prepareIoReactivexRxandroid110Library
+:mobile:prepareDebugDependencies
+:mobile:compileDebugAidl
+:mobile:compileDebugRenderscript
+:mobile:generateDebugBuildConfig
+:mobile:mergeDebugShaders
+:mobile:compileDebugShaders
+:mobile:generateDebugAssets
+:mobile:mergeDebugAssets
+:mobile:generateDebugResValues
+:mobile:generateDebugResources
+:mobile:mergeDebugResources
+:mobile:processDebugManifest
+:mobile:processDebugResources
+:mobile:generateDebugSources
+:mobile:incrementalDebugJavaCompilationSafeguard
+:mobile:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile/src/main/java/com/hitherejoe/bourbon/ui/base/BaseActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mobile:packageDebugJarArtifact
+:mobile-androidTest:preBuild UP-TO-DATE
+:mobile-androidTest:preDebugBuild UP-TO-DATE
+:mobile-androidTest:checkDebugManifest
+:mobile-androidTest:prepareBourbonMasterAndroidTestCommonUnspecifiedLibrary
+:mobile-androidTest:prepareBourbonMasterCoreCommonUnspecifiedLibrary
+:mobile-androidTest:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:mobile-androidTest:prepareComAndroidSupportAppcompatV72330Library
+:mobile-androidTest:prepareComAndroidSupportCustomtabs2330Library
+:mobile-androidTest:prepareComAndroidSupportDesign2330Library
+:mobile-androidTest:prepareComAndroidSupportPercent2330Library
+:mobile-androidTest:prepareComAndroidSupportRecyclerviewV72330Library
+:mobile-androidTest:prepareComAndroidSupportSupportV42330Library
+:mobile-androidTest:prepareComAndroidSupportSupportVectorDrawable2330Library
+:mobile-androidTest:prepareComAndroidSupportTestEspressoEspressoContrib221Library
+:mobile-androidTest:prepareComAndroidSupportTestEspressoEspressoCore221Library
+:mobile-androidTest:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library
+:mobile-androidTest:prepareComAndroidSupportTestEspressoEspressoIntents221Library
+:mobile-androidTest:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library
+:mobile-androidTest:prepareComAndroidSupportTestRules041Library
+:mobile-androidTest:prepareComAndroidSupportTestRunner041Library
+:mobile-androidTest:prepareComJakewhartonTimberTimber410Library
+:mobile-androidTest:prepareDeHdodenhofCircleimageview200Library
+:mobile-androidTest:prepareIoReactivexRxandroid110Library
+:mobile-androidTest:prepareDebugDependencies
+:mobile-androidTest:compileDebugAidl
+:mobile-androidTest:compileDebugRenderscript
+:mobile-androidTest:generateDebugBuildConfig
+:mobile-androidTest:mergeDebugShaders
+:mobile-androidTest:compileDebugShaders
+:mobile-androidTest:generateDebugAssets
+:mobile-androidTest:mergeDebugAssets
+:mobile-androidTest:generateDebugResValues
+:mobile-androidTest:generateDebugResources
+:mobile-androidTest:mergeDebugResources
+:mobile-androidTest:processDebugManifest
+:mobile-androidTest:processDebugResources
+:mobile-androidTest:generateDebugSources
+:mobile-androidTest:incrementalDebugJavaCompilationSafeguard
+:mobile-androidTest:compileDebugJavaWithJavac
+:mobile-androidTest:compileDebugNdk UP-TO-DATE
+:mobile-androidTest:compileDebugSources
+:mobile-androidTest:prePackageMarkerForDebug
+:mobile-androidTest:transformClassesWithDexForDebug
+Result compacted from 5119.1KiB to 4001.9KiB to save 1117.2KiB
+Merged dex #1 (8 defs/9.0KiB)
+Merged dex #2 (63 defs/79.8KiB)
+Merged dex #3 (2 defs/1.0KiB)
+Merged dex #4 (12 defs/12.9KiB)
+Merged dex #5 (101 defs/109.5KiB)
+Merged dex #6 (25 defs/26.8KiB)
+Merged dex #7 (2001 defs/2160.4KiB)
+Merged dex #8 (3 defs/1.5KiB)
+Merged dex #9 (49 defs/39.6KiB)
+Merged dex #10 (32 defs/17.1KiB)
+Merged dex #11 (31 defs/13.4KiB)
+Merged dex #12 (38 defs/62.9KiB)
+Merged dex #13 (381 defs/515.5KiB)
+Merged dex #14 (9 defs/9.6KiB)
+Merged dex #15 (45 defs/38.2KiB)
+Merged dex #16 (5 defs/2.9KiB)
+Merged dex #17 (35 defs/54.8KiB)
+Merged dex #18 (2 defs/15.7KiB)
+Merged dex #19 (15 defs/4.9KiB)
+Merged dex #20 (6 defs/1.6KiB)
+Merged dex #21 (34 defs/8.8KiB)
+Merged dex #22 (286 defs/238.9KiB)
+Merged dex #23 (678 defs/655.4KiB)
+Merged dex #24 (37 defs/27.0KiB)
+Merged dex #25 (41 defs/6.5KiB)
+Result is 3939 defs/4001.9KiB. Took 0.5s
+:mobile-androidTest:mergeDebugJniLibFolders
+:mobile-androidTest:transformNative_libsWithMergeJniLibsForDebug
+:mobile-androidTest:processDebugJavaRes UP-TO-DATE
+:mobile-androidTest:transformResourcesWithMergeJavaResForDebug
+:mobile-androidTest:validateDebugSigning
+:mobile-androidTest:packageDebug
+:mobile-androidTest:zipalignDebug
+:mobile-androidTest:assembleDebug
+:mobile-androidTest:assemble
+:mobile-androidTest:compileLint
+:mobile-androidTest:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mobile-androidTest:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':mobile-androidTest:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 21.203 secs
+
+2018-12-01 21:15:19,962 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543673574427-0/src/Bourbon-master/mobile-androidTest/build/outputs/apk/mobile-androidTest-debug-unaligned.apk

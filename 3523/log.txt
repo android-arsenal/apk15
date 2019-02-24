@@ -1,0 +1,210 @@
+2018-12-01 22:22:29,232 INFO  DownloadService - Downloading "https://github.com/miguelbcr/RxPaparazzo/archive/master.zip", attempt 3
+2018-12-01 22:22:34,680 INFO  DownloadService - Downloading "https://github.com/miguelbcr/RxPaparazzo/archive/master.zip", attempt 2
+2018-12-01 22:22:40,524 INFO  DownloadService - Downloading "https://github.com/miguelbcr/RxPaparazzo/archive/master.zip", attempt 1
+2018-12-01 22:23:40,790 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-01 22:23:42,406 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2018-12-01 22:23:42,406 INFO  DownloadService - Downloading "https://github.com/miguelbcr/RxPaparazzo/archive/2.x.zip", attempt 3
+2018-12-01 22:24:44,202 DEBUG FullProcessService - Repository https://github.com/miguelbcr/RxPaparazzo available: true
+2018-12-01 22:24:44,202 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-01 22:24:44,202 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/miguelbcr/RxPaparazzo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src]
+2018-12-01 22:24:46,011 INFO  SysUtils - 
+2018-12-01 22:24:46,020 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/.git": true
+2018-12-01 22:24:46,024 INFO  FullProcessService - Size of directory with sources: 287 KB
+2018-12-01 22:24:46,024 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src]
+2018-12-01 22:24:46,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/.git/
+
+2018-12-01 22:24:46,046 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/gradlew
+2018-12-01 22:24:46,049 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/build.gradle
+2018-12-01 22:24:46,053 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/settings.gradle
+2018-12-01 22:24:46,053 INFO  ProjectBuildService - Remote scripts: none
+2018-12-01 22:24:46,053 INFO  ProjectFixService - Fixing project...
+2018-12-01 22:24:46,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/local.properties
+2018-12-01 22:24:46,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-01 22:24:46,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/local.properties
+2018-12-01 22:24:46,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-01 22:24:46,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/local.properties
+2018-12-01 22:24:46,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-01 22:24:46,064 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-01 22:24:46,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-01 22:24:46,065 INFO  ProjectFixService - Project was maybe fixed
+2018-12-01 22:24:46,065 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-01 22:24:46,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-01 22:24:53,671 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-12-01 22:24:53,671 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-01 22:24:53,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-01 22:27:09,629 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'debugCompile' is obsolete and has been replaced with 'debugImplementation' and 'debugApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'releaseCompile' is obsolete and has been replaced with 'releaseImplementation' and 'releaseApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:rx_paparazzo:preBuild UP-TO-DATE
+:rx_paparazzo:preDebugBuild UP-TO-DATE
+:rx_paparazzo:checkDebugManifest
+:rx_paparazzo:processDebugManifest
+:app:preDebugBuild
+Download https://jitpack.io/com/github/VictorAlbertos/RxActivityResult/0.4.5-2.x/RxActivityResult-0.4.5-2.x.pom
+Download https://jitpack.io/com/github/yalantis/ucrop/2.2.2/ucrop-2.2.2.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.8.1/parent-3.8.1.pom
+Download https://jitpack.io/com/github/yalantis/ucrop/2.2.2/ucrop-2.2.2.aar
+Download https://jitpack.io/com/github/VictorAlbertos/RxActivityResult/0.4.5-2.x/RxActivityResult-0.4.5-2.x.aar
+:rx_paparazzo:compileDebugAidl
+:app:compileDebugAidl
+:rx_paparazzo:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:rx_paparazzo:compileDebugRenderscript
+:rx_paparazzo:generateDebugResValues
+:rx_paparazzo:generateDebugResources
+:rx_paparazzo:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:rx_paparazzo:platformAttrExtractor
+:rx_paparazzo:generateDebugBuildConfig
+:rx_paparazzo:prepareLintJar
+:rx_paparazzo:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar
+:rx_paparazzo:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:rx_paparazzo:mergeDebugShaders
+:rx_paparazzo:compileDebugShaders
+:rx_paparazzo:generateDebugAssets
+:rx_paparazzo:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:rx_paparazzo:compileDebugNdk NO-SOURCE
+:rx_paparazzo:mergeDebugJniLibFolders
+:rx_paparazzo:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:rx_paparazzo:generateDebugSources
+:rx_paparazzo:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/src/main/java/com/miguelbcr/ui/rx_paparazzo2/interactors/ImageUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:rx_paparazzo:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:rx_paparazzo:transformNativeLibsWithMergeJniLibsForDebug
+:rx_paparazzo:transformNativeLibsWithStripDebugSymbolForDebug
+:rx_paparazzo:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:rx_paparazzo:preReleaseBuild UP-TO-DATE
+:rx_paparazzo:checkReleaseManifest
+:rx_paparazzo:processReleaseManifest
+:app:preReleaseBuild
+:rx_paparazzo:compileReleaseAidl
+:app:compileReleaseAidl
+:rx_paparazzo:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:rx_paparazzo:compileReleaseRenderscript
+:rx_paparazzo:generateReleaseResValues
+:rx_paparazzo:generateReleaseResources
+:rx_paparazzo:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:rx_paparazzo:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:rx_paparazzo:generateReleaseBuildConfig
+:rx_paparazzo:generateReleaseSources
+:rx_paparazzo:javaPreCompileRelease
+:rx_paparazzo:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/rx_paparazzo/src/main/java/com/miguelbcr/ui/rx_paparazzo2/interactors/ImageUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:rx_paparazzo:processReleaseJavaRes NO-SOURCE
+:rx_paparazzo:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jitpack.io/com/github/VictorAlbertos/DeviceAnimationTestRule/0.0.2/DeviceAnimationTestRule-0.0.2.pom
+Download https://jitpack.io/com/github/VictorAlbertos/DeviceAnimationTestRule/0.0.2/DeviceAnimationTestRule-0.0.2.aar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:rx_paparazzo:mergeReleaseShaders
+:rx_paparazzo:compileReleaseShaders
+:rx_paparazzo:generateReleaseAssets
+:rx_paparazzo:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:rx_paparazzo:compileReleaseNdk NO-SOURCE
+:rx_paparazzo:mergeReleaseJniLibFolders
+:rx_paparazzo:transformNativeLibsWithMergeJniLibsForRelease
+:rx_paparazzo:transformNativeLibsWithStripDebugSymbolForRelease
+:rx_paparazzo:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 2m 15s
+97 actionable tasks: 97 executed
+
+2018-12-01 22:27:09,797 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543677749230-0/src/app/build/outputs/apk/debug/app-debug.apk

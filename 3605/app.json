@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.yarolegovich.materialprefsample",
+    "label" : "MaterialPrefSample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2122,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yarolegovich.materialprefsample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090090\" android:label=\"MaterialPrefSample\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.yarolegovich.materialprefsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0900c1\" android:name=\"com.yarolegovich.materialprefsample.AppConfigsActivity\" android:parentActivityName=\"com.yarolegovich.materialprefsample.MainActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900c3\" android:name=\"com.yarolegovich.materialprefsample.FillTheFormActivity\" android:parentActivityName=\"com.yarolegovich.materialprefsample.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1721438,
+  "crc32" : 4000148873,
+  "sha256" : "734408accef4c40df98004b93396a3a21bd896371dee764b50d5903af7ef5263",
+  "buildTime" : 1542734223000
+}

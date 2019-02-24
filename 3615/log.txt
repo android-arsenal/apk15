@@ -1,0 +1,9 @@
+2018-11-20 14:49:17,945 INFO  DownloadService - Downloading "https://github.com/vipinagrahari/ImageTextView/archive/master.zip", attempt 3
+2018-11-20 14:50:18,512 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-20 14:50:19,397 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-20 14:50:19,398 INFO  DownloadService - Downloading "https://github.com/vipinagrahari/ImageTextView/archive/master.zip", attempt 3
+2018-11-20 14:57:54,667 DEBUG FullProcessService - Repository https://github.com/vipinagrahari/ImageTextView available: false
+2018-11-20 14:57:54,668 ERROR FullProcessService - Could not find directory with sources
+2018-11-20 14:57:54,668 ERROR FullProcessService - Project will not be processed
+2018-11-20 14:57:54,668 ERROR FullProcessService - Project build has not produced APK file
+2018-11-20 14:57:54,668 ERROR FullProcessService - Could not find generated or existed APK file

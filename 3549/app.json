@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.google.android.flexbox.apps.catgallery",
+    "label" : "Cat Gallery",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1050,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.google.android.flexbox.apps.catgallery\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Cat Gallery\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:label=\"Cat Gallery\" android:name=\"com.google.android.flexbox.apps.catgallery.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1520257,
+  "crc32" : 3533042251,
+  "sha256" : "950ccdee6e0ef2d7c44758ee19520a83d8887193e3438206a87d335ff6c97e38",
+  "buildTime" : 1547315893000
+}

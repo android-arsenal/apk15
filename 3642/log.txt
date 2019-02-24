@@ -1,0 +1,180 @@
+2018-11-19 12:54:12,667 INFO  DownloadService - Downloading "https://github.com/tarek360/InstaCapture/archive/master.zip", attempt 3
+2018-11-19 12:54:16,386 INFO  DownloadService - Downloaded https://github.com/tarek360/InstaCapture/archive/master.zip, attempt 3
+2018-11-19 12:54:16,387 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/master.zip": 1023 KB
+2018-11-19 12:54:16,387 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-19 12:54:16,393 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/master.zip: true
+2018-11-19 12:54:16,393 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src'.
+2018-11-19 12:54:16,433 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-11-19 12:54:16,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src]
+2018-11-19 12:54:16,451 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/.git/
+
+2018-11-19 12:54:16,455 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/gradlew
+2018-11-19 12:54:16,460 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/build.gradle
+2018-11-19 12:54:16,464 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/settings.gradle
+2018-11-19 12:54:16,465 INFO  ProjectBuildService - Remote scripts: none
+2018-11-19 12:54:16,465 INFO  ProjectFixService - Fixing project...
+2018-11-19 12:54:16,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/local.properties
+2018-11-19 12:54:16,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 12:54:16,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/local.properties
+2018-11-19 12:54:16,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 12:54:16,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/local.properties
+2018-11-19 12:54:16,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-19 12:54:16,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-19 12:54:16,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 12:54:16,481 INFO  ProjectFixService - Project was maybe fixed
+2018-11-19 12:54:16,481 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-19 12:54:16,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-19 12:54:25,585 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-11-19 12:54:25,586 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-19 12:54:25,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-19 12:55:30,609 INFO  SysUtils - Configuration on demand is an incubating feature.
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.jakewharton:butterknife-compiler:8.8.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:instacapture:preBuild UP-TO-DATE
+:instacapture:preDebugBuild UP-TO-DATE
+:instacapture:checkDebugManifest
+:instacapture:processDebugManifest
+:app:preDebugBuild
+:instacapture:compileDebugAidl
+:app:compileDebugAidl
+:instacapture:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:instacapture:compileDebugRenderscript
+:instacapture:generateDebugResValues
+:instacapture:generateDebugResources
+:instacapture:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:instacapture:platformAttrExtractor
+:instacapture:generateDebugBuildConfig
+:instacapture:prepareLintJar
+:instacapture:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:instacapture:mergeDebugShaders
+:instacapture:compileDebugShaders
+:instacapture:generateDebugAssets
+:instacapture:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:instacapture:compileDebugNdk NO-SOURCE
+:instacapture:mergeDebugJniLibFolders
+:instacapture:transformNativeLibsWithMergeJniLibsForDebug
+:instacapture:transformNativeLibsWithStripDebugSymbolForDebug
+:instacapture:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:instacapture:preReleaseBuild UP-TO-DATE
+:instacapture:checkReleaseManifest
+:instacapture:processReleaseManifest
+:app:preReleaseBuild
+:instacapture:compileReleaseAidl
+:app:compileReleaseAidl
+:instacapture:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:instacapture:compileReleaseRenderscript
+:instacapture:generateReleaseResValues
+:instacapture:generateReleaseResources
+:instacapture:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:instacapture:generateReleaseBuildConfig
+:instacapture:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:instacapture:mergeReleaseShaders
+:instacapture:compileReleaseShaders
+:instacapture:generateReleaseAssets
+:instacapture:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:instacapture:compileReleaseNdk NO-SOURCE
+:instacapture:mergeReleaseJniLibFolders
+:instacapture:transformNativeLibsWithMergeJniLibsForRelease
+:instacapture:transformNativeLibsWithStripDebugSymbolForRelease
+:instacapture:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:instacapture:generateDebugRFile
+:app:processDebugResources
+:instacapture:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (39, 43): Unchecked cast: Any? to List<WindowManager.LayoutParams>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (42, 37): Unchecked cast: Any? to Array<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (43, 35): Unchecked cast: Any? to Array<WindowManager.LayoutParams?>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (60, 30): Unchecked cast: Any? to ArrayList<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (62, 29): Unchecked cast: Any? to Array<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (107, 22): Unchecked cast: List<*> to List<T>
+:instacapture:generateDebugSources
+:instacapture:javaPreCompileDebug
+:instacapture:compileDebugJavaWithJavac
+:instacapture:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:instacapture:generateReleaseRFile
+:app:processReleaseResources
+:instacapture:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (39, 43): Unchecked cast: Any? to List<WindowManager.LayoutParams>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (42, 37): Unchecked cast: Any? to Array<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (43, 35): Unchecked cast: Any? to Array<WindowManager.LayoutParams?>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (60, 30): Unchecked cast: Any? to ArrayList<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (62, 29): Unchecked cast: Any? to Array<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/instacapture/src/main/java/com/tarek360/instacapture/screenshot/FieldHelper.kt: (107, 22): Unchecked cast: List<*> to List<T>
+:instacapture:generateReleaseSources
+:instacapture:javaPreCompileRelease
+:instacapture:compileReleaseJavaWithJavac
+:instacapture:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.aar
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 4s
+95 actionable tasks: 95 executed
+
+2018-11-19 12:55:30,733 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542606852663-0/src/Instacapture-master/app/build/outputs/apk/debug/app-debug.apk

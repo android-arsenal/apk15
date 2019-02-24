@@ -1,0 +1,304 @@
+2019-01-22 19:31:46,222 INFO  DownloadService - Downloading "https://github.com/autonomousapps/Cappuccino/archive/master.zip", attempt 3
+2019-01-22 19:31:47,923 INFO  DownloadService - Downloaded https://github.com/autonomousapps/Cappuccino/archive/master.zip, attempt 3
+2019-01-22 19:31:47,923 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/master.zip": 141 KB
+2019-01-22 19:31:47,923 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 19:31:47,929 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/master.zip: true
+2019-01-22 19:31:47,929 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src'.
+2019-01-22 19:31:47,958 INFO  FullProcessService - Size of directory with sources: 309 KB
+2019-01-22 19:31:47,959 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src]
+2019-01-22 19:31:47,976 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/.git/
+
+2019-01-22 19:31:47,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradlew
+2019-01-22 19:31:47,986 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-plugin/build.gradle
+2019-01-22 19:31:47,991 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradle/checkstyle-app.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradle/gradle-bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradle/checkstyle-lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-plugin/build.gradle
+2019-01-22 19:31:47,992 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 19:31:47,992 INFO  ProjectFixService - Fixing project...
+2019-01-22 19:31:48,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/local.properties
+2019-01-22 19:31:48,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-22 19:31:48,011 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-01-22 19:31:48,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/local.properties
+2019-01-22 19:31:48,018 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-22 19:31:48,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-01-22 19:31:48,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/local.properties
+2019-01-22 19:31:48,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-22 19:31:48,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-01-22 19:31:48,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/local.properties
+2019-01-22 19:31:48,026 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.0-all.zip
+2019-01-22 19:31:48,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.0-bin.zip)
+2019-01-22 19:31:48,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-22 19:31:48,030 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-01-22 19:31:48,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-plugin/local.properties
+2019-01-22 19:31:48,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-22 19:31:48,036 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-01-22 19:31:48,036 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 19:31:48,036 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:31:48,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:31:57,415 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-22 19:31:57,415 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 19:31:57,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 19:32:06,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :cappuccino-no-op
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :cappuccino-no-op:androidJavadocs
+> Task :cappuccino-no-op:androidJavadocsJar
+> Task :cappuccino-no-op:androidSourcesJar
+> Task :cappuccino-no-op:preBuild UP-TO-DATE
+> Task :cappuccino-no-op:preDebugBuild UP-TO-DATE
+> Task :cappuccino-no-op:compileDebugAidl NO-SOURCE
+> Task :cappuccino-no-op:compileDebugRenderscript
+> Task :cappuccino-no-op:checkDebugManifest
+> Task :cappuccino-no-op:generateDebugBuildConfig
+> Task :cappuccino-no-op:generateDebugResValues
+> Task :cappuccino-no-op:generateDebugResources
+> Task :cappuccino-no-op:packageDebugResources
+
+> Task :cappuccino-no-op:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/src/main/AndroidManifest.xml:5:5-9:41 Warning:
+	application@android:label was tagged at AndroidManifest.xml:5 to replace other declarations but no other declaration present
+
+> Task :cappuccino-no-op:generateDebugRFile
+> Task :cappuccino-no-op:prepareLintJar
+> Task :cappuccino-no-op:generateDebugSources
+> Task :cappuccino-no-op:javaPreCompileDebug
+> Task :cappuccino-no-op:compileDebugJavaWithJavac
+> Task :cappuccino-no-op:extractDebugAnnotations
+> Task :cappuccino-no-op:mergeDebugConsumerProguardFiles
+> Task :cappuccino-no-op:mergeDebugShaders
+> Task :cappuccino-no-op:compileDebugShaders
+> Task :cappuccino-no-op:generateDebugAssets
+> Task :cappuccino-no-op:packageDebugAssets
+> Task :cappuccino-no-op:packageDebugRenderscript NO-SOURCE
+> Task :cappuccino-no-op:processDebugJavaRes NO-SOURCE
+> Task :cappuccino-no-op:transformResourcesWithMergeJavaResForDebug
+> Task :cappuccino-no-op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :cappuccino-no-op:compileDebugNdk NO-SOURCE
+> Task :cappuccino-no-op:mergeDebugJniLibFolders
+> Task :cappuccino-no-op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cappuccino-no-op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cappuccino-no-op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :cappuccino-no-op:bundleDebugAar
+> Task :cappuccino-no-op:compileDebugSources
+> Task :cappuccino-no-op:assembleDebug
+> Task :cappuccino-no-op:preReleaseBuild UP-TO-DATE
+> Task :cappuccino-no-op:compileReleaseAidl NO-SOURCE
+> Task :cappuccino-no-op:compileReleaseRenderscript
+> Task :cappuccino-no-op:checkReleaseManifest
+> Task :cappuccino-no-op:generateReleaseBuildConfig
+> Task :cappuccino-no-op:generateReleaseResValues
+> Task :cappuccino-no-op:generateReleaseResources
+> Task :cappuccino-no-op:packageReleaseResources
+
+> Task :cappuccino-no-op:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-no-op/src/main/AndroidManifest.xml:5:5-9:41 Warning:
+	application@android:label was tagged at AndroidManifest.xml:5 to replace other declarations but no other declaration present
+
+> Task :cappuccino-no-op:generateReleaseRFile
+> Task :cappuccino-no-op:generateReleaseSources
+> Task :cappuccino-no-op:javaPreCompileRelease
+> Task :cappuccino-no-op:compileReleaseJavaWithJavac
+> Task :cappuccino-no-op:extractReleaseAnnotations
+> Task :cappuccino-no-op:mergeReleaseConsumerProguardFiles
+> Task :cappuccino-no-op:mergeReleaseShaders
+> Task :cappuccino-no-op:compileReleaseShaders
+> Task :cappuccino-no-op:generateReleaseAssets
+> Task :cappuccino-no-op:packageReleaseAssets
+> Task :cappuccino-no-op:packageReleaseRenderscript NO-SOURCE
+> Task :cappuccino-no-op:processReleaseJavaRes NO-SOURCE
+> Task :cappuccino-no-op:transformResourcesWithMergeJavaResForRelease
+> Task :cappuccino-no-op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :cappuccino-no-op:compileReleaseNdk NO-SOURCE
+> Task :cappuccino-no-op:mergeReleaseJniLibFolders
+> Task :cappuccino-no-op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cappuccino-no-op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cappuccino-no-op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :cappuccino-no-op:bundleReleaseAar
+> Task :cappuccino-no-op:compileReleaseSources
+> Task :cappuccino-no-op:mergeReleaseResources
+> Task :cappuccino-no-op:verifyReleaseResources
+> Task :cappuccino-no-op:assembleRelease
+> Task :cappuccino-no-op:assemble
+> Task :cappuccino-no-op:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.0/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+48 actionable tasks: 48 executed
+
+2019-01-22 19:32:07,000 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:32:07,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:32:16,553 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-01-22 19:32:16,553 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 19:32:16,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 19:32:43,470 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :cappuccino-sample
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :cappuccino:preBuild UP-TO-DATE
+> Task :cappuccino:preDebugBuild UP-TO-DATE
+> Task :cappuccino:compileDebugAidl NO-SOURCE
+> Task :cappuccino:compileDebugRenderscript
+> Task :cappuccino:checkDebugManifest
+> Task :cappuccino:generateDebugBuildConfig
+> Task :cappuccino:generateDebugResValues
+> Task :cappuccino:generateDebugResources
+> Task :cappuccino:packageDebugResources
+
+> Task :cappuccino:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/src/main/AndroidManifest.xml:6:5-10:41 Warning:
+	application@android:label was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+
+> Task :cappuccino:generateDebugRFile
+> Task :cappuccino:prepareLintJar
+> Task :cappuccino:generateDebugSources
+> Task :cappuccino:javaPreCompileDebug
+
+> Task :cappuccino:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/src/main/java/com/metova/cappuccino/Cappuccino.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :cappuccino:jacocoDebug
+> Task :cappuccino:processDebugJavaRes NO-SOURCE
+> Task :cappuccino:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :cappuccino-sample:preBuild UP-TO-DATE
+> Task :cappuccino-sample:preDebugBuild
+> Task :cappuccino-sample:compileDebugAidl NO-SOURCE
+> Task :cappuccino:packageDebugRenderscript NO-SOURCE
+> Task :cappuccino-sample:compileDebugRenderscript
+> Task :cappuccino-sample:checkDebugManifest
+> Task :cappuccino-sample:generateDebugBuildConfig
+> Task :cappuccino-sample:prepareLintJar
+> Task :cappuccino-sample:generateDebugSources
+> Task :cappuccino-sample:javaPreCompileDebug
+> Task :cappuccino-sample:mainApkListPersistenceDebug
+> Task :cappuccino-sample:generateDebugResValues
+> Task :cappuccino-sample:generateDebugResources
+> Task :cappuccino-sample:mergeDebugResources
+> Task :cappuccino-sample:createDebugCompatibleScreenManifests
+
+> Task :cappuccino-sample:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/src/debug/AndroidManifest.xml:5:5-20:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:5 to replace other declarations but no other declaration present
+
+> Task :cappuccino-sample:processDebugResources
+> Task :cappuccino-sample:compileDebugJavaWithJavac
+> Task :cappuccino-sample:compileDebugNdk NO-SOURCE
+> Task :cappuccino-sample:compileDebugSources
+> Task :cappuccino:mergeDebugShaders
+> Task :cappuccino:compileDebugShaders
+> Task :cappuccino:generateDebugAssets
+> Task :cappuccino:packageDebugAssets
+> Task :cappuccino-sample:mergeDebugShaders
+> Task :cappuccino-sample:compileDebugShaders
+> Task :cappuccino-sample:generateDebugAssets
+> Task :cappuccino-sample:mergeDebugAssets
+> Task :cappuccino-sample:validateSigningDebug
+> Task :cappuccino-sample:signingConfigWriterDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build/intermediates/intermediate-jars/debug/classes.jar: D8: Type `android.support.test.espresso.Espresso` was not found, it is required for default or static interface methods desugaring of `void com.metova.cappuccino.Cappuccino.registerIdlingResource(java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino/build/intermediates/intermediate-jars/debug/classes.jar: D8: Interface `android.support.test.espresso.IdlingResource` not found. It's needed to make sure desugaring of `com.metova.cappuccino.CappuccinoIdlingResource` is correct. Desugaring will assume that this interface has no default method.
+> Task :cappuccino-sample:transformClassesWithDexBuilderForDebug
+> Task :cappuccino-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :cappuccino-sample:transformDexArchiveWithDexMergerForDebug
+> Task :cappuccino:compileDebugNdk NO-SOURCE
+> Task :cappuccino:mergeDebugJniLibFolders
+> Task :cappuccino:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cappuccino:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cappuccino:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :cappuccino-sample:mergeDebugJniLibFolders
+> Task :cappuccino-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cappuccino-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cappuccino-sample:processDebugJavaRes NO-SOURCE
+> Task :cappuccino-sample:transformResourcesWithMergeJavaResForDebug
+> Task :cappuccino-sample:packageDebug
+> Task :cappuccino-sample:assembleDebug
+> Task :cappuccino-no-op:preBuild UP-TO-DATE
+> Task :cappuccino-no-op:preReleaseBuild UP-TO-DATE
+> Task :cappuccino-no-op:compileReleaseAidl NO-SOURCE
+> Task :cappuccino-no-op:compileReleaseRenderscript UP-TO-DATE
+> Task :cappuccino-no-op:checkReleaseManifest UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseBuildConfig UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseResValues UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseResources UP-TO-DATE
+> Task :cappuccino-no-op:packageReleaseResources UP-TO-DATE
+> Task :cappuccino-no-op:processReleaseManifest UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseRFile UP-TO-DATE
+> Task :cappuccino-no-op:prepareLintJar UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseSources UP-TO-DATE
+> Task :cappuccino-no-op:javaPreCompileRelease UP-TO-DATE
+> Task :cappuccino-no-op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :cappuccino-no-op:processReleaseJavaRes NO-SOURCE
+> Task :cappuccino-no-op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :cappuccino-sample:preReleaseBuild
+> Task :cappuccino-sample:compileReleaseAidl NO-SOURCE
+> Task :cappuccino-no-op:packageReleaseRenderscript NO-SOURCE
+> Task :cappuccino-sample:compileReleaseRenderscript
+> Task :cappuccino-sample:checkReleaseManifest
+> Task :cappuccino-sample:generateReleaseBuildConfig
+> Task :cappuccino-sample:generateReleaseSources
+> Task :cappuccino-sample:javaPreCompileRelease
+> Task :cappuccino-sample:mainApkListPersistenceRelease
+> Task :cappuccino-sample:generateReleaseResValues
+> Task :cappuccino-sample:generateReleaseResources
+> Task :cappuccino-sample:mergeReleaseResources
+> Task :cappuccino-sample:createReleaseCompatibleScreenManifests
+
+> Task :cappuccino-sample:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/src/main/AndroidManifest.xml:5:5-20:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:5 to replace other declarations but no other declaration present
+
+> Task :cappuccino-sample:processReleaseResources
+> Task :cappuccino-sample:compileReleaseJavaWithJavac
+> Task :cappuccino-sample:compileReleaseNdk NO-SOURCE
+> Task :cappuccino-sample:compileReleaseSources
+
+> Task :cappuccino-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/19174c7d8b15ccd4d3ae9d4d1b661c87/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :cappuccino-no-op:mergeReleaseShaders UP-TO-DATE
+> Task :cappuccino-no-op:compileReleaseShaders UP-TO-DATE
+> Task :cappuccino-no-op:generateReleaseAssets UP-TO-DATE
+> Task :cappuccino-no-op:packageReleaseAssets UP-TO-DATE
+> Task :cappuccino-sample:mergeReleaseShaders
+> Task :cappuccino-sample:compileReleaseShaders
+> Task :cappuccino-sample:generateReleaseAssets
+> Task :cappuccino-sample:mergeReleaseAssets
+> Task :cappuccino-sample:signingConfigWriterRelease
+> Task :cappuccino-sample:transformClassesWithDexBuilderForRelease
+> Task :cappuccino-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :cappuccino-sample:transformDexArchiveWithDexMergerForRelease
+> Task :cappuccino-no-op:compileReleaseNdk NO-SOURCE
+> Task :cappuccino-no-op:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :cappuccino-no-op:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :cappuccino-no-op:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :cappuccino-no-op:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :cappuccino-sample:mergeReleaseJniLibFolders
+> Task :cappuccino-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cappuccino-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cappuccino-sample:processReleaseJavaRes NO-SOURCE
+> Task :cappuccino-sample:transformResourcesWithMergeJavaResForRelease
+> Task :cappuccino-sample:packageRelease
+> Task :cappuccino-sample:assembleRelease
+> Task :cappuccino-sample:assemble
+> Task :cappuccino-sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.0/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 26s
+88 actionable tasks: 72 executed, 16 up-to-date
+
+2019-01-22 19:32:43,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160306217-0/src/Cappuccino-master/cappuccino-sample/build/outputs/apk/release/cappuccino-sample-release-unsigned.apk

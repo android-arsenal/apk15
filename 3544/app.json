@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.hitherejoe.bourbon.test",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 3939,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.hitherejoe.bourbon.test\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"23\" />\n\t<instrumentation android:name=\"com.hitherejoe.androidtestcommon.runner.RxAndroidJUnitRunner\" android:targetPackage=\"com.hitherejoe.bourbon\" />\n\t<application android:debuggable=\"true\" />\n</manifest>\n",
+  "fileSize" : 1608683,
+  "crc32" : 1775199935,
+  "sha256" : "714c4a1db29c56c02e9407fab9842bc777e1b5a953b796d72e395ba359e108e0",
+  "buildTime" : 1543673718000
+}

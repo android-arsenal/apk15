@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.androidfung.openweathermap",
+    "label" : "OpenWeatherMap",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAECElEQVR42u1ZWU9TQRRW4w/wyd/iI4kvbkBBwJb23lIKJdUi7S3uW4kooIiYiGCMS9AQN2JUEreExK0qRKKgqBQEleBOQGgj0PZzpktU2nt7b3t7jU1P8j10mTPfN3PmzJmZBQvSlrZ/bgtVRdYlWYw9V8XaG7N19rvZjH2UwEeAEHyB78hv9D+B/5I2tO0/Y52R4Vis0nLLVUzlxWyGc/9BViQ4N21LfVBfihF3OByLaKeEhJPAL514BKgPJ/VJfSeVfA5TuZR01krglYH4fFCfrbSPpJDP1HLLSAeuJBCfDxftS9ZFmsNya7JZ+4QC5IMgfdE+ZVnkAfKM3aMY+d/whEQkGDYCI5+n56AvscFQagVrtGEt+Sz3TMQdTqEFGzXmNQYOR7eZ8aTRgKEWFiPHWbia9XjYUIyDm9cjX14hLskLm6azULaJcFhisuLBoeIAaT7cOWCErtgmp4hWSSk2lOe90UY+FvkwbtWVIJeVL8VSTqJ32NAmFeGIho0Y8mFUcRY5Z8EpascOjb4/2oKlMS+GuOsYg74jhWh3sHIK8IuZhYXB2ibSAc024QXLh9dHdXhUtw5dJzbh7b3L+DbSj89fxwP4MPYZj5++QNOpS9BbHHGJoNwE9wZaIfIVZjRVCpHvaVDD2WTBl9dd8HnnIGQTk1M4d+kGCozbpBeAwSo2utEyl68xa7SSVBmdfHe9Gj1t1ZhxT0Ks+f1Ab78Lho1VkkRQjvwzQOt5noa5jA336/UR5HsbC9F9Zhe8Mx7EY68GhlFYtlN8GBGOvAJCh5HojXUcaqx/p9ChZgb3DxXB/X0MiVjH7QfiZ4Fw5BcQPEnxq9eYcbPm9yw8O6zBYGcbErWfM7Mo33pQrIhRIQE+wfjT2ZCnMaKjOkj+Xp0m4dEPW/v1TrECfEICYjrILKwAa6pEd2cHPOMf6XKURcDA0Dsa36JEJCRgd20Lfky5Ibd9+z4BjWlHwgIEQ2jj9npMuz1Ihs3OzaGr52VgfzCUV8UdQqP86asSj7p7oYT9mJpGdcPJOBaxQBplN+zB9LQHShmdafOmWmlpVGgjK7Pvh9J27eZdaRuZUClhtO6F1+dTVEBf/6DEUkKgmMsv3oL3ox8VFfD85YC0Yk6onM4ipUTL6QuBIkwpO3vhurRyWuhAQ5HDVMD5pEcR8mOfvkBr2iL5QCN4pKSlhEprQfu1W0nbD/xkit8MDsPMOZCptUo/Ugod6gOlBHG6Iq8UbNlmNDSdxtnzV2XDmbYr2LXvCLLUZqxWW+I71Me6VgmX1mvU5ViZX4YVa0tlxaoC8/yRl36tEutiS2G44r6xjnW1qMQlb8I31f/15W5KXK+nwgNHajwxpcQjX0o8s6bMQ3fa0ha0X8Xa+O3dn+IMAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2353,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.androidfung.openweathermap\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0800a0\" android:label=\"OpenWeatherMap\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f08003b\" android:label=\"OpenWeatherMap\" android:name=\"com.androidfung.openweathermap.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2377197,
+  "crc32" : 3203750952,
+  "sha256" : "7274f829e99f9567a0c9e8ac61e4ba154a81d8c56964cee1f1b4281b39aa0533",
+  "buildTime" : 1497210831000
+}

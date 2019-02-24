@@ -1,0 +1,167 @@
+2018-11-20 14:32:17,252 INFO  DownloadService - Downloading "https://github.com/DariusL/RxFirebaseAndroid/archive/master.zip", attempt 3
+2018-11-20 14:32:18,743 INFO  DownloadService - Downloaded https://github.com/DariusL/RxFirebaseAndroid/archive/master.zip, attempt 3
+2018-11-20 14:32:18,744 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/master.zip": 64 KB
+2018-11-20 14:32:18,744 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-20 14:32:18,749 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/master.zip: true
+2018-11-20 14:32:18,750 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src'.
+2018-11-20 14:32:18,760 INFO  FullProcessService - Size of directory with sources: 87 KB
+2018-11-20 14:32:18,760 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src]
+2018-11-20 14:32:18,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/.git/
+
+2018-11-20 14:32:18,780 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/gradlew
+2018-11-20 14:32:18,782 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/build.gradle
+2018-11-20 14:32:18,784 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/settings.gradle
+2018-11-20 14:32:18,784 INFO  ProjectBuildService - Remote scripts: none
+2018-11-20 14:32:18,784 INFO  ProjectFixService - Fixing project...
+2018-11-20 14:32:18,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/local.properties
+2018-11-20 14:32:18,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=1,targetSdkVersion=23]
+2018-11-20 14:32:18,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=2,targetSdkVersion=23]
+2018-11-20 14:32:18,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/local.properties
+2018-11-20 14:32:18,793 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-11-20 14:32:18,794 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-11-20 14:32:18,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=2,targetSdkVersion=23]
+2018-11-20 14:32:18,799 INFO  ProjectFixService - Project was maybe fixed
+2018-11-20 14:32:18,799 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-20 14:32:18,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-20 14:32:35,804 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-11-20 14:32:35,804 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-20 14:32:35,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/rxfirebaseandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-20 14:32:42,168 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxfirebaseandroid:androidSourcesJar
+:rxfirebaseandroid:compileLint
+:rxfirebaseandroid:copyDebugLint UP-TO-DATE
+:rxfirebaseandroid:preBuild UP-TO-DATE
+:rxfirebaseandroid:preDebugBuild UP-TO-DATE
+:rxfirebaseandroid:checkDebugManifest
+:rxfirebaseandroid:prepareDebugDependencies
+:rxfirebaseandroid:compileDebugAidl
+:rxfirebaseandroid:compileDebugRenderscript
+:rxfirebaseandroid:generateDebugBuildConfig
+:rxfirebaseandroid:generateDebugAssets UP-TO-DATE
+:rxfirebaseandroid:mergeDebugAssets
+:rxfirebaseandroid:generateDebugResValues
+:rxfirebaseandroid:generateDebugResources
+:rxfirebaseandroid:packageDebugResources
+:rxfirebaseandroid:processDebugManifest
+:rxfirebaseandroid:processDebugResources
+:rxfirebaseandroid:generateDebugSources
+:rxfirebaseandroid:processDebugJavaRes UP-TO-DATE
+:rxfirebaseandroid:compileDebugJavaWithJavac
+:rxfirebaseandroid:extractDebugAnnotations
+:rxfirebaseandroid:mergeDebugProguardFiles
+:rxfirebaseandroid:packageDebugJar
+:rxfirebaseandroid:compileDebugNdk UP-TO-DATE
+:rxfirebaseandroid:packageDebugJniLibs UP-TO-DATE
+:rxfirebaseandroid:packageDebugLocalJar UP-TO-DATE
+:rxfirebaseandroid:packageDebugRenderscript UP-TO-DATE
+:rxfirebaseandroid:bundleDebug
+:rxfirebaseandroid:compileDebugSources
+:rxfirebaseandroid:assembleDebug
+:rxfirebaseandroid:copyReleaseLint UP-TO-DATE
+:rxfirebaseandroid:preReleaseBuild UP-TO-DATE
+:rxfirebaseandroid:checkReleaseManifest
+:rxfirebaseandroid:prepareReleaseDependencies
+:rxfirebaseandroid:compileReleaseAidl
+:rxfirebaseandroid:compileReleaseRenderscript
+:rxfirebaseandroid:generateReleaseBuildConfig
+:rxfirebaseandroid:generateReleaseAssets UP-TO-DATE
+:rxfirebaseandroid:mergeReleaseAssets
+:rxfirebaseandroid:generateReleaseResValues
+:rxfirebaseandroid:generateReleaseResources
+:rxfirebaseandroid:packageReleaseResources
+:rxfirebaseandroid:processReleaseManifest
+:rxfirebaseandroid:processReleaseResources
+:rxfirebaseandroid:generateReleaseSources
+:rxfirebaseandroid:processReleaseJavaRes UP-TO-DATE
+:rxfirebaseandroid:compileReleaseJavaWithJavac
+:rxfirebaseandroid:extractReleaseAnnotations
+:rxfirebaseandroid:mergeReleaseProguardFiles
+:rxfirebaseandroid:packageReleaseJar
+:rxfirebaseandroid:compileReleaseNdk UP-TO-DATE
+:rxfirebaseandroid:packageReleaseJniLibs UP-TO-DATE
+:rxfirebaseandroid:packageReleaseLocalJar UP-TO-DATE
+:rxfirebaseandroid:packageReleaseRenderscript UP-TO-DATE
+:rxfirebaseandroid:bundleRelease
+:rxfirebaseandroid:compileReleaseSources
+:rxfirebaseandroid:assembleRelease
+:rxfirebaseandroid:signArchives SKIPPED
+:rxfirebaseandroid:assemble
+:rxfirebaseandroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.858 secs
+
+2018-11-20 14:32:42,176 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-20 14:32:42,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-20 14:32:47,005 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-20 14:32:47,006 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-20 14:32:47,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542699137249-0/src/RxFirebaseAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-20 14:32:51,825 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxfirebaseandroid:androidSourcesJar UP-TO-DATE
+:rxfirebaseandroid:compileLint
+:rxfirebaseandroid:copyDebugLint UP-TO-DATE
+:rxfirebaseandroid:preBuild UP-TO-DATE
+:rxfirebaseandroid:preDebugBuild UP-TO-DATE
+:rxfirebaseandroid:checkDebugManifest
+:rxfirebaseandroid:prepareDebugDependencies
+:rxfirebaseandroid:compileDebugAidl UP-TO-DATE
+:rxfirebaseandroid:compileDebugRenderscript UP-TO-DATE
+:rxfirebaseandroid:generateDebugBuildConfig UP-TO-DATE
+:rxfirebaseandroid:generateDebugAssets UP-TO-DATE
+:rxfirebaseandroid:mergeDebugAssets UP-TO-DATE
+:rxfirebaseandroid:generateDebugResValues UP-TO-DATE
+:rxfirebaseandroid:generateDebugResources UP-TO-DATE
+:rxfirebaseandroid:packageDebugResources UP-TO-DATE
+:rxfirebaseandroid:processDebugManifest UP-TO-DATE
+:rxfirebaseandroid:processDebugResources UP-TO-DATE
+:rxfirebaseandroid:generateDebugSources UP-TO-DATE
+:rxfirebaseandroid:processDebugJavaRes UP-TO-DATE
+:rxfirebaseandroid:compileDebugJavaWithJavac UP-TO-DATE
+:rxfirebaseandroid:extractDebugAnnotations UP-TO-DATE
+:rxfirebaseandroid:mergeDebugProguardFiles UP-TO-DATE
+:rxfirebaseandroid:packageDebugJar UP-TO-DATE
+:rxfirebaseandroid:compileDebugNdk UP-TO-DATE
+:rxfirebaseandroid:packageDebugJniLibs UP-TO-DATE
+:rxfirebaseandroid:packageDebugLocalJar UP-TO-DATE
+:rxfirebaseandroid:packageDebugRenderscript UP-TO-DATE
+:rxfirebaseandroid:bundleDebug UP-TO-DATE
+:rxfirebaseandroid:compileDebugSources UP-TO-DATE
+:rxfirebaseandroid:assembleDebug UP-TO-DATE
+:rxfirebaseandroid:copyReleaseLint UP-TO-DATE
+:rxfirebaseandroid:preReleaseBuild UP-TO-DATE
+:rxfirebaseandroid:checkReleaseManifest
+:rxfirebaseandroid:prepareReleaseDependencies
+:rxfirebaseandroid:compileReleaseAidl UP-TO-DATE
+:rxfirebaseandroid:compileReleaseRenderscript UP-TO-DATE
+:rxfirebaseandroid:generateReleaseBuildConfig UP-TO-DATE
+:rxfirebaseandroid:generateReleaseAssets UP-TO-DATE
+:rxfirebaseandroid:mergeReleaseAssets UP-TO-DATE
+:rxfirebaseandroid:generateReleaseResValues UP-TO-DATE
+:rxfirebaseandroid:generateReleaseResources UP-TO-DATE
+:rxfirebaseandroid:packageReleaseResources UP-TO-DATE
+:rxfirebaseandroid:processReleaseManifest UP-TO-DATE
+:rxfirebaseandroid:processReleaseResources UP-TO-DATE
+:rxfirebaseandroid:generateReleaseSources UP-TO-DATE
+:rxfirebaseandroid:processReleaseJavaRes UP-TO-DATE
+:rxfirebaseandroid:compileReleaseJavaWithJavac UP-TO-DATE
+:rxfirebaseandroid:extractReleaseAnnotations UP-TO-DATE
+:rxfirebaseandroid:mergeReleaseProguardFiles UP-TO-DATE
+:rxfirebaseandroid:packageReleaseJar UP-TO-DATE
+:rxfirebaseandroid:compileReleaseNdk UP-TO-DATE
+:rxfirebaseandroid:packageReleaseJniLibs UP-TO-DATE
+:rxfirebaseandroid:packageReleaseLocalJar UP-TO-DATE
+:rxfirebaseandroid:packageReleaseRenderscript UP-TO-DATE
+:rxfirebaseandroid:bundleRelease UP-TO-DATE
+:rxfirebaseandroid:compileReleaseSources UP-TO-DATE
+:rxfirebaseandroid:assembleRelease UP-TO-DATE
+:rxfirebaseandroid:signArchives SKIPPED
+:rxfirebaseandroid:assemble UP-TO-DATE
+:rxfirebaseandroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.301 secs
+
+2018-11-20 14:32:51,834 ERROR FullProcessService - Project build has not produced APK file
+2018-11-20 14:32:51,841 ERROR FullProcessService - Could not find generated or existed APK file

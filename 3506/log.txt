@@ -1,0 +1,14 @@
+2018-12-17 13:56:48,234 INFO  DownloadService - Downloading "https://github.com/Rogero0o/GifLoadingView/archive/master.zip", attempt 3
+2018-12-17 13:57:48,802 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-17 13:57:49,688 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-17 13:57:49,688 INFO  DownloadService - Downloading "https://github.com/Rogero0o/GifLoadingView/archive/master.zip", attempt 3
+2018-12-17 13:58:51,147 DEBUG FullProcessService - Repository https://github.com/Rogero0o/GifLoadingView available: true
+2018-12-17 13:58:51,147 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-17 13:58:51,147 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Rogero0o/GifLoadingView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029808231-0/src]
+2018-12-17 14:00:20,413 INFO  SysUtils - 
+2018-12-17 14:00:20,425 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029808231-0/src/.git": true
+2018-12-17 14:00:20,430 INFO  FullProcessService - Size of directory with sources: 54 MB
+2018-12-17 14:00:20,430 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-12-17 14:00:20,430 ERROR FullProcessService - Project will not be processed
+2018-12-17 14:00:20,430 ERROR FullProcessService - Project build has not produced APK file
+2018-12-17 14:00:20,433 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,11 @@
+2019-01-08 02:03:18,535 INFO  DownloadService - Downloading "https://github.com/anggrayudi/android-hidden-api/archive/master.zip", attempt 3
+2019-01-08 02:04:28,142 INFO  DownloadService - Downloaded https://github.com/anggrayudi/android-hidden-api/archive/master.zip, attempt 3
+2019-01-08 02:04:28,142 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546887798527-0/master.zip": 260 MB
+2019-01-08 02:04:28,142 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-08 02:04:28,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546887798527-0/master.zip: true
+2019-01-08 02:04:28,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546887798527-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546887798527-0/src'.
+2019-01-08 02:04:30,304 INFO  FullProcessService - Size of directory with sources: 291 MB
+2019-01-08 02:04:30,304 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-01-08 02:04:30,304 ERROR FullProcessService - Project will not be processed
+2019-01-08 02:04:30,304 ERROR FullProcessService - Project build has not produced APK file
+2019-01-08 02:04:30,308 ERROR FullProcessService - Could not find generated or existed APK file

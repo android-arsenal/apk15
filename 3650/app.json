@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.google.samples.apps.topeka",
+    "label" : "Topeka",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1782,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.google.samples.apps.topeka\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2162884\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f0b0075\" android:label=\"Topeka\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:vmSafeMode=\"true\" android:hardwareAccelerated=\"true\" android:supportsRtl=\"false\">\n\t\t<activity android:name=\"com.google.samples.apps.topeka.activity.SignInActivity\" android:windowSoftInputMode=\"0x20\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b0076\" android:name=\"com.google.samples.apps.topeka.activity.CategorySelectionActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0077\" android:name=\"com.google.samples.apps.topeka.activity.QuizActivity\" android:windowSoftInputMode=\"0x20\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4126320,
+  "crc32" : 2485445677,
+  "sha256" : "7880ce74847890fb6abe25a8fc1d18db4949d3b00d818728a508381c8e5c61fa",
+  "buildTime" : 1522194817000
+}

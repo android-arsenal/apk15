@@ -1,0 +1,741 @@
+2018-11-25 17:37:28,511 INFO  DownloadService - Downloading "https://github.com/passsy/CompositeAndroid/archive/master.zip", attempt 3
+2018-11-25 17:37:29,084 INFO  DownloadService - Downloaded https://github.com/passsy/CompositeAndroid/archive/master.zip, attempt 3
+2018-11-25 17:37:29,084 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip": 404 KB
+2018-11-25 17:37:29,084 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-25 17:37:29,090 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip: true
+2018-11-25 17:37:29,090 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src'.
+2018-11-25 17:37:29,134 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-11-25 17:37:29,134 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src]
+2018-11-25 17:37:29,151 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/.git/
+
+2018-11-25 17:37:29,157 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew
+2018-11-25 17:37:29,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle
+2018-11-25 17:37:29,170 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/settings.gradle
+2018-11-25 17:37:29,170 INFO  ProjectBuildService - Remote scripts: none
+2018-11-25 17:37:29,170 INFO  ProjectFixService - Fixing project...
+2018-11-25 17:37:29,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/local.properties
+2018-11-25 17:37:29,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,188 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/local.properties
+2018-11-25 17:37:29,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/local.properties
+2018-11-25 17:37:29,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,197 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/local.properties
+2018-11-25 17:37:29,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,201 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/local.properties
+2018-11-25 17:37:29,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/local.properties
+2018-11-25 17:37:29,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-25 17:37:29,208 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-25 17:37:29,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/local.properties
+2018-11-25 17:37:29,217 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-11-25 17:37:29,217 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-11-25 17:37:29,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-25 17:37:29,221 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-25 17:37:29,221 INFO  ProjectFixService - Project was maybe fixed
+2018-11-25 17:37:29,221 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:37:29,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:37:36,105 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-11-25 17:37:36,106 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:37:36,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:37:51,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:activity:preBuild UP-TO-DATE
+:activity:preDebugBuild UP-TO-DATE
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:compileDebugAidl
+:activity:compileDebugAidl
+:core:packageDebugRenderscript NO-SOURCE
+:activity:compileDebugRenderscript
+:activity:checkDebugManifest
+:activity:generateDebugBuildConfig
+:activity:generateDebugResValues
+:activity:generateDebugResources
+:activity:packageDebugResources
+:activity:platformAttrExtractor
+:activity:processDebugManifest
+:core:compileDebugRenderscript
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:packageDebugResources
+:core:platformAttrExtractor
+:core:checkDebugManifest
+:core:processDebugManifest
+:activity:prepareLintJar
+:core:generateDebugBuildConfig
+:core:prepareLintJar
+:core:javaPreCompileDebug
+:core:processDebugJavaRes NO-SOURCE
+:activity:mergeDebugConsumerProguardFiles
+:activity:mergeDebugShaders
+:activity:compileDebugShaders
+:activity:generateDebugAssets
+:activity:packageDebugAssets
+:activity:packageDebugRenderscript NO-SOURCE
+:activity:processDebugJavaRes NO-SOURCE
+:activity:compileDebugNdk NO-SOURCE
+:activity:mergeDebugJniLibFolders
+:activity:transformNativeLibsWithMergeJniLibsForDebug
+:activity:transformNativeLibsWithStripDebugSymbolForDebug
+:activity:transformNativeLibsWithSyncJniLibsForDebug
+:activity:preReleaseBuild UP-TO-DATE
+:core:preReleaseBuild UP-TO-DATE
+:core:compileReleaseAidl
+:activity:compileReleaseAidl
+:core:packageReleaseRenderscript NO-SOURCE
+:activity:compileReleaseRenderscript
+:activity:checkReleaseManifest
+:activity:generateReleaseBuildConfig
+:activity:generateReleaseResValues
+:activity:generateReleaseResources
+:activity:packageReleaseResources
+:activity:processReleaseManifest
+:core:compileReleaseRenderscript
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:packageReleaseResources
+:core:checkReleaseManifest
+:core:processReleaseManifest
+:core:generateReleaseBuildConfig
+:core:javaPreCompileRelease
+:core:processReleaseJavaRes NO-SOURCE
+:activity:mergeReleaseConsumerProguardFiles
+:activity:mergeReleaseShaders
+:activity:compileReleaseShaders
+:activity:generateReleaseAssets
+:activity:packageReleaseAssets
+:activity:packageReleaseRenderscript NO-SOURCE
+:activity:processReleaseJavaRes NO-SOURCE
+:activity:compileReleaseNdk NO-SOURCE
+:activity:mergeReleaseJniLibFolders
+:activity:transformNativeLibsWithMergeJniLibsForRelease
+:activity:transformNativeLibsWithStripDebugSymbolForRelease
+:activity:transformNativeLibsWithSyncJniLibsForRelease
+:activity:mergeReleaseResources
+:activity:verifyReleaseResources
+:core:generateDebugRFile
+:activity:generateDebugRFile
+:activity:generateDebugSources
+:core:generateDebugSources
+:core:compileDebugJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:activity:javaPreCompileDebug
+:activity:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:activity:extractDebugAnnotations
+:activity:transformResourcesWithMergeJavaResForDebug
+:activity:transformClassesAndResourcesWithSyncLibJarsForDebug
+:activity:bundleDebug
+:activity:compileDebugSources
+:activity:assembleDebug
+:core:generateReleaseRFile
+:activity:generateReleaseRFile
+:activity:generateReleaseSources
+:core:generateReleaseSources
+:core:compileReleaseJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:activity:javaPreCompileRelease
+:activity:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:activity:extractReleaseAnnotations
+:activity:transformResourcesWithMergeJavaResForRelease
+:activity:transformClassesAndResourcesWithSyncLibJarsForRelease
+:activity:bundleRelease
+:activity:compileReleaseSources
+:activity:assembleRelease
+:activity:assemble
+:activity:build
+
+BUILD SUCCESSFUL in 15s
+72 actionable tasks: 72 executed
+
+2018-11-25 17:37:51,605 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:37:51,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:37:57,140 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-25 17:37:57,140 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:37:57,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:38:07,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:blueprints:preBuild UP-TO-DATE
+:blueprints:preDebugBuild UP-TO-DATE
+:blueprints:compileDebugAidl
+:blueprints:compileDebugRenderscript
+:blueprints:checkDebugManifest
+:blueprints:generateDebugBuildConfig
+:blueprints:generateDebugResValues
+:blueprints:generateDebugResources
+:blueprints:packageDebugResources
+:blueprints:platformAttrExtractor
+:blueprints:processDebugManifest
+:blueprints:prepareLintJar
+:blueprints:javaPreCompileDebug
+:blueprints:mergeDebugConsumerProguardFiles
+:blueprints:mergeDebugShaders
+:blueprints:compileDebugShaders
+:blueprints:generateDebugAssets
+:blueprints:packageDebugAssets
+:blueprints:packageDebugRenderscript NO-SOURCE
+:blueprints:processDebugJavaRes NO-SOURCE
+:blueprints:compileDebugNdk NO-SOURCE
+:blueprints:mergeDebugJniLibFolders
+:blueprints:transformNativeLibsWithMergeJniLibsForDebug
+:blueprints:transformNativeLibsWithStripDebugSymbolForDebug
+:blueprints:transformNativeLibsWithSyncJniLibsForDebug
+:blueprints:preReleaseBuild UP-TO-DATE
+:blueprints:compileReleaseAidl
+:blueprints:compileReleaseRenderscript
+:blueprints:checkReleaseManifest
+:blueprints:generateReleaseBuildConfig
+:blueprints:generateReleaseResValues
+:blueprints:generateReleaseResources
+:blueprints:packageReleaseResources
+:blueprints:processReleaseManifest
+:blueprints:javaPreCompileRelease
+:blueprints:mergeReleaseConsumerProguardFiles
+:blueprints:mergeReleaseShaders
+:blueprints:compileReleaseShaders
+:blueprints:generateReleaseAssets
+:blueprints:packageReleaseAssets
+:blueprints:packageReleaseRenderscript NO-SOURCE
+:blueprints:processReleaseJavaRes NO-SOURCE
+:blueprints:compileReleaseNdk NO-SOURCE
+:blueprints:mergeReleaseJniLibFolders
+:blueprints:transformNativeLibsWithMergeJniLibsForRelease
+:blueprints:transformNativeLibsWithStripDebugSymbolForRelease
+:blueprints:transformNativeLibsWithSyncJniLibsForRelease
+:blueprints:mergeReleaseResources
+:blueprints:verifyReleaseResources
+:blueprints:generateDebugRFile
+:blueprints:generateDebugSources
+:blueprints:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:blueprints:extractDebugAnnotations
+:blueprints:transformResourcesWithMergeJavaResForDebug
+:blueprints:transformClassesAndResourcesWithSyncLibJarsForDebug
+:blueprints:bundleDebug
+:blueprints:compileDebugSources
+:blueprints:assembleDebug
+:blueprints:generateReleaseRFile
+:blueprints:generateReleaseSources
+:blueprints:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:blueprints:extractReleaseAnnotations
+:blueprints:transformResourcesWithMergeJavaResForRelease
+:blueprints:transformClassesAndResourcesWithSyncLibJarsForRelease
+:blueprints:bundleRelease
+:blueprints:compileReleaseSources
+:blueprints:assembleRelease
+:blueprints:assemble
+:blueprints:build
+
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
+
+2018-11-25 17:38:07,649 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:38:07,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:38:13,707 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-11-25 17:38:13,707 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:38:13,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:38:22,317 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:compileDebugAidl UP-TO-DATE
+:core:compileDebugRenderscript UP-TO-DATE
+:core:checkDebugManifest UP-TO-DATE
+:core:generateDebugBuildConfig UP-TO-DATE
+:core:generateDebugResValues UP-TO-DATE
+:core:generateDebugResources UP-TO-DATE
+:core:packageDebugResources UP-TO-DATE
+:core:platformAttrExtractor UP-TO-DATE
+:core:processDebugManifest UP-TO-DATE
+:core:generateDebugRFile UP-TO-DATE
+:core:prepareLintJar UP-TO-DATE
+:core:generateDebugSources UP-TO-DATE
+:core:javaPreCompileDebug UP-TO-DATE
+:core:compileDebugJavaWithJavac UP-TO-DATE
+:core:extractDebugAnnotations
+:core:mergeDebugConsumerProguardFiles
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:packageDebugAssets
+:core:packageDebugRenderscript NO-SOURCE
+:core:processDebugJavaRes NO-SOURCE
+:core:transformResourcesWithMergeJavaResForDebug
+:core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithSyncJniLibsForDebug
+:core:bundleDebug
+:core:compileDebugSources UP-TO-DATE
+:core:assembleDebug
+:core:preReleaseBuild UP-TO-DATE
+:core:compileReleaseAidl UP-TO-DATE
+:core:compileReleaseRenderscript UP-TO-DATE
+:core:checkReleaseManifest UP-TO-DATE
+:core:generateReleaseBuildConfig UP-TO-DATE
+:core:generateReleaseResValues UP-TO-DATE
+:core:generateReleaseResources UP-TO-DATE
+:core:packageReleaseResources UP-TO-DATE
+:core:processReleaseManifest UP-TO-DATE
+:core:generateReleaseRFile UP-TO-DATE
+:core:generateReleaseSources UP-TO-DATE
+:core:javaPreCompileRelease UP-TO-DATE
+:core:compileReleaseJavaWithJavac UP-TO-DATE
+:core:extractReleaseAnnotations
+:core:mergeReleaseConsumerProguardFiles
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:packageReleaseAssets
+:core:packageReleaseRenderscript NO-SOURCE
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformResourcesWithMergeJavaResForRelease
+:core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithSyncJniLibsForRelease
+:core:bundleRelease
+:core:compileReleaseSources UP-TO-DATE
+:core:mergeReleaseResources
+:core:verifyReleaseResources
+:core:assembleRelease
+:core:assemble
+:core:build
+
+BUILD SUCCESSFUL in 8s
+48 actionable tasks: 26 executed, 22 up-to-date
+
+2018-11-25 17:38:22,466 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:38:22,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:38:29,068 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-11-25 17:38:29,068 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-25 17:38:29,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-25 17:38:40,870 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:compileDebugAidl UP-TO-DATE
+:fragment:preBuild UP-TO-DATE
+:fragment:preDebugBuild UP-TO-DATE
+:fragment:compileDebugAidl
+:core:compileDebugRenderscript UP-TO-DATE
+:core:checkDebugManifest UP-TO-DATE
+:core:generateDebugBuildConfig UP-TO-DATE
+:core:generateDebugResValues UP-TO-DATE
+:core:generateDebugResources UP-TO-DATE
+:core:packageDebugResources UP-TO-DATE
+:core:platformAttrExtractor UP-TO-DATE
+:core:processDebugManifest UP-TO-DATE
+:core:generateDebugRFile UP-TO-DATE
+:core:prepareLintJar UP-TO-DATE
+:core:generateDebugSources UP-TO-DATE
+:core:javaPreCompileDebug UP-TO-DATE
+:core:compileDebugJavaWithJavac UP-TO-DATE
+:core:processDebugJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:core:packageDebugRenderscript NO-SOURCE
+:fragment:compileDebugRenderscript
+:fragment:checkDebugManifest
+:fragment:generateDebugBuildConfig
+:fragment:generateDebugResValues
+:fragment:generateDebugResources
+:fragment:packageDebugResources
+:fragment:platformAttrExtractor
+:fragment:processDebugManifest
+:fragment:prepareLintJar
+:fragment:javaPreCompileDebug
+:fragment:mergeDebugConsumerProguardFiles
+:fragment:mergeDebugShaders
+:fragment:compileDebugShaders
+:fragment:generateDebugAssets
+:fragment:packageDebugAssets
+:fragment:packageDebugRenderscript NO-SOURCE
+:fragment:processDebugJavaRes NO-SOURCE
+:fragment:compileDebugNdk NO-SOURCE
+:fragment:mergeDebugJniLibFolders
+:fragment:transformNativeLibsWithMergeJniLibsForDebug
+:fragment:transformNativeLibsWithStripDebugSymbolForDebug
+:fragment:transformNativeLibsWithSyncJniLibsForDebug
+:core:preReleaseBuild UP-TO-DATE
+:core:compileReleaseAidl UP-TO-DATE
+:fragment:preReleaseBuild UP-TO-DATE
+:fragment:compileReleaseAidl
+:core:compileReleaseRenderscript UP-TO-DATE
+:core:checkReleaseManifest UP-TO-DATE
+:core:generateReleaseBuildConfig UP-TO-DATE
+:core:generateReleaseResValues UP-TO-DATE
+:core:generateReleaseResources UP-TO-DATE
+:core:packageReleaseResources UP-TO-DATE
+:core:processReleaseManifest UP-TO-DATE
+:core:generateReleaseRFile UP-TO-DATE
+:core:generateReleaseSources UP-TO-DATE
+:core:javaPreCompileRelease UP-TO-DATE
+:core:compileReleaseJavaWithJavac UP-TO-DATE
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:core:packageReleaseRenderscript NO-SOURCE
+:fragment:compileReleaseRenderscript
+:fragment:checkReleaseManifest
+:fragment:generateReleaseBuildConfig
+:fragment:generateReleaseResValues
+:fragment:generateReleaseResources
+:fragment:packageReleaseResources
+:fragment:processReleaseManifest
+:fragment:javaPreCompileRelease
+:fragment:mergeReleaseConsumerProguardFiles
+:fragment:mergeReleaseShaders
+:fragment:compileReleaseShaders
+:fragment:generateReleaseAssets
+:fragment:packageReleaseAssets
+:fragment:packageReleaseRenderscript NO-SOURCE
+:fragment:processReleaseJavaRes NO-SOURCE
+:fragment:compileReleaseNdk NO-SOURCE
+:fragment:mergeReleaseJniLibFolders
+:fragment:transformNativeLibsWithMergeJniLibsForRelease
+:fragment:transformNativeLibsWithStripDebugSymbolForRelease
+:fragment:transformNativeLibsWithSyncJniLibsForRelease
+:fragment:mergeReleaseResources
+:fragment:verifyReleaseResources
+:fragment:generateDebugRFile
+:fragment:generateDebugSources
+:fragment:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:fragment:extractDebugAnnotations
+:fragment:transformResourcesWithMergeJavaResForDebug
+:fragment:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fragment:bundleDebug
+:fragment:compileDebugSources
+:fragment:assembleDebug
+:fragment:generateReleaseRFile
+:fragment:generateReleaseSources
+:fragment:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:fragment:extractReleaseAnnotations
+:fragment:transformResourcesWithMergeJavaResForRelease
+:fragment:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fragment:bundleRelease
+:fragment:compileReleaseSources
+:fragment:assembleRelease
+:fragment:assemble
+:fragment:build
+
+BUILD SUCCESSFUL in 11s
+72 actionable tasks: 48 executed, 24 up-to-date
+
+2018-11-25 17:38:41,074 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-25 17:38:41,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-25 17:38:46,944 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-25 17:38:46,945 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-25 17:38:46,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-25 17:39:15,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:activity:preBuild UP-TO-DATE
+:activity:preDebugBuild UP-TO-DATE
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:compileDebugAidl UP-TO-DATE
+:activity:compileDebugAidl UP-TO-DATE
+:core:packageDebugRenderscript NO-SOURCE
+:activity:compileDebugRenderscript UP-TO-DATE
+:activity:checkDebugManifest UP-TO-DATE
+:activity:generateDebugBuildConfig UP-TO-DATE
+:activity:generateDebugResValues UP-TO-DATE
+:activity:generateDebugResources UP-TO-DATE
+:activity:packageDebugResources UP-TO-DATE
+:activity:platformAttrExtractor UP-TO-DATE
+:activity:processDebugManifest UP-TO-DATE
+:core:compileDebugRenderscript UP-TO-DATE
+:core:generateDebugResValues UP-TO-DATE
+:core:generateDebugResources UP-TO-DATE
+:core:packageDebugResources UP-TO-DATE
+:core:platformAttrExtractor UP-TO-DATE
+:core:checkDebugManifest UP-TO-DATE
+:core:processDebugManifest UP-TO-DATE
+:core:generateDebugRFile UP-TO-DATE
+:activity:generateDebugRFile UP-TO-DATE
+:activity:prepareLintJar UP-TO-DATE
+:activity:generateDebugSources UP-TO-DATE
+:core:generateDebugBuildConfig UP-TO-DATE
+:core:prepareLintJar UP-TO-DATE
+:core:generateDebugSources UP-TO-DATE
+:core:javaPreCompileDebug UP-TO-DATE
+:core:compileDebugJavaWithJavac UP-TO-DATE
+:core:processDebugJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:activity:javaPreCompileDebug UP-TO-DATE
+:activity:compileDebugJavaWithJavac UP-TO-DATE
+:activity:processDebugJavaRes NO-SOURCE
+:activity:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fragment:preBuild UP-TO-DATE
+:fragment:preDebugBuild UP-TO-DATE
+:fragment:compileDebugAidl UP-TO-DATE
+:fragment:compileDebugRenderscript UP-TO-DATE
+:fragment:checkDebugManifest UP-TO-DATE
+:fragment:generateDebugBuildConfig UP-TO-DATE
+:fragment:generateDebugResValues UP-TO-DATE
+:fragment:generateDebugResources UP-TO-DATE
+:fragment:packageDebugResources UP-TO-DATE
+:fragment:platformAttrExtractor UP-TO-DATE
+:fragment:processDebugManifest UP-TO-DATE
+:fragment:generateDebugRFile UP-TO-DATE
+:fragment:prepareLintJar UP-TO-DATE
+:fragment:generateDebugSources UP-TO-DATE
+:fragment:javaPreCompileDebug UP-TO-DATE
+:fragment:compileDebugJavaWithJavac UP-TO-DATE
+:fragment:processDebugJavaRes NO-SOURCE
+:fragment:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:activity:packageDebugRenderscript NO-SOURCE
+:fragment:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:activity:mergeDebugShaders UP-TO-DATE
+:activity:compileDebugShaders UP-TO-DATE
+:activity:generateDebugAssets UP-TO-DATE
+:activity:packageDebugAssets UP-TO-DATE
+:core:mergeDebugShaders UP-TO-DATE
+:core:compileDebugShaders UP-TO-DATE
+:core:generateDebugAssets UP-TO-DATE
+:core:packageDebugAssets UP-TO-DATE
+:fragment:mergeDebugShaders UP-TO-DATE
+:fragment:compileDebugShaders UP-TO-DATE
+:fragment:generateDebugAssets UP-TO-DATE
+:fragment:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:activity:compileDebugNdk NO-SOURCE
+:activity:mergeDebugJniLibFolders UP-TO-DATE
+:activity:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:activity:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:activity:transformNativeLibsWithIntermediateJniLibsForDebug
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders UP-TO-DATE
+:core:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:core:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:core:transformNativeLibsWithIntermediateJniLibsForDebug
+:fragment:compileDebugNdk NO-SOURCE
+:fragment:mergeDebugJniLibFolders UP-TO-DATE
+:fragment:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fragment:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fragment:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:activity:preReleaseBuild UP-TO-DATE
+:core:preReleaseBuild UP-TO-DATE
+:core:compileReleaseAidl UP-TO-DATE
+:activity:compileReleaseAidl UP-TO-DATE
+:core:packageReleaseRenderscript NO-SOURCE
+:activity:compileReleaseRenderscript UP-TO-DATE
+:activity:checkReleaseManifest UP-TO-DATE
+:activity:generateReleaseBuildConfig UP-TO-DATE
+:activity:generateReleaseResValues UP-TO-DATE
+:activity:generateReleaseResources UP-TO-DATE
+:activity:packageReleaseResources UP-TO-DATE
+:activity:processReleaseManifest UP-TO-DATE
+:core:compileReleaseRenderscript UP-TO-DATE
+:core:generateReleaseResValues UP-TO-DATE
+:core:generateReleaseResources UP-TO-DATE
+:core:packageReleaseResources UP-TO-DATE
+:core:checkReleaseManifest UP-TO-DATE
+:core:processReleaseManifest UP-TO-DATE
+:core:generateReleaseRFile UP-TO-DATE
+:activity:generateReleaseRFile UP-TO-DATE
+:activity:generateReleaseSources UP-TO-DATE
+:core:generateReleaseBuildConfig UP-TO-DATE
+:core:generateReleaseSources UP-TO-DATE
+:core:javaPreCompileRelease UP-TO-DATE
+:core:compileReleaseJavaWithJavac UP-TO-DATE
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:activity:javaPreCompileRelease UP-TO-DATE
+:activity:compileReleaseJavaWithJavac UP-TO-DATE
+:activity:processReleaseJavaRes NO-SOURCE
+:activity:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fragment:preReleaseBuild UP-TO-DATE
+:fragment:compileReleaseAidl UP-TO-DATE
+:fragment:compileReleaseRenderscript UP-TO-DATE
+:fragment:checkReleaseManifest UP-TO-DATE
+:fragment:generateReleaseBuildConfig UP-TO-DATE
+:fragment:generateReleaseResValues UP-TO-DATE
+:fragment:generateReleaseResources UP-TO-DATE
+:fragment:packageReleaseResources UP-TO-DATE
+:fragment:processReleaseManifest UP-TO-DATE
+:fragment:generateReleaseRFile UP-TO-DATE
+:fragment:generateReleaseSources UP-TO-DATE
+:fragment:javaPreCompileRelease UP-TO-DATE
+:fragment:compileReleaseJavaWithJavac UP-TO-DATE
+:fragment:processReleaseJavaRes NO-SOURCE
+:fragment:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:activity:packageReleaseRenderscript NO-SOURCE
+:fragment:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://jcenter.bintray.com/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.pom
+Download https://jcenter.bintray.com/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.jar
+:activity:mergeReleaseShaders UP-TO-DATE
+:activity:compileReleaseShaders UP-TO-DATE
+:activity:generateReleaseAssets UP-TO-DATE
+:activity:packageReleaseAssets UP-TO-DATE
+:core:mergeReleaseShaders UP-TO-DATE
+:core:compileReleaseShaders UP-TO-DATE
+:core:generateReleaseAssets UP-TO-DATE
+:core:packageReleaseAssets UP-TO-DATE
+:fragment:mergeReleaseShaders UP-TO-DATE
+:fragment:compileReleaseShaders UP-TO-DATE
+:fragment:generateReleaseAssets UP-TO-DATE
+:fragment:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:activity:compileReleaseNdk NO-SOURCE
+:activity:mergeReleaseJniLibFolders UP-TO-DATE
+:activity:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:activity:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:activity:transformNativeLibsWithIntermediateJniLibsForRelease
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders UP-TO-DATE
+:core:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:core:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:core:transformNativeLibsWithIntermediateJniLibsForRelease
+:fragment:compileReleaseNdk NO-SOURCE
+:fragment:mergeReleaseJniLibFolders UP-TO-DATE
+:fragment:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fragment:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fragment:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 28s
+167 actionable tasks: 63 executed, 104 up-to-date
+
+2018-11-25 17:39:16,140 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

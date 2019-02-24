@@ -1,0 +1,283 @@
+2018-11-18 01:05:36,746 INFO  DownloadService - Downloading "https://github.com/amitshekhariitbhu/AndroidNetworking/archive/master.zip", attempt 3
+2018-11-18 01:05:38,345 INFO  DownloadService - Downloaded https://github.com/amitshekhariitbhu/AndroidNetworking/archive/master.zip, attempt 3
+2018-11-18 01:05:38,345 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/master.zip": 789 KB
+2018-11-18 01:05:38,345 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-18 01:05:38,351 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/master.zip: true
+2018-11-18 01:05:38,352 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src'.
+2018-11-18 01:05:38,434 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-11-18 01:05:38,434 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src]
+2018-11-18 01:05:38,452 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/.git/
+
+2018-11-18 01:05:38,462 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/gradlew
+2018-11-18 01:05:38,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/jackson-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rxsampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/build.gradle
+2018-11-18 01:05:38,482 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/jackson-android-networking/jackson-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/jackson-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2-android-networking/rx2-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx-android-networking/rx-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx-android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rxsampleapp/build.gradle
+2018-11-18 01:05:38,483 INFO  ProjectBuildService - Remote scripts: none
+2018-11-18 01:05:38,483 INFO  ProjectFixService - Fixing project...
+2018-11-18 01:05:38,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/local.properties
+2018-11-18 01:05:38,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/local.properties
+2018-11-18 01:05:38,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,519 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/jackson-android-networking/local.properties
+2018-11-18 01:05:38,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/jackson-android-networking/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx-android-networking/local.properties
+2018-11-18 01:05:38,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx-android-networking/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2-android-networking/local.properties
+2018-11-18 01:05:38,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2-android-networking/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2sampleapp/local.properties
+2018-11-18 01:05:38,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rx2sampleapp/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rxsampleapp/local.properties
+2018-11-18 01:05:38,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/rxsampleapp/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,547 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/local.properties
+2018-11-18 01:05:38,548 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-18 01:05:38,548 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-18 01:05:38,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-18 01:05:38,548 INFO  ProjectFixService - Project was maybe fixed
+2018-11-18 01:05:38,548 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-18 01:05:38,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-18 01:05:45,976 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-18 01:05:45,976 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-18 01:05:45,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/android-networking/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-18 01:05:58,880 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+:android-networking:preBuild UP-TO-DATE
+:android-networking:preDebugBuild UP-TO-DATE
+:android-networking:compileDebugAidl
+:android-networking:compileDebugRenderscript
+:android-networking:checkDebugManifest
+:android-networking:generateDebugBuildConfig
+:android-networking:generateDebugResValues
+:android-networking:generateDebugResources
+:android-networking:packageDebugResources
+:android-networking:platformAttrExtractor
+:android-networking:processDebugManifest
+:android-networking:prepareLintJar
+:android-networking:javaPreCompileDebug
+:android-networking:mergeDebugConsumerProguardFiles
+:android-networking:mergeDebugShaders
+:android-networking:compileDebugShaders
+:android-networking:generateDebugAssets
+:android-networking:packageDebugAssets
+:android-networking:packageDebugRenderscript NO-SOURCE
+:android-networking:processDebugJavaRes NO-SOURCE
+:android-networking:compileDebugNdk NO-SOURCE
+:android-networking:mergeDebugJniLibFolders
+:android-networking:transformNativeLibsWithMergeJniLibsForDebug
+:android-networking:transformNativeLibsWithStripDebugSymbolForDebug
+:android-networking:transformNativeLibsWithSyncJniLibsForDebug
+:android-networking:preReleaseBuild UP-TO-DATE
+:android-networking:compileReleaseAidl
+:android-networking:compileReleaseRenderscript
+:android-networking:checkReleaseManifest
+:android-networking:generateReleaseBuildConfig
+:android-networking:generateReleaseResValues
+:android-networking:generateReleaseResources
+:android-networking:packageReleaseResources
+:android-networking:processReleaseManifest
+:android-networking:javaPreCompileRelease
+:android-networking:mergeReleaseConsumerProguardFiles
+:android-networking:mergeReleaseShaders
+:android-networking:compileReleaseShaders
+:android-networking:generateReleaseAssets
+:android-networking:packageReleaseAssets
+:android-networking:packageReleaseRenderscript NO-SOURCE
+:android-networking:processReleaseJavaRes NO-SOURCE
+:android-networking:compileReleaseNdk NO-SOURCE
+:android-networking:mergeReleaseJniLibFolders
+:android-networking:transformNativeLibsWithMergeJniLibsForRelease
+:android-networking:transformNativeLibsWithStripDebugSymbolForRelease
+:android-networking:transformNativeLibsWithSyncJniLibsForRelease
+:android-networking:mergeReleaseResources
+:android-networking:verifyReleaseResources
+:android-networking:generateDebugRFile
+:android-networking:generateDebugSources
+:android-networking:compileDebugJavaWithJavac
+:android-networking:extractDebugAnnotations
+:android-networking:transformResourcesWithMergeJavaResForDebug
+:android-networking:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android-networking:bundleDebug
+:android-networking:compileDebugSources
+:android-networking:assembleDebug
+:android-networking:generateReleaseRFile
+:android-networking:generateReleaseSources
+:android-networking:compileReleaseJavaWithJavac
+:android-networking:extractReleaseAnnotations
+:android-networking:transformResourcesWithMergeJavaResForRelease
+:android-networking:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-networking:bundleRelease
+:android-networking:compileReleaseSources
+:android-networking:assembleRelease
+:android-networking:assemble
+:android-networking:build
+
+BUILD SUCCESSFUL in 12s
+48 actionable tasks: 48 executed
+
+2018-11-18 01:05:58,937 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-18 01:05:58,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-18 01:06:05,223 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-18 01:06:05,223 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-18 01:06:05,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-18 01:06:36,723 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018
+:android-networking:preBuild UP-TO-DATE
+:android-networking:preDebugBuild UP-TO-DATE
+:android-networking:compileDebugAidl UP-TO-DATE
+:android-networking:compileDebugRenderscript UP-TO-DATE
+:android-networking:checkDebugManifest UP-TO-DATE
+:android-networking:generateDebugBuildConfig UP-TO-DATE
+:android-networking:generateDebugResValues UP-TO-DATE
+:android-networking:generateDebugResources UP-TO-DATE
+:android-networking:packageDebugResources UP-TO-DATE
+:android-networking:platformAttrExtractor UP-TO-DATE
+:android-networking:processDebugManifest UP-TO-DATE
+:android-networking:generateDebugRFile UP-TO-DATE
+:android-networking:prepareLintJar UP-TO-DATE
+:android-networking:generateDebugSources UP-TO-DATE
+:android-networking:javaPreCompileDebug UP-TO-DATE
+:android-networking:compileDebugJavaWithJavac UP-TO-DATE
+:android-networking:processDebugJavaRes NO-SOURCE
+:android-networking:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:android-networking:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:android-networking:mergeDebugShaders UP-TO-DATE
+:android-networking:compileDebugShaders UP-TO-DATE
+:android-networking:generateDebugAssets UP-TO-DATE
+:android-networking:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:android-networking:compileDebugNdk NO-SOURCE
+:android-networking:mergeDebugJniLibFolders UP-TO-DATE
+:android-networking:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:android-networking:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:android-networking:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:android-networking:preReleaseBuild UP-TO-DATE
+:android-networking:compileReleaseAidl UP-TO-DATE
+:android-networking:compileReleaseRenderscript UP-TO-DATE
+:android-networking:checkReleaseManifest UP-TO-DATE
+:android-networking:generateReleaseBuildConfig UP-TO-DATE
+:android-networking:generateReleaseResValues UP-TO-DATE
+:android-networking:generateReleaseResources UP-TO-DATE
+:android-networking:packageReleaseResources UP-TO-DATE
+:android-networking:processReleaseManifest UP-TO-DATE
+:android-networking:generateReleaseRFile UP-TO-DATE
+:android-networking:generateReleaseSources UP-TO-DATE
+:android-networking:javaPreCompileRelease UP-TO-DATE
+:android-networking:compileReleaseJavaWithJavac UP-TO-DATE
+:android-networking:processReleaseJavaRes NO-SOURCE
+:android-networking:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:android-networking:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/com/squareup/okhttp3/mockwebserver/3.10.0/mockwebserver-3.10.0.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/mockwebserver/3.10.0/mockwebserver-3.10.0.jar
+:android-networking:mergeReleaseShaders UP-TO-DATE
+:android-networking:compileReleaseShaders UP-TO-DATE
+:android-networking:generateReleaseAssets UP-TO-DATE
+:android-networking:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:android-networking:compileReleaseNdk NO-SOURCE
+:android-networking:mergeReleaseJniLibFolders UP-TO-DATE
+:android-networking:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:android-networking:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:android-networking:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 31s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-11-18 01:06:36,836 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477936742-0/src/Fast-Android-Networking-master/app/build/outputs/apk/debug/app-debug.apk

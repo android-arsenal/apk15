@@ -1,0 +1,115 @@
+2019-01-26 21:11:13,464 INFO  DownloadService - Downloading "https://github.com/sunfusheng/MarqueeView/archive/master.zip", attempt 3
+2019-01-26 21:11:16,266 INFO  DownloadService - Downloaded https://github.com/sunfusheng/MarqueeView/archive/master.zip, attempt 3
+2019-01-26 21:11:16,266 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/master.zip": 1 MB
+2019-01-26 21:11:16,266 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:11:16,272 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/master.zip: true
+2019-01-26 21:11:16,272 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src'.
+2019-01-26 21:11:16,312 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-26 21:11:16,312 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src]
+2019-01-26 21:11:16,331 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/.git/
+
+2019-01-26 21:11:16,335 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/gradlew
+2019-01-26 21:11:16,338 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/Sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/build.gradle
+2019-01-26 21:11:16,342 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/Sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/settings.gradle
+2019-01-26 21:11:16,343 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:11:16,343 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:11:16,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/local.properties
+2019-01-26 21:11:16,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-26 21:11:16,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/Sample/local.properties
+2019-01-26 21:11:16,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/Sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-26 21:11:16,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/local.properties
+2019-01-26 21:11:16,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-26 21:11:16,356 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-26 21:11:16,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-26 21:11:16,356 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:11:16,356 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:11:16,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:11:24,787 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-01-26 21:11:24,787 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-26 21:11:24,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-26 21:11:37,988 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :MarqueeView:preBuild UP-TO-DATE
+> Task :MarqueeView:preDebugBuild UP-TO-DATE
+> Task :MarqueeView:compileDebugAidl NO-SOURCE
+> Task :MarqueeView:compileDebugRenderscript
+> Task :MarqueeView:checkDebugManifest
+> Task :MarqueeView:generateDebugBuildConfig
+> Task :MarqueeView:generateDebugResValues
+> Task :MarqueeView:generateDebugResources
+> Task :MarqueeView:packageDebugResources
+> Task :MarqueeView:processDebugManifest
+> Task :MarqueeView:generateDebugRFile
+> Task :MarqueeView:prepareLintJar
+> Task :MarqueeView:generateDebugSources
+> Task :MarqueeView:javaPreCompileDebug
+
+> Task :MarqueeView:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/src/main/java/com/sunfusheng/marqueeview/MarqueeView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :MarqueeView:extractDebugAnnotations
+> Task :MarqueeView:mergeDebugConsumerProguardFiles
+> Task :MarqueeView:mergeDebugShaders
+> Task :MarqueeView:compileDebugShaders
+> Task :MarqueeView:generateDebugAssets
+> Task :MarqueeView:packageDebugAssets
+> Task :MarqueeView:packageDebugRenderscript NO-SOURCE
+> Task :MarqueeView:processDebugJavaRes NO-SOURCE
+> Task :MarqueeView:transformResourcesWithMergeJavaResForDebug
+> Task :MarqueeView:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :MarqueeView:compileDebugNdk NO-SOURCE
+> Task :MarqueeView:mergeDebugJniLibFolders
+> Task :MarqueeView:transformNativeLibsWithMergeJniLibsForDebug
+> Task :MarqueeView:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :MarqueeView:transformNativeLibsWithSyncJniLibsForDebug
+> Task :MarqueeView:bundleDebugAar
+> Task :MarqueeView:compileDebugSources
+> Task :MarqueeView:assembleDebug
+> Task :MarqueeView:preReleaseBuild UP-TO-DATE
+> Task :MarqueeView:compileReleaseAidl NO-SOURCE
+> Task :MarqueeView:compileReleaseRenderscript
+> Task :MarqueeView:checkReleaseManifest
+> Task :MarqueeView:generateReleaseBuildConfig
+> Task :MarqueeView:generateReleaseResValues
+> Task :MarqueeView:generateReleaseResources
+> Task :MarqueeView:packageReleaseResources
+> Task :MarqueeView:processReleaseManifest
+> Task :MarqueeView:generateReleaseRFile
+> Task :MarqueeView:generateReleaseSources
+> Task :MarqueeView:javaPreCompileRelease
+
+> Task :MarqueeView:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/MarqueeView/src/main/java/com/sunfusheng/marqueeview/MarqueeView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :MarqueeView:extractReleaseAnnotations
+> Task :MarqueeView:mergeReleaseConsumerProguardFiles
+> Task :MarqueeView:mergeReleaseShaders
+> Task :MarqueeView:compileReleaseShaders
+> Task :MarqueeView:generateReleaseAssets
+> Task :MarqueeView:packageReleaseAssets
+> Task :MarqueeView:packageReleaseRenderscript NO-SOURCE
+> Task :MarqueeView:processReleaseJavaRes NO-SOURCE
+> Task :MarqueeView:transformResourcesWithMergeJavaResForRelease
+> Task :MarqueeView:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :MarqueeView:compileReleaseNdk NO-SOURCE
+> Task :MarqueeView:mergeReleaseJniLibFolders
+> Task :MarqueeView:transformNativeLibsWithMergeJniLibsForRelease
+> Task :MarqueeView:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :MarqueeView:transformNativeLibsWithSyncJniLibsForRelease
+> Task :MarqueeView:bundleReleaseAar
+> Task :MarqueeView:compileReleaseSources
+> Task :MarqueeView:mergeReleaseResources
+> Task :MarqueeView:verifyReleaseResources
+> Task :MarqueeView:assembleRelease
+> Task :MarqueeView:assemble
+> Task :MarqueeView:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+45 actionable tasks: 45 executed
+
+2019-01-26 21:11:38,051 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548511873462-0/src/MarqueeView-master/Sample/outputs/MarqueeView.apk

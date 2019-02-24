@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.barbuzz.beerprogressview.sample",
+    "label" : "Beer Progress View Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACPVBMVEUAAAAmmfIhlvMhlvMhlvMhlfIaeMMZeMMaecQaeMMac8whlvMhlvIhlfIhlfF2uOyx0ux2tuqw0u37+vnm4d3p5OHv7Ono4t7m4NyuyN4eiNyqyuR8XkmMcmCxn5Kxn5OFaVWowdUaeMMdhtqYyO/t6ed9X0qKb12Ha1jt6eaVu9qQxO318vCRbEiYd1e8rKKYd1iPakSNtteJvOX++vX0qi70skP+/v3+/v71uVP0piGGrs53uu/+/fzzrzrzrjn+/vz////2u1dyqNNvte30tEf0qzD+/Pn0vFxqos9preX1uFLzqCr89/D0vmFkm8dZqur1vmD0pyT89Ob1wGVUlMhNpev2w23zpiH78N33wmhHjsZHnuP+/f33yHr0pR/769H2w2xBhr47meX7+/v3zof0piD658b2xHE2gb0vmvD29/j30pP64732xnX29vcpf8Msluvw8PD52KD637H3yHnw7+8ler8ok+nq6ur53az42qf4yn3q6ekid7zY6fb54bn51532y4LX5O7S4u72zYfR3efL2ub77NP4zof3z4vK1d+42fP78eD0piL2yX350Y220OWx0+799+3zpyX2xXL40pKvyuCqy+b9+vXzqi31wGb305aowteWyvP+/fv1vFz41ZuTvN6Pw+z0tEb515+MtdaKvOX0uVTztEf//v762aN7uuz64bj1yX765cT1wWn1wWp3qdEaeMJqo9A/nuqszeivyd6rx985hcIhlPAcgM8ad8IcgNAcf85gBbK4AAAAC3RSTlMAFJLl/sv+5pPMFFmw020AAAJRSURBVEjHzdb3V9NQFAdwaMOQhDoYVkSrD8UF4gCtQahXwVUVcaEIuKB11IkTB7hxgAMc4MCBiigunDj+NuW82+QlvTH8yPeHnpye+8m9LyfJS1TU4Ey0wynJYhRZURL//QqRnI5orT7GUCubrJaYsHDIA4wDgVM7m0LWaX87EUgW00TMJSGQBxwDcP231BUJMEOHGTPcooM2/4ik5JTU1JFunuSkUWnCOnSgr3e0O33MWM+4dIx7PMvQBQUmTMyc5PFMzsRMmcrCQqHXMC0re3pOzoyZPNlZsxhjaeRVwszOzZsz1ztP5cnLzWeCoMD8gkLfAliIoLBgERMEBYqgePESWIqgGJYxQVBgOfhXrIRVCPxQwgRBgdVQumYtrENQCuuZICiwwVu2cROUIyjzbmaCQGC4Sysqq7ZshW0Iqiq3M0FQHXZU1wSCsBNBTfUuHbAMqsPuPaHAXtiHILT/gAAYBQ4eqlUPwxEEtUePESBRBMdP1Kkn4RSCutNnCGB8VOob1LNwDkHDeWY3knwhqIbgIoLgJXtwuTFwBa7y+kDjNWY70vWm5htwk4Pmplv24HZL6x24y0Fryz17cL+t/QE85KC97ZE9eNzhewJPOfB1PLMHz6HTDy846ISX9uAVdL3ufsNBF+RbAOHKvoWed93vP/TnYw980qt7LUARiPlsNZIiPKNiSsQG9Bq+fP2m5/sP60Vrb+++nywyv0QgmV7tpOhPrGnLUuxEnHlT1DYzo+gNH8RT2y6K30SDIQnUxo5NXH9Mp4+Ni08YpN8lfwGEdvVK69eFCgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1988,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"uk.co.barbuzz.beerprogressview.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008d\" android:label=\"Beer Progress View Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090037\" android:label=\"Beer Progress View Sample\" android:name=\"uk.co.barbuzz.beerprogressview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1543716,
+  "crc32" : 2623097330,
+  "sha256" : "e069a4fda8893f6d6e5bb10f11249c5fd50d9cdd600eec7354ce3acf63923189",
+  "buildTime" : 1497218190000
+}

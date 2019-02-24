@@ -1,0 +1,110 @@
+2018-12-02 01:22:46,311 INFO  DownloadService - Downloading "https://github.com/zagum/SpeechRecognitionView/archive/master.zip", attempt 3
+2018-12-02 01:22:47,165 INFO  DownloadService - Downloaded https://github.com/zagum/SpeechRecognitionView/archive/master.zip, attempt 3
+2018-12-02 01:22:47,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/master.zip": 358 KB
+2018-12-02 01:22:47,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 01:22:47,171 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/master.zip: true
+2018-12-02 01:22:47,171 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src'.
+2018-12-02 01:22:47,189 INFO  FullProcessService - Size of directory with sources: 527 KB
+2018-12-02 01:22:47,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src]
+2018-12-02 01:22:47,209 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/.git/
+
+2018-12-02 01:22:47,212 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/gradlew
+2018-12-02 01:22:47,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/build.gradle
+2018-12-02 01:22:47,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/settings.gradle
+2018-12-02 01:22:47,218 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 01:22:47,218 INFO  ProjectFixService - Fixing project...
+2018-12-02 01:22:47,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/local.properties
+2018-12-02 01:22:47,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=<null>]
+2018-12-02 01:22:47,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 01:22:47,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview/local.properties
+2018-12-02 01:22:47,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=<null>]
+2018-12-02 01:22:47,228 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 01:22:47,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/local.properties
+2018-12-02 01:22:47,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-02 01:22:47,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-02 01:22:47,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=<null>]
+2018-12-02 01:22:47,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 01:22:47,230 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 01:22:47,230 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 01:22:47,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 01:22:54,650 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-12-02 01:22:54,650 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 01:22:54,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 01:23:23,517 INFO  SysUtils - Configuration on demand is an incubating feature.
+:speechrecognitionview-sample:preBuild UP-TO-DATE
+:speechrecognitionview-sample:preDebugBuild
+Download https://jitpack.io/com/github/zagum/SpeechRecognitionView/1.2.2/SpeechRecognitionView-1.2.2.pom
+Download https://jitpack.io/com/github/zagum/SpeechRecognitionView/1.2.2/SpeechRecognitionView-1.2.2.aar
+:speechrecognitionview-sample:compileDebugAidl
+:speechrecognitionview-sample:compileDebugRenderscript
+:speechrecognitionview-sample:checkDebugManifest
+:speechrecognitionview-sample:generateDebugBuildConfig
+:speechrecognitionview-sample:prepareLintJar
+:speechrecognitionview-sample:mainApkListPersistenceDebug
+:speechrecognitionview-sample:generateDebugResValues
+:speechrecognitionview-sample:generateDebugResources
+:speechrecognitionview-sample:mergeDebugResources
+:speechrecognitionview-sample:createDebugCompatibleScreenManifests
+:speechrecognitionview-sample:processDebugManifest
+:speechrecognitionview-sample:splitsDiscoveryTaskDebug
+:speechrecognitionview-sample:processDebugResources
+:speechrecognitionview-sample:generateDebugSources
+:speechrecognitionview-sample:javaPreCompileDebug
+:speechrecognitionview-sample:compileDebugJavaWithJavac
+:speechrecognitionview-sample:compileDebugNdk NO-SOURCE
+:speechrecognitionview-sample:compileDebugSources
+:speechrecognitionview-sample:mergeDebugShaders
+:speechrecognitionview-sample:compileDebugShaders
+:speechrecognitionview-sample:generateDebugAssets
+:speechrecognitionview-sample:mergeDebugAssets
+:speechrecognitionview-sample:transformClassesWithDexBuilderForDebug
+:speechrecognitionview-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:speechrecognitionview-sample:transformDexArchiveWithDexMergerForDebug
+:speechrecognitionview-sample:mergeDebugJniLibFolders
+:speechrecognitionview-sample:transformNativeLibsWithMergeJniLibsForDebug
+:speechrecognitionview-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:speechrecognitionview-sample:processDebugJavaRes NO-SOURCE
+:speechrecognitionview-sample:transformResourcesWithMergeJavaResForDebug
+:speechrecognitionview-sample:validateSigningDebug
+:speechrecognitionview-sample:packageDebug
+:speechrecognitionview-sample:assembleDebug
+:speechrecognitionview-sample:preReleaseBuild
+:speechrecognitionview-sample:compileReleaseAidl
+:speechrecognitionview-sample:compileReleaseRenderscript
+:speechrecognitionview-sample:checkReleaseManifest
+:speechrecognitionview-sample:generateReleaseBuildConfig
+:speechrecognitionview-sample:mainApkListPersistenceRelease
+:speechrecognitionview-sample:generateReleaseResValues
+:speechrecognitionview-sample:generateReleaseResources
+:speechrecognitionview-sample:mergeReleaseResources
+:speechrecognitionview-sample:createReleaseCompatibleScreenManifests
+:speechrecognitionview-sample:processReleaseManifest
+:speechrecognitionview-sample:splitsDiscoveryTaskRelease
+:speechrecognitionview-sample:processReleaseResources
+:speechrecognitionview-sample:generateReleaseSources
+:speechrecognitionview-sample:javaPreCompileRelease
+:speechrecognitionview-sample:compileReleaseJavaWithJavac
+:speechrecognitionview-sample:compileReleaseNdk NO-SOURCE
+:speechrecognitionview-sample:compileReleaseSources
+:speechrecognitionview-sample:lintVitalRelease
+:speechrecognitionview-sample:mergeReleaseShaders
+:speechrecognitionview-sample:compileReleaseShaders
+:speechrecognitionview-sample:generateReleaseAssets
+:speechrecognitionview-sample:mergeReleaseAssets
+:speechrecognitionview-sample:transformClassesWithDexBuilderForRelease
+:speechrecognitionview-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:speechrecognitionview-sample:transformDexArchiveWithDexMergerForRelease
+:speechrecognitionview-sample:mergeReleaseJniLibFolders
+:speechrecognitionview-sample:transformNativeLibsWithMergeJniLibsForRelease
+:speechrecognitionview-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:speechrecognitionview-sample:processReleaseJavaRes NO-SOURCE
+:speechrecognitionview-sample:transformResourcesWithMergeJavaResForRelease
+:speechrecognitionview-sample:packageRelease
+:speechrecognitionview-sample:assembleRelease
+:speechrecognitionview-sample:assemble
+:speechrecognitionview-sample:build
+
+BUILD SUCCESSFUL in 28s
+53 actionable tasks: 53 executed
+
+2018-12-02 01:23:23,583 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543688566307-0/src/SpeechRecognitionView-master/speechrecognitionview-sample/build/outputs/apk/release/speechrecognitionview-sample-release-unsigned.apk

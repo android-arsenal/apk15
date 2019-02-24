@@ -1,0 +1,174 @@
+2018-11-19 13:11:52,280 INFO  DownloadService - Downloading "https://github.com/PGSSoft/gimBUS/archive/master.zip", attempt 3
+2018-11-19 13:11:53,445 INFO  DownloadService - Downloaded https://github.com/PGSSoft/gimBUS/archive/master.zip, attempt 3
+2018-11-19 13:11:53,445 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/master.zip": 105 KB
+2018-11-19 13:11:53,445 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-19 13:11:53,451 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/master.zip: true
+2018-11-19 13:11:53,451 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src'.
+2018-11-19 13:11:53,467 INFO  FullProcessService - Size of directory with sources: 170 KB
+2018-11-19 13:11:53,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src]
+2018-11-19 13:11:53,485 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/.git/
+
+2018-11-19 13:11:53,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/gradlew
+2018-11-19 13:11:53,489 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/build.gradle
+2018-11-19 13:11:53,490 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/settings.gradle
+2018-11-19 13:11:53,491 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-11-19 13:11:54,353 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-11-19 13:11:54,354 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-11-19 13:11:54,354 INFO  ProjectFixService - Fixing project...
+2018-11-19 13:11:54,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/local.properties
+2018-11-19 13:11:54,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-19 13:11:54,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/local.properties
+2018-11-19 13:11:54,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-11-19 13:11:54,365 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-11-19 13:11:54,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-19 13:11:54,366 INFO  ProjectFixService - Project was maybe fixed
+2018-11-19 13:11:54,366 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-19 13:11:54,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-19 13:12:03,671 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-11-19 13:12:03,671 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-19 13:12:03,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/eventbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-19 13:12:11,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+:eventbus:preBuild UP-TO-DATE
+:eventbus:preDebugBuild UP-TO-DATE
+:eventbus:compileDebugNdk UP-TO-DATE
+:eventbus:compileLint
+:eventbus:copyDebugLint UP-TO-DATE
+:eventbus:checkDebugManifest
+:eventbus:prepareDebugDependencies
+:eventbus:compileDebugAidl
+:eventbus:compileDebugRenderscript
+:eventbus:generateDebugBuildConfig
+:eventbus:generateDebugAssets UP-TO-DATE
+:eventbus:mergeDebugAssets
+:eventbus:generateDebugResValues
+:eventbus:generateDebugResources
+:eventbus:packageDebugResources
+:eventbus:processDebugManifest
+:eventbus:processDebugResources
+:eventbus:generateDebugSources
+:eventbus:compileDebugJavaWithJavac
+:eventbus:extractDebugAnnotations
+:eventbus:mergeDebugProguardFiles
+:eventbus:packageDebugRenderscript UP-TO-DATE
+:eventbus:processDebugJavaRes UP-TO-DATE
+:eventbus:transformResourcesWithMergeJavaResForDebug
+:eventbus:transformClassesAndResourcesWithSyncLibJarsForDebug
+:eventbus:mergeDebugJniLibFolders
+:eventbus:transformNative_libsWithMergeJniLibsForDebug
+:eventbus:transformNative_libsWithSyncJniLibsForDebug
+:eventbus:bundleDebug
+:eventbus:compileDebugSources
+:eventbus:assembleDebug
+:eventbus:preReleaseBuild UP-TO-DATE
+:eventbus:compileReleaseNdk UP-TO-DATE
+:eventbus:copyReleaseLint UP-TO-DATE
+:eventbus:checkReleaseManifest
+:eventbus:prepareReleaseDependencies
+:eventbus:compileReleaseAidl
+:eventbus:compileReleaseRenderscript
+:eventbus:generateReleaseBuildConfig
+:eventbus:generateReleaseAssets UP-TO-DATE
+:eventbus:mergeReleaseAssets
+:eventbus:generateReleaseResValues
+:eventbus:generateReleaseResources
+:eventbus:packageReleaseResources
+:eventbus:processReleaseManifest
+:eventbus:processReleaseResources
+:eventbus:generateReleaseSources
+:eventbus:compileReleaseJavaWithJavac
+:eventbus:extractReleaseAnnotations
+:eventbus:mergeReleaseProguardFiles
+:eventbus:packageReleaseRenderscript UP-TO-DATE
+:eventbus:processReleaseJavaRes UP-TO-DATE
+:eventbus:transformResourcesWithMergeJavaResForRelease
+:eventbus:transformClassesAndResourcesWithSyncLibJarsForRelease
+:eventbus:mergeReleaseJniLibFolders
+:eventbus:transformNative_libsWithMergeJniLibsForRelease
+:eventbus:transformNative_libsWithSyncJniLibsForRelease
+:eventbus:bundleRelease
+:eventbus:compileReleaseSources
+:eventbus:assembleRelease
+:eventbus:signArchives SKIPPED
+:eventbus:assemble
+:eventbus:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.81 secs
+
+2018-11-19 13:12:11,027 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-19 13:12:11,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-19 13:12:16,889 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-11-19 13:12:16,889 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-19 13:12:16,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542607912273-0/src/gimBUS-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-19 13:12:22,796 INFO  SysUtils - Configuration on demand is an incubating feature.
+:eventbus:preBuild UP-TO-DATE
+:eventbus:preDebugBuild UP-TO-DATE
+:eventbus:compileDebugNdk UP-TO-DATE
+:eventbus:compileLint
+:eventbus:copyDebugLint UP-TO-DATE
+:eventbus:checkDebugManifest
+:eventbus:prepareDebugDependencies
+:eventbus:compileDebugAidl UP-TO-DATE
+:eventbus:compileDebugRenderscript UP-TO-DATE
+:eventbus:generateDebugBuildConfig UP-TO-DATE
+:eventbus:generateDebugAssets UP-TO-DATE
+:eventbus:mergeDebugAssets UP-TO-DATE
+:eventbus:generateDebugResValues UP-TO-DATE
+:eventbus:generateDebugResources UP-TO-DATE
+:eventbus:packageDebugResources UP-TO-DATE
+:eventbus:processDebugManifest UP-TO-DATE
+:eventbus:processDebugResources UP-TO-DATE
+:eventbus:generateDebugSources UP-TO-DATE
+:eventbus:compileDebugJavaWithJavac UP-TO-DATE
+:eventbus:extractDebugAnnotations UP-TO-DATE
+:eventbus:mergeDebugProguardFiles UP-TO-DATE
+:eventbus:packageDebugRenderscript UP-TO-DATE
+:eventbus:processDebugJavaRes UP-TO-DATE
+:eventbus:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:eventbus:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:eventbus:mergeDebugJniLibFolders UP-TO-DATE
+:eventbus:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:eventbus:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:eventbus:bundleDebug UP-TO-DATE
+:eventbus:compileDebugSources UP-TO-DATE
+:eventbus:assembleDebug UP-TO-DATE
+:eventbus:preReleaseBuild UP-TO-DATE
+:eventbus:compileReleaseNdk UP-TO-DATE
+:eventbus:copyReleaseLint UP-TO-DATE
+:eventbus:checkReleaseManifest
+:eventbus:prepareReleaseDependencies
+:eventbus:compileReleaseAidl UP-TO-DATE
+:eventbus:compileReleaseRenderscript UP-TO-DATE
+:eventbus:generateReleaseBuildConfig UP-TO-DATE
+:eventbus:generateReleaseAssets UP-TO-DATE
+:eventbus:mergeReleaseAssets UP-TO-DATE
+:eventbus:generateReleaseResValues UP-TO-DATE
+:eventbus:generateReleaseResources UP-TO-DATE
+:eventbus:packageReleaseResources UP-TO-DATE
+:eventbus:processReleaseManifest UP-TO-DATE
+:eventbus:processReleaseResources UP-TO-DATE
+:eventbus:generateReleaseSources UP-TO-DATE
+:eventbus:compileReleaseJavaWithJavac UP-TO-DATE
+:eventbus:extractReleaseAnnotations UP-TO-DATE
+:eventbus:mergeReleaseProguardFiles UP-TO-DATE
+:eventbus:packageReleaseRenderscript UP-TO-DATE
+:eventbus:processReleaseJavaRes UP-TO-DATE
+:eventbus:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:eventbus:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:eventbus:mergeReleaseJniLibFolders UP-TO-DATE
+:eventbus:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:eventbus:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:eventbus:bundleRelease UP-TO-DATE
+:eventbus:compileReleaseSources UP-TO-DATE
+:eventbus:assembleRelease UP-TO-DATE
+:eventbus:signArchives SKIPPED
+:eventbus:assemble
+:eventbus:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.379 secs
+
+2018-11-19 13:12:22,804 ERROR FullProcessService - Project build has not produced APK file
+2018-11-19 13:12:22,811 ERROR FullProcessService - Could not find generated or existed APK file

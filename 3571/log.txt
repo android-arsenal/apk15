@@ -1,0 +1,51 @@
+2017-01-29 00:24:19,839 INFO  DownloadService - Downloading "https://github.com/shiraji/permissions-dispatcher-plugin/archive/master.zip", attempt 3
+2017-01-29 00:24:22,209 INFO  DownloadService - Downloaded https://github.com/shiraji/permissions-dispatcher-plugin/archive/master.zip, attempt 3
+2017-01-29 00:24:22,209 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-01-29 00:24:22,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/master.zip: true
+2017-01-29 00:24:22,211 DEBUG ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src'.
+2017-01-29 00:24:22,230 INFO  FullProcessService - Size of directory with sources: 485 KB
+2017-01-29 00:24:22,230 INFO  SysUtils - Execute command: [git, init, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src]
+2017-01-29 00:24:22,285 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/.git/
+
+2017-01-29 00:24:22,288 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/gradlew
+2017-01-29 00:24:22,290 INFO  ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle
+2017-01-29 00:24:22,292 INFO  ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/settings.gradle
+2017-01-29 00:24:22,292 INFO  ProjectBuildService - Remote scripts: none
+2017-01-29 00:24:22,292 INFO  ProjectFixService - Fixing project...
+2017-01-29 00:24:22,297 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/local.properties
+2017-01-29 00:24:22,298 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.7-all.zip
+2017-01-29 00:24:22,298 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.7-bin.zip)
+2017-01-29 00:24:22,299 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2017-01-29 00:24:22,299 INFO  ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=25,targetSdkVersion=25]
+2017-01-29 00:24:22,300 INFO  ProjectFixService - Project was maybe fixed
+2017-01-29 00:24:22,300 INFO  ProjectTaskService - Detecting possible tasks...
+2017-01-29 00:24:22,300 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle, tasks]
+2017-01-29 00:24:38,477 INFO  ProjectTaskService - Detected possible tasks: 52
+2017-01-29 00:24:38,478 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2017-01-29 00:24:38,478 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/build.gradle, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2017-01-29 00:25:05,466 INFO  SysUtils - :compileKotlin
+w: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/src/main/kotlin/com/github/shiraji/permissionsdispatcherplugin/handlers/GeneratePMCodeHandlerJava.kt: (97, 39): The corresponding parameter in the supertype 'GeneratePMCodeHandler' is named 'fullName'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/src/main/kotlin/com/github/shiraji/permissionsdispatcherplugin/handlers/GeneratePMCodeHandlerKt.kt: (105, 39): The corresponding parameter in the supertype 'GeneratePMCodeHandler' is named 'fullName'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/src/main/kotlin/com/github/shiraji/permissionsdispatcherplugin/handlers/GeneratePMCodeHandlerKt.kt: (113, 28): The corresponding parameter in the supertype 'GeneratePMCodeHandler' is named 'import'. This may cause problems when calling this function with named arguments.
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1485627859836-0/src/permissions-dispatcher-plugin-master/src/main/java/com/github/shiraji/permissionsdispatcherplugin/views/GeneratePMCodeConfiguration.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:copyMainKotlinClasses
+:processResources
+:classes
+:prepareSandbox
+:buildPlugin
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.293 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.7/userguide/gradle_daemon.html
+
+2017-01-29 00:25:05,475 ERROR FullProcessService - Project build has not produced APK file
+2017-01-29 00:25:05,482 ERROR FullProcessService - Could not find generated or existed APK file

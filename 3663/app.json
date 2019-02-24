@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.hujiaweibujidao.wava",
+    "label" : "Wava",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAKUklEQVRo3u2ZeXTU1RXHP/c3v5nfTCZkhSRIFCIgEgSDK4iKtpwquFRxaT3tcTnanmqtHmtad6d41GpdWpe2Rzx1o24V10qwbgGUAgKpgAGSEAyESEjINvvMb3n9I0ghk0yGQI89Pb7/5je/33v3e9/33fu998G349txUEMO1UTBmQ9nJaKROSh1PqgZAqWAjkiPUmqdEt4Xm1eePI+mefPmqf8ZAF+UB1wlfi5VyDyB8eneVYoI8FddV/PyV87b+Y0DCJ/4u+y4ijwGXImIlvmXqslR2mVFawIrvzEA3eUBn5UlCxAuGuIUHY6jzitaO2/FwQDQhvJRIBAQK4s7gbkHsXahpsmLXcfeW3IwAPShfHTDu9rxjqgbRVJ3UAqzMWaVo085AjF07OZOkks2Y21oBifl7JZZHjMAXPtfp1B19UztlNXBEQnlKrVqJt9NKPt8FfOioj5wejfSPW0s/tvOxTUyb3/GJy0Sb9cQfeJDVNxEIUQ1nbDLTUzTw6uySy5rE6N2RLSg5fqlZyYPKYDIA5NzHGVcAnI5wjGiVDYiHpSAo6HiBk5rEUqbRs5D1yHDvAOcW+h5eQVrnq6h3sinW/dgiYaDAMpWEBMlzcBbLqWeuavqoi0HBSAQCEild9E5wEMiTAAZGKwIxtxH0cfNSLuYlbR57OfvEGpVSDrfKbqU8MSwUOzByqU/ih7wIa6unqlVZi26RYSFInJ0WuMBPH5cRxw3+IHzuBh7QhHheBcKlc6t+aK4K5TtfT0w++XCAwIQCATkxFXRG8XhPhAjo1DmL0Q8vsxCT0kOCStGKN45GAgRkbPRPK8ELnzdnzGAXxmLp6O4f8DEpLnAkwW6sZeBKtaDshKZSY7OXkYkrThRqwePT0d3awOSWURmSZK7AoGADBpGv3x2tK52OQ8JknISxZeLPvUS9AlnIjnFKDOO07oJc/VLODvW4bRuxlV6bFrjHdth85rt5A73891Lp1J+8mhyC/zEIibNGzv455tb2PVlT+qREPmFa82UF4CNff9z7fvjvmkTThPUHcj+nJf8I/Be/Hv08u8h/kJENxDDj1Y4Bnf52SgrgbXpA9xHz+rdoQFGzZIGtm1u47oHz2fiSaPJzvWhe1z4sj0Ul+UyeWYpPe1R2rYF+0YatyPIGZdNXLx06dKBKaREzU2hjm5gzL4drWgAneZy4zn9OhJKI/7hwziJcD8iTlG7qomq5z7jx7fOIr94WL9TGVlu5lxbQVFZf5SXOayY7h0kE6sz+5LRVTYNV2lF+ljs0nGffAVtz/+U7O0bsCddiFkyE91j0N7SzdqPG/h8WSOnnDOJotK8tHN5/W5OOHc0bzy6Gq/bv88uqMOVERoDbBoQgCjG9j1MWmkFZCA0faMm0kM2akcd5rYnmL92J5byYJk2SvUmsqOmjsrooI8uLyZJBEz2ASEuDa24LwBtMG0kvtwMVZUby+ejM2qRsDS8rhyspNNr/B4ie7M8GU1leN1ouhBJ9BA3I/8JAo7mTkshhYQE9kscqqs5o0UjZpiF44TsolxG7VTYmPiNPCKJ7r3xvqM1mNFcPR0RzLiFQhFJ9EYlr9uPJk5ksDywru8L9pZPUGZ88Mps5wrCJGjNcbN2nEHI6MB2ekF8LRvWfdKIYw9eTa7/dCu27exxqiKc6CaWDMUdXbalBaCJqkqJ3e2NxGteTZs1u6JtVG18du/vJsZSVzySmBnGdkyyvb0gNn62nZrq+rTGb69r45O3NqQWULHddU9W3ZRIC8BWshDUftsUcwsvRReybMerJKxYSnhs7qrnz5/eQjDWAUCLPYb34hezoawYRxNiZhjL7gWBgpcfqWb5u7VYpt1Pkmvm6buqiIZTs3owtvvtbnvHcMMwCgZUo4FAQCp9ix4X5PrevADvT8yldqQPFGSZIxg/7CQK/YeRtOI07l7PlvZ1OMrGckzCtofXYtfQ7RSgKcXs6m2UNffy3uf2YxheTC0CAsMPy2XiiUeQNzybaCjO5jXNbFnf0i/FLMdqWrz+mUt3hDaGAGzb3jygnI7fN324qZmfiMjRO/I8vD41H1uTvZo+0pUgFjQZU1jO6ePmUlZYjq65CcW7qNq+ndtrfexOmADkBxNc8F4jeQ6cMqecGedOJq/IDwI9u8N89n4dy95cTyJmplHWTqK5s+6GRbVPLdvLlHQAAIK/PfE4gXfenZI3qqEotUCZ4j+L2eOvxqOn/re+K8Il1RupD/bSbVJ7jAXTx1Mxo6yvQgGg4fMW/vKbxUR64v1lcLM7uuuRV2oeeKHXfakA+s1QObetrmko8f6wqdBIKe/Khk1hzoRr+jUeYEq+n2dOnUCWriHA5bPLqTj1yH6NBxhfMYoLfjYjxZUJw8Xm4dZLb9Q8umBf4zPuSiyalCemC3cfic70kotwa+nLhGkjhnH2qAJGZnm4clzJoHXr1DPG7ZUYtktoHJ3Lm2eN5aNTy7xJks6QuhJKGNe3EjNcfkqyjhw0jrtEOOuwfLoSJiO87owyr2/GGFbUt9JUmkNnnoESgahdsofm6sABQJakGKbj0jLrxOR5dLwuLeO2R/3kItYaTlq5f0AUEqXa+j5LOnESdjQjg7aG43wVTZKwnUHftZWiqZ/Yj7LD6byfFoAtWr1Sytr3menEaehePahBcdvh9aZ2NvVEWd0RGvT9hmCM5W2plRjRUMOQd8DvWI3A9r7PP219ja5Ea5q4DU/V7aSmM0zSUVSu3kpnwhrw/ahlc9NnjUQtJ8X9sm3LqiED+PXJVWFEFvZ9Hkp28GrDvewI1aPU/ovGLJs/1O7g1rVf7u0irmoPMbe6ltruCI5S+7ba2RqK84Mlm3ivpSvVgERik/z9hQ0D+Cizzlxg1fmjNXFWikhKA1ZsncPkGMryJ+P35NIabGJJSzOP7/oOtko9e37dxcySXCoKstEEaruifLSzi2AfTbQHnSVbvqjUHrzxH/2YZdq23Zhxa/Ge1ef9BPgjkBIPbdOhZ1cM23IQBIWwPDmLmuSMg2v6h7rf0u68+k6JdKWg0zStxzTNnRm31w8fXvCsUuoxFHZqPa+RW+xD17Wv61ZO9ixhvF47dOPj4eXagkce6M94AI/HEzyg+4Gryp63CiOhOxB1d1+p/TWInGIfLveeDjUms4y3qXCvRLAzvwtTyiLU9YY2//5fSs3yngGaXNHKysrokNvry7KHnSpIADitL6Vs0yHYFsc2HZTjdIc6rTf+tn3Ov6Kjj78Cj7cCEX0guUkyvlGa6ubLn+75eCDPA3ZBQcG29vb25EFdMT1ZPdPT4cupQFPnIDJdUKVAFrDbijv1TTUdn6/7YOfKLxa3tANK5RW51fevmqCOmjQdf84k3PqIPZKyk0hwk2ytWyFVL9ZKy5fp7gUsn8/3VTgcjh6yO7Kvd6UW9PYRhmuMf6TZ9NwYe/78+XpbW1spYPTbsvVk966ZDKvBsuwe2kTy8/N39fX8IQEw0Bg5cqS7ra3tcMAzhM8VYGqaFjUMI3jzzTfHDuW98rfj2/H/Nv4NetpsPHufjZMAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1666,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.hujiaweibujidao.wava\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008a\" android:label=\"Wava\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1279185,
+  "crc32" : 3984645413,
+  "sha256" : "913988692e8626351b4a3120caafcaa48dd0bf2f06b121e7ebe88430ef21f370",
+  "buildTime" : 1542554397000
+}

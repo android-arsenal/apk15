@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.jetradar.multibackstack.sample",
+    "label" : "MultiBackStack",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2224,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.jetradar.multibackstack.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f090123\" android:label=\"MultiBackStack\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\">\n\t\t<activity android:name=\"com.jetradar.multibackstack.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1796940,
+  "crc32" : 1299795028,
+  "sha256" : "db1faead9e4eac5cf476615a2be270d74c364a8a0f8332b194cd0196a994afc0",
+  "buildTime" : 1496784540000
+}

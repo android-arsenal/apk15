@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.hujiaweibujidao.yava",
+    "label" : "Yava",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACylBMVEUAAADPz8/f39Dg4NHg4NDf39Df39Dg4NHf39Hf39Hf39Dg4NHe3s/g4NHg4NHY2Njg4NDg4NDg4NDh4c3g4NDg4NPe3tHg4NHg4NHf28zbw7fXsafVqJ/f283OgX3IYGDHXFzRj4rMeHTe2MrKjojEenbe3s/g2cXgx6jg3cvT1cl2gYx1gIzX2MvHv7PGY2LHX1/Cs6jg3s7gpHDgmV7gpnTg2sfd3c7Y2cxqdYVPXXOPl53Z2cvAlI3BiIPV1cfgwZ7g3Mt/iZJSYHXJy8LKyLvDfHjFbGrCgXzBjIbCg37GwbXgnmXgsYWvtLF5g47d3c6+vbG7uq7CwrW/vrLb2szgvJfgyKvf39Dd3c9ibn9TYHXe3tDe3c/b28zawaPgo23g38/s7MiusrCHjZLOzcDNqobgyKl4go5pc4HFxLff39DFxLbXoXHgrX/b285UYXalqKTHtp/gm2Lg3c3Nz8Rfa3zR0cPS0cPanmrg18KJj5JxeoVye4ajpaLHtJzUpHjUo3fMq4nDwra8u6/OzsCvy9KYwdOZwtPG1dLl3L7u1Z/u1J7q2K7S2tF3s9SHutTy0pL1z4fj3sfZ2855s9PH1dLl3MDzzoje3MyLtcmQvtPf4NHg4NDw05nlyZKqv8KsytLr2KzWyKff39DNzsGAtM95tNTf39Hn2rftzIzQz8CmubyNt8vq16vQw6PNzL+Otcd4s9O2vrne4NGZzLqIx7Wgzrys0cCfzryizr3b39DQzbvxzorhyJTf3tC9v7WEtM2VtsPU1Ma01MN2wq+o0L/Y2MrVxJ3qy47EwbG3u7OKtcqJtcrBxLrZ3s9+xLJ5w7DS3MzKybrszI3CvqzW1si9vLC8vK/a2culz76YzLrc3M7DvqzPwaC/va6MyLbV1MbHx7qzw7WKwK94wq+Rv6/Qz8G4uq6svK6iva6eva7Av7PMzL6Inp6EAAAA7nRSTlMACEWDtNnx/TWe8P8zuv4KkvyRJ9QmO+3z////////////////////////////////////////Mv//////////////////////////////////////////nf///////////wf//////////////////////////////////////////////////////////////////////////////////////0T/////////////////////////////////////////////////////////////////////////////////////////////////gK2CKwAAAvJJREFUSMdjYBgCgJGJmYWVjZ2djZWFmYmRoHIOTi5uJMDFyYFXOQ8vNzrg4+XBqZxfQJAbCxAU4seuXliEGwcQEcWmXkycGycQF8OiXgIhLyklLSMjLSWLEJHA0CGMMF9KTl4BDOQVkexAcxU/kvuVFOBAGckfqD4XQHKwCly9qhq3uoYmVFgIJfyh4amlraPLracPVW9gyG1kbGJqBg1dcyQN0PiysLSysua2sYVqsLPndjAxMTF1hMjyIqUHPoiQk5WVlbMLt6ubu4enp4eXN7eZD1CDiS80zhGphBMi4mcFAv7cAYFBgcHBgSGh3GEmYBAOkY+Ap09IeouMAmuIjuGOjYN6NB6iISERkhKToBqYILLJYPVWKUgBlpoG0ZEO4TJBNTBDuBlg9ZlZSBqyc3LBGvIgXGaoBhYwL78ArKEwADkRBRSBNRSXgHksUA2sYF4pWH1ZOWqyq6gE66gCc1ihGtjAvLjqmpqa2rpsVA3Z9Q2NjY1NkFBgg2pgh0g1BwUFtbSip+zWFqBwM8QYdhQNRAB2FCdxt7W3t3d0oivq6u7p6enlRnESxNN9/SAwAV3DxEkgMBnF05BgnTIVrGMaqvrpYPUzZqIEKyTiAmaBNcyeg6x+7jywhvkBKBEHTRoLwBr6FyJrWARWP2kxhLcENfEtXQbWsHwFQv1KiPpVq1ETHzR5B6wBa1iLZME6iIb1AajJG5aBNmwEqt+0mXvL1m3bd+zYuWs39569IPX7NqBnIGgW3X/gYH//ocPcR45CwDHu4yeA6k+eykbPorBCwOb0mbPnuM9fgGq4eIn78pVJJ6/aYBYCDEIQN1+7fuMm962jMHCb+87de/evYSlm4AVZANB7D+Aajp7nfvjoONaCDLmofPzkKUT502dqOItK5ML4ecuLl69ev3718sWbbNyFMXJxr3b47aOsrEdvD6vhK+4ZGERJrFCAPhcircoCAnNePsxK0Rx/tRuBWu1GcBCsqZOQKvYlSUOhKQIAlbgVONpBWHMAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1621,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.hujiaweibujidao.yava\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008a\" android:label=\"Yava\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.BounceActivity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.Bounce2Activity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.DemoActivity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.Demo2Activity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.InterpolatorActivity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.EvaluatorActivity\" />\n\t\t<activity android:name=\"com.github.hujiaweibujidao.example.activity.CustomActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1256953,
+  "crc32" : 2236258717,
+  "sha256" : "d149b76617d1586290c7837f18f2fa35e4df5ac8bb4ee70182252ed5d5b2ae8f",
+  "buildTime" : 1542607672000
+}
