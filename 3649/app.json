@@ -3,7 +3,7 @@
     "packageName" : "com.example.belvedere",
     "label" : "Belvedere Sample",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "2.2.1-SNAPSHOT",
+    "versionName" : "2.3.0-SNAPSHOT",
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "16",
@@ -12,7 +12,7 @@
     "compileSdkVersion" : "28",
     "compileSdkVersionCodename" : "9",
     "platformBuildVersionCode" : "1",
-    "platformBuildVersionName" : "2.2.1-SNAPSHOT",
+    "platformBuildVersionName" : "2.3.0-SNAPSHOT",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 2700,
   "locales" : [ "", "�\u0005", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"2.2.1-SNAPSHOT\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.example.belvedere\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"2.2.1-SNAPSHOT\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"Belvedere Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.example.belvedere.Global\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.example.belvedere.ChatActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.example.belvedere.com.squareup.picasso\" />\n\t\t<provider android:name=\"zendesk.belvedere.BelvedereFileProvider\" android:readPermission=\"true\" android:exported=\"false\" android:authorities=\"com.example.belvedere.belvedere2.attachments\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/belvedere_attachment_storage_v2.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2104989,
-  "crc32" : 2899053030,
-  "sha256" : "c653157c1dbda0fc76af9f4a602ef0f7cd4aa9c52c2de1058358fa7222b9dfbf",
-  "buildTime" : 1548512051000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"2.3.0-SNAPSHOT\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.example.belvedere\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"2.3.0-SNAPSHOT\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"Belvedere Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.example.belvedere.Global\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.example.belvedere.ChatActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.example.belvedere.com.squareup.picasso\" />\n\t\t<provider android:name=\"zendesk.belvedere.BelvedereFileProvider\" android:readPermission=\"true\" android:exported=\"false\" android:authorities=\"com.example.belvedere.belvedere2.attachments\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/belvedere_attachment_storage_v2.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2106081,
+  "crc32" : 3018777966,
+  "sha256" : "b08ac7b54e32eb6cc0069e20fc74eb0163b25fb249e3a429ce30ba6de33e5b5b",
+  "buildTime" : 1562531463000
 }

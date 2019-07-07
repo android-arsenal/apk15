@@ -1,34 +1,34 @@
-2018-11-18 00:48:29,724 INFO  DownloadService - Downloading "https://github.com/titansgroup/k4l-video-trimmer/archive/master.zip", attempt 3
-2018-11-18 00:48:31,843 INFO  DownloadService - Downloaded https://github.com/titansgroup/k4l-video-trimmer/archive/master.zip, attempt 3
-2018-11-18 00:48:31,843 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/master.zip": 2 MB
-2018-11-18 00:48:31,843 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 00:48:31,846 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/master.zip: true
-2018-11-18 00:48:31,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src'.
-2018-11-18 00:48:31,901 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-11-18 00:48:31,901 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src]
-2018-11-18 00:48:31,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/.git/
+2019-07-08 03:10:17,773 INFO  DownloadService - Downloading "https://github.com/titansgroup/k4l-video-trimmer/archive/master.zip", attempt 3
+2019-07-08 03:10:21,231 INFO  DownloadService - Downloaded https://github.com/titansgroup/k4l-video-trimmer/archive/master.zip, attempt 3
+2019-07-08 03:10:21,231 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/master.zip": 2 MB
+2019-07-08 03:10:21,231 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:10:21,238 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/master.zip: true
+2019-07-08 03:10:21,238 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src'.
+2019-07-08 03:10:21,281 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-08 03:10:21,281 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src]
+2019-07-08 03:10:21,297 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/.git/
 
-2018-11-18 00:48:31,924 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/gradlew
-2018-11-18 00:48:31,928 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/build.gradle
-2018-11-18 00:48:31,932 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/mavenpush.gradle
-2018-11-18 00:48:31,933 INFO  ProjectBuildService - Remote scripts: none
-2018-11-18 00:48:31,933 INFO  ProjectFixService - Fixing project...
-2018-11-18 00:48:31,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/local.properties
-2018-11-18 00:48:31,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-18 00:48:31,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/local.properties
-2018-11-18 00:48:31,944 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-18 00:48:31,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/local.properties
-2018-11-18 00:48:31,946 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-18 00:48:31,946 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-18 00:48:31,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-18 00:48:31,948 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 00:48:31,948 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:48:31,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:49:14,246 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:49:14,246 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:49:14,246 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:49:14,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:49:28,981 ERROR SysUtils - Could not process external command
+2019-07-08 03:10:21,300 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/gradlew
+2019-07-08 03:10:21,303 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/build.gradle
+2019-07-08 03:10:21,306 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/mavenpush.gradle
+2019-07-08 03:10:21,306 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:10:21,306 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:10:21,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/local.properties
+2019-07-08 03:10:21,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-08 03:10:21,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/local.properties
+2019-07-08 03:10:21,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-08 03:10:21,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/local.properties
+2019-07-08 03:10:21,313 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 03:10:21,314 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 03:10:21,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-08 03:10:21,314 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:10:21,314 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:10:21,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:10:31,292 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:10:31,292 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:10:31,292 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:10:31,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/k4l-video-trimmer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:10:41,121 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:49:28,981 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:10:41,121 INFO  SysUtils - Configuration on demand is an incubating feature.
 SNAPSHOT BUILD
 Incremental java compilation is an incubating feature.
 1.0-SNAPSHOT
@@ -237,14 +237,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.183 secs
+Total time: 9.325 secs
 
-2018-11-18 00:49:29,052 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:49:29,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:49:36,978 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-18 00:49:36,978 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-18 00:49:36,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-18 00:49:56,284 ERROR SysUtils - Could not process external command
+2019-07-08 03:10:41,163 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:10:41,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:10:46,876 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-08 03:10:46,877 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 03:10:46,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 03:11:02,835 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -272,7 +272,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:49:56,285 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:11:02,835 INFO  SysUtils - Configuration on demand is an incubating feature.
 SNAPSHOT BUILD
 Incremental java compilation is an incubating feature.
 1.0-SNAPSHOT
@@ -302,8 +302,8 @@ Incremental java compilation is an incubating feature.
 :k4l-video-trimmer:generateReleaseResources UP-TO-DATE
 :k4l-video-trimmer:mergeReleaseResources
 :k4l-video-trimmer:processReleaseManifest UP-TO-DATE
-:k4l-video-trimmer:processReleaseResources
-:k4l-video-trimmer:generateReleaseSources
+:k4l-video-trimmer:processReleaseResources UP-TO-DATE
+:k4l-video-trimmer:generateReleaseSources UP-TO-DATE
 :k4l-video-trimmer:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
 :k4l-video-trimmer:compileReleaseJavaWithJavac UP-TO-DATE
 :k4l-video-trimmer:extractReleaseAnnotations UP-TO-DATE
@@ -471,6 +471,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.666 secs
+Total time: 15.363 secs
 
-2018-11-18 00:49:56,420 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542476909719-0/src/k4l-video-trimmer-master/sample-app/build/outputs/apk/sample-app-debug.apk
+2019-07-08 03:11:02,918 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530217771-0/src/k4l-video-trimmer-master/sample-app/build/outputs/apk/sample-app-debug.apk

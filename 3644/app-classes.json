@@ -105,7 +105,7 @@
   "com.chad.baserecyclerviewadapterhelper.base" : [ "BaseActivity", "BaseActivity$1", "BaseBindingViewHolder", "BaseDataBindingAdapter" ],
   "com.chad.baserecyclerviewadapterhelper.data" : [ "DataServer" ],
   "com.chad.baserecyclerviewadapterhelper.databinding" : [ "ItemMovieBinding", "ItemMovieBindingImpl" ],
-  "com.chad.baserecyclerviewadapterhelper.decoration" : [ "GridItemDecoration", "GridSectionAverageGapItemDecoration" ],
+  "com.chad.baserecyclerviewadapterhelper.decoration" : [ "GridItemDecoration", "GridSectionAverageGapItemDecoration", "GridSectionAverageGapItemDecoration$1", "GridSectionAverageGapItemDecoration$Section", "GridSectionMultiAvgGapItemDecoration", "GridSectionMultiAvgGapItemDecoration$1", "GridSectionMultiAvgGapItemDecoration$Section", "GridSectionMultiAvgGapItemDecoration$SectionDecoration" ],
   "com.chad.baserecyclerviewadapterhelper.entity" : [ "ClickEntity", "HomeItem", "Level0Item", "Level1Item", "Movie", "MoviePresenter", "MultipleItem", "MySection", "NormalMultipleEntity", "Person", "SectionMultipleItem", "Status", "Video" ],
   "com.chad.baserecyclerviewadapterhelper.generated.callback" : [ "OnClickListener", "OnClickListener$Listener" ],
   "com.chad.baserecyclerviewadapterhelper.loadmore" : [ "CustomLoadMoreView" ],

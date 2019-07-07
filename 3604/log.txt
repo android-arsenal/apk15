@@ -1,86 +1,89 @@
-2019-01-13 02:20:43,006 INFO  DownloadService - Downloading "https://github.com/CloudRail/cloudrail-si-android-sdk/archive/master.zip", attempt 3
-2019-01-13 02:20:49,523 INFO  DownloadService - Downloaded https://github.com/CloudRail/cloudrail-si-android-sdk/archive/master.zip, attempt 3
-2019-01-13 02:20:49,523 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/master.zip": 2 MB
-2019-01-13 02:20:49,523 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-13 02:20:49,530 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/master.zip: true
-2019-01-13 02:20:49,531 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src'.
-2019-01-13 02:20:49,677 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-01-13 02:20:49,677 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src]
-2019-01-13 02:20:49,696 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/.git/
+2019-07-08 03:56:04,869 INFO  DownloadService - Downloading "https://github.com/CloudRail/cloudrail-si-android-sdk/archive/master.zip", attempt 3
+2019-07-08 03:57:05,410 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 03:57:06,237 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 03:57:06,238 INFO  DownloadService - Downloading "https://github.com/CloudRail/cloudrail-si-android-sdk/archive/master.zip", attempt 3
+2019-07-08 03:58:07,770 DEBUG FullProcessService - Repository https://github.com/CloudRail/cloudrail-si-android-sdk available: true
+2019-07-08 03:58:07,770 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 03:58:07,770 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/CloudRail/cloudrail-si-android-sdk, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src]
+2019-07-08 03:58:11,924 INFO  SysUtils - 
+2019-07-08 03:58:11,938 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/.git": true
+2019-07-08 03:58:11,952 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-08 03:58:11,952 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src]
+2019-07-08 03:58:11,968 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/.git/
 
-2019-01-13 02:20:49,711 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew
-2019-01-13 02:20:49,729 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/build.gradle
-2019-01-13 02:20:49,745 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/settings.gradle
-2019-01-13 02:20:49,747 INFO  ProjectBuildService - Remote scripts: none
-2019-01-13 02:20:49,747 INFO  ProjectFixService - Fixing project...
-2019-01-13 02:20:49,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/local.properties
-2019-01-13 02:20:49,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-01-13 02:20:49,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/local.properties
-2019-01-13 02:20:49,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/local.properties
-2019-01-13 02:20:49,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-13 02:20:49,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/local.properties
-2019-01-13 02:20:49,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/local.properties
-2019-01-13 02:20:49,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/local.properties
-2019-01-13 02:20:49,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-13 02:20:49,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/local.properties
-2019-01-13 02:20:49,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/local.properties
-2019-01-13 02:20:49,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/local.properties
-2019-01-13 02:20:49,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-13 02:20:49,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/local.properties
-2019-01-13 02:20:49,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-13 02:20:49,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/local.properties
-2019-01-13 02:20:49,797 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,797 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/local.properties
-2019-01-13 02:20:49,798 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,799 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/local.properties
-2019-01-13 02:20:49,800 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,800 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/local.properties
-2019-01-13 02:20:49,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,802 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/local.properties
-2019-01-13 02:20:49,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,805 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/local.properties
-2019-01-13 02:20:49,807 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,807 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/local.properties
-2019-01-13 02:20:49,809 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,809 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/local.properties
-2019-01-13 02:20:49,811 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,811 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/local.properties
-2019-01-13 02:20:49,812 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,813 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/local.properties
-2019-01-13 02:20:49,814 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-13 02:20:49,814 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-13 02:20:49,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-13 02:20:49,815 INFO  ProjectFixService - Project was maybe fixed
-2019-01-13 02:20:49,815 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:20:49,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:20:59,832 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:20:59,832 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:20:59,832 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:20:59,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:21:05,480 ERROR SysUtils - Could not process external command
+2019-07-08 03:58:11,979 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew
+2019-07-08 03:58:11,990 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/build.gradle
+2019-07-08 03:58:12,000 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/settings.gradle
+2019-07-08 03:58:12,001 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:58:12,001 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:58:12,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/local.properties
+2019-07-08 03:58:12,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-07-08 03:58:12,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/local.properties
+2019-07-08 03:58:12,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/local.properties
+2019-07-08 03:58:12,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-08 03:58:12,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/local.properties
+2019-07-08 03:58:12,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/local.properties
+2019-07-08 03:58:12,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/local.properties
+2019-07-08 03:58:12,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 03:58:12,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/local.properties
+2019-07-08 03:58:12,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/local.properties
+2019-07-08 03:58:12,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/local.properties
+2019-07-08 03:58:12,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 03:58:12,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/local.properties
+2019-07-08 03:58:12,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-08 03:58:12,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/local.properties
+2019-07-08 03:58:12,036 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,036 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/local.properties
+2019-07-08 03:58:12,037 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/local.properties
+2019-07-08 03:58:12,039 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,039 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/local.properties
+2019-07-08 03:58:12,040 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,040 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/local.properties
+2019-07-08 03:58:12,042 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,042 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/local.properties
+2019-07-08 03:58:12,043 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,043 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/local.properties
+2019-07-08 03:58:12,044 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,045 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/local.properties
+2019-07-08 03:58:12,046 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/local.properties
+2019-07-08 03:58:12,047 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,047 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/local.properties
+2019-07-08 03:58:12,048 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:58:12,048 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:58:12,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-07-08 03:58:12,049 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:58:12,049 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:58:12,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:58:19,839 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:58:19,839 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:58:19,839 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:58:19,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:58:24,454 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -93,7 +96,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -107,7 +110,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:21:05,480 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:58:24,454 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -215,15 +218,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.305 secs
+Total time: 4.333 secs
 
-2019-01-13 02:21:05,497 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:21:05,497 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:21:14,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:21:14,017 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:21:14,017 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:21:14,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:21:19,648 ERROR SysUtils - Could not process external command
+2019-07-08 03:58:24,468 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:58:24,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:58:32,230 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:58:32,230 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:58:32,230 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:58:32,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:58:36,750 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -236,7 +239,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -250,7 +253,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:21:19,649 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:58:36,750 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -358,15 +361,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.261 secs
+Total time: 4.246 secs
 
-2019-01-13 02:21:19,671 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:21:19,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:21:27,000 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:21:27,000 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:21:27,000 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:21:27,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:21:32,138 ERROR SysUtils - Could not process external command
+2019-07-08 03:58:36,760 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:58:36,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:58:42,748 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:58:42,748 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:58:42,748 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:58:42,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:58:47,417 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -379,7 +382,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -393,7 +396,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:21:32,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:58:47,417 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -501,15 +504,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.808 secs
+Total time: 4.371 secs
 
-2019-01-13 02:21:32,154 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:21:32,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:21:37,644 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:21:37,644 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:21:37,644 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:21:37,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:21:43,264 ERROR SysUtils - Could not process external command
+2019-07-08 03:58:47,430 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:58:47,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:58:52,055 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:58:52,055 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:58:52,055 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:58:52,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:58:56,672 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -522,7 +525,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -536,7 +539,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:21:43,264 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:58:56,672 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -644,15 +647,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.263 secs
+Total time: 4.369 secs
 
-2019-01-13 02:21:43,284 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:21:43,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:21:49,385 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:21:49,385 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:21:49,385 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:21:49,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:21:55,845 ERROR SysUtils - Could not process external command
+2019-07-08 03:58:56,682 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:58:56,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:01,232 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:01,232 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:01,232 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:01,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:59:05,907 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -665,7 +668,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -679,7 +682,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:21:55,845 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:59:05,907 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -787,15 +790,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.117 secs
+Total time: 4.367 secs
 
-2019-01-13 02:21:55,865 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:21:55,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:22:03,268 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:22:03,268 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:22:03,269 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:22:03,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:22:08,842 ERROR SysUtils - Could not process external command
+2019-07-08 03:59:05,921 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:59:05,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:12,114 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:12,114 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:12,114 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:12,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:59:16,842 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -808,7 +811,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -822,7 +825,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:22:08,842 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:59:16,843 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 Incremental java compilation is an incubating feature.
 
@@ -931,15 +934,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.244 secs
+Total time: 4.417 secs
 
-2019-01-13 02:22:08,863 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:22:08,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:22:14,534 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:22:14,534 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:22:14,534 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:22:14,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:22:20,557 ERROR SysUtils - Could not process external command
+2019-07-08 03:59:16,856 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:59:16,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:21,465 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:21,465 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:21,465 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:21,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:59:26,006 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -952,7 +955,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -966,7 +969,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:22:20,557 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:59:26,006 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1074,15 +1077,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.659 secs
+Total time: 4.287 secs
 
-2019-01-13 02:22:20,579 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:22:20,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:22:29,315 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:22:29,315 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:22:29,316 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:22:29,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:22:34,864 ERROR SysUtils - Could not process external command
+2019-07-08 03:59:26,017 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:59:26,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:33,369 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:33,369 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:33,369 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:33,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:59:38,121 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1095,7 +1098,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1109,7 +1112,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:22:34,864 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:59:38,121 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1217,15 +1220,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.234 secs
+Total time: 4.467 secs
 
-2019-01-13 02:22:34,884 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:22:34,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:22:43,966 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:22:43,966 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:22:43,966 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:22:43,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:22:49,238 ERROR SysUtils - Could not process external command
+2019-07-08 03:59:38,135 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:59:38,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:45,216 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:45,216 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:45,216 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:45,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:59:49,787 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1238,7 +1241,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1252,7 +1255,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:22:49,238 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:59:49,787 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1360,15 +1363,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.93 secs
+Total time: 4.287 secs
 
-2019-01-13 02:22:49,261 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:22:49,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:22:57,371 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:22:57,371 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:22:57,372 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:22:57,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:23:02,802 ERROR SysUtils - Could not process external command
+2019-07-08 03:59:49,801 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:59:49,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:59:57,095 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:59:57,096 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:59:57,096 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:59:57,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:01,753 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1381,7 +1384,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1395,7 +1398,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:23:02,802 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:01,753 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1503,15 +1506,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.082 secs
+Total time: 4.374 secs
 
-2019-01-13 02:23:02,822 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:23:02,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:23:08,365 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:23:08,365 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:23:08,365 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:23:08,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/AdvancedAuthentication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:23:13,546 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:01,766 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:01,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:06,447 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:06,447 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:06,447 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:06,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/AdvancedAuthentication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:11,041 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1524,7 +1527,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1538,7 +1541,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:23:13,546 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:11,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1646,15 +1649,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.852 secs
+Total time: 4.366 secs
 
-2019-01-13 02:23:13,566 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:23:13,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:23:19,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:23:19,001 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:23:19,001 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:23:19,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedBucketCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:23:24,949 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:11,054 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:11,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:15,689 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:15,689 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:15,689 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:15,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedBucketCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:20,284 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1667,7 +1670,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1681,7 +1684,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:23:24,949 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:20,284 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1789,15 +1792,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.578 secs
+Total time: 4.319 secs
 
-2019-01-13 02:23:24,971 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:23:24,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:23:30,875 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:23:30,875 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:23:30,875 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:23:30,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:23:36,742 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:20,298 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:20,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:24,859 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:24,860 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:24,860 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:24,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedCloudStorage/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:29,420 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1810,7 +1813,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1824,7 +1827,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:23:36,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:29,420 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1932,15 +1935,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.524 secs
+Total time: 4.336 secs
 
-2019-01-13 02:23:36,766 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:23:36,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:23:42,502 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:23:42,503 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:23:42,503 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:23:42,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedEmailSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:23:48,068 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:29,434 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:29,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:34,035 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:34,035 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:34,035 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:34,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedEmailSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:38,663 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1953,7 +1956,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1967,7 +1970,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:23:48,068 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:38,663 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2075,15 +2078,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.288 secs
+Total time: 4.34 secs
 
-2019-01-13 02:23:48,089 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:23:48,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:23:53,960 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:23:53,960 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:23:53,961 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:23:53,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPayment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:00,670 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:38,676 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:38,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:43,300 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:43,300 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:43,300 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:43,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPayment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:47,931 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2096,7 +2099,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2110,7 +2113,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:00,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:47,932 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2218,15 +2221,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.327 secs
+Total time: 4.416 secs
 
-2019-01-13 02:24:00,692 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:24:00,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:24:06,064 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:24:06,064 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:24:06,064 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:24:06,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedPointsOfInterest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:11,869 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:47,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:47,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:00:52,544 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:00:52,544 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:00:52,544 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:00:52,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedPointsOfInterest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:00:57,114 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2239,7 +2242,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2253,7 +2256,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:11,869 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:00:57,114 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 Incremental java compilation is an incubating feature.
 
@@ -2362,15 +2365,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.482 secs
+Total time: 4.364 secs
 
-2019-01-13 02:24:11,886 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:24:11,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:24:17,854 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:24:17,854 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:24:17,854 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:24:17,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSMSSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:23,725 ERROR SysUtils - Could not process external command
+2019-07-08 04:00:57,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:00:57,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:01:01,656 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:01:01,656 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:01:01,656 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:01:01,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSMSSending/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:01:06,256 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2383,7 +2386,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2397,7 +2400,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:23,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:01:06,256 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2505,15 +2508,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.609 secs
+Total time: 4.326 secs
 
-2019-01-13 02:24:23,744 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:24:23,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:24:29,558 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:24:29,558 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:24:29,558 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:24:29,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialInteraction/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:35,670 ERROR SysUtils - Could not process external command
+2019-07-08 04:01:06,271 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:01:06,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:01:11,047 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:01:11,047 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:01:11,047 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:01:11,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialInteraction/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:01:15,797 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2526,7 +2529,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2540,7 +2543,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:35,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:01:15,797 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2648,15 +2651,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.79 secs
+Total time: 4.475 secs
 
-2019-01-13 02:24:35,691 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:24:35,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:24:41,629 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:24:41,629 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:24:41,629 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:24:41,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:47,279 ERROR SysUtils - Could not process external command
+2019-07-08 04:01:15,810 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:01:15,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:01:20,319 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:01:20,320 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:01:20,320 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:01:20,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedSocialLoginAndProfile/frontend/LoginWithSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:01:24,874 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2669,7 +2672,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2683,7 +2686,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:47,280 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:01:24,874 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2791,15 +2794,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.406 secs
+Total time: 4.292 secs
 
-2019-01-13 02:24:47,300 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:24:47,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:24:52,887 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-13 02:24:52,887 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-13 02:24:52,887 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-13 02:24:52,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320842998-0/src/cloudrail-si-android-sdk-master/ExampleProjects/UnifiedVideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-13 02:24:58,417 ERROR SysUtils - Could not process external command
+2019-07-08 04:01:24,887 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:01:24,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:01:29,561 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:01:29,561 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:01:29,561 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:01:29,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532964867-0/src/ExampleProjects/UnifiedVideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:01:34,179 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2812,7 +2815,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -2826,7 +2829,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-13 02:24:58,417 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:01:34,179 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -2934,7 +2937,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.187 secs
+Total time: 4.35 secs
 
-2019-01-13 02:24:58,437 ERROR FullProcessService - Project build has not produced APK file
-2019-01-13 02:24:58,454 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 04:01:34,193 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 04:01:34,204 ERROR FullProcessService - Could not find generated or existed APK file

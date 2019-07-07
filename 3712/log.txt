@@ -1,33 +1,33 @@
-2018-11-18 00:51:26,941 INFO  DownloadService - Downloading "https://github.com/JeasonWong/QingtingBannerView/archive/master.zip", attempt 3
-2018-11-18 00:51:28,625 INFO  DownloadService - Downloaded https://github.com/JeasonWong/QingtingBannerView/archive/master.zip, attempt 3
-2018-11-18 00:51:28,625 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/master.zip": 113 KB
-2018-11-18 00:51:28,625 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 00:51:28,630 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/master.zip: true
-2018-11-18 00:51:28,631 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src'.
-2018-11-18 00:51:28,649 INFO  FullProcessService - Size of directory with sources: 136 KB
-2018-11-18 00:51:28,649 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src]
-2018-11-18 00:51:28,670 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/.git/
+2019-07-08 03:11:26,119 INFO  DownloadService - Downloading "https://github.com/JeasonWong/QingtingBannerView/archive/master.zip", attempt 3
+2019-07-08 03:11:28,212 INFO  DownloadService - Downloaded https://github.com/JeasonWong/QingtingBannerView/archive/master.zip, attempt 3
+2019-07-08 03:11:28,212 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/master.zip": 113 KB
+2019-07-08 03:11:28,212 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:11:28,213 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/master.zip: true
+2019-07-08 03:11:28,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src'.
+2019-07-08 03:11:28,230 INFO  FullProcessService - Size of directory with sources: 136 KB
+2019-07-08 03:11:28,230 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src]
+2019-07-08 03:11:28,246 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/.git/
 
-2018-11-18 00:51:28,674 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/gradlew
-2018-11-18 00:51:28,678 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/banner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/build.gradle
-2018-11-18 00:51:28,681 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/banner/build.gradle
-2018-11-18 00:51:28,682 INFO  ProjectBuildService - Remote scripts: none
-2018-11-18 00:51:28,682 INFO  ProjectFixService - Fixing project...
-2018-11-18 00:51:28,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/local.properties
-2018-11-18 00:51:28,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-18 00:51:28,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/banner/local.properties
-2018-11-18 00:51:28,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/banner/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-18 00:51:28,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/local.properties
-2018-11-18 00:51:28,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-18 00:51:28,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-18 00:51:28,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-18 00:51:28,696 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 00:51:28,696 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:51:28,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:51:40,291 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-18 00:51:40,291 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-18 00:51:40,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-18 00:51:59,415 ERROR SysUtils - Could not process external command
+2019-07-08 03:11:28,248 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/gradlew
+2019-07-08 03:11:28,251 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/banner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/build.gradle
+2019-07-08 03:11:28,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/banner/build.gradle
+2019-07-08 03:11:28,253 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:11:28,253 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:11:28,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/local.properties
+2019-07-08 03:11:28,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 03:11:28,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/banner/local.properties
+2019-07-08 03:11:28,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/banner/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 03:11:28,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/local.properties
+2019-07-08 03:11:28,260 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 03:11:28,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 03:11:28,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 03:11:28,261 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:11:28,261 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:11:28,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:11:37,376 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-08 03:11:37,377 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 03:11:37,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 03:11:52,061 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:51:59,415 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:11:52,062 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -264,6 +264,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.543 secs
+Total time: 14.119 secs
 
-2018-11-18 00:51:59,509 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477086932-0/src/QingtingBannerView-master/app/build/outputs/apk/app-debug.apk
+2019-07-08 03:11:52,121 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530286110-0/src/QingtingBannerView-master/app/build/outputs/apk/app-debug.apk

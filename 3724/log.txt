@@ -1,37 +1,37 @@
-2018-11-18 00:10:34,440 INFO  DownloadService - Downloading "https://github.com/OpenConference/OpenConference-android/archive/master.zip", attempt 3
-2018-11-18 00:10:35,109 INFO  DownloadService - Downloaded https://github.com/OpenConference/OpenConference-android/archive/master.zip, attempt 3
-2018-11-18 00:10:35,110 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/master.zip": 302 KB
-2018-11-18 00:10:35,110 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 00:10:35,110 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/master.zip: true
-2018-11-18 00:10:35,110 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src'.
-2018-11-18 00:10:35,228 INFO  FullProcessService - Size of directory with sources: 464 KB
-2018-11-18 00:10:35,229 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src]
-2018-11-18 00:10:35,257 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/.git/
+2019-07-08 03:03:25,957 INFO  DownloadService - Downloading "https://github.com/OpenConference/OpenConference-android/archive/master.zip", attempt 3
+2019-07-08 03:03:29,292 INFO  DownloadService - Downloaded https://github.com/OpenConference/OpenConference-android/archive/master.zip, attempt 3
+2019-07-08 03:03:29,292 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/master.zip": 302 KB
+2019-07-08 03:03:29,292 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:03:29,298 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/master.zip: true
+2019-07-08 03:03:29,299 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src'.
+2019-07-08 03:03:29,374 INFO  FullProcessService - Size of directory with sources: 464 KB
+2019-07-08 03:03:29,374 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src]
+2019-07-08 03:03:29,391 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/.git/
 
-2018-11-18 00:10:35,268 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew
-2018-11-18 00:10:35,278 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle
-2018-11-18 00:10:35,288 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/settings.gradle
-2018-11-18 00:10:35,289 INFO  ProjectBuildService - Remote scripts: none
-2018-11-18 00:10:35,289 INFO  ProjectFixService - Fixing project...
-2018-11-18 00:10:35,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/local.properties
-2018-11-18 00:10:35,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,327 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/local.properties
-2018-11-18 00:10:35,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,335 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/local.properties
-2018-11-18 00:10:35,337 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
-2018-11-18 00:10:35,338 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-11-18 00:10:35,340 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,340 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=25]
-2018-11-18 00:10:35,341 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 00:10:35,341 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:10:35,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:10:46,239 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:10:46,239 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:10:46,239 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:10:46,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:10:52,800 ERROR SysUtils - Could not process external command
+2019-07-08 03:03:29,399 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew
+2019-07-08 03:03:29,406 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle
+2019-07-08 03:03:29,413 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/settings.gradle
+2019-07-08 03:03:29,413 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:03:29,413 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:03:29,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/local.properties
+2019-07-08 03:03:29,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/local.properties
+2019-07-08 03:03:29,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,438 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,439 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/local.properties
+2019-07-08 03:03:29,439 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
+2019-07-08 03:03:29,439 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2019-07-08 03:03:29,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,441 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=25]
+2019-07-08 03:03:29,442 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:03:29,442 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:03:29,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:04:53,261 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:04:53,262 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:04:53,262 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:04:53,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:04:59,765 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:10:52,800 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:04:59,765 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 
 FAILURE: Build failed with an exception.
@@ -266,13 +267,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 6s
 
-2018-11-18 00:10:52,810 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:10:52,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:10:58,694 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:10:58,694 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:10:58,694 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:10:58,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:11:04,694 ERROR SysUtils - Could not process external command
+2019-07-08 03:04:59,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:04:59,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:05:05,596 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:05:05,596 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:05:05,596 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:05:05,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/app/libraries/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:05:11,172 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -285,7 +286,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -299,7 +301,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:11:04,694 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:05:11,172 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -423,20 +425,20 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 80 more
 
 
 BUILD FAILED in 5s
 
-2018-11-18 00:11:04,704 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:11:04,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:11:11,216 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:11:11,216 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:11:11,217 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:11:11,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474634433-0/src/OpenConference-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:11:17,917 ERROR SysUtils - Could not process external command
+2019-07-08 03:05:11,181 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:05:11,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:05:17,385 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:05:17,385 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:05:17,385 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:05:17,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562529805954-0/src/OpenConference-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:05:23,465 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -449,7 +451,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -463,7 +466,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:11:17,918 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:05:23,466 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 
 FAILURE: Build failed with an exception.
@@ -669,7 +672,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	... 146 more
 
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-11-18 00:11:17,929 ERROR FullProcessService - Project build has not produced APK file
-2018-11-18 00:11:17,941 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:05:23,474 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 03:05:23,483 ERROR FullProcessService - Could not find generated or existed APK file

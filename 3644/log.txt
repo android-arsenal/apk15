@@ -1,42 +1,41 @@
-2019-01-15 16:16:31,469 INFO  DownloadService - Downloading "https://github.com/CymChad/BaseRecyclerViewAdapterHelper/archive/master.zip", attempt 3
-2019-01-15 16:16:41,390 INFO  DownloadService - Downloaded https://github.com/CymChad/BaseRecyclerViewAdapterHelper/archive/master.zip, attempt 3
-2019-01-15 16:16:41,390 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/master.zip": 892 KB
-2019-01-15 16:16:41,390 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-15 16:16:41,398 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/master.zip: true
-2019-01-15 16:16:41,399 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src'.
-2019-01-15 16:16:41,470 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-15 16:16:41,470 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src]
-2019-01-15 16:16:41,487 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/.git/
+2019-07-08 03:33:25,150 INFO  DownloadService - Downloading "https://github.com/CymChad/BaseRecyclerViewAdapterHelper/archive/master.zip", attempt 3
+2019-07-08 03:33:26,856 INFO  DownloadService - Downloaded https://github.com/CymChad/BaseRecyclerViewAdapterHelper/archive/master.zip, attempt 3
+2019-07-08 03:33:26,856 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/master.zip": 896 KB
+2019-07-08 03:33:26,856 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:33:26,868 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/master.zip: true
+2019-07-08 03:33:26,868 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src'.
+2019-07-08 03:33:26,924 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-08 03:33:26,924 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src]
+2019-07-08 03:33:26,940 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/.git/
 
-2019-01-15 16:16:41,494 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/gradlew
-2019-01-15 16:16:41,502 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/material-spinner-1.0.5/build.gradle
-2019-01-15 16:16:41,509 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/material-spinner-1.0.5/build.gradle
-2019-01-15 16:16:41,509 INFO  ProjectBuildService - Remote scripts: none
-2019-01-15 16:16:41,510 INFO  ProjectFixService - Fixing project...
-2019-01-15 16:16:41,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/local.properties
-2019-01-15 16:16:41,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,526 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/local.properties
-2019-01-15 16:16:41,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/local.properties
-2019-01-15 16:16:41,529 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-15 16:16:41,530 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-15 16:16:41,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,531 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/material-spinner-1.0.5/local.properties
-2019-01-15 16:16:41,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/material-spinner-1.0.5/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/material-spinner-1.0.5/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-15 16:16:41,533 INFO  ProjectFixService - Project was maybe fixed
-2019-01-15 16:16:41,534 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-15 16:16:41,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-15 16:16:48,966 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-15 16:16:48,966 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-15 16:16:48,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-15 16:17:36,023 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:33:26,944 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/gradlew
+2019-07-08 03:33:26,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle
+2019-07-08 03:33:26,955 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/settings.gradle
+2019-07-08 03:33:26,955 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:33:26,955 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:33:26,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/local.properties
+2019-07-08 03:33:26,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/local.properties
+2019-07-08 03:33:26,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/local.properties
+2019-07-08 03:33:26,968 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-08 03:33:26,969 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-08 03:33:26,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:33:26,970 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:33:26,970 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:33:26,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:33:32,835 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-08 03:33:32,835 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 03:33:32,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 03:34:11,884 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.1/library-3.2.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.1/adapters-3.2.1.aar
 Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.aar
+Download https://jcenter.bintray.com/com/kyleduo/switchbutton/library/2.0.0/library-2.0.0.aar
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -73,7 +72,7 @@ Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.aar
 :library:prepareLintJar
 :library:generateDebugSources
 :library:javaPreCompileDebug
-:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/src/main/java/com/chad/library/adapter/base/BaseItemDraggableAdapter.java uses or overrides a deprecated API.
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/src/main/java/com/chad/library/adapter/base/BaseItemDraggableAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -147,7 +146,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :library:generateReleaseBuildConfig
 :library:generateReleaseSources
 :library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/src/main/java/com/chad/library/adapter/base/BaseItemDraggableAdapter.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/src/main/java/com/chad/library/adapter/base/BaseItemDraggableAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -163,7 +162,6 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4c664dd8a93f97c8b454b4802926a61e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -181,6 +179,7 @@ Request to incrementing alive workforce from 0. Current workforce (dead or alive
 thread-pool size=4
 ProGuard, version 6.0.3
 Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-spinner-1.0.5.aar/bc0a85a983195cdcc0d049175f331d7d/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/76e96d30ad7e341b5e8b0723c985bda8/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/28116d796624bf82b4b7eed0acb4c4b2/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.2.1/62174ecf31e2e3e4dd7a21cbd05399e11d0a9699/baseLibrary-3.2.1.jar] (filtered)
@@ -220,10 +219,9 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-2
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-spinner-1.0.5.aar/362c25e91ab46a07a64681367770f829/jars/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -244,15 +242,16 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
-  Original number of program classes: 2435
-  Final number of program classes:    1303
+  Original number of program classes: 2441
+  Final number of program classes:    1305
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-spinner-1.0.5.aar/bc0a85a983195cdcc0d049175f331d7d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/76e96d30ad7e341b5e8b0723c985bda8/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/28116d796624bf82b4b7eed0acb4c4b2/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.2.1/62174ecf31e2e3e4dd7a21cbd05399e11d0a9699/baseLibrary-3.2.1.jar] (filtered)
@@ -292,10 +291,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-spinner-1.0.5.aar/362c25e91ab46a07a64681367770f829/jars/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
@@ -311,7 +309,7 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 38s
 102 actionable tasks: 102 executed
 
-2019-01-15 16:17:36,175 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543791467-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-08 03:34:11,963 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531605141-0/src/BaseRecyclerViewAdapterHelper-master/app/build/outputs/apk/debug/app-debug.apk

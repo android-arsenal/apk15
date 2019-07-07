@@ -1,38 +1,41 @@
-2018-11-21 00:24:25,657 INFO  DownloadService - Downloading "https://github.com/uber-common/infer-plugin/archive/master.zip", attempt 3
-2018-11-21 00:24:26,364 INFO  DownloadService - Downloaded https://github.com/uber-common/infer-plugin/archive/master.zip, attempt 3
-2018-11-21 00:24:26,365 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/master.zip": 124 KB
-2018-11-21 00:24:26,365 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-21 00:24:26,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/master.zip: true
-2018-11-21 00:24:26,371 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src'.
-2018-11-21 00:24:26,402 INFO  FullProcessService - Size of directory with sources: 140 KB
-2018-11-21 00:24:26,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src]
-2018-11-21 00:24:26,425 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/.git/
+2019-07-08 04:01:34,286 INFO  DownloadService - Downloading "https://github.com/uber-common/infer-plugin/archive/master.zip", attempt 3
+2019-07-08 04:02:35,161 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 04:02:36,397 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 04:02:36,397 INFO  DownloadService - Downloading "https://github.com/uber-common/infer-plugin/archive/master.zip", attempt 3
+2019-07-08 04:03:38,448 DEBUG FullProcessService - Repository https://github.com/uber-common/infer-plugin available: true
+2019-07-08 04:03:38,448 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 04:03:38,448 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/uber-common/infer-plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src]
+2019-07-08 04:03:40,477 INFO  SysUtils - 
+2019-07-08 04:03:40,484 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/.git": true
+2019-07-08 04:03:40,488 INFO  FullProcessService - Size of directory with sources: 140 KB
+2019-07-08 04:03:40,488 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src]
+2019-07-08 04:03:40,503 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/.git/
 
-2018-11-21 00:24:26,430 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew
-2018-11-21 00:24:26,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/build.gradle
-2018-11-21 00:24:26,439 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/settings.gradle
-2018-11-21 00:24:26,440 INFO  ProjectBuildService - Remote scripts: none
-2018-11-21 00:24:26,440 INFO  ProjectFixService - Fixing project...
-2018-11-21 00:24:26,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/local.properties
-2018-11-21 00:24:26,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-21 00:24:26,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/local.properties
-2018-11-21 00:24:26,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
-2018-11-21 00:24:26,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
-2018-11-21 00:24:26,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-21 00:24:26,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/local.properties
-2018-11-21 00:24:26,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-21 00:24:26,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/local.properties
-2018-11-21 00:24:26,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-21 00:24:26,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/local.properties
-2018-11-21 00:24:26,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-21 00:24:26,459 INFO  ProjectFixService - Project was maybe fixed
-2018-11-21 00:24:26,459 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 00:24:26,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 00:24:42,307 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-21 00:24:42,309 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-21 00:24:42,309 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-21 00:24:42,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-21 00:24:47,968 ERROR SysUtils - Could not process external command
+2019-07-08 04:03:40,506 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew
+2019-07-08 04:03:40,509 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/build.gradle
+2019-07-08 04:03:40,512 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/settings.gradle
+2019-07-08 04:03:40,513 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 04:03:40,513 INFO  ProjectFixService - Fixing project...
+2019-07-08 04:03:40,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/local.properties
+2019-07-08 04:03:40,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 04:03:40,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/local.properties
+2019-07-08 04:03:40,523 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2019-07-08 04:03:40,523 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2019-07-08 04:03:40,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 04:03:40,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/local.properties
+2019-07-08 04:03:40,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 04:03:40,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/local.properties
+2019-07-08 04:03:40,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 04:03:40,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/local.properties
+2019-07-08 04:03:40,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-08 04:03:40,526 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 04:03:40,526 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:03:40,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:03:48,377 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:03:48,377 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:03:48,377 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:03:48,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:03:53,209 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,8 +48,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-21 00:24:47,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:03:53,209 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileJava UP-TO-DATE
 :buildSrc:compileGroovy UP-TO-DATE
 :buildSrc:processResources UP-TO-DATE
@@ -183,14 +185,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.398 secs
+Total time: 4.577 secs
 
-2018-11-21 00:24:47,976 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 00:24:47,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 00:24:53,745 INFO  ProjectTaskService - Detected possible tasks: 45
-2018-11-21 00:24:53,745 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-21 00:24:53,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-21 00:24:59,125 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:03:53,215 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:03:53,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:03:56,273 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-08 04:03:56,273 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-08 04:03:56,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-08 04:04:01,142 INFO  SysUtils - Configuration on demand is an incubating feature.
 :infer-plugin:compileJava UP-TO-DATE
 :infer-plugin:compileGroovy
 :infer-plugin:processResources
@@ -204,14 +206,14 @@ Total time: 5.398 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.214 secs
+Total time: 4.725 secs
 
-2018-11-21 00:24:59,135 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 00:24:59,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 00:25:02,327 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-11-21 00:25:02,327 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-21 00:25:02,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-21 00:25:05,707 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:04:01,149 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:04:01,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:04:04,262 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-08 04:04:04,262 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-08 04:04:04,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-08 04:04:07,159 INFO  SysUtils - Configuration on demand is an incubating feature.
 :infer-plugin:compileJava UP-TO-DATE
 :infer-plugin:compileGroovy UP-TO-DATE
 :infer-plugin:processResources UP-TO-DATE
@@ -225,15 +227,15 @@ Total time: 5.214 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.221 secs
+Total time: 2.756 secs
 
-2018-11-21 00:25:05,718 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 00:25:05,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 00:25:11,368 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-21 00:25:11,369 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-21 00:25:11,369 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-21 00:25:11,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-21 00:25:17,072 ERROR SysUtils - Could not process external command
+2019-07-08 04:04:07,166 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:04:07,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:04:12,054 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 04:04:12,054 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 04:04:12,054 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 04:04:12,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 04:04:16,947 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -246,8 +248,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -261,7 +262,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-21 00:25:17,072 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:04:16,947 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileJava UP-TO-DATE
 :buildSrc:compileGroovy UP-TO-DATE
 :buildSrc:processResources UP-TO-DATE
@@ -384,14 +385,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.36 secs
+Total time: 4.678 secs
 
-2018-11-21 00:25:17,083 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 00:25:17,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 00:25:20,207 INFO  ProjectTaskService - Detected possible tasks: 55
-2018-11-21 00:25:20,207 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-21 00:25:20,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542734665653-0/src/infer-plugin-master/infer-sample/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-21 00:25:23,362 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 04:04:16,954 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 04:04:16,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 04:04:19,651 INFO  ProjectTaskService - Detected possible tasks: 55
+2019-07-08 04:04:19,652 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-08 04:04:19,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562533294283-0/src/infer-sample/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-08 04:04:22,355 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileJava UP-TO-DATE
 :buildSrc:compileGroovy UP-TO-DATE
 :buildSrc:processResources UP-TO-DATE
@@ -415,7 +416,7 @@ Total time: 5.36 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.02 secs
+Total time: 2.589 secs
 
-2018-11-21 00:25:23,370 ERROR FullProcessService - Project build has not produced APK file
-2018-11-21 00:25:23,378 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 04:04:22,362 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 04:04:22,368 ERROR FullProcessService - Could not find generated or existed APK file

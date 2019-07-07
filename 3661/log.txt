@@ -1,30 +1,30 @@
-2018-11-19 11:45:02,616 INFO  DownloadService - Downloading "https://github.com/mplatvoet/kovenant/archive/master.zip", attempt 3
-2018-11-19 11:45:03,883 INFO  DownloadService - Downloaded https://github.com/mplatvoet/kovenant/archive/master.zip, attempt 3
-2018-11-19 11:45:03,883 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/master.zip": 415 KB
-2018-11-19 11:45:03,883 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-19 11:45:03,889 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/master.zip: true
-2018-11-19 11:45:03,889 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src'.
-2018-11-19 11:45:03,944 INFO  FullProcessService - Size of directory with sources: 713 KB
-2018-11-19 11:45:03,944 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src]
-2018-11-19 11:45:03,963 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/.git/
+2019-07-08 03:29:36,400 INFO  DownloadService - Downloading "https://github.com/mplatvoet/kovenant/archive/master.zip", attempt 3
+2019-07-08 03:29:37,402 INFO  DownloadService - Downloaded https://github.com/mplatvoet/kovenant/archive/master.zip, attempt 3
+2019-07-08 03:29:37,403 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/master.zip": 415 KB
+2019-07-08 03:29:37,403 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:29:37,409 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/master.zip: true
+2019-07-08 03:29:37,409 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src'.
+2019-07-08 03:29:37,455 INFO  FullProcessService - Size of directory with sources: 713 KB
+2019-07-08 03:29:37,455 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src]
+2019-07-08 03:29:37,470 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/.git/
 
-2018-11-19 11:45:03,970 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/gradlew
-2018-11-19 11:45:03,977 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle
-2018-11-19 11:45:03,984 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/kovenant/kovenant.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/incubating/incubating.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/ui/ui.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/core/core.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/progress/progress.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/combine/combine.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/jvm/jvm.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/android/android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/jfx/jfx.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/disruptor/disruptor.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/rx/rx.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/projects/functional/functional.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/settings.gradle
-2018-11-19 11:45:03,985 INFO  ProjectBuildService - Remote scripts: none
-2018-11-19 11:45:03,985 INFO  ProjectFixService - Fixing project...
-2018-11-19 11:45:04,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/local.properties
-2018-11-19 11:45:04,004 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.11-all.zip
-2018-11-19 11:45:04,005 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.11-bin.zip)
-2018-11-19 11:45:04,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-19 11:45:04,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-19 11:45:04,014 INFO  ProjectFixService - Project was maybe fixed
-2018-11-19 11:45:04,014 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-19 11:45:04,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-19 11:46:04,963 INFO  ProjectTaskService - Detected possible tasks: 54
-2018-11-19 11:46:04,963 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-19 11:46:04,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602702608-0/src/kovenant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-19 11:46:21,379 ERROR SysUtils - Could not process external command
+2019-07-08 03:29:37,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/gradlew
+2019-07-08 03:29:37,480 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle
+2019-07-08 03:29:37,485 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/kovenant/kovenant.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/incubating/incubating.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/ui/ui.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/core/core.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/progress/progress.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/combine/combine.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/jvm/jvm.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/android/android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/jfx/jfx.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/disruptor/disruptor.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/rx/rx.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/projects/functional/functional.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/settings.gradle
+2019-07-08 03:29:37,485 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:29:37,485 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:29:37,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/local.properties
+2019-07-08 03:29:37,500 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.11-all.zip
+2019-07-08 03:29:37,500 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.11-bin.zip)
+2019-07-08 03:29:37,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 03:29:37,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 03:29:37,507 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:29:37,507 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:29:37,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:29:48,212 INFO  ProjectTaskService - Detected possible tasks: 50
+2019-07-08 03:29:48,212 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-08 03:29:48,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531376397-0/src/kovenant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-08 03:30:03,871 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -37,8 +37,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -52,7 +51,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-19 11:46:21,380 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:30:03,871 INFO  SysUtils - Configuration on demand is an incubating feature.
 :kovenant-core:compileKotlin
 :kovenant-core:compileJava UP-TO-DATE
 :kovenant-core:processResources UP-TO-DATE
@@ -86,7 +85,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :kovenant-ui:classes UP-TO-DATE
 :kovenant-ui:jar
 :kovenant-android:compileKotlin
-Download https://repo1.maven.org/maven2/com/google/android/android/2.2.1/android-2.2.1.pom
 :kovenant-android:compileJava UP-TO-DATE
 :kovenant-android:processResources UP-TO-DATE
 :kovenant-android:classes UP-TO-DATE
@@ -182,7 +180,7 @@ Caused by: org.gradle.api.InvalidUserDataException: Cannot perform signing task 
 
 BUILD FAILED
 
-Total time: 15.914 secs
+Total time: 15.178 secs
 
-2018-11-19 11:46:21,405 ERROR FullProcessService - Project build has not produced APK file
-2018-11-19 11:46:21,426 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:30:03,890 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 03:30:03,905 ERROR FullProcessService - Could not find generated or existed APK file

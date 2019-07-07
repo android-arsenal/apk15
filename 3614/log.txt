@@ -1,676 +1,174 @@
-2018-12-16 23:17:30,772 INFO  DownloadService - Downloading "https://github.com/ShamylZakariya/StickyHeaders/archive/master.zip", attempt 3
-2018-12-16 23:17:33,062 INFO  DownloadService - Downloaded https://github.com/ShamylZakariya/StickyHeaders/archive/master.zip, attempt 3
-2018-12-16 23:17:33,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/master.zip": 3 MB
-2018-12-16 23:17:33,062 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 23:17:33,068 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/master.zip: true
-2018-12-16 23:17:33,069 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src'.
-2018-12-16 23:17:33,128 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-12-16 23:17:33,128 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src]
-2018-12-16 23:17:33,148 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/.git/
+2019-07-08 03:44:19,543 INFO  DownloadService - Downloading "https://github.com/ShamylZakariya/StickyHeaders/archive/master.zip", attempt 3
+2019-07-08 03:45:20,501 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-08 03:45:21,383 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-08 03:45:21,383 INFO  DownloadService - Downloading "https://github.com/ShamylZakariya/StickyHeaders/archive/master.zip", attempt 3
+2019-07-08 03:46:22,970 DEBUG FullProcessService - Repository https://github.com/ShamylZakariya/StickyHeaders available: true
+2019-07-08 03:46:22,970 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-08 03:46:22,971 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ShamylZakariya/StickyHeaders, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src]
+2019-07-08 03:46:30,171 INFO  SysUtils - 
+2019-07-08 03:46:30,178 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/.git": true
+2019-07-08 03:46:30,181 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-08 03:46:30,181 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src]
+2019-07-08 03:46:30,197 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/.git/
 
-2018-12-16 23:17:33,153 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew
-2018-12-16 23:17:33,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/build.gradle
-2018-12-16 23:17:33,162 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/settings.gradle
-2018-12-16 23:17:33,162 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 23:17:33,162 INFO  ProjectFixService - Fixing project...
-2018-12-16 23:17:33,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/local.properties
-2018-12-16 23:17:33,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-12-16 23:17:33,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/local.properties
-2018-12-16 23:17:33,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-12-16 23:17:33,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/local.properties
-2018-12-16 23:17:33,173 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-12-16 23:17:33,174 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-12-16 23:17:33,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-12-16 23:17:33,174 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 23:17:33,174 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 23:17:33,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 23:17:48,779 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 23:17:48,780 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 23:17:48,780 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 23:17:48,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 23:17:55,859 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 23:17:55,859 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
+2019-07-08 03:46:30,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/gradlew
+2019-07-08 03:46:30,203 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/build.gradle
+2019-07-08 03:46:30,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/stickyheaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/settings.gradle
+2019-07-08 03:46:30,206 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:46:30,206 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:46:30,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/local.properties
+2019-07-08 03:46:30,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 03:46:30,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/stickyheaders/local.properties
+2019-07-08 03:46:30,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/stickyheaders/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-08 03:46:30,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/local.properties
+2019-07-08 03:46:30,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-08 03:46:30,214 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-08 03:46:30,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-08 03:46:30,215 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:46:30,215 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:46:30,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:46:37,246 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-08 03:46:37,246 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-08 03:46:37,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-08 03:47:16,908 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :stickyheaders:preBuild UP-TO-DATE
+> Task :stickyheaders:preDebugBuild UP-TO-DATE
+> Task :stickyheaders:checkDebugManifest
+> Task :stickyheaders:processDebugManifest
+> Task :stickyheaders:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :stickyheaders:generateDebugBuildConfig
+> Task :stickyheaders:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
+> Task :stickyheaders:compileDebugRenderscript NO-SOURCE
+> Task :stickyheaders:generateDebugResValues
+> Task :stickyheaders:generateDebugResources
+> Task :stickyheaders:prepareLintJar
+> Task :stickyheaders:generateDebugSources
+> Task :stickyheaders:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :stickyheaders:packageDebugResources
+> Task :stickyheaders:generateDebugRFile
+> Task :stickyheaders:compileDebugJavaWithJavac
+> Task :stickyheaders:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :stickyheaders:mergeDebugShaders
+> Task :stickyheaders:compileDebugShaders
+> Task :stickyheaders:generateDebugAssets
+> Task :stickyheaders:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :stickyheaders:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.-KotlinExtensions.create(retrofit2.Retrofit)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :stickyheaders:processDebugJavaRes NO-SOURCE
+> Task :stickyheaders:bundleLibResDebug
+> Task :stickyheaders:mergeDebugJniLibFolders
+> Task :stickyheaders:transformNativeLibsWithMergeJniLibsForDebug
+> Task :stickyheaders:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :stickyheaders:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :stickyheaders:preReleaseBuild UP-TO-DATE
+> Task :stickyheaders:checkReleaseManifest
+> Task :stickyheaders:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :stickyheaders:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :stickyheaders:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :stickyheaders:compileReleaseRenderscript NO-SOURCE
+> Task :stickyheaders:generateReleaseBuildConfig
+> Task :stickyheaders:generateReleaseResValues
+> Task :stickyheaders:generateReleaseResources
+> Task :stickyheaders:packageReleaseResources
+> Task :stickyheaders:generateReleaseRFile
+> Task :stickyheaders:generateReleaseSources
+> Task :stickyheaders:javaPreCompileRelease
+> Task :stickyheaders:compileReleaseJavaWithJavac
+> Task :stickyheaders:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :stickyheaders:prepareLintJarForPublish
 
-FAILURE: Build failed with an exception.
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/988350ebe132ff8e89767c4f0d642a97/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-* What went wrong:
-A problem occurred configuring project ':app'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :stickyheaders:mergeReleaseShaders
+> Task :stickyheaders:compileReleaseShaders
+> Task :stickyheaders:generateReleaseAssets
+> Task :stickyheaders:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :stickyheaders:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.-KotlinExtensions.create(retrofit2.Retrofit)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :stickyheaders:processReleaseJavaRes NO-SOURCE
+> Task :stickyheaders:bundleLibResRelease
+> Task :stickyheaders:mergeReleaseJniLibFolders
+> Task :stickyheaders:transformNativeLibsWithMergeJniLibsForRelease
+> Task :stickyheaders:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :stickyheaders:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
-	at org.gradle.internal.Factories$1.create(Factories.java:22)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
-	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
-	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
-	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
-	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
-	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
-	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
-	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
-	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
-	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
-	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
-	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
-	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
-	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
-	... 57 more
+BUILD SUCCESSFUL in 39s
+89 actionable tasks: 89 executed
 
-
-BUILD FAILED
-
-Total time: 6.498 secs
-
-2018-12-16 23:17:55,865 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 23:17:55,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 23:18:04,014 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 23:18:04,014 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 23:18:04,014 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 23:18:04,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 23:18:15,931 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 23:18:15,931 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:stickyheaders:preBuild UP-TO-DATE
-:stickyheaders:preDebugBuild UP-TO-DATE
-:stickyheaders:checkDebugManifest
-:stickyheaders:preDebugAndroidTestBuild UP-TO-DATE
-:stickyheaders:preDebugUnitTestBuild UP-TO-DATE
-:stickyheaders:preReleaseBuild UP-TO-DATE
-:stickyheaders:preReleaseUnitTestBuild UP-TO-DATE
-:stickyheaders:prepareComAndroidSupportRecyclerviewV72501Library
-:stickyheaders:prepareComAndroidSupportSupportCompat2501Library
-:stickyheaders:prepareComAndroidSupportSupportCoreUi2501Library
-:stickyheaders:prepareDebugDependencies
-:stickyheaders:compileDebugAidl
-:stickyheaders:compileDebugNdk UP-TO-DATE
-:stickyheaders:compileLint
-:stickyheaders:copyDebugLint UP-TO-DATE
-:stickyheaders:compileDebugRenderscript
-:stickyheaders:generateDebugBuildConfig
-:stickyheaders:generateDebugResValues
-:stickyheaders:generateDebugResources
-:stickyheaders:mergeDebugResources
-:stickyheaders:processDebugManifest
-:stickyheaders:processDebugResources
-:stickyheaders:generateDebugSources
-:stickyheaders:incrementalDebugJavaCompilationSafeguard
-:stickyheaders:compileDebugJavaWithJavac
-:stickyheaders:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:stickyheaders:extractDebugAnnotations
-:stickyheaders:mergeDebugShaders
-:stickyheaders:compileDebugShaders
-:stickyheaders:generateDebugAssets
-:stickyheaders:mergeDebugAssets
-:stickyheaders:mergeDebugProguardFiles
-:stickyheaders:packageDebugRenderscript UP-TO-DATE
-:stickyheaders:packageDebugResources
-:stickyheaders:processDebugJavaRes UP-TO-DATE
-:stickyheaders:transformResourcesWithMergeJavaResForDebug
-:stickyheaders:transformClassesAndResourcesWithSyncLibJarsForDebug
-:stickyheaders:mergeDebugJniLibFolders
-:stickyheaders:transformNative_libsWithMergeJniLibsForDebug
-:stickyheaders:transformNative_libsWithSyncJniLibsForDebug
-:stickyheaders:bundleDebug
-:stickyheaders:compileDebugSources
-:stickyheaders:assembleDebug
-:stickyheaders:checkReleaseManifest
-:stickyheaders:prepareReleaseDependencies
-:stickyheaders:compileReleaseAidl
-:stickyheaders:compileReleaseNdk UP-TO-DATE
-:stickyheaders:copyReleaseLint UP-TO-DATE
-:stickyheaders:compileReleaseRenderscript
-:stickyheaders:generateReleaseBuildConfig
-:stickyheaders:generateReleaseResValues
-:stickyheaders:generateReleaseResources
-:stickyheaders:mergeReleaseResources
-:stickyheaders:processReleaseManifest
-:stickyheaders:processReleaseResources
-:stickyheaders:generateReleaseSources
-:stickyheaders:incrementalReleaseJavaCompilationSafeguard
-:stickyheaders:compileReleaseJavaWithJavac
-:stickyheaders:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:stickyheaders:extractReleaseAnnotations
-:stickyheaders:mergeReleaseShaders
-:stickyheaders:compileReleaseShaders
-:stickyheaders:generateReleaseAssets
-:stickyheaders:mergeReleaseAssets
-:stickyheaders:mergeReleaseProguardFiles
-:stickyheaders:packageReleaseRenderscript UP-TO-DATE
-:stickyheaders:packageReleaseResources
-:stickyheaders:processReleaseJavaRes UP-TO-DATE
-:stickyheaders:transformResourcesWithMergeJavaResForRelease
-:stickyheaders:transformClassesAndResourcesWithSyncLibJarsForRelease
-:stickyheaders:mergeReleaseJniLibFolders
-:stickyheaders:transformNative_libsWithMergeJniLibsForRelease
-:stickyheaders:transformNative_libsWithSyncJniLibsForRelease
-:stickyheaders:bundleRelease
-:stickyheaders:compileReleaseSources
-:stickyheaders:assembleRelease
-:stickyheaders:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/PagedLoadScrollListener.java:3: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.RecyclerView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/PagedLoadScrollListener.java:9: error: package RecyclerView does not exist
-public abstract class PagedLoadScrollListener extends RecyclerView.OnScrollListener {
-                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:7: error: package android.support.annotation does not exist
-import android.support.annotation.Nullable;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:8: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.LinearSmoothScroller;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:9: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.RecyclerView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:28: error: package RecyclerView does not exist
-public class StickyHeaderLayoutManager extends RecyclerView.LayoutManager {
-                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/PagedLoadScrollListener.java:57: error: cannot find symbol
-	public void onScrolled(RecyclerView view, int dx, int dy) {
-	                       ^
-  symbol:   class RecyclerView
-  location: class PagedLoadScrollListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:5: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.RecyclerView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:31: error: package RecyclerView does not exist
-public class SectioningAdapter extends RecyclerView.Adapter<SectioningAdapter.ViewHolder> {
-                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:65: error: package RecyclerView does not exist
-	public static class ViewHolder extends RecyclerView.ViewHolder {
-	                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:97: error: package RecyclerView does not exist
-	public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
-	                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:97: error: package RecyclerView does not exist
-	public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
-	                                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:112: error: cannot find symbol
-	public void onAttachedToWindow(RecyclerView view) {
-	                               ^
-  symbol:   class RecyclerView
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:123: error: cannot find symbol
-	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
-	                                 ^
-  symbol:   class RecyclerView
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:123: error: package RecyclerView does not exist
-	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
-	                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:161: error: package RecyclerView does not exist
-	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
-	                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:161: error: package RecyclerView does not exist
-	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
-	                                                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:263: error: package RecyclerView does not exist
-	private View createSectionHeaderIfNeeded(RecyclerView.Recycler recycler, int sectionIndex) {
-	                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:290: error: package RecyclerView does not exist
-	public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
-	                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:290: error: package RecyclerView does not exist
-	public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
-	                                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:439: error: package RecyclerView does not exist
-	public RecyclerView.LayoutParams generateDefaultLayoutParams() {
-	                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:544: error: cannot find symbol
-	public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
-	                                   ^
-  symbol:   class RecyclerView
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:544: error: package RecyclerView does not exist
-	public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
-	                                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:566: error: cannot find symbol
-	private int getEstimatedItemHeightForSmoothScroll(RecyclerView recyclerView) {
-	                                                  ^
-  symbol:   class RecyclerView
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:584: error: package RecyclerView does not exist
-	private void recycleViewsOutOfBounds(RecyclerView.Recycler recycler) {
-	                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:736: error: package RecyclerView does not exist
-	private void updateHeaderPositions(RecyclerView.Recycler recycler) {
-	                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:859: error: cannot find symbol
-	private class SmoothScroller extends LinearSmoothScroller {
-	                                     ^
-  symbol:   class LinearSmoothScroller
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:463: error: cannot find symbol
-	@Nullable
-	 ^
-  symbol:   class Nullable
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:472: error: cannot find symbol
-	@Nullable
-	 ^
-  symbol:   class Nullable
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:481: error: cannot find symbol
-	@Nullable
-	 ^
-  symbol:   class Nullable
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/StickyHeaderLayoutManager.java:486: error: cannot find symbol
-	@Nullable
-	 ^
-  symbol:   class Nullable
-  location: class StickyHeaderLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:344: error: self-closing element not allowed
-	 * <p/>
-	   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:20: error: self-closing element not allowed
- * <p/>
-   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/stickyheaders/src/main/java/org/zakariya/stickyheaders/SectioningAdapter.java:24: error: self-closing element not allowed
- * <p/>
-   ^
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-
-3 errors
-49 warnings
-:stickyheaders:generateJavadocsJar
-:stickyheaders:generateSourcesJar
-:stickyheaders:assemble
-:stickyheaders:lint FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':stickyheaders:lint'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':stickyheaders:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
-	at org.gradle.internal.Factories$1.create(Factories.java:22)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
-	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
-	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
-
-
-BUILD FAILED
-
-Total time: 11.285 secs
-
-2018-12-16 23:18:15,956 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 23:18:15,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 23:18:24,411 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 23:18:24,411 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 23:18:24,411 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 23:18:24,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544977050767-0/src/StickyHeaders-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 23:18:31,434 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 23:18:31,434 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-A problem occurred configuring project ':app'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
-	at org.gradle.internal.Factories$1.create(Factories.java:22)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
-	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
-	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
-	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
-	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
-	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
-	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
-	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
-	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
-	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
-	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
-	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
-	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
-	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
-	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
-	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
-	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
-	... 57 more
-
-
-BUILD FAILED
-
-Total time: 6.413 secs
-
-2018-12-16 23:18:31,453 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 23:18:31,469 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:47:16,975 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562532259541-0/src/app/build/outputs/apk/debug/app-debug.apk

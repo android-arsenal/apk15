@@ -1,38 +1,38 @@
-2018-11-18 00:55:20,523 INFO  DownloadService - Downloading "https://github.com/aritraroy/PinLockView/archive/master.zip", attempt 3
-2018-11-18 00:55:21,020 INFO  DownloadService - Downloaded https://github.com/aritraroy/PinLockView/archive/master.zip, attempt 3
-2018-11-18 00:55:21,020 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/master.zip": 218 KB
-2018-11-18 00:55:21,021 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 00:55:21,022 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/master.zip: true
-2018-11-18 00:55:21,022 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src'.
-2018-11-18 00:55:21,053 INFO  FullProcessService - Size of directory with sources: 257 KB
-2018-11-18 00:55:21,053 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src]
-2018-11-18 00:55:21,077 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/.git/
+2019-07-08 03:12:28,673 INFO  DownloadService - Downloading "https://github.com/aritraroy/PinLockView/archive/master.zip", attempt 3
+2019-07-08 03:12:29,495 INFO  DownloadService - Downloaded https://github.com/aritraroy/PinLockView/archive/master.zip, attempt 3
+2019-07-08 03:12:29,495 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/master.zip": 218 KB
+2019-07-08 03:12:29,495 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:12:29,501 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/master.zip: true
+2019-07-08 03:12:29,501 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src'.
+2019-07-08 03:12:29,521 INFO  FullProcessService - Size of directory with sources: 257 KB
+2019-07-08 03:12:29,522 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src]
+2019-07-08 03:12:29,540 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/.git/
 
-2018-11-18 00:55:21,080 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew
-2018-11-18 00:55:21,086 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/build.gradle
-2018-11-18 00:55:21,091 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/build.gradle
-2018-11-18 00:55:21,091 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-18 00:55:21,189 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-18 00:55:21,189 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-18 00:55:21,285 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-18 00:55:21,285 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-18 00:55:21,285 INFO  ProjectFixService - Fixing project...
-2018-11-18 00:55:21,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/local.properties
-2018-11-18 00:55:21,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-11-18 00:55:21,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/local.properties
-2018-11-18 00:55:21,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-11-18 00:55:21,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/local.properties
-2018-11-18 00:55:21,299 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-18 00:55:21,299 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-18 00:55:21,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-11-18 00:55:21,301 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 00:55:21,301 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:55:21,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:55:31,946 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:55:31,946 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-18 00:55:31,946 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-18 00:55:31,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-18 00:55:41,240 ERROR SysUtils - Could not process external command
+2019-07-08 03:12:29,544 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew
+2019-07-08 03:12:29,547 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/build.gradle
+2019-07-08 03:12:29,550 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/build.gradle
+2019-07-08 03:12:29,551 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-08 03:12:29,638 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-08 03:12:29,638 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-08 03:12:29,721 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-08 03:12:29,721 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-08 03:12:29,721 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:12:29,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/local.properties
+2019-07-08 03:12:29,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-08 03:12:29,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/local.properties
+2019-07-08 03:12:29,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-08 03:12:29,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/local.properties
+2019-07-08 03:12:29,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-08 03:12:29,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-08 03:12:29,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-07-08 03:12:29,733 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:12:29,733 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:12:29,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:12:36,020 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:12:36,020 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-08 03:12:36,020 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-08 03:12:36,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-08 03:12:42,069 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:55:41,240 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:12:42,069 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -512,14 +512,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.941 secs
+Total time: 5.827 secs
 
-2018-11-18 00:55:41,246 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:55:41,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:55:49,929 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-11-18 00:55:49,929 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-18 00:55:49,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-18 00:56:04,711 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:12:42,073 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:12:42,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:12:48,391 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-07-08 03:12:48,392 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-08 03:12:48,392 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-08 03:12:59,064 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -746,7 +746,7 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :pinlockview:incrementalDebugJavaCompilationSafeguard
 :pinlockview:compileDebugJavaWithJavac
 :pinlockview:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/src/main/java/com/andrognito/pinlockview/PinLockAdapter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/src/main/java/com/andrognito/pinlockview/PinLockAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :pinlockview:extractDebugAnnotations
 :pinlockview:mergeDebugShaders
@@ -781,7 +781,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :pinlockview:incrementalReleaseJavaCompilationSafeguard
 :pinlockview:compileReleaseJavaWithJavac
 :pinlockview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/pinlockview/src/main/java/com/andrognito/pinlockview/PinLockAdapter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/pinlockview/src/main/java/com/andrognito/pinlockview/PinLockAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :pinlockview:extractReleaseAnnotations
 :pinlockview:mergeReleaseShaders
@@ -805,15 +805,15 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 14.487 secs
+Total time: 10.442 secs
 
-2018-11-18 00:56:04,789 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:56:04,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:56:12,730 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:56:12,730 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-18 00:56:12,730 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-18 00:56:12,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542477320519-0/src/PinLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-18 00:56:20,641 ERROR SysUtils - Could not process external command
+2019-07-08 03:12:59,114 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:12:59,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:13:05,095 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:13:05,095 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-08 03:13:05,095 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-08 03:13:05,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530348670-0/src/PinLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-08 03:13:11,095 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -841,7 +841,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:56:20,641 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:13:11,095 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -1299,7 +1299,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.605 secs
+Total time: 5.783 secs
 
-2018-11-18 00:56:20,716 ERROR FullProcessService - Project build has not produced APK file
-2018-11-18 00:56:20,786 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:13:11,144 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 03:13:11,187 ERROR FullProcessService - Could not find generated or existed APK file

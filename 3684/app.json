@@ -7,8 +7,12 @@
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "15",
-    "targetSdkVersion" : "25",
+    "targetSdkVersion" : "28",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -19,11 +23,11 @@
     "permissions" : [ ]
   },
   "icon" : null,
-  "dexClasses" : 898,
-  "locales" : [ "" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.nightlynexus.viewstatepageradaptersample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:label=\"ViewStatePagerAdapter Sample\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:name=\"com.nightlynexus.viewstatepageradaptersample.ViewPagerActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 345546,
-  "crc32" : 51886215,
-  "sha256" : "f7222b8e23e68daf7ccf2b609b0e6b1d6898de670f34438484109134df3e05c8",
-  "buildTime" : 1522189015000
+  "dexClasses" : 615,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.nightlynexus.viewstatepageradaptersample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:label=\"ViewStatePagerAdapter Sample\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.nightlynexus.viewstatepageradaptersample.ViewPagerActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 354575,
+  "crc32" : 3704066780,
+  "sha256" : "a963d122655f2770783263e1662eff60dd1c5bfdbcaf83b0605b1c4b5f9b19f2",
+  "buildTime" : 1562530664000
 }

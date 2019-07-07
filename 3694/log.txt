@@ -1,34 +1,34 @@
-2018-11-18 01:06:46,383 INFO  DownloadService - Downloading "https://github.com/HoraApps/LeafPic/archive/master.zip", attempt 3
-2018-11-18 01:06:48,974 INFO  DownloadService - Downloaded https://github.com/HoraApps/LeafPic/archive/master.zip, attempt 3
-2018-11-18 01:06:48,974 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/master.zip": 1 MB
-2018-11-18 01:06:48,974 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 01:06:48,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/master.zip: true
-2018-11-18 01:06:48,980 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src'.
-2018-11-18 01:06:49,055 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-11-18 01:06:49,055 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src]
-2018-11-18 01:06:49,073 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/.git/
+2019-07-08 03:14:34,835 INFO  DownloadService - Downloading "https://github.com/HoraApps/LeafPic/archive/master.zip", attempt 3
+2019-07-08 03:14:36,518 INFO  DownloadService - Downloaded https://github.com/HoraApps/LeafPic/archive/master.zip, attempt 3
+2019-07-08 03:14:36,518 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/master.zip": 1 MB
+2019-07-08 03:14:36,518 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 03:14:36,524 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/master.zip: true
+2019-07-08 03:14:36,525 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src'.
+2019-07-08 03:14:36,589 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-08 03:14:36,589 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src]
+2019-07-08 03:14:36,605 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/.git/
 
-2018-11-18 01:06:49,081 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew
-2018-11-18 01:06:49,089 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/build.gradle
-2018-11-18 01:06:49,096 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/settings.gradle
-2018-11-18 01:06:49,096 INFO  ProjectBuildService - Remote scripts: none
-2018-11-18 01:06:49,096 INFO  ProjectFixService - Fixing project...
-2018-11-18 01:06:49,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/local.properties
-2018-11-18 01:06:49,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-11-18 01:06:49,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/local.properties
-2018-11-18 01:06:49,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-18 01:06:49,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/local.properties
-2018-11-18 01:06:49,114 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-18 01:06:49,114 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-18 01:06:49,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
-2018-11-18 01:06:49,115 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 01:06:49,115 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 01:06:49,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 01:07:35,284 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 01:07:35,285 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 01:07:35,285 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 01:07:35,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 01:07:41,970 ERROR SysUtils - Could not process external command
+2019-07-08 03:14:36,610 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew
+2019-07-08 03:14:36,615 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/build.gradle
+2019-07-08 03:14:36,620 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/settings.gradle
+2019-07-08 03:14:36,620 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 03:14:36,620 INFO  ProjectFixService - Fixing project...
+2019-07-08 03:14:36,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/local.properties
+2019-07-08 03:14:36,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-08 03:14:36,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/local.properties
+2019-07-08 03:14:36,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-08 03:14:36,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/local.properties
+2019-07-08 03:14:36,633 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-08 03:14:36,633 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-08 03:14:36,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=19,targetSdkVersion=24]
+2019-07-08 03:14:36,634 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 03:14:36,634 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:14:36,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:14:53,139 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:14:53,139 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:14:53,139 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:14:53,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:14:58,873 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 01:07:41,970 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:14:58,873 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.108 secs
+Total time: 5.173 secs
 
-2018-11-18 01:07:41,979 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 01:07:41,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 01:07:48,717 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 01:07:48,717 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 01:07:48,717 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 01:07:48,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/photoview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 01:07:59,984 ERROR SysUtils - Could not process external command
+2019-07-08 03:14:58,880 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:14:58,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:15:04,547 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:15:04,547 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:15:04,547 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:15:04,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/photoview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:15:14,246 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 01:07:59,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:15:14,246 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :photoview:preBuild UP-TO-DATE
 :photoview:preDebugBuild UP-TO-DATE
@@ -377,15 +377,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.678 secs
+Total time: 9.119 secs
 
-2018-11-18 01:08:00,055 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 01:08:00,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 01:08:06,545 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 01:08:06,545 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 01:08:06,545 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 01:08:06,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542478006375-0/src/LeafPic-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 01:08:13,205 ERROR SysUtils - Could not process external command
+2019-07-08 03:15:14,293 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 03:15:14,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 03:15:20,082 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 03:15:20,082 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 03:15:20,082 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 03:15:20,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530474831-0/src/LeafPic-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 03:15:25,708 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -412,7 +412,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 01:08:13,205 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 03:15:25,708 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -516,14 +516,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.076 secs
+Total time: 5.058 secs
 
-2018-11-18 01:08:13,272 ERROR FullProcessService - Project build has not produced APK file
-2018-11-18 01:08:13,334 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-08 03:15:25,748 ERROR FullProcessService - Project build has not produced APK file
+2019-07-08 03:15:25,788 ERROR FullProcessService - Could not find generated or existed APK file
