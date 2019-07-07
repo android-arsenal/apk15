@@ -1,39 +1,39 @@
-2018-11-18 00:05:32,635 INFO  DownloadService - Downloading "https://github.com/xiaofeng-han/AndroidLibs/archive/master.zip", attempt 3
-2018-11-18 00:05:33,508 INFO  DownloadService - Downloaded https://github.com/xiaofeng-han/AndroidLibs/archive/master.zip, attempt 3
-2018-11-18 00:05:33,508 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/master.zip": 189 KB
-2018-11-18 00:05:33,508 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 00:05:33,513 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/master.zip: true
-2018-11-18 00:05:33,514 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src'.
-2018-11-18 00:05:33,545 INFO  FullProcessService - Size of directory with sources: 292 KB
-2018-11-18 00:05:33,545 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src]
-2018-11-18 00:05:33,564 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/.git/
+2019-07-08 02:48:37,593 INFO  DownloadService - Downloading "https://github.com/xiaofeng-han/AndroidLibs/archive/master.zip", attempt 3
+2019-07-08 02:48:38,727 INFO  DownloadService - Downloaded https://github.com/xiaofeng-han/AndroidLibs/archive/master.zip, attempt 3
+2019-07-08 02:48:38,727 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/master.zip": 189 KB
+2019-07-08 02:48:38,727 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-08 02:48:38,733 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/master.zip: true
+2019-07-08 02:48:38,733 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src'.
+2019-07-08 02:48:38,760 INFO  FullProcessService - Size of directory with sources: 292 KB
+2019-07-08 02:48:38,760 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src]
+2019-07-08 02:48:38,775 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/.git/
 
-2018-11-18 00:05:33,568 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/gradlew
-2018-11-18 00:05:33,573 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/build.gradle
-2018-11-18 00:05:33,577 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/settings.gradle
-2018-11-18 00:05:33,578 INFO  ProjectBuildService - Remote scripts: none
-2018-11-18 00:05:33,578 INFO  ProjectFixService - Fixing project...
-2018-11-18 00:05:33,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/local.properties
-2018-11-18 00:05:33,590 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-18 00:05:33,591 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-18 00:05:33,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-18 00:05:33,593 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-18 00:05:33,594 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/local.properties
-2018-11-18 00:05:33,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-18 00:05:33,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-18 00:05:33,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/local.properties
-2018-11-18 00:05:33,598 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-18 00:05:33,599 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-18 00:05:33,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-18 00:05:33,601 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-18 00:05:33,601 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 00:05:33,601 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:05:33,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:05:46,313 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:05:46,313 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:05:46,313 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:05:46,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:06:01,216 ERROR SysUtils - Could not process external command
+2019-07-08 02:48:38,778 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/gradlew
+2019-07-08 02:48:38,781 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/build.gradle
+2019-07-08 02:48:38,784 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/settings.gradle
+2019-07-08 02:48:38,784 INFO  ProjectBuildService - Remote scripts: none
+2019-07-08 02:48:38,784 INFO  ProjectFixService - Fixing project...
+2019-07-08 02:48:38,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/local.properties
+2019-07-08 02:48:38,791 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:48:38,791 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:48:38,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:48:38,793 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:48:38,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/local.properties
+2019-07-08 02:48:38,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:48:38,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:48:38,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/local.properties
+2019-07-08 02:48:38,797 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-08 02:48:38,797 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-08 02:48:38,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-08 02:48:38,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-08 02:48:38,799 INFO  ProjectFixService - Project was maybe fixed
+2019-07-08 02:48:38,800 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:48:38,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:48:46,864 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:48:46,864 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:48:46,864 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:48:46,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:48:57,990 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,8 +46,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:06:01,216 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:48:57,990 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :flowlayoutmanager:preBuild UP-TO-DATE
 :flowlayoutmanager:preDebugBuild UP-TO-DATE
@@ -141,171 +140,171 @@ Incremental java compilation is an incubating feature.
 :flowlayoutmanager:bundleRelease
 :flowlayoutmanager:compileReleaseSources
 :flowlayoutmanager:assembleRelease
-:flowlayoutmanager:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:6: error: package android.support.annotation does not exist
+:flowlayoutmanager:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:7: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:7: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.LinearSmoothScroller;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:8: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:8: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.RecyclerView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:23: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:23: error: package RecyclerView does not exist
 public class FlowLayoutManager extends RecyclerView.LayoutManager {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:26: error: cannot find symbol
 	RecyclerView recyclerView;
 	^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:28: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:28: error: package RecyclerView does not exist
 	RecyclerView.Recycler recyclerRef;
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:4: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:4: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.RecyclerView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:42: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:42: error: package RecyclerView does not exist
 	public RecyclerView.LayoutParams generateDefaultLayoutParams() {
 	                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:47: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:47: error: package RecyclerView does not exist
 	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:47: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:47: error: package RecyclerView does not exist
 	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:67: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:67: error: package RecyclerView does not exist
 	private void onPreLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:67: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:67: error: package RecyclerView does not exist
 	private void onPreLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:143: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:143: error: package RecyclerView does not exist
 	private void onRealLayoutChildren(RecyclerView.Recycler recycler) {
 	                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:210: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:210: error: package RecyclerView does not exist
 	public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:210: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:210: error: package RecyclerView does not exist
 	public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
 	                                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:247: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:247: error: cannot find symbol
 	public void onItemsChanged(RecyclerView recyclerView) {
 	                           ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:258: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:258: error: cannot find symbol
 	public void onItemsAdded(RecyclerView recyclerView, final int positionStart, final int itemCount) {
 	                         ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:264: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:264: error: cannot find symbol
 	public void onItemsRemoved(RecyclerView recyclerView, final int positionStart, final int itemCount) {
 	                           ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:270: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:270: error: cannot find symbol
 	public void onItemsUpdated(RecyclerView recyclerView, int positionStart, int itemCount) {
 	                           ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:276: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:276: error: cannot find symbol
 	public void onItemsUpdated(RecyclerView recyclerView, int positionStart, int itemCount, Object payload) {
 	                           ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:282: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:282: error: cannot find symbol
 	public void onItemsMoved(RecyclerView recyclerView, final int from, final int to, int itemCount) {
 	                         ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:290: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:290: error: package RecyclerView does not exist
 	private int contentMoveUp(int dy, RecyclerView.Recycler recycler) {
 	                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:323: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:323: error: package RecyclerView does not exist
 	private int contentMoveDown(int dy, RecyclerView.Recycler recycler) {
 	                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:364: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:364: error: package RecyclerView does not exist
 	private void addNewLineAtTop(RecyclerView.Recycler recycler) {
 	                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:438: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:438: error: package RecyclerView does not exist
 	private void addNewLineAtBottom(RecyclerView.Recycler recycler) {
 	                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:469: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:469: error: cannot find symbol
 	public void onAttachedToWindow(final RecyclerView view) {
 	                                     ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:491: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:491: error: cannot find symbol
 	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
 	                                 ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:491: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:491: error: package RecyclerView does not exist
 	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
 	                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:511: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:511: error: cannot find symbol
 	public void smoothScrollToPosition(final RecyclerView recyclerView, final RecyclerView.State state, int position) {
 	                                         ^
   symbol:   class RecyclerView
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:511: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:511: error: package RecyclerView does not exist
 	public void smoothScrollToPosition(final RecyclerView recyclerView, final RecyclerView.State state, int position) {
 	                                                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:636: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:636: error: package RecyclerView does not exist
 	private void recycleLine(int index, RecyclerView.Recycler recycler) {
 	                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:643: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:643: error: package RecyclerView does not exist
 	private int getOffsetOfItemToFirstChild(int adapterPosition, RecyclerView.Recycler recycler) {
 	                                                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:10: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:10: error: package RecyclerView does not exist
 	RecyclerView.LayoutManager layoutManager;
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:11: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:11: error: cannot find symbol
 	RecyclerView recyclerView;
 	^
   symbol:   class RecyclerView
   location: class LayoutHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:13: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:13: error: package RecyclerView does not exist
 	public LayoutHelper(RecyclerView.LayoutManager layoutManager, RecyclerView recyclerView) {
 	                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/LayoutHelper.java:13: error: cannot find symbol
 	public LayoutHelper(RecyclerView.LayoutManager layoutManager, RecyclerView recyclerView) {
 	                                                              ^
   symbol:   class RecyclerView
   location: class LayoutHelper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/FlowLayoutManager.java:33: error: cannot find symbol
 	@Nullable
 	 ^
   symbol:   class Nullable
   location: class FlowLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:34: warning: no @param for startIndex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:34: warning: no @param for startIndex
 	public void add(int startIndex, Point... sizes) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:34: warning: no @param for sizes
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:34: warning: no @param for sizes
 	public void add(int startIndex, Point... sizes) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:48: error: no tag name after @
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:48: error: no tag name after @
 	 * Make space for {@param count} items
 	                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:50: warning: no @param for startIndex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:50: warning: no @param for startIndex
 	public void add(int startIndex, int count) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:50: warning: no @param for count
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:50: warning: no @param for count
 	public void add(int startIndex, int count) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:62: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:62: warning: no description for @param
 	 * @param index
 	   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:63: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:63: warning: no description for @param
 	 * @param count
 	   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for from
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for from
 	public void move(int from, int to, int count) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for to
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for to
 	public void move(int from, int to, int count) {
 	            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for count
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/src/main/java/com/xiaofeng/flowlayoutmanager/cache/CacheHelper.java:117: warning: no @param for count
 	public void move(int from, int to, int count) {
 	            ^
 
@@ -317,7 +316,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':flowlayoutmanager:javadoc'.
-> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build/tmp/javadoc/javadoc.options'
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build/tmp/javadoc/javadoc.options'
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -385,7 +384,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':flowlay
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/flowlayoutmanager/build/tmp/javadoc/javadoc.options'
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/flowlayoutmanager/build/tmp/javadoc/javadoc.options'
 	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:57)
 	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
 	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:143)
@@ -408,15 +407,15 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 BUILD FAILED
 
-Total time: 14.392 secs
+Total time: 10.627 secs
 
-2018-11-18 00:06:01,280 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 00:06:01,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 00:06:09,111 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-18 00:06:09,111 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-18 00:06:09,111 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-18 00:06:09,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 00:06:25,869 ERROR SysUtils - Could not process external command
+2019-07-08 02:48:58,031 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-08 02:48:58,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-08 02:49:03,784 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-08 02:49:03,784 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-08 02:49:03,784 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-08 02:49:03,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-08 02:49:17,288 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -429,8 +428,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -444,7 +442,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 00:06:25,869 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-08 02:49:17,288 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -475,7 +473,7 @@ Incremental java compilation is an incubating feature.
 :app:incrementalDebugJavaCompilationSafeguard
 :app:compileDebugJavaWithJavac
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/src/main/java/com/xiaofeng/androidlibs/util/ArrayUtil.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/src/main/java/com/xiaofeng/androidlibs/util/ArrayUtil.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
@@ -520,7 +518,7 @@ Result is 1947 defs/3172.7KiB. Took 0.3s
 :app:incrementalReleaseJavaCompilationSafeguard
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/src/main/java/com/xiaofeng/androidlibs/util/ArrayUtil.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/src/main/java/com/xiaofeng/androidlibs/util/ArrayUtil.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
@@ -620,6 +618,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.186 secs
+Total time: 12.966 secs
 
-2018-11-18 00:06:25,983 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542474332630-0/src/AndroidLibs-master/app/build/outputs/apk/app-debug.apk
+2019-07-08 02:49:17,363 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562528917591-0/src/AndroidLibs-master/app/build/outputs/apk/app-debug.apk
