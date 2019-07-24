@@ -1,50 +1,50 @@
-2018-11-25 17:37:28,511 INFO  DownloadService - Downloading "https://github.com/passsy/CompositeAndroid/archive/master.zip", attempt 3
-2018-11-25 17:37:29,084 INFO  DownloadService - Downloaded https://github.com/passsy/CompositeAndroid/archive/master.zip, attempt 3
-2018-11-25 17:37:29,084 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip": 404 KB
-2018-11-25 17:37:29,084 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-25 17:37:29,090 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip: true
-2018-11-25 17:37:29,090 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src'.
-2018-11-25 17:37:29,134 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-25 17:37:29,134 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src]
-2018-11-25 17:37:29,151 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/.git/
+2019-07-24 12:59:43,008 INFO  DownloadService - Downloading "https://github.com/passsy/CompositeAndroid/archive/master.zip", attempt 3
+2019-07-24 12:59:43,614 INFO  DownloadService - Downloaded https://github.com/passsy/CompositeAndroid/archive/master.zip, attempt 3
+2019-07-24 12:59:43,614 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/master.zip": 404 KB
+2019-07-24 12:59:43,614 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 12:59:43,620 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/master.zip: true
+2019-07-24 12:59:43,621 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src'.
+2019-07-24 12:59:43,663 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-24 12:59:43,663 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src]
+2019-07-24 12:59:43,679 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/.git/
 
-2018-11-25 17:37:29,157 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew
-2018-11-25 17:37:29,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle
-2018-11-25 17:37:29,170 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/settings.gradle
-2018-11-25 17:37:29,170 INFO  ProjectBuildService - Remote scripts: none
-2018-11-25 17:37:29,170 INFO  ProjectFixService - Fixing project...
-2018-11-25 17:37:29,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/local.properties
-2018-11-25 17:37:29,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,188 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/local.properties
-2018-11-25 17:37:29,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/local.properties
-2018-11-25 17:37:29,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,197 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/local.properties
-2018-11-25 17:37:29,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,201 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/local.properties
-2018-11-25 17:37:29,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/local.properties
-2018-11-25 17:37:29,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-25 17:37:29,208 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-25 17:37:29,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/local.properties
-2018-11-25 17:37:29,217 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-11-25 17:37:29,217 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-11-25 17:37:29,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-25 17:37:29,221 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-25 17:37:29,221 INFO  ProjectFixService - Project was maybe fixed
-2018-11-25 17:37:29,221 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:37:29,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:37:36,105 INFO  ProjectTaskService - Detected possible tasks: 78
-2018-11-25 17:37:36,106 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-25 17:37:36,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-25 17:37:51,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 12:59:43,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew
+2019-07-24 12:59:43,688 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/build.gradle
+2019-07-24 12:59:43,692 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/settings.gradle
+2019-07-24 12:59:43,692 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 12:59:43,692 INFO  ProjectFixService - Fixing project...
+2019-07-24 12:59:43,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/local.properties
+2019-07-24 12:59:43,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,705 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/local.properties
+2019-07-24 12:59:43,709 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,709 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/local.properties
+2019-07-24 12:59:43,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/local.properties
+2019-07-24 12:59:43,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/local.properties
+2019-07-24 12:59:43,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/local.properties
+2019-07-24 12:59:43,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-24 12:59:43,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-24 12:59:43,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/local.properties
+2019-07-24 12:59:43,726 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-24 12:59:43,727 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-24 12:59:43,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 12:59:43,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/generator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 12:59:43,730 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 12:59:43,730 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:59:43,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:59:52,704 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-07-24 12:59:52,704 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 12:59:52,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 13:00:08,046 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
@@ -140,7 +140,7 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :activity:javaPreCompileDebug
 :activity:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :activity:extractDebugAnnotations
@@ -158,7 +158,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :activity:javaPreCompileRelease
 :activity:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/activity/src/main/java/com/pascalwelsch/compositeandroid/activity/ActivityPlugin.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :activity:extractReleaseAnnotations
@@ -170,15 +170,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :activity:assemble
 :activity:build
 
-BUILD SUCCESSFUL in 15s
+BUILD SUCCESSFUL in 14s
 72 actionable tasks: 72 executed
 
-2018-11-25 17:37:51,605 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:37:51,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:37:57,140 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-25 17:37:57,140 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-25 17:37:57,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-25 17:38:07,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:00:08,103 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:00:08,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:00:13,481 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 13:00:13,481 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 13:00:13,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 13:00:23,043 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :blueprints:preBuild UP-TO-DATE
@@ -232,7 +232,7 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :blueprints:verifyReleaseResources
 :blueprints:generateDebugRFile
 :blueprints:generateDebugSources
-:blueprints:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
+:blueprints:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :blueprints:extractDebugAnnotations
@@ -243,7 +243,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :blueprints:assembleDebug
 :blueprints:generateReleaseRFile
 :blueprints:generateReleaseSources
-:blueprints:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
+:blueprints:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/blueprints/src/main/java/com/pascalwelsch/compositeandroid/blueprints/BlueprintActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :blueprints:extractReleaseAnnotations
@@ -255,15 +255,15 @@ Note: Recompile with -Xlint:deprecation for details.
 :blueprints:assemble
 :blueprints:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 9s
 48 actionable tasks: 48 executed
 
-2018-11-25 17:38:07,649 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:38:07,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:38:13,707 INFO  ProjectTaskService - Detected possible tasks: 78
-2018-11-25 17:38:13,707 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-25 17:38:13,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-25 17:38:22,317 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:00:23,136 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:00:23,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:00:29,250 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-07-24 13:00:29,251 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 13:00:29,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 13:00:37,946 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
@@ -343,12 +343,12 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 BUILD SUCCESSFUL in 8s
 48 actionable tasks: 26 executed, 22 up-to-date
 
-2018-11-25 17:38:22,466 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:38:22,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:38:29,068 INFO  ProjectTaskService - Detected possible tasks: 78
-2018-11-25 17:38:29,068 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-25 17:38:29,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-25 17:38:40,870 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:00:38,060 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:00:38,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:00:44,318 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-07-24 13:00:44,319 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 13:00:44,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/fragment/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 13:00:55,397 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
@@ -470,15 +470,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :fragment:assemble
 :fragment:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 10s
 72 actionable tasks: 48 executed, 24 up-to-date
 
-2018-11-25 17:38:41,074 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:38:41,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:38:46,944 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-11-25 17:38:46,945 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-25 17:38:46,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-25 17:39:15,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:00:55,543 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:00:55,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:01:00,970 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-24 13:01:00,970 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 13:01:00,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 13:01:29,852 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
@@ -689,7 +689,6 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :sample:compileReleaseNdk NO-SOURCE
 :sample:compileReleaseSources
 :sample:lintVitalRelease
-Download https://jcenter.bintray.com/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.pom
 Download https://jcenter.bintray.com/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.jar
 :activity:mergeReleaseShaders UP-TO-DATE
 :activity:compileReleaseShaders UP-TO-DATE
@@ -738,4 +737,4 @@ Download https://jcenter.bintray.com/org/assertj/assertj-core/2.4.1/assertj-core
 BUILD SUCCESSFUL in 28s
 167 actionable tasks: 63 executed, 104 up-to-date
 
-2018-11-25 17:39:16,140 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142248507-0/src/CompositeAndroid-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-24 13:01:30,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947983000-0/src/CompositeAndroid-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

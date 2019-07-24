@@ -1,36 +1,36 @@
-2018-11-25 17:46:08,767 INFO  DownloadService - Downloading "https://github.com/MGaetan89/Kolumbus/archive/master.zip", attempt 3
-2018-11-25 17:46:11,018 INFO  DownloadService - Downloaded https://github.com/MGaetan89/Kolumbus/archive/master.zip, attempt 3
-2018-11-25 17:46:11,018 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/master.zip": 641 KB
-2018-11-25 17:46:11,018 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-25 17:46:11,024 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/master.zip: true
-2018-11-25 17:46:11,024 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src'.
-2018-11-25 17:46:11,058 INFO  FullProcessService - Size of directory with sources: 793 KB
-2018-11-25 17:46:11,058 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src]
-2018-11-25 17:46:11,074 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/.git/
+2019-07-24 13:06:53,302 INFO  DownloadService - Downloading "https://github.com/MGaetan89/Kolumbus/archive/master.zip", attempt 3
+2019-07-24 13:06:54,360 INFO  DownloadService - Downloaded https://github.com/MGaetan89/Kolumbus/archive/master.zip, attempt 3
+2019-07-24 13:06:54,360 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/master.zip": 641 KB
+2019-07-24 13:06:54,360 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 13:06:54,365 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/master.zip: true
+2019-07-24 13:06:54,366 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src'.
+2019-07-24 13:06:54,396 INFO  FullProcessService - Size of directory with sources: 793 KB
+2019-07-24 13:06:54,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src]
+2019-07-24 13:06:54,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/.git/
 
-2018-11-25 17:46:11,078 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew
-2018-11-25 17:46:11,082 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/build.gradle
-2018-11-25 17:46:11,086 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/settings.gradle
-2018-11-25 17:46:11,086 INFO  ProjectBuildService - Remote scripts: none
-2018-11-25 17:46:11,086 INFO  ProjectFixService - Fixing project...
-2018-11-25 17:46:11,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/local.properties
-2018-11-25 17:46:11,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-25 17:46:11,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/local.properties
-2018-11-25 17:46:11,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-25 17:46:11,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/local.properties
-2018-11-25 17:46:11,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-25 17:46:11,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/local.properties
-2018-11-25 17:46:11,102 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
-2018-11-25 17:46:11,103 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-11-25 17:46:11,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-11-25 17:46:11,104 INFO  ProjectFixService - Project was maybe fixed
-2018-11-25 17:46:11,104 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:46:11,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:46:25,437 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-25 17:46:25,437 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-25 17:46:25,437 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-25 17:46:25,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-25 17:46:31,892 ERROR SysUtils - Could not process external command
+2019-07-24 13:06:54,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew
+2019-07-24 13:06:54,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/build.gradle
+2019-07-24 13:06:54,422 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/settings.gradle
+2019-07-24 13:06:54,422 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:06:54,422 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:06:54,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/local.properties
+2019-07-24 13:06:54,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-24 13:06:54,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/local.properties
+2019-07-24 13:06:54,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-24 13:06:54,432 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/local.properties
+2019-07-24 13:06:54,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-24 13:06:54,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/local.properties
+2019-07-24 13:06:54,434 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
+2019-07-24 13:06:54,434 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2019-07-24 13:06:54,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-07-24 13:06:54,434 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:06:54,434 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:06:54,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:07:56,168 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:07:56,168 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:07:56,168 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:07:56,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:08:01,728 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-25 17:46:31,892 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:08:01,728 INFO  SysUtils - Configuration on demand is an incubating feature.
 The ConfigurableReport.setDestination(Object) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the method ConfigurableReport.setDestination(File) instead.
 	at org.gradle.api.reporting.internal.SimpleReport.setDestination(SimpleReport.java:76)
 	at org.gradle.api.reporting.internal.TaskGeneratedSingleDirectoryReport_Decorated.setDestination(Unknown Source)
@@ -75,7 +75,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.InvokerHelper.setProperty(InvokerHelper.java:197)
 	at groovy.lang.Closure.setProperty(Closure.java:356)
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:532)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:72)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,7 +105,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:70)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,7 +143,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:65)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -176,7 +176,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
-	at build_49295op97wa0xcdn27jycg1l4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:45)
+	at build_9j30b9tn0y361vekh0g9e5ymk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:45)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -548,15 +548,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	... 146 more
 
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-11-25 17:46:31,899 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:46:31,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:46:42,641 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-25 17:46:42,641 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-25 17:46:42,641 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-25 17:46:42,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-25 17:46:48,579 ERROR SysUtils - Could not process external command
+2019-07-24 13:08:01,734 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:08:01,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:08:10,507 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:08:10,508 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:08:10,508 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:08:10,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:08:16,130 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -583,7 +583,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-25 17:46:48,579 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:08:16,130 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -707,20 +707,20 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 80 more
 
 
 BUILD FAILED in 5s
 
-2018-11-25 17:46:48,585 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:46:48,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:46:54,486 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-25 17:46:54,486 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-25 17:46:54,486 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-25 17:46:54,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-25 17:47:00,426 ERROR SysUtils - Could not process external command
+2019-07-24 13:08:16,133 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:08:16,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:08:22,143 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:08:22,143 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:08:22,143 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:08:22,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:08:27,783 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -747,7 +747,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-25 17:47:00,427 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:08:27,783 INFO  SysUtils - Configuration on demand is an incubating feature.
 The ConfigurableReport.setDestination(Object) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the method ConfigurableReport.setDestination(File) instead.
 	at org.gradle.api.reporting.internal.SimpleReport.setDestination(SimpleReport.java:76)
 	at org.gradle.api.reporting.internal.TaskGeneratedSingleDirectoryReport_Decorated.setDestination(Unknown Source)
@@ -765,7 +765,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.InvokerHelper.setProperty(InvokerHelper.java:197)
 	at groovy.lang.Closure.setProperty(Closure.java:356)
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:532)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:72)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -795,7 +795,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:70)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -833,7 +833,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:65)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -866,7 +866,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
-	at build_49295op97wa0xcdn27jycg1l4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:45)
+	at build_9j30b9tn0y361vekh0g9e5ymk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:45)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1091,20 +1091,20 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 80 more
 
 
 BUILD FAILED in 5s
 
-2018-11-25 17:47:00,433 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-25 17:47:00,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-25 17:47:06,468 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-25 17:47:06,468 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-25 17:47:06,468 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-25 17:47:06,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-25 17:47:12,237 ERROR SysUtils - Could not process external command
+2019-07-24 13:08:27,788 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:08:27,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:08:33,520 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:08:33,520 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:08:33,520 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:08:33,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:08:39,200 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1131,7 +1131,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-25 17:47:12,237 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:08:39,200 INFO  SysUtils - Configuration on demand is an incubating feature.
 The ConfigurableReport.setDestination(Object) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the method ConfigurableReport.setDestination(File) instead.
 	at org.gradle.api.reporting.internal.SimpleReport.setDestination(SimpleReport.java:76)
 	at org.gradle.api.reporting.internal.TaskGeneratedSingleDirectoryReport_Decorated.setDestination(Unknown Source)
@@ -1149,7 +1149,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.InvokerHelper.setProperty(InvokerHelper.java:197)
 	at groovy.lang.Closure.setProperty(Closure.java:356)
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:532)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:72)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1179,7 +1179,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:70)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1217,7 +1217,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_49295op97wa0xcdn27jycg1l4$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:65)
+	at build_9j30b9tn0y361vekh0g9e5ymk$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1250,7 +1250,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
-	at build_49295op97wa0xcdn27jycg1l4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543142768763-0/src/Kolumbus-master/kolumbus/build.gradle:45)
+	at build_9j30b9tn0y361vekh0g9e5ymk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948413294-0/src/Kolumbus-master/kolumbus/build.gradle:45)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1328,7 +1328,7 @@ The ConfigurableReport.setDestination(Object) method has been deprecated and is 
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -1555,7 +1555,7 @@ Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all depe
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 80 more
 Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':kolumbus'.
@@ -1617,12 +1617,12 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 146 more
 
 
 BUILD FAILED in 5s
 
-2018-11-25 17:47:12,244 ERROR FullProcessService - Project build has not produced APK file
-2018-11-25 17:47:12,250 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:08:39,205 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:08:39,209 ERROR FullProcessService - Could not find generated or existed APK file

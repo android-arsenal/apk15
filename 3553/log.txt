@@ -1,352 +1,364 @@
-2018-12-01 19:40:28,245 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/AdvancedRecyclerView/archive/master.zip", attempt 3
-2018-12-01 19:40:33,440 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/AdvancedRecyclerView/archive/master.zip, attempt 3
-2018-12-01 19:40:33,441 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/master.zip": 3 MB
-2018-12-01 19:40:33,441 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-01 19:40:33,442 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/master.zip: true
-2018-12-01 19:40:33,443 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src'.
-2018-12-01 19:40:33,529 INFO  FullProcessService - Size of directory with sources: 4 MB
-2018-12-01 19:40:33,529 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src]
-2018-12-01 19:40:33,546 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/.git/
+2019-07-24 13:09:01,846 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/AdvancedRecyclerView/archive/master.zip", attempt 3
+2019-07-24 13:09:28,336 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/AdvancedRecyclerView/archive/master.zip, attempt 3
+2019-07-24 13:09:28,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/master.zip": 40 MB
+2019-07-24 13:09:28,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 13:09:28,338 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/master.zip: true
+2019-07-24 13:09:28,338 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src'.
+2019-07-24 13:09:28,711 INFO  FullProcessService - Size of directory with sources: 44 MB
+2019-07-24 13:09:28,711 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src]
+2019-07-24 13:09:28,728 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/.git/
 
-2018-12-01 19:40:33,556 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gradlew
-2018-12-01 19:40:33,567 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gesture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/pagination/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/section/build.gradle
-2018-12-01 19:40:33,578 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/pagination/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/section/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gesture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/settings.gradle
-2018-12-01 19:40:33,578 INFO  ProjectBuildService - Remote scripts: none
-2018-12-01 19:40:33,578 INFO  ProjectFixService - Fixing project...
-2018-12-01 19:40:33,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/local.properties
-2018-12-01 19:40:33,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/sample/local.properties
-2018-12-01 19:40:33,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/local.properties
-2018-12-01 19:40:33,613 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-01 19:40:33,613 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-01 19:40:33,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/core/local.properties
-2018-12-01 19:40:33,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gesture/local.properties
-2018-12-01 19:40:33,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gesture/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gesture/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/pagination/local.properties
-2018-12-01 19:40:33,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/pagination/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,630 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/pagination/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/section/local.properties
-2018-12-01 19:40:33,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/section/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-01 19:40:33,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/section/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-01 19:40:33,636 INFO  ProjectFixService - Project was maybe fixed
-2018-12-01 19:40:33,636 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-01 19:40:33,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-01 19:40:41,553 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-01 19:40:41,553 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-01 19:40:41,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-01 19:41:44,825 INFO  SysUtils - Configuration on demand is an incubating feature.
-:core:preBuild UP-TO-DATE
-:core:preDebugBuild UP-TO-DATE
-:core:compileDebugAidl
-:core:compileDebugRenderscript
-:core:checkDebugManifest
-:core:generateDebugBuildConfig
-:core:generateDebugResValues
-:core:generateDebugResources
-:core:packageDebugResources
-:core:platformAttrExtractor
-:core:processDebugManifest
-:core:prepareLintJar
-:core:processDebugJavaRes NO-SOURCE
-:gesture:preBuild UP-TO-DATE
-:gesture:preDebugBuild UP-TO-DATE
-:section:preBuild UP-TO-DATE
-:section:preDebugBuild UP-TO-DATE
-:section:compileDebugAidl
-:gesture:compileDebugAidl
-:core:packageDebugRenderscript NO-SOURCE
-:section:packageDebugRenderscript NO-SOURCE
-:gesture:compileDebugRenderscript
-:gesture:checkDebugManifest
-:gesture:generateDebugBuildConfig
-:gesture:generateDebugResValues
-:gesture:generateDebugResources
-:gesture:packageDebugResources
-:gesture:platformAttrExtractor
-:gesture:processDebugManifest
-:section:compileDebugRenderscript
-:section:generateDebugResValues
-:section:generateDebugResources
-:section:packageDebugResources
-:section:platformAttrExtractor
-:section:checkDebugManifest
-:section:processDebugManifest
-:section:generateDebugBuildConfig
-:section:prepareLintJar
-:section:processDebugJavaRes NO-SOURCE
-:gesture:prepareLintJar
-:gesture:processDebugJavaRes NO-SOURCE
-:javasample:preBuild UP-TO-DATE
-:pagination:preBuild UP-TO-DATE
-:pagination:preDebugBuild UP-TO-DATE
-:pagination:checkDebugManifest
-:pagination:processDebugManifest
-:javasample:preDebugBuild
-:pagination:compileDebugAidl
-:javasample:compileDebugAidl
-:gesture:packageDebugRenderscript NO-SOURCE
-:pagination:packageDebugRenderscript NO-SOURCE
-:javasample:compileDebugRenderscript
-:javasample:checkDebugManifest
-:javasample:generateDebugBuildConfig
-:javasample:mainApkListPersistenceDebug
-:javasample:generateDebugResValues
-:javasample:generateDebugResources
-:pagination:compileDebugRenderscript
-:pagination:generateDebugResValues
-:pagination:generateDebugResources
-:pagination:packageDebugResources
-:javasample:mergeDebugResources
-:javasample:createDebugCompatibleScreenManifests
-:javasample:processDebugManifest
-:javasample:splitsDiscoveryTaskDebug
-:pagination:platformAttrExtractor
-:pagination:generateDebugBuildConfig
-:pagination:prepareLintJar
-:pagination:processDebugJavaRes NO-SOURCE
-:javasample:prepareLintJar
-:javasample:compileDebugNdk NO-SOURCE
-:core:mergeDebugShaders
-:core:compileDebugShaders
-:core:generateDebugAssets
-:core:packageDebugAssets
-:gesture:mergeDebugShaders
-:gesture:compileDebugShaders
-:gesture:generateDebugAssets
-:gesture:packageDebugAssets
-:javasample:mergeDebugShaders
-:javasample:compileDebugShaders
-:javasample:generateDebugAssets
-:pagination:mergeDebugShaders
-:pagination:compileDebugShaders
-:pagination:generateDebugAssets
-:pagination:packageDebugAssets
-:section:mergeDebugShaders
-:section:compileDebugShaders
-:section:generateDebugAssets
-:section:packageDebugAssets
-:javasample:mergeDebugAssets
-:javasample:extractTryWithResourcesSupportJarDebug
-:core:compileDebugNdk NO-SOURCE
-:core:mergeDebugJniLibFolders
-:core:transformNativeLibsWithMergeJniLibsForDebug
-:core:transformNativeLibsWithStripDebugSymbolForDebug
-:core:transformNativeLibsWithIntermediateJniLibsForDebug
-:gesture:compileDebugNdk NO-SOURCE
-:gesture:mergeDebugJniLibFolders
-:gesture:transformNativeLibsWithMergeJniLibsForDebug
-:gesture:transformNativeLibsWithStripDebugSymbolForDebug
-:gesture:transformNativeLibsWithIntermediateJniLibsForDebug
-:javasample:mergeDebugJniLibFolders
-:pagination:compileDebugNdk NO-SOURCE
-:pagination:mergeDebugJniLibFolders
-:pagination:transformNativeLibsWithMergeJniLibsForDebug
-:pagination:transformNativeLibsWithStripDebugSymbolForDebug
-:pagination:transformNativeLibsWithIntermediateJniLibsForDebug
-:section:compileDebugNdk NO-SOURCE
-:section:mergeDebugJniLibFolders
-:section:transformNativeLibsWithMergeJniLibsForDebug
-:section:transformNativeLibsWithStripDebugSymbolForDebug
-:section:transformNativeLibsWithIntermediateJniLibsForDebug
-:javasample:processDebugJavaRes NO-SOURCE
-:javasample:validateSigningDebug
-:core:preReleaseBuild UP-TO-DATE
-:core:compileReleaseAidl
-:core:compileReleaseRenderscript
-:core:checkReleaseManifest
-:core:generateReleaseBuildConfig
-:core:generateReleaseResValues
-:core:generateReleaseResources
-:core:packageReleaseResources
-:core:processReleaseManifest
-:core:processReleaseJavaRes NO-SOURCE
-:gesture:preReleaseBuild UP-TO-DATE
-:section:preReleaseBuild UP-TO-DATE
-:section:compileReleaseAidl
-:gesture:compileReleaseAidl
-:core:packageReleaseRenderscript NO-SOURCE
-:section:packageReleaseRenderscript NO-SOURCE
-:gesture:compileReleaseRenderscript
-:gesture:checkReleaseManifest
-:gesture:generateReleaseBuildConfig
-:gesture:generateReleaseResValues
-:gesture:generateReleaseResources
-:gesture:packageReleaseResources
-:gesture:processReleaseManifest
-:section:compileReleaseRenderscript
-:section:generateReleaseResValues
-:section:generateReleaseResources
-:section:packageReleaseResources
-:section:checkReleaseManifest
-:section:processReleaseManifest
-:section:generateReleaseBuildConfig
-:section:processReleaseJavaRes NO-SOURCE
-:gesture:processReleaseJavaRes NO-SOURCE
-:pagination:preReleaseBuild UP-TO-DATE
-:pagination:checkReleaseManifest
-:pagination:processReleaseManifest
-:javasample:preReleaseBuild
-:pagination:compileReleaseAidl
-:javasample:compileReleaseAidl
-:gesture:packageReleaseRenderscript NO-SOURCE
-:pagination:packageReleaseRenderscript NO-SOURCE
-:javasample:compileReleaseRenderscript
-:javasample:checkReleaseManifest
-:javasample:generateReleaseBuildConfig
-:javasample:mainApkListPersistenceRelease
-:javasample:generateReleaseResValues
-:javasample:generateReleaseResources
-:pagination:compileReleaseRenderscript
-:pagination:generateReleaseResValues
-:pagination:generateReleaseResources
-:pagination:packageReleaseResources
-:javasample:mergeReleaseResources
-:javasample:createReleaseCompatibleScreenManifests
-:javasample:processReleaseManifest
-:javasample:splitsDiscoveryTaskRelease
-:pagination:generateReleaseBuildConfig
-:pagination:processReleaseJavaRes NO-SOURCE
-:javasample:compileReleaseNdk NO-SOURCE
-:core:mergeReleaseShaders
-:core:compileReleaseShaders
-:core:generateReleaseAssets
-:core:packageReleaseAssets
-:gesture:mergeReleaseShaders
-:gesture:compileReleaseShaders
-:gesture:generateReleaseAssets
-:gesture:packageReleaseAssets
-:javasample:mergeReleaseShaders
-:javasample:compileReleaseShaders
-:javasample:generateReleaseAssets
-:pagination:mergeReleaseShaders
-:pagination:compileReleaseShaders
-:pagination:generateReleaseAssets
-:pagination:packageReleaseAssets
-:section:mergeReleaseShaders
-:section:compileReleaseShaders
-:section:generateReleaseAssets
-:section:packageReleaseAssets
-:javasample:mergeReleaseAssets
-:javasample:extractTryWithResourcesSupportJarRelease
-:core:compileReleaseNdk NO-SOURCE
-:core:mergeReleaseJniLibFolders
-:core:transformNativeLibsWithMergeJniLibsForRelease
-:core:transformNativeLibsWithStripDebugSymbolForRelease
-:core:transformNativeLibsWithIntermediateJniLibsForRelease
-:gesture:compileReleaseNdk NO-SOURCE
-:gesture:mergeReleaseJniLibFolders
-:gesture:transformNativeLibsWithMergeJniLibsForRelease
-:gesture:transformNativeLibsWithStripDebugSymbolForRelease
-:gesture:transformNativeLibsWithIntermediateJniLibsForRelease
-:javasample:mergeReleaseJniLibFolders
-:pagination:compileReleaseNdk NO-SOURCE
-:pagination:mergeReleaseJniLibFolders
-:pagination:transformNativeLibsWithMergeJniLibsForRelease
-:pagination:transformNativeLibsWithStripDebugSymbolForRelease
-:pagination:transformNativeLibsWithIntermediateJniLibsForRelease
-:section:compileReleaseNdk NO-SOURCE
-:section:mergeReleaseJniLibFolders
-:section:transformNativeLibsWithMergeJniLibsForRelease
-:section:transformNativeLibsWithStripDebugSymbolForRelease
-:section:transformNativeLibsWithIntermediateJniLibsForRelease
-:javasample:processReleaseJavaRes NO-SOURCE
-:core:generateDebugRFile
-:core:compileDebugKotlin
-:core:generateDebugSources
-:core:javaPreCompileDebug
-:core:compileDebugJavaWithJavac
-:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:pagination:generateDebugRFile
-:pagination:compileDebugKotlin
-:pagination:generateDebugSources
-:pagination:javaPreCompileDebug
-:pagination:compileDebugJavaWithJavac
-:pagination:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:core:generateReleaseRFile
-:core:compileReleaseKotlin
-:core:generateReleaseSources
-:core:javaPreCompileRelease
-:core:compileReleaseJavaWithJavac
-:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:pagination:generateReleaseRFile
-:pagination:compileReleaseKotlin
-:pagination:generateReleaseSources
-:pagination:javaPreCompileRelease
-:pagination:compileReleaseJavaWithJavac
-:pagination:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:section:generateDebugRFile
-:gesture:generateDebugRFile
-:section:compileDebugKotlin
-:section:generateDebugSources
-:section:javaPreCompileDebug
-:section:compileDebugJavaWithJavac
-:section:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:gesture:compileDebugKotlin
-:gesture:generateDebugSources
-:gesture:javaPreCompileDebug
-:gesture:compileDebugJavaWithJavac
-:gesture:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:javasample:processDebugResources
-:javasample:compileDebugKotlin
-:javasample:generateDebugSources
-:javasample:javaPreCompileDebug
-:javasample:compileDebugJavaWithJavac
-:javasample:compileDebugSources
-:javasample:transformClassesWithStackFramesFixerForDebug
-:javasample:transformClassesWithDesugarForDebug
-:javasample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:javasample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:javasample:transformDexArchiveWithDexMergerForDebug
-:javasample:transformNativeLibsWithMergeJniLibsForDebug
-:javasample:transformNativeLibsWithStripDebugSymbolForDebug
-:javasample:transformResourcesWithMergeJavaResForDebug
-:javasample:packageDebug
-:javasample:assembleDebug
-:section:generateReleaseRFile
-:gesture:generateReleaseRFile
-:section:compileReleaseKotlin
-:section:generateReleaseSources
-:section:javaPreCompileRelease
-:section:compileReleaseJavaWithJavac
-:section:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:gesture:compileReleaseKotlin
-:gesture:generateReleaseSources
-:gesture:javaPreCompileRelease
-:gesture:compileReleaseJavaWithJavac
-:gesture:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:javasample:processReleaseResources
-:javasample:compileReleaseKotlin
-:javasample:generateReleaseSources
-:javasample:javaPreCompileRelease
-:javasample:compileReleaseJavaWithJavac
-:javasample:compileReleaseSources
-:javasample:lintVitalRelease
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.jar
-:javasample:transformClassesWithStackFramesFixerForRelease
-:javasample:transformClassesWithDesugarForRelease
-:javasample:transformClassesWithDexBuilderForRelease
-:javasample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:javasample:transformDexArchiveWithDexMergerForRelease
-:javasample:transformNativeLibsWithMergeJniLibsForRelease
-:javasample:transformNativeLibsWithStripDebugSymbolForRelease
-:javasample:transformResourcesWithMergeJavaResForRelease
-:javasample:packageRelease
-:javasample:assembleRelease
-:javasample:assemble
-:javasample:build
+2019-07-24 13:09:28,733 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gradlew
+2019-07-24 13:09:28,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gesture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/pagination/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/section/build.gradle
+2019-07-24 13:09:28,743 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/pagination/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/section/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gesture/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/ktlint.gradle
+2019-07-24 13:09:28,744 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:09:28,744 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:09:28,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/local.properties
+2019-07-24 13:09:28,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,759 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/sample/local.properties
+2019-07-24 13:09:28,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/local.properties
+2019-07-24 13:09:28,764 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-24 13:09:28,764 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-24 13:09:28,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,767 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/core/local.properties
+2019-07-24 13:09:28,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,771 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gesture/local.properties
+2019-07-24 13:09:28,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gesture/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,774 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gesture/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/pagination/local.properties
+2019-07-24 13:09:28,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/pagination/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/pagination/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/section/local.properties
+2019-07-24 13:09:28,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/section/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:09:28,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/section/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:09:28,782 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:09:28,782 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:09:28,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:09:35,548 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 13:09:35,548 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 13:09:35,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 13:10:29,195 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 1m 2s
-221 actionable tasks: 221 executed
+> Configure project :core
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2018-12-01 19:41:45,002 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543668028242-0/src/AdvancedRecyclerView-master/javasample/build/outputs/apk/release/javasample-release-unsigned.apk
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:checkDebugManifest
+> Task :core:generateDebugBuildConfig
+> Task :core:compileDebugRenderscript NO-SOURCE
+> Task :core:compileDebugAidl NO-SOURCE
+> Task :core:generateDebugResValues
+> Task :core:generateDebugResources
+> Task :core:processDebugManifest
+> Task :core:packageDebugResources
+> Task :core:generateDebugRFile
+> Task :core:compileDebugKotlin
+> Task :core:prepareLintJar
+> Task :core:generateDebugSources
+> Task :core:javaPreCompileDebug
+> Task :core:compileDebugJavaWithJavac
+> Task :core:bundleLibCompileDebug
+> Task :gesture:preBuild UP-TO-DATE
+> Task :gesture:preDebugBuild UP-TO-DATE
+> Task :section:preBuild UP-TO-DATE
+> Task :section:preDebugBuild UP-TO-DATE
+> Task :section:compileDebugAidl NO-SOURCE
+> Task :gesture:compileDebugAidl NO-SOURCE
+> Task :core:packageDebugRenderscript NO-SOURCE
+> Task :section:packageDebugRenderscript NO-SOURCE
+> Task :gesture:compileDebugRenderscript NO-SOURCE
+> Task :gesture:checkDebugManifest
+> Task :gesture:generateDebugBuildConfig
+> Task :gesture:generateDebugResValues
+> Task :gesture:generateDebugResources
+> Task :gesture:packageDebugResources
+> Task :gesture:processDebugManifest
+> Task :section:compileDebugRenderscript NO-SOURCE
+> Task :section:generateDebugResValues
+> Task :section:generateDebugResources
+> Task :section:packageDebugResources
+> Task :section:checkDebugManifest
+> Task :section:processDebugManifest
+> Task :section:generateDebugRFile
+> Task :gesture:generateDebugRFile
+> Task :section:generateDebugBuildConfig
+> Task :section:compileDebugKotlin
+> Task :section:prepareLintJar
+> Task :section:generateDebugSources
+> Task :section:javaPreCompileDebug
+> Task :section:compileDebugJavaWithJavac
+> Task :section:bundleLibCompileDebug
+> Task :gesture:compileDebugKotlin
+> Task :gesture:prepareLintJar
+> Task :gesture:generateDebugSources
+> Task :gesture:javaPreCompileDebug
+> Task :gesture:compileDebugJavaWithJavac
+> Task :gesture:bundleLibCompileDebug
+> Task :javasample:preBuild UP-TO-DATE
+> Task :pagination:preBuild UP-TO-DATE
+> Task :pagination:preDebugBuild UP-TO-DATE
+> Task :pagination:checkDebugManifest
+> Task :pagination:processDebugManifest
+> Task :javasample:preDebugBuild
+> Task :pagination:compileDebugAidl NO-SOURCE
+> Task :javasample:compileDebugAidl NO-SOURCE
+> Task :gesture:packageDebugRenderscript NO-SOURCE
+> Task :pagination:packageDebugRenderscript NO-SOURCE
+> Task :javasample:checkDebugManifest
+> Task :javasample:compileDebugRenderscript NO-SOURCE
+> Task :javasample:generateDebugBuildConfig
+> Task :javasample:mainApkListPersistenceDebug
+> Task :javasample:generateDebugResValues
+> Task :javasample:generateDebugResources
+> Task :pagination:compileDebugRenderscript NO-SOURCE
+> Task :pagination:generateDebugResValues
+> Task :pagination:generateDebugResources
+> Task :pagination:packageDebugResources
+> Task :javasample:mergeDebugResources
+> Task :javasample:createDebugCompatibleScreenManifests
+> Task :javasample:processDebugManifest
+> Task :pagination:generateDebugRFile
+> Task :javasample:processDebugResources
+> Task :pagination:generateDebugBuildConfig
+> Task :pagination:compileDebugKotlin
+> Task :pagination:prepareLintJar
+> Task :pagination:generateDebugSources
+> Task :pagination:javaPreCompileDebug
+> Task :pagination:compileDebugJavaWithJavac
+> Task :pagination:bundleLibCompileDebug
+> Task :javasample:compileDebugKotlin
+> Task :javasample:prepareLintJar
+> Task :javasample:generateDebugSources
+> Task :javasample:javaPreCompileDebug
+> Task :javasample:compileDebugJavaWithJavac
+> Task :javasample:compileDebugSources
+> Task :core:mergeDebugShaders
+> Task :core:compileDebugShaders
+> Task :core:generateDebugAssets
+> Task :core:packageDebugAssets
+> Task :gesture:mergeDebugShaders
+> Task :gesture:compileDebugShaders
+> Task :gesture:generateDebugAssets
+> Task :gesture:packageDebugAssets
+> Task :javasample:mergeDebugShaders
+> Task :javasample:compileDebugShaders
+> Task :javasample:generateDebugAssets
+> Task :pagination:mergeDebugShaders
+> Task :pagination:compileDebugShaders
+> Task :pagination:generateDebugAssets
+> Task :pagination:packageDebugAssets
+> Task :section:mergeDebugShaders
+> Task :section:compileDebugShaders
+> Task :section:generateDebugAssets
+> Task :section:packageDebugAssets
+> Task :javasample:mergeDebugAssets
+> Task :javasample:validateSigningDebug
+> Task :javasample:signingConfigWriterDebug
+> Task :core:bundleLibRuntimeDebug
+> Task :javasample:checkDebugDuplicateClasses
+> Task :gesture:bundleLibRuntimeDebug
+> Task :pagination:bundleLibRuntimeDebug
+> Task :section:bundleLibRuntimeDebug
+> Task :javasample:transformClassesWithDexBuilderForDebug
+> Task :javasample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :javasample:transformDexArchiveWithDexMergerForDebug
+> Task :core:processDebugJavaRes NO-SOURCE
+> Task :core:bundleLibResDebug
+> Task :core:mergeDebugJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :gesture:processDebugJavaRes NO-SOURCE
+> Task :gesture:bundleLibResDebug
+> Task :gesture:mergeDebugJniLibFolders
+> Task :gesture:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gesture:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gesture:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :javasample:mergeDebugJniLibFolders
+> Task :pagination:processDebugJavaRes NO-SOURCE
+> Task :pagination:bundleLibResDebug
+> Task :pagination:mergeDebugJniLibFolders
+> Task :pagination:transformNativeLibsWithMergeJniLibsForDebug
+> Task :pagination:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :pagination:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :section:processDebugJavaRes NO-SOURCE
+> Task :section:bundleLibResDebug
+> Task :section:mergeDebugJniLibFolders
+> Task :section:transformNativeLibsWithMergeJniLibsForDebug
+> Task :section:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :section:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :javasample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :javasample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :javasample:processDebugJavaRes NO-SOURCE
+> Task :javasample:transformResourcesWithMergeJavaResForDebug
+> Task :javasample:packageDebug
+> Task :javasample:assembleDebug
+> Task :core:preReleaseBuild UP-TO-DATE
+> Task :core:compileReleaseAidl NO-SOURCE
+> Task :core:compileReleaseRenderscript NO-SOURCE
+> Task :core:checkReleaseManifest
+> Task :core:generateReleaseBuildConfig
+> Task :core:generateReleaseResValues
+> Task :core:generateReleaseResources
+> Task :core:packageReleaseResources
+> Task :core:processReleaseManifest
+> Task :core:generateReleaseRFile
+> Task :core:compileReleaseKotlin
+> Task :core:generateReleaseSources
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
+> Task :core:bundleLibCompileRelease
+> Task :gesture:preReleaseBuild UP-TO-DATE
+> Task :section:preReleaseBuild UP-TO-DATE
+> Task :section:compileReleaseAidl NO-SOURCE
+> Task :gesture:compileReleaseAidl NO-SOURCE
+> Task :core:packageReleaseRenderscript NO-SOURCE
+> Task :section:packageReleaseRenderscript NO-SOURCE
+> Task :gesture:compileReleaseRenderscript NO-SOURCE
+> Task :gesture:checkReleaseManifest
+> Task :gesture:generateReleaseBuildConfig
+> Task :gesture:generateReleaseResValues
+> Task :gesture:generateReleaseResources
+> Task :gesture:packageReleaseResources
+> Task :gesture:processReleaseManifest
+> Task :section:compileReleaseRenderscript NO-SOURCE
+> Task :section:generateReleaseResValues
+> Task :section:generateReleaseResources
+> Task :section:packageReleaseResources
+> Task :section:checkReleaseManifest
+> Task :section:processReleaseManifest
+> Task :section:generateReleaseRFile
+> Task :gesture:generateReleaseRFile
+> Task :section:generateReleaseBuildConfig
+> Task :section:compileReleaseKotlin
+> Task :section:generateReleaseSources
+> Task :section:javaPreCompileRelease
+> Task :section:compileReleaseJavaWithJavac
+> Task :section:bundleLibCompileRelease
+> Task :gesture:compileReleaseKotlin
+> Task :gesture:generateReleaseSources
+> Task :gesture:javaPreCompileRelease
+> Task :gesture:compileReleaseJavaWithJavac
+> Task :gesture:bundleLibCompileRelease
+> Task :pagination:preReleaseBuild UP-TO-DATE
+> Task :pagination:checkReleaseManifest
+> Task :pagination:processReleaseManifest
+> Task :javasample:preReleaseBuild
+> Task :pagination:compileReleaseAidl NO-SOURCE
+> Task :javasample:compileReleaseAidl NO-SOURCE
+> Task :gesture:packageReleaseRenderscript NO-SOURCE
+> Task :pagination:packageReleaseRenderscript NO-SOURCE
+> Task :javasample:compileReleaseRenderscript NO-SOURCE
+> Task :javasample:checkReleaseManifest
+> Task :javasample:generateReleaseBuildConfig
+> Task :javasample:mainApkListPersistenceRelease
+> Task :javasample:generateReleaseResValues
+> Task :javasample:generateReleaseResources
+> Task :pagination:compileReleaseRenderscript NO-SOURCE
+> Task :pagination:generateReleaseResValues
+> Task :pagination:generateReleaseResources
+> Task :pagination:packageReleaseResources
+> Task :javasample:mergeReleaseResources
+> Task :javasample:createReleaseCompatibleScreenManifests
+> Task :javasample:processReleaseManifest
+> Task :pagination:generateReleaseRFile
+> Task :javasample:processReleaseResources
+> Task :pagination:generateReleaseBuildConfig
+> Task :pagination:compileReleaseKotlin
+> Task :pagination:generateReleaseSources
+> Task :pagination:javaPreCompileRelease
+> Task :pagination:compileReleaseJavaWithJavac
+> Task :pagination:bundleLibCompileRelease
+> Task :javasample:compileReleaseKotlin
+> Task :javasample:generateReleaseSources
+> Task :javasample:javaPreCompileRelease
+> Task :javasample:compileReleaseJavaWithJavac
+> Task :javasample:compileReleaseSources
+> Task :core:prepareLintJarForPublish
+> Task :gesture:prepareLintJarForPublish
+> Task :pagination:prepareLintJarForPublish
+> Task :section:prepareLintJarForPublish
+
+> Task :javasample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/120572102d989e1eb73868b6036f66e8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :core:mergeReleaseShaders
+> Task :core:compileReleaseShaders
+> Task :core:generateReleaseAssets
+> Task :core:packageReleaseAssets
+> Task :gesture:mergeReleaseShaders
+> Task :gesture:compileReleaseShaders
+> Task :gesture:generateReleaseAssets
+> Task :gesture:packageReleaseAssets
+> Task :javasample:mergeReleaseShaders
+> Task :javasample:compileReleaseShaders
+> Task :javasample:generateReleaseAssets
+> Task :pagination:mergeReleaseShaders
+> Task :pagination:compileReleaseShaders
+> Task :pagination:generateReleaseAssets
+> Task :pagination:packageReleaseAssets
+> Task :section:mergeReleaseShaders
+> Task :section:compileReleaseShaders
+> Task :section:generateReleaseAssets
+> Task :section:packageReleaseAssets
+> Task :javasample:mergeReleaseAssets
+> Task :javasample:signingConfigWriterRelease
+> Task :javasample:checkReleaseDuplicateClasses
+> Task :core:bundleLibRuntimeRelease
+> Task :gesture:bundleLibRuntimeRelease
+> Task :pagination:bundleLibRuntimeRelease
+> Task :section:bundleLibRuntimeRelease
+> Task :javasample:transformClassesWithDexBuilderForRelease
+> Task :javasample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :javasample:transformDexArchiveWithDexMergerForRelease
+> Task :core:processReleaseJavaRes NO-SOURCE
+> Task :core:bundleLibResRelease
+> Task :core:mergeReleaseJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :gesture:processReleaseJavaRes NO-SOURCE
+> Task :gesture:bundleLibResRelease
+> Task :gesture:mergeReleaseJniLibFolders
+> Task :gesture:transformNativeLibsWithMergeJniLibsForRelease
+> Task :gesture:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gesture:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :javasample:mergeReleaseJniLibFolders
+> Task :pagination:processReleaseJavaRes NO-SOURCE
+> Task :pagination:bundleLibResRelease
+> Task :pagination:mergeReleaseJniLibFolders
+> Task :pagination:transformNativeLibsWithMergeJniLibsForRelease
+> Task :pagination:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :pagination:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :section:processReleaseJavaRes NO-SOURCE
+> Task :section:bundleLibResRelease
+> Task :section:mergeReleaseJniLibFolders
+> Task :section:transformNativeLibsWithMergeJniLibsForRelease
+> Task :section:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :section:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :javasample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :javasample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :javasample:processReleaseJavaRes NO-SOURCE
+> Task :javasample:transformResourcesWithMergeJavaResForRelease
+> Task :javasample:packageRelease
+> Task :javasample:assembleRelease
+> Task :javasample:assemble
+> Task :javasample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 52s
+213 actionable tasks: 213 executed
+
+2019-07-24 13:10:29,292 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948541843-0/src/AdvancedRecyclerView-master/javasample/build/outputs/apk/release/javasample-release-unsigned.apk

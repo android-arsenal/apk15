@@ -1,46 +1,46 @@
-2019-01-12 21:00:34,546 INFO  DownloadService - Downloading "https://github.com/AppLozic/Applozic-Android-SDK/archive/master.zip", attempt 3
-2019-01-12 21:00:36,353 INFO  DownloadService - Downloaded https://github.com/AppLozic/Applozic-Android-SDK/archive/master.zip, attempt 3
-2019-01-12 21:00:36,354 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/master.zip": 2 MB
-2019-01-12 21:00:36,354 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-12 21:00:36,360 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/master.zip: true
-2019-01-12 21:00:36,361 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src'.
-2019-01-12 21:00:36,609 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-01-12 21:00:36,609 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src]
-2019-01-12 21:00:36,628 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/.git/
+2019-07-24 13:01:38,666 INFO  DownloadService - Downloading "https://github.com/AppLozic/Applozic-Android-SDK/archive/master.zip", attempt 3
+2019-07-24 13:01:58,188 INFO  DownloadService - Downloaded https://github.com/AppLozic/Applozic-Android-SDK/archive/master.zip, attempt 3
+2019-07-24 13:01:58,188 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/master.zip": 2 MB
+2019-07-24 13:01:58,189 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 13:01:58,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/master.zip: true
+2019-07-24 13:01:58,191 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src'.
+2019-07-24 13:01:58,388 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-07-24 13:01:58,388 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src]
+2019-07-24 13:01:58,406 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/.git/
 
-2019-01-12 21:00:36,649 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/gradlew
-2019-01-12 21:00:36,669 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/build.gradle
-2019-01-12 21:00:36,690 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle
-2019-01-12 21:00:36,695 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2019-01-12 21:00:37,465 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2019-01-12 21:00:37,466 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2019-01-12 21:00:37,683 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2019-01-12 21:00:37,683 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2019-01-12 21:00:37,684 INFO  ProjectFixService - Fixing project...
-2019-01-12 21:00:37,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/local.properties
-2019-01-12 21:00:37,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkit/local.properties
-2019-01-12 21:00:37,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkitui/local.properties
-2019-01-12 21:00:37,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,745 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicommons/local.properties
-2019-01-12 21:00:37,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/local.properties
-2019-01-12 21:00:37,749 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-12 21:00:37,750 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-12 21:00:37,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-12 21:00:37,752 INFO  ProjectFixService - Project was maybe fixed
-2019-01-12 21:00:37,752 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-12 21:00:37,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-12 21:00:48,698 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-01-12 21:00:48,698 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-12 21:00:48,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-12 21:00:55,146 ERROR SysUtils - Could not process external command
+2019-07-24 13:01:58,419 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/gradlew
+2019-07-24 13:01:58,433 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/build.gradle
+2019-07-24 13:01:58,446 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle
+2019-07-24 13:01:58,447 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-24 13:01:59,011 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-24 13:01:59,011 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-24 13:01:59,592 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-24 13:01:59,593 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-24 13:01:59,593 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:01:59,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/local.properties
+2019-07-24 13:01:59,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,638 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,639 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkit/local.properties
+2019-07-24 13:01:59,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkitui/local.properties
+2019-07-24 13:01:59,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicomkitui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,648 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicommons/local.properties
+2019-07-24 13:01:59,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/mobicommons/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/local.properties
+2019-07-24 13:01:59,651 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-24 13:01:59,651 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-24 13:01:59,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,653 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 13:01:59,654 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:01:59,654 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:01:59,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:02:08,948 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-24 13:02:08,949 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 13:02:08,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 13:02:14,886 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -68,7 +68,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-12 21:00:55,146 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:02:14,886 INFO  SysUtils - Configuration on demand is an incubating feature.
 Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
@@ -152,11 +152,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-01-12 21:00:55,146 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-01-12 21:00:55,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-12 21:02:11,626 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:02:14,887 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-24 13:02:14,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:03:31,138 INFO  SysUtils - Configuration on demand is an incubating feature.
 Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
@@ -175,13 +175,24 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 :mobicommons:checkDebugManifest
 :mobicommons:processDebugManifest
 :app:preDebugBuild
+Download https://maven.google.com/com/google/firebase/firebase-iid/maven-metadata.xml
 Download https://maven.google.com/com/google/android/gms/play-services-base/maven-metadata.xml
 Download https://maven.google.com/com/google/android/gms/play-services-basement/maven-metadata.xml
+Download https://maven.google.com/com/google/android/gms/play-services-places-placereport/maven-metadata.xml
+Download https://maven.google.com/com/google/android/gms/play-services-tasks/maven-metadata.xml
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
-Download https://maven.google.com/com/android/support/multidex/1.0.3/multidex-1.0.3.aar
-Download https://maven.google.com/com/google/android/gms/play-services-stats/15.0.1/play-services-stats-15.0.1.aar
+Download https://maven.google.com/com/google/firebase/firebase-messaging/17.3.0/firebase-messaging-17.3.0.aar
+Download https://maven.google.com/com/google/firebase/firebase-iid/17.0.0/firebase-iid-17.0.0.aar
+Download https://maven.google.com/com/google/firebase/firebase-common/16.0.1/firebase-common-16.0.1.aar
+Download https://maven.google.com/com/google/android/gms/play-services-maps/15.0.1/play-services-maps-15.0.1.aar
+Download https://maven.fabric.io/public/com/crashlytics/sdk/android/beta/1.1.6/beta-1.1.6.aar
+Download https://maven.fabric.io/public/com/crashlytics/sdk/android/crashlytics/2.5.7/crashlytics-2.5.7.aar
+Download https://maven.fabric.io/public/com/crashlytics/sdk/android/crashlytics-core/2.3.10/crashlytics-core-2.3.10.aar
+Download https://maven.fabric.io/public/com/crashlytics/sdk/android/answers/1.3.8/answers-1.3.8.aar
+Download https://maven.fabric.io/public/io/fabric/sdk/android/fabric/1.3.12/fabric-1.3.12.aar
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
-Download https://maven.google.com/com/android/support/cardview-v7/27.1.1/cardview-v7-27.1.1.aar
+Download https://jcenter.bintray.com/com/theartofdev/edmodo/android-image-cropper/2.7.0/android-image-cropper-2.7.0.aar
+Download https://jcenter.bintray.com/de/hdodenhof/circleimageview/2.2.0/circleimageview-2.2.0.aar
 :mobicommons:compileDebugAidl
 :mobicomkit:compileDebugAidl
 :mobicomkitui:compileDebugAidl
@@ -211,7 +222,7 @@ Download https://maven.google.com/com/android/support/cardview-v7/27.1.1/cardvie
 :mobicommons:packageDebugAssets
 :app:mergeDebugAssets
 :app:processDebugGoogleServices
-Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/google-services.json
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/google-services.json
 :app:createDebugCompatibleScreenManifests
 :app:processDebugManifest
 :app:fabricGenerateResourcesDebug
@@ -290,24 +301,6 @@ Warning: The app gradle file must have a dependency on com.google.firebase:fireb
 :app:compileReleaseShaders
 :app:generateReleaseAssets
 :mobicomkit:mergeReleaseShaders
-:mobicommons:generateDebugRFile
-:mobicomkit:generateDebugRFile
-:mobicomkit:generateDebugSources
-:mobicommons:generateDebugSources
-:mobicommons:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:mobicommons:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:mobicomkit:javaPreCompileDebug
-:mobicomkit:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:mobicomkit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:mobicomkitui:javaPreCompileDebug
 :mobicomkit:compileReleaseShaders
 :mobicomkit:generateReleaseAssets
 :mobicomkit:packageReleaseAssets
@@ -321,7 +314,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :mobicommons:packageReleaseAssets
 :app:mergeReleaseAssets
 :app:processReleaseGoogleServices
-Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/google-services.json
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/google-services.json
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:fabricGenerateResourcesRelease
@@ -341,74 +334,14 @@ Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547
 :mobicommons:packageReleaseResources
 :app:mergeReleaseResources
 :app:splitsDiscoveryTaskRelease
-:mobicommons:generateReleaseRFile
-:mobicomkitui:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:mobicomkitui:generateDebugSources
-:mobicomkitui:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:mobicomkitui:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:mobicomkit:generateReleaseRFile
-:mobicomkitui:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
 :mobicomkit:generateReleaseBuildConfig
-:mobicomkit:generateReleaseSources
 :mobicommons:generateReleaseBuildConfig
-:mobicommons:generateReleaseSources
 :mobicommons:javaPreCompileRelease
-:mobicommons:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
 :mobicommons:processReleaseJavaRes NO-SOURCE
-:mobicommons:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:mobicomkit:javaPreCompileRelease
-:mobicomkit:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
 :mobicomkit:processReleaseJavaRes NO-SOURCE
-:mobicomkit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :mobicomkitui:generateReleaseBuildConfig
-:mobicomkitui:generateReleaseSources
-:mobicomkitui:javaPreCompileRelease
-:mobicomkitui:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
 :mobicomkitui:processReleaseJavaRes NO-SOURCE
-:mobicomkitui:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
 :app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :mobicomkit:compileReleaseNdk NO-SOURCE
 :mobicomkit:mergeReleaseJniLibFolders
@@ -425,36 +358,124 @@ Note: Recompile with -Xlint:deprecation for details.
 :mobicommons:transformNativeLibsWithMergeJniLibsForRelease
 :mobicommons:transformNativeLibsWithStripDebugSymbolForRelease
 :mobicommons:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:generateDebugUnitTestConfig
+:app:mockableAndroidJar
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:generateReleaseUnitTestConfig
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:mobicommons:generateDebugRFile
+:mobicomkit:generateDebugRFile
+:mobicomkit:generateDebugSources
+:mobicommons:generateDebugSources
+:mobicommons:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicommons:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mobicomkit:javaPreCompileDebug
+Download https://jcenter.bintray.com/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.0/org.eclipse.paho.client.mqttv3-1.2.0.jar
+:mobicomkit:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicomkit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mobicomkitui:javaPreCompileDebug
+:mobicommons:generateReleaseRFile
+:mobicomkit:generateReleaseRFile
+:mobicomkit:generateReleaseSources
+:mobicommons:generateReleaseSources
+:mobicommons:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicommons:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mobicomkit:javaPreCompileRelease
+:mobicomkit:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicomkit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mobicomkitui:javaPreCompileRelease
+:mobicomkitui:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:mobicomkitui:generateDebugSources
+:mobicomkitui:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicomkitui:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.13/dagger-producers-2.13.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.13/dagger-2.13.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.13/dagger-compiler-2.13.jar
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:mobicomkitui:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:mobicomkitui:generateReleaseSources
+:mobicomkitui:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mobicomkitui:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:lint
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.2/byte-buddy-agent-1.6.2.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.2/byte-buddy-android-1.6.2.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.6.3/mockito-android-2.6.3.jar
+Download https://jcenter.bintray.com/org/droidparts/dexmaker/dexmaker/1.5/dexmaker-1.5.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.6.2/byte-buddy-1.6.2.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.6.3/mockito-core-2.6.3.jar
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
 Warning: The app gradle file must have a dependency on com.google.firebase:firebase-core for Firebase services to work as intended.
-Ran lint on variant release: 89 issues found
-Ran lint on variant debug: 89 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build/reports/lint-results.xml
-:app:preDebugUnitTestBuild UP-TO-DATE
+Ran lint on variant debug: 80 issues found
+Ran lint on variant release: 80 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build/reports/lint-results.xml
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:app:generateDebugUnitTestConfig
-:app:mockableAndroidJar
-:app:processDebugUnitTestJavaRes NO-SOURCE
 :app:testDebugUnitTest NO-SOURCE
-:app:preReleaseUnitTestBuild UP-TO-DATE
 :app:javaPreCompileReleaseUnitTest
 :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:app:generateReleaseUnitTestConfig
-:app:processReleaseUnitTestJavaRes NO-SOURCE
 :app:testReleaseUnitTest NO-SOURCE
 :app:test UP-TO-DATE
 :app:check
@@ -463,4 +484,4 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 BUILD SUCCESSFUL in 1m 15s
 176 actionable tasks: 176 executed
 
-2019-01-12 21:02:11,888 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301634542-0/src/Applozic-Android-SDK-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-24 13:03:31,326 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563948098658-0/src/Applozic-Android-SDK-master/app/build/outputs/apk/debug/app-debug.apk
