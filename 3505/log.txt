@@ -1,40 +1,40 @@
-2018-12-17 14:00:20,462 INFO  DownloadService - Downloading "https://github.com/ugurtekbas/fadingIndicator/archive/master.zip", attempt 3
-2018-12-17 14:05:11,685 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 14:05:12,704 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 14:05:12,704 INFO  DownloadService - Downloading "https://github.com/ugurtekbas/fadingIndicator/archive/master.zip", attempt 3
-2018-12-17 14:06:14,278 DEBUG FullProcessService - Repository https://github.com/ugurtekbas/fadingIndicator available: true
-2018-12-17 14:06:14,281 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 14:06:14,281 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ugurtekbas/fadingIndicator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src]
-2018-12-17 14:06:33,032 INFO  SysUtils - 
-2018-12-17 14:06:33,041 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/.git": true
-2018-12-17 14:06:33,045 INFO  FullProcessService - Size of directory with sources: 10 MB
-2018-12-17 14:06:33,045 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src]
-2018-12-17 14:06:33,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/.git/
+2019-07-24 13:38:25,756 INFO  DownloadService - Downloading "https://github.com/ugurtekbas/fadingIndicator/archive/master.zip", attempt 3
+2019-07-24 13:39:26,389 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:39:27,267 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-24 13:39:27,267 INFO  DownloadService - Downloading "https://github.com/ugurtekbas/fadingIndicator/archive/master.zip", attempt 3
+2019-07-24 13:40:28,831 DEBUG FullProcessService - Repository https://github.com/ugurtekbas/fadingIndicator available: true
+2019-07-24 13:40:28,831 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:40:28,831 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ugurtekbas/fadingIndicator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src]
+2019-07-24 13:41:29,446 INFO  SysUtils - 
+2019-07-24 13:41:29,454 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/.git": true
+2019-07-24 13:41:29,457 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-07-24 13:41:29,457 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src]
+2019-07-24 13:41:29,472 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/.git/
 
-2018-12-17 14:06:33,075 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew
-2018-12-17 14:06:33,079 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle
-2018-12-17 14:06:33,083 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/settings.gradle
-2018-12-17 14:06:33,084 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 14:06:33,084 INFO  ProjectFixService - Fixing project...
-2018-12-17 14:06:33,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/local.properties
-2018-12-17 14:06:33,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/local.properties
-2018-12-17 14:06:33,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/local.properties
-2018-12-17 14:06:33,098 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-17 14:06:33,098 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-17 14:06:33,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,099 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 14:06:33,100 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 14:06:33,100 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:06:33,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:06:42,176 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:06:42,178 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:06:42,178 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:06:42,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:06:48,739 ERROR SysUtils - Could not process external command
+2019-07-24 13:41:29,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew
+2019-07-24 13:41:29,478 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle
+2019-07-24 13:41:29,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/settings.gradle
+2019-07-24 13:41:29,481 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:41:29,481 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:41:29,487 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/local.properties
+2019-07-24 13:41:29,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,488 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,488 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/local.properties
+2019-07-24 13:41:29,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/local.properties
+2019-07-24 13:41:29,490 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-24 13:41:29,490 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-24 13:41:29,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,491 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-07-24 13:41:29,491 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:41:29,491 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:41:29,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:41:35,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:41:35,902 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:41:35,902 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:41:35,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:41:40,847 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:06:48,740 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:41:40,847 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
 
@@ -200,15 +200,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 
-2018-12-17 14:06:48,745 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:06:48,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:06:55,104 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:06:55,104 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:06:55,104 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:06:55,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/fadingindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:07:00,528 ERROR SysUtils - Could not process external command
+2019-07-24 13:41:40,851 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:41:40,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:41:45,757 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:41:45,757 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:41:45,757 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:41:45,758 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/fadingindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:41:50,601 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -236,7 +236,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:07:00,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:41:50,601 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':fadingindicatorlibrary' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':fadingindicatorlibrary' is deprecated. Use 'testImplementation' instead.
 
@@ -367,22 +367,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-12-17 14:07:00,533 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:07:00,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:07:06,401 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:07:06,401 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:07:06,401 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:07:06,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030020460-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:07:12,510 ERROR SysUtils - Could not process external command
+2019-07-24 13:41:50,605 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:41:50,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:41:55,507 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:41:55,507 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:41:55,507 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:41:55,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950305748-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:42:00,446 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -410,7 +410,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:07:12,510 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:42:00,446 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
 
@@ -548,7 +548,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-12-17 14:07:12,514 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 14:07:12,517 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:42:00,449 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:42:00,452 ERROR FullProcessService - Could not find generated or existed APK file

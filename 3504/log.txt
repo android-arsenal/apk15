@@ -1,21 +1,21 @@
-2018-12-17 14:07:12,547 INFO  DownloadService - Downloading "https://github.com/devnied/AndroidBitmapTransform/archive/master.zip", attempt 3
-2018-12-17 14:08:13,056 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 14:08:14,244 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 14:08:14,244 INFO  DownloadService - Downloading "https://github.com/devnied/AndroidBitmapTransform/archive/master.zip", attempt 3
-2018-12-17 14:09:15,801 DEBUG FullProcessService - Repository https://github.com/devnied/AndroidBitmapTransform available: true
-2018-12-17 14:09:15,801 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 14:09:15,801 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/devnied/AndroidBitmapTransform, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030432544-0/src]
-2018-12-17 14:09:18,833 INFO  SysUtils - 
-2018-12-17 14:09:18,852 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030432544-0/src/.git": true
-2018-12-17 14:09:18,854 INFO  FullProcessService - Size of directory with sources: 286 KB
-2018-12-17 14:09:18,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030432544-0/src]
-2018-12-17 14:09:18,870 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030432544-0/src/.git/
+2019-07-24 13:42:00,476 INFO  DownloadService - Downloading "https://github.com/devnied/AndroidBitmapTransform/archive/master.zip", attempt 3
+2019-07-24 13:43:01,206 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:43:02,371 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-24 13:43:02,371 INFO  DownloadService - Downloading "https://github.com/devnied/AndroidBitmapTransform/archive/master.zip", attempt 3
+2019-07-24 13:44:03,997 DEBUG FullProcessService - Repository https://github.com/devnied/AndroidBitmapTransform available: true
+2019-07-24 13:44:04,005 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:44:04,006 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/devnied/AndroidBitmapTransform, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950520473-0/src]
+2019-07-24 13:44:07,814 INFO  SysUtils - 
+2019-07-24 13:44:07,831 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950520473-0/src/.git": true
+2019-07-24 13:44:07,832 INFO  FullProcessService - Size of directory with sources: 286 KB
+2019-07-24 13:44:07,833 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950520473-0/src]
+2019-07-24 13:44:07,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950520473-0/src/.git/
 
-2018-12-17 14:09:18,872 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-12-17 14:09:18,872 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-12-17 14:09:18,874 INFO  ProjectBuildService - Build script(s): none
-2018-12-17 14:09:18,875 INFO  ProjectBuildService - All script(s): none
-2018-12-17 14:09:18,875 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 14:09:18,875 ERROR FullProcessService - Project is not correct Gradle project
-2018-12-17 14:09:18,875 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 14:09:18,877 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:44:07,851 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-24 13:44:07,851 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-24 13:44:07,852 INFO  ProjectBuildService - Build script(s): none
+2019-07-24 13:44:07,854 INFO  ProjectBuildService - All script(s): none
+2019-07-24 13:44:07,854 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:44:07,854 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-24 13:44:07,854 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:44:07,856 ERROR FullProcessService - Could not find generated or existed APK file

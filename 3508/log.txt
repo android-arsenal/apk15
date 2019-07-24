@@ -1,51 +1,48 @@
-2018-12-17 13:49:39,622 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/master.zip", attempt 3
-2018-12-17 13:49:45,261 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/master.zip", attempt 2
-2018-12-17 13:49:51,312 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/master.zip", attempt 1
-2018-12-17 13:50:51,583 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 13:50:52,869 INFO  GithubDownloadService - Default branch of this repository: develop
-2018-12-17 13:50:52,869 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/develop.zip", attempt 3
-2018-12-17 13:51:54,182 DEBUG FullProcessService - Repository https://github.com/alter-ego/androidbound available: true
-2018-12-17 13:51:54,182 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 13:51:54,182 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alter-ego/androidbound, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src]
-2018-12-17 13:52:42,662 INFO  SysUtils - 
-2018-12-17 13:52:42,683 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/.git": true
-2018-12-17 13:52:42,707 INFO  FullProcessService - Size of directory with sources: 30 MB
-2018-12-17 13:52:42,707 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src]
-2018-12-17 13:52:42,724 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/.git/
+2019-07-24 13:33:55,675 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/master.zip", attempt 3
+2019-07-24 13:34:56,380 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:34:57,922 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-07-24 13:34:57,923 INFO  DownloadService - Downloading "https://github.com/alter-ego/androidbound/archive/develop.zip", attempt 3
+2019-07-24 13:35:59,441 DEBUG FullProcessService - Repository https://github.com/alter-ego/androidbound available: true
+2019-07-24 13:35:59,442 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:35:59,442 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alter-ego/androidbound, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src]
+2019-07-24 13:36:15,318 INFO  SysUtils - 
+2019-07-24 13:36:15,338 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/.git": true
+2019-07-24 13:36:15,360 INFO  FullProcessService - Size of directory with sources: 30 MB
+2019-07-24 13:36:15,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src]
+2019-07-24 13:36:15,378 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/.git/
 
-2018-12-17 13:52:42,741 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/gradlew
-2018-12-17 13:52:42,759 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/build.gradle
-2018-12-17 13:52:42,775 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/settings.gradle
-2018-12-17 13:52:42,776 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 13:52:42,776 INFO  ProjectFixService - Fixing project...
-2018-12-17 13:52:42,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/local.properties
-2018-12-17 13:52:42,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-17 13:52:42,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-17 13:52:42,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/local.properties
-2018-12-17 13:52:42,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-17 13:52:42,822 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-17 13:52:42,824 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample/local.properties
-2018-12-17 13:52:42,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-17 13:52:42,828 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-17 13:52:42,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/local.properties
-2018-12-17 13:52:42,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-17 13:52:42,833 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-17 13:52:42,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/local.properties
-2018-12-17 13:52:42,835 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-17 13:52:42,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-17 13:52:42,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-17 13:52:42,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-17 13:52:42,841 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 13:52:42,841 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 13:52:42,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 13:52:53,887 INFO  ProjectTaskService - Detected possible tasks: 76
-2018-12-17 13:52:53,887 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-17 13:52:53,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-17 13:53:18,711 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:36:15,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/gradlew
+2019-07-24 13:36:15,408 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/build.gradle
+2019-07-24 13:36:15,424 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/settings.gradle
+2019-07-24 13:36:15,425 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:36:15,425 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:36:15,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/local.properties
+2019-07-24 13:36:15,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:36:15,462 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:36:15,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/local.properties
+2019-07-24 13:36:15,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:36:15,468 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:36:15,469 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample/local.properties
+2019-07-24 13:36:15,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:36:15,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:36:15,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/local.properties
+2019-07-24 13:36:15,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:36:15,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:36:15,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/local.properties
+2019-07-24 13:36:15,482 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-24 13:36:15,482 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-24 13:36:15,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-24 13:36:15,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-24 13:36:15,487 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:36:15,487 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:36:15,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:36:50,798 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-07-24 13:36:50,798 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 13:36:50,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 13:37:13,280 INFO  SysUtils - Configuration on demand is an incubating feature.
 :AndroidBound:preBuild UP-TO-DATE
 :AndroidBound:preDebugBuild UP-TO-DATE
 :AndroidBound:compileDebugAidl
-Download https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.13/rxjava-2.1.13.pom
 :AndroidBound:compileDebugRenderscript
 :AndroidBound:checkDebugManifest
 :AndroidBound:generateDebugBuildConfig
@@ -121,118 +118,118 @@ Note: Recompile with -Xlint:unchecked for details.
 :AndroidBound:bundleRelease
 :AndroidBound:compileReleaseSources
 :AndroidBound:assembleRelease
-:AndroidBound:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableButton.java:36: warning: no @param for view
+:AndroidBound:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableButton.java:36: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableButton.java:36: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableButton.java:36: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:67: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:67: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:67: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:67: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:165: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableEditText.java:165: warning: no @return
     public String getTextString() {
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableFrameLayout.java:37: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableFrameLayout.java:37: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableFrameLayout.java:37: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableFrameLayout.java:37: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:69: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:69: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:69: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:69: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:156: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableGridView.java:156: warning: no @return
     public List<?> getItemsSource() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableHorizontalScrollView.java:35: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableHorizontalScrollView.java:35: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableHorizontalScrollView.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableHorizontalScrollView.java:35: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:46: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:46: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:46: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:46: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:123: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableImageView.java:123: warning: no @return
     public String getSource() {
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableLinearLayout.java:37: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableLinearLayout.java:37: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableLinearLayout.java:37: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableLinearLayout.java:37: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:76: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:76: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:76: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:76: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:164: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableListView.java:164: warning: no @return
     public List<?> getItemsSource() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:37: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:37: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:37: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:37: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:120: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableProgressBar.java:120: warning: no @return
     public int getProgressDrawableId() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableRelativeLayout.java:35: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableRelativeLayout.java:35: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableRelativeLayout.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableRelativeLayout.java:35: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableScrollView.java:35: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableScrollView.java:35: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableScrollView.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableScrollView.java:35: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:43: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:43: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:43: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:43: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:130: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSeekBar.java:130: warning: no @return
     public ICommand getProgressTrackBegin() {
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSwitch.java:38: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSwitch.java:38: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSwitch.java:38: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableSwitch.java:38: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableTextView.java:36: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableTextView.java:36: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableTextView.java:36: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableTextView.java:36: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableToggleButton.java:36: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableToggleButton.java:36: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableToggleButton.java:36: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableToggleButton.java:36: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableView.java:41: warning: no @param for view
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableView.java:41: warning: no @param for view
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableView.java:41: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBound/src/main/java/solutions/alterego/androidbound/android/ui/BindableView.java:41: warning: no @return
     protected BindableViewDelegate createDelegate(View view) {
                                    ^
 
@@ -241,35 +238,25 @@ Note: Recompile with -Xlint:unchecked for details.
 :AndroidBound:assemble
 :AndroidBound:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 22s
 53 actionable tasks: 53 executed
 
-2018-12-17 13:53:18,747 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 13:53:18,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 13:53:24,794 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-17 13:53:24,794 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-17 13:53:24,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-17 13:54:18,407 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:37:13,316 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:37:13,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:37:20,383 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 13:37:20,384 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 13:37:20,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 13:38:12,695 INFO  SysUtils - Configuration on demand is an incubating feature.
 :AndroidBoundExample-support:preBuild UP-TO-DATE
 :androidbound-support:preBuild UP-TO-DATE
 :androidbound-support:preDebugBuild UP-TO-DATE
 :androidbound-support:checkDebugManifest
 :androidbound-support:processDebugManifest
 :AndroidBoundExample-support:preDebugBuild
-Download https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.12/lombok-1.16.12.pom
-Download https://repo.maven.apache.org/maven2/com/nostra13/universalimageloader/universal-image-loader/1.9.5/universal-image-loader-1.9.5.pom
-Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary-android/1.5.4/leakcanary-android-1.5.4.pom
-Download https://repo.maven.apache.org/maven2/net/danlew/android.joda/2.9.9.4/android.joda-2.9.9.4.pom
-Download https://repo.maven.apache.org/maven2/com/github/brianPlummer/tinydancer/0.0.9/tinydancer-0.0.9.pom
-Download https://plugins.gradle.org/m2/solutions/alterego/advancedandroidlogger/1.0.9/advancedandroidlogger-1.0.9.pom
-Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary-analyzer/1.5.4/leakcanary-analyzer-1.5.4.pom
-Download https://plugins.gradle.org/m2/solutions/alterego/androidbound/0.9.4/androidbound-0.9.4.pom
-Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary-watcher/1.5.4/leakcanary-watcher-1.5.4.pom
-Download https://repo.maven.apache.org/maven2/com/squareup/haha/haha/2.0.3/haha-2.0.3.pom
-Download https://repo.maven.apache.org/maven2/net/danlew/android.joda/2.9.9.4/android.joda-2.9.9.4.aar
 Download https://repo.maven.apache.org/maven2/com/github/brianPlummer/tinydancer/0.0.9/tinydancer-0.0.9.aar
-Download https://plugins.gradle.org/m2/solutions/alterego/androidbound/0.9.4/androidbound-0.9.4.aar
+Download https://repo.maven.apache.org/maven2/net/danlew/android.joda/2.9.9.4/android.joda-2.9.9.4.aar
 Download https://plugins.gradle.org/m2/solutions/alterego/advancedandroidlogger/1.0.9/advancedandroidlogger-1.0.9.aar
+Download https://plugins.gradle.org/m2/solutions/alterego/androidbound/0.9.4/androidbound-0.9.4.aar
 :androidbound-support:compileDebugAidl
 :AndroidBoundExample-support:compileDebugAidl
 :androidbound-support:packageDebugRenderscript NO-SOURCE
@@ -313,7 +300,6 @@ Download https://plugins.gradle.org/m2/solutions/alterego/advancedandroidlogger/
 :androidbound-support:checkReleaseManifest
 :androidbound-support:processReleaseManifest
 :AndroidBoundExample-support:preReleaseBuild
-Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary-android-no-op/1.5.4/leakcanary-android-no-op-1.5.4.pom
 :androidbound-support:compileReleaseAidl
 :AndroidBoundExample-support:compileReleaseAidl
 :androidbound-support:packageReleaseRenderscript NO-SOURCE
@@ -357,13 +343,12 @@ Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary
 :androidbound-support:javaPreCompileDebug
 :androidbound-support:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/src/main/java/solutions/alterego/androidbound/support/android/adapters/BindableRecyclerViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/src/main/java/solutions/alterego/androidbound/support/android/adapters/BindableRecyclerViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :androidbound-support:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :AndroidBoundExample-support:javaPreCompileDebug
 Download https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.12/lombok-1.16.12.jar
-Download https://repo.maven.apache.org/maven2/com/nostra13/universalimageloader/universal-image-loader/1.9.5/universal-image-loader-1.9.5.jar
 Download https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-no-tzdb.jar
 :AndroidBoundExample-support:compileDebugJavaWithJavac
 :AndroidBoundExample-support:compileDebugSources
@@ -383,7 +368,7 @@ Download https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-tim
 :androidbound-support:javaPreCompileRelease
 :androidbound-support:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/androidbound-support/src/main/java/solutions/alterego/androidbound/support/android/adapters/BindableRecyclerViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/androidbound-support/src/main/java/solutions/alterego/androidbound/support/android/adapters/BindableRecyclerViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :androidbound-support:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -391,26 +376,14 @@ Note: Recompile with -Xlint:unchecked for details.
 :AndroidBoundExample-support:compileReleaseJavaWithJavac
 :AndroidBoundExample-support:compileReleaseSources
 :AndroidBoundExample-support:lintVitalRelease
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.2.41/kotlin-test-junit-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/easytesting/fest-assert-core/2.0M10/fest-assert-core-2.0M10.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.41/kotlin-stdlib-jdk8-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.41/kotlin-test-annotations-common-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.2.41/kotlin-test-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.pom
-Download https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.41/kotlin-stdlib-common-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-common/1.2.41/kotlin-test-common-1.2.41.pom
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.41/kotlin-stdlib-jdk8-1.2.41.jar
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.2.41/kotlin-test-1.2.41.jar
-Download https://repo.maven.apache.org/maven2/org/easytesting/fest-assert-core/2.0M10/fest-assert-core-2.0M10.jar
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.2.41/kotlin-test-junit-1.2.41.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.41/kotlin-test-annotations-common-1.2.41.jar
 Download https://repo.maven.apache.org/maven2/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-junit/1.2.41/kotlin-test-junit-1.2.41.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.41/kotlin-stdlib-jdk8-1.2.41.jar
+Download https://repo.maven.apache.org/maven2/org/easytesting/fest-assert-core/2.0M10/fest-assert-core-2.0M10.jar
 Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-common/1.2.41/kotlin-test-common-1.2.41.jar
 Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.41/kotlin-stdlib-common-1.2.41.jar
-Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.41/kotlin-test-annotations-common-1.2.41.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test/1.2.41/kotlin-test-1.2.41.jar
 :AndroidBoundExample-support:transformClassesWithDexBuilderForRelease
 :AndroidBoundExample-support:transformDexArchiveWithExternalLibsDexMergerForRelease
 :AndroidBoundExample-support:transformDexArchiveWithDexMergerForRelease
@@ -422,7 +395,7 @@ Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-test-a
 :AndroidBoundExample-support:assemble
 :AndroidBoundExample-support:build
 
-BUILD SUCCESSFUL in 53s
+BUILD SUCCESSFUL in 51s
 93 actionable tasks: 93 executed
 
-2018-12-17 13:54:18,542 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029379619-0/src/AndroidBoundExample-support/build/outputs/apk/release/AndroidBoundExample-support-release-unsigned.apk
+2019-07-24 13:38:12,805 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950035671-0/src/AndroidBoundExample-support/build/outputs/apk/release/AndroidBoundExample-support-release-unsigned.apk

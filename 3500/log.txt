@@ -1,39 +1,39 @@
-2018-12-17 14:17:22,232 INFO  DownloadService - Downloading "https://github.com/vokal/Mocktrofit/archive/master.zip", attempt 3
-2018-12-17 14:18:22,773 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 14:18:23,809 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 14:18:23,809 INFO  DownloadService - Downloading "https://github.com/vokal/Mocktrofit/archive/master.zip", attempt 3
-2018-12-17 14:19:25,133 DEBUG FullProcessService - Repository https://github.com/vokal/Mocktrofit available: true
-2018-12-17 14:19:25,133 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 14:19:25,133 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vokal/Mocktrofit, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src]
-2018-12-17 14:19:27,161 INFO  SysUtils - 
-2018-12-17 14:19:27,194 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/.git": true
-2018-12-17 14:19:27,196 INFO  FullProcessService - Size of directory with sources: 105 KB
-2018-12-17 14:19:27,196 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src]
-2018-12-17 14:19:27,221 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/.git/
+2019-07-24 13:46:13,018 INFO  DownloadService - Downloading "https://github.com/vokal/Mocktrofit/archive/master.zip", attempt 3
+2019-07-24 13:47:13,931 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:47:14,862 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-24 13:47:14,862 INFO  DownloadService - Downloading "https://github.com/vokal/Mocktrofit/archive/master.zip", attempt 3
+2019-07-24 13:48:16,344 DEBUG FullProcessService - Repository https://github.com/vokal/Mocktrofit available: true
+2019-07-24 13:48:16,344 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:48:16,344 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vokal/Mocktrofit, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src]
+2019-07-24 13:48:18,282 INFO  SysUtils - 
+2019-07-24 13:48:18,315 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/.git": true
+2019-07-24 13:48:18,318 INFO  FullProcessService - Size of directory with sources: 105 KB
+2019-07-24 13:48:18,319 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src]
+2019-07-24 13:48:18,348 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/.git/
 
-2018-12-17 14:19:27,225 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew
-2018-12-17 14:19:27,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle
-2018-12-17 14:19:27,231 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/settings.gradle
-2018-12-17 14:19:27,232 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 14:19:27,232 INFO  ProjectFixService - Fixing project...
-2018-12-17 14:19:27,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/local.properties
-2018-12-17 14:19:27,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 14:19:27,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/local.properties
-2018-12-17 14:19:27,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 14:19:27,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/local.properties
-2018-12-17 14:19:27,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 14:19:27,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/local.properties
-2018-12-17 14:19:27,244 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-12-17 14:19:27,244 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-12-17 14:19:27,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 14:19:27,245 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 14:19:27,245 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:19:27,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:19:30,091 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:19:30,092 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:19:30,092 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:19:30,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:19:31,765 ERROR SysUtils - Could not process external command
+2019-07-24 13:48:18,350 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew
+2019-07-24 13:48:18,354 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle
+2019-07-24 13:48:18,357 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/settings.gradle
+2019-07-24 13:48:18,357 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:48:18,357 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:48:18,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/local.properties
+2019-07-24 13:48:18,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-24 13:48:18,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/local.properties
+2019-07-24 13:48:18,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-24 13:48:18,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/local.properties
+2019-07-24 13:48:18,369 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-24 13:48:18,370 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/local.properties
+2019-07-24 13:48:18,371 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-24 13:48:18,372 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-24 13:48:18,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-24 13:48:18,373 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:48:18,373 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:48:18,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:48:21,710 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:48:21,710 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:48:21,710 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:48:21,710 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocklib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:48:24,040 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,7 +46,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,12 +61,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:19:31,765 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:48:24,040 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle' line: 8
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle' line: 8
 
 * What went wrong:
 A problem occurred evaluating root project 'src'.
@@ -129,13 +130,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.artifacts.repositories.DefaultPasswordCredentials_Decorated.getProperty(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:8)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:8)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:79)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:74)
 	at org.gradle.api.internal.artifacts.repositories.AbstractAuthenticationSupportedRepository.credentials(AbstractAuthenticationSupportedRepository.java:59)
 	at org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated.credentials(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:7)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.maven(DefaultRepositoryHandler.java:89)
@@ -147,7 +148,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:5)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:137)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
@@ -157,28 +158,28 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:374)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:3)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:3)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:107)
 	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:915)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:2)
+	at build_dovmpea0q8ba2r71ciapfdelz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 48 more
 
 
 BUILD FAILED
 
-Total time: 1.555 secs
+Total time: 2.191 secs
 
-2018-12-17 14:19:31,768 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:19:31,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:19:34,296 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:19:34,296 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:19:34,296 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:19:34,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/mocktrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:19:36,339 ERROR SysUtils - Could not process external command
+2019-07-24 13:48:24,042 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:48:24,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:48:26,321 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:48:26,321 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:48:26,321 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:48:26,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/mocktrofit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:48:28,173 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -191,7 +192,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -205,12 +207,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:19:36,339 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:48:28,173 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle' line: 8
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle' line: 8
 
 * What went wrong:
 A problem occurred evaluating root project 'src'.
@@ -274,13 +276,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.artifacts.repositories.DefaultPasswordCredentials_Decorated.getProperty(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:8)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:8)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:79)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:74)
 	at org.gradle.api.internal.artifacts.repositories.AbstractAuthenticationSupportedRepository.credentials(AbstractAuthenticationSupportedRepository.java:59)
 	at org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated.credentials(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:7)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.maven(DefaultRepositoryHandler.java:89)
@@ -292,7 +294,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:5)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:137)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
@@ -302,28 +304,28 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:374)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:3)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:3)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:107)
 	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:915)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:2)
+	at build_dovmpea0q8ba2r71ciapfdelz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 48 more
 
 
 BUILD FAILED
 
-Total time: 1.911 secs
+Total time: 1.715 secs
 
-2018-12-17 14:19:36,342 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:19:36,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:19:38,413 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:19:38,413 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:19:38,413 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:19:38,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/okmock/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:19:40,525 ERROR SysUtils - Could not process external command
+2019-07-24 13:48:28,176 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:48:28,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:48:29,988 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:48:29,988 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:48:29,988 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:48:29,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/okmock/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:48:31,850 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -336,7 +338,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -350,12 +353,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:19:40,525 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:48:31,850 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle' line: 8
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle' line: 8
 
 * What went wrong:
 A problem occurred evaluating root project 'src'.
@@ -419,13 +422,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.artifacts.repositories.DefaultPasswordCredentials_Decorated.getProperty(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:8)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:8)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:79)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:74)
 	at org.gradle.api.internal.artifacts.repositories.AbstractAuthenticationSupportedRepository.credentials(AbstractAuthenticationSupportedRepository.java:59)
 	at org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated.credentials(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:7)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.maven(DefaultRepositoryHandler.java:89)
@@ -437,7 +440,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:5)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:137)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
@@ -447,28 +450,28 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:374)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:3)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:3)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:107)
 	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:915)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:2)
+	at build_dovmpea0q8ba2r71ciapfdelz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 48 more
 
 
 BUILD FAILED
 
-Total time: 1.955 secs
+Total time: 1.743 secs
 
-2018-12-17 14:19:40,529 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 14:19:40,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 14:19:42,178 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 14:19:42,179 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 14:19:42,179 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 14:19:42,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 14:19:43,816 ERROR SysUtils - Could not process external command
+2019-07-24 13:48:31,853 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:48:31,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:48:33,619 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:48:33,619 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:48:33,619 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:48:33,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:48:35,811 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -481,7 +484,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -495,12 +499,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 14:19:43,816 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:48:35,811 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle' line: 8
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle' line: 8
 
 * What went wrong:
 A problem occurred evaluating root project 'src'.
@@ -564,13 +568,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.artifacts.repositories.DefaultPasswordCredentials_Decorated.getProperty(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:8)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:8)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:79)
 	at org.gradle.api.internal.artifacts.repositories.AuthenticationSupporter.credentials(AuthenticationSupporter.java:74)
 	at org.gradle.api.internal.artifacts.repositories.AbstractAuthenticationSupportedRepository.credentials(AbstractAuthenticationSupportedRepository.java:59)
 	at org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated.credentials(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:7)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.maven(DefaultRepositoryHandler.java:89)
@@ -582,7 +586,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:5)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:137)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
@@ -592,20 +596,20 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:374)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_53x5kforh1uogi0f0l12u570f$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:3)
+	at build_dovmpea0q8ba2r71ciapfdelz$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:3)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:107)
 	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:915)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_53x5kforh1uogi0f0l12u570f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545031042224-0/src/build.gradle:2)
+	at build_dovmpea0q8ba2r71ciapfdelz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950773013-0/src/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 48 more
 
 
 BUILD FAILED
 
-Total time: 1.518 secs
+Total time: 2.055 secs
 
-2018-12-17 14:19:43,819 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 14:19:43,822 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:48:35,813 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:48:35,816 ERROR FullProcessService - Could not find generated or existed APK file

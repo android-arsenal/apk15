@@ -1,21 +1,21 @@
-2018-12-17 14:09:18,895 INFO  DownloadService - Downloading "https://github.com/devnied/EMV-NFC-Paycard-Enrollment/archive/master.zip", attempt 3
-2018-12-17 14:10:19,488 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 14:10:20,829 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 14:10:20,829 INFO  DownloadService - Downloading "https://github.com/devnied/EMV-NFC-Paycard-Enrollment/archive/master.zip", attempt 3
-2018-12-17 14:11:22,363 DEBUG FullProcessService - Repository https://github.com/devnied/EMV-NFC-Paycard-Enrollment available: true
-2018-12-17 14:11:22,363 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 14:11:22,364 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/devnied/EMV-NFC-Paycard-Enrollment, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030558891-0/src]
-2018-12-17 14:11:33,797 INFO  SysUtils - 
-2018-12-17 14:11:33,808 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030558891-0/src/.git": true
-2018-12-17 14:11:33,817 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-12-17 14:11:33,817 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030558891-0/src]
-2018-12-17 14:11:33,835 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545030558891-0/src/.git/
+2019-07-24 13:44:07,871 INFO  DownloadService - Downloading "https://github.com/devnied/EMV-NFC-Paycard-Enrollment/archive/master.zip", attempt 3
+2019-07-24 13:45:08,414 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:45:09,268 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-24 13:45:09,269 INFO  DownloadService - Downloading "https://github.com/devnied/EMV-NFC-Paycard-Enrollment/archive/master.zip", attempt 3
+2019-07-24 13:46:10,678 DEBUG FullProcessService - Repository https://github.com/devnied/EMV-NFC-Paycard-Enrollment available: true
+2019-07-24 13:46:10,679 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:46:10,679 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/devnied/EMV-NFC-Paycard-Enrollment, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950647869-0/src]
+2019-07-24 13:46:12,846 INFO  SysUtils - 
+2019-07-24 13:46:12,862 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950647869-0/src/.git": true
+2019-07-24 13:46:12,870 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-24 13:46:12,870 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950647869-0/src]
+2019-07-24 13:46:12,911 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563950647869-0/src/.git/
 
-2018-12-17 14:11:33,842 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-12-17 14:11:33,842 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-12-17 14:11:33,849 INFO  ProjectBuildService - Build script(s): none
-2018-12-17 14:11:33,856 INFO  ProjectBuildService - All script(s): none
-2018-12-17 14:11:33,856 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 14:11:33,856 ERROR FullProcessService - Project is not correct Gradle project
-2018-12-17 14:11:33,856 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 14:11:33,862 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:46:12,917 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-24 13:46:12,917 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-24 13:46:12,930 INFO  ProjectBuildService - Build script(s): none
+2019-07-24 13:46:12,939 INFO  ProjectBuildService - All script(s): none
+2019-07-24 13:46:12,939 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:46:12,939 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-24 13:46:12,939 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:46:12,945 ERROR FullProcessService - Could not find generated or existed APK file
