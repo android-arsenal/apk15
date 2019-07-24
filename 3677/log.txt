@@ -1,39 +1,39 @@
-2019-07-08 03:19:19,064 INFO  DownloadService - Downloading "https://github.com/Dimezis/BlurView/archive/master.zip", attempt 3
-2019-07-08 03:19:22,358 INFO  DownloadService - Downloaded https://github.com/Dimezis/BlurView/archive/master.zip, attempt 3
-2019-07-08 03:19:22,359 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/master.zip": 1 MB
-2019-07-08 03:19:22,359 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 03:19:22,364 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/master.zip: true
-2019-07-08 03:19:22,365 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src'.
-2019-07-08 03:19:22,392 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-08 03:19:22,392 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src]
-2019-07-08 03:19:22,407 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/.git/
+2019-07-24 11:59:10,663 INFO  DownloadService - Downloading "https://github.com/Dimezis/BlurView/archive/master.zip", attempt 3
+2019-07-24 11:59:12,362 INFO  DownloadService - Downloaded https://github.com/Dimezis/BlurView/archive/master.zip, attempt 3
+2019-07-24 11:59:12,362 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/master.zip": 1 MB
+2019-07-24 11:59:12,363 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 11:59:12,368 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/master.zip: true
+2019-07-24 11:59:12,368 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src'.
+2019-07-24 11:59:12,397 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-24 11:59:12,397 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src]
+2019-07-24 11:59:12,415 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/.git/
 
-2019-07-08 03:19:22,410 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew
-2019-07-08 03:19:22,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle
-2019-07-08 03:19:22,414 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/settings.gradle
-2019-07-08 03:19:22,414 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 03:19:22,414 INFO  ProjectFixService - Fixing project...
-2019-07-08 03:19:22,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/local.properties
-2019-07-08 03:19:22,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/local.properties
-2019-07-08 03:19:22,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/local.properties
-2019-07-08 03:19:22,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/local.properties
-2019-07-08 03:19:22,425 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-all.zip
-2019-07-08 03:19:22,425 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3.1-bin.zip)
-2019-07-08 03:19:22,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-08 03:19:22,427 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 03:19:22,427 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:19:22,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:19:40,277 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-08 03:19:40,277 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 03:19:40,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 03:19:46,462 ERROR SysUtils - Could not process external command
+2019-07-24 11:59:12,418 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew
+2019-07-24 11:59:12,421 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle
+2019-07-24 11:59:12,424 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/settings.gradle
+2019-07-24 11:59:12,424 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 11:59:12,424 INFO  ProjectFixService - Fixing project...
+2019-07-24 11:59:12,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/local.properties
+2019-07-24 11:59:12,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/local.properties
+2019-07-24 11:59:12,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/local.properties
+2019-07-24 11:59:12,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/local.properties
+2019-07-24 11:59:12,438 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-all.zip
+2019-07-24 11:59:12,439 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3.1-bin.zip)
+2019-07-24 11:59:12,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-24 11:59:12,441 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 11:59:12,441 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:59:12,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 11:59:22,070 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 11:59:22,070 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 11:59:22,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 11:59:28,516 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,7 +46,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:19:46,462 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 11:59:28,516 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 fatal: No names found, cannot describe anything.
@@ -68,7 +69,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -243,7 +244,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:258)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_a66ex7jd99cqik17p6phjlvbd.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:12)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -256,7 +257,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:68)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:68)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -264,7 +265,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:62)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:62)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -279,7 +280,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:61)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:61)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -294,26 +295,22 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_a66ex7jd99cqik17p6phjlvbd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:60)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:60)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 157 more
 
 
 * Get more help at https://help.gradle.org
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD FAILED in 6s
 
-BUILD FAILED in 5s
-
-2019-07-08 03:19:46,465 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:19:46,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:19:51,558 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 03:19:51,558 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 03:19:51,558 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 03:19:51,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 03:19:56,616 ERROR SysUtils - Could not process external command
+2019-07-24 11:59:28,521 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:59:28,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 11:59:33,863 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 11:59:33,863 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 11:59:33,863 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 11:59:33,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 11:59:39,156 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -326,7 +323,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -340,7 +338,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:19:56,616 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 11:59:39,157 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 fatal: No names found, cannot describe anything.
@@ -348,7 +346,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -497,7 +495,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:258)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_a66ex7jd99cqik17p6phjlvbd.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:12)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -510,7 +508,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:68)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:68)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -518,7 +516,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:62)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:62)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -533,7 +531,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:61)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:61)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -548,66 +546,66 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_a66ex7jd99cqik17p6phjlvbd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:60)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:60)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-07-08 03:19:56,620 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:19:56,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:20:02,839 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-08 03:20:02,839 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-08 03:20:02,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-08 03:20:36,827 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 11:59:39,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:59:39,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 11:59:45,755 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 11:59:45,755 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-24 11:59:45,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-24 11:59:59,833 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :supportrenderscriptblur:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:8: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:8: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:9: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:9: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicBlur;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:11: error: package eightbitlab.com.blurview does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:11: error: package eightbitlab.com.blurview does not exist
 import eightbitlab.com.blurview.BlurAlgorithm;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:17: error: cannot find symbol
 public final class SupportRenderScriptBlur implements BlurAlgorithm {
                                                       ^
   symbol: class BlurAlgorithm
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:18: error: cannot find symbol
     private final RenderScript renderScript;
                   ^
   symbol:   class RenderScript
   location: class SupportRenderScriptBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:19: error: cannot find symbol
     private final ScriptIntrinsicBlur blurScript;
                   ^
   symbol:   class ScriptIntrinsicBlur
   location: class SupportRenderScriptBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:20: error: cannot find symbol
     private Allocation outAllocation;
             ^
   symbol:   class Allocation
   location: class SupportRenderScriptBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:80: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class SupportRenderScriptBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:26: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/supportrenderscriptblur/src/main/java/com/eightbitlab/supportrenderscriptblur/SupportRenderScriptBlur.java:26: error: reference not found
      * @param context Context to create the {@link RenderScript}
                                                    ^
 javadoc: warning - Class NonNull not found.
@@ -624,7 +622,7 @@ javadoc: warning - Class NonNull not found.
 > Task :supportrenderscriptblur:preBuild UP-TO-DATE
 > Task :supportrenderscriptblur:preDebugBuild UP-TO-DATE
 > Task :supportrenderscriptblur:compileDebugAidl NO-SOURCE
-> Task :supportrenderscriptblur:compileDebugRenderscript
+> Task :supportrenderscriptblur:compileDebugRenderscript NO-SOURCE
 > Task :supportrenderscriptblur:checkDebugManifest
 > Task :supportrenderscriptblur:generateDebugBuildConfig
 > Task :supportrenderscriptblur:generateDebugResValues
@@ -643,10 +641,10 @@ javadoc: warning - Class NonNull not found.
 > Task :supportrenderscriptblur:generateDebugAssets
 > Task :supportrenderscriptblur:packageDebugAssets
 > Task :supportrenderscriptblur:packageDebugRenderscript NO-SOURCE
+> Task :supportrenderscriptblur:prepareLintJarForPublish
 > Task :supportrenderscriptblur:processDebugJavaRes NO-SOURCE
 > Task :supportrenderscriptblur:transformResourcesWithMergeJavaResForDebug
 > Task :supportrenderscriptblur:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :supportrenderscriptblur:compileDebugNdk NO-SOURCE
 > Task :supportrenderscriptblur:mergeDebugJniLibFolders
 > Task :supportrenderscriptblur:transformNativeLibsWithMergeJniLibsForDebug
 > Task :supportrenderscriptblur:transformNativeLibsWithStripDebugSymbolForDebug
@@ -656,7 +654,7 @@ javadoc: warning - Class NonNull not found.
 > Task :supportrenderscriptblur:assembleDebug
 > Task :supportrenderscriptblur:preReleaseBuild UP-TO-DATE
 > Task :supportrenderscriptblur:compileReleaseAidl NO-SOURCE
-> Task :supportrenderscriptblur:compileReleaseRenderscript
+> Task :supportrenderscriptblur:compileReleaseRenderscript NO-SOURCE
 > Task :supportrenderscriptblur:checkReleaseManifest
 > Task :supportrenderscriptblur:generateReleaseBuildConfig
 > Task :supportrenderscriptblur:generateReleaseResValues
@@ -677,7 +675,6 @@ javadoc: warning - Class NonNull not found.
 > Task :supportrenderscriptblur:processReleaseJavaRes NO-SOURCE
 > Task :supportrenderscriptblur:transformResourcesWithMergeJavaResForRelease
 > Task :supportrenderscriptblur:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :supportrenderscriptblur:compileReleaseNdk NO-SOURCE
 > Task :supportrenderscriptblur:mergeReleaseJniLibFolders
 > Task :supportrenderscriptblur:transformNativeLibsWithMergeJniLibsForRelease
 > Task :supportrenderscriptblur:transformNativeLibsWithStripDebugSymbolForRelease
@@ -694,16 +691,16 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
-48 actionable tasks: 48 executed
+BUILD SUCCESSFUL in 13s
+47 actionable tasks: 47 executed
 
-2019-07-08 03:20:36,859 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:20:36,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:20:42,557 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 03:20:42,557 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 03:20:42,557 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 03:20:42,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 03:20:48,261 ERROR SysUtils - Could not process external command
+2019-07-24 11:59:59,870 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 11:59:59,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:00:05,935 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 12:00:05,935 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 12:00:05,935 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 12:00:05,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 12:00:11,903 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -716,7 +713,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -730,7 +728,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:20:48,261 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 12:00:11,903 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 fatal: No names found, cannot describe anything.
@@ -738,7 +736,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -887,7 +885,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:258)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_a66ex7jd99cqik17p6phjlvbd.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:12)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -900,7 +898,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:68)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:68)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -908,7 +906,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:62)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8$_closure12.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:62)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -923,7 +921,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_a66ex7jd99cqik17p6phjlvbd$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:61)
+	at build_bvxcpc5hdgq78j9cjpvofu9po$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:61)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -938,18 +936,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_a66ex7jd99cqik17p6phjlvbd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530759056-0/src/BlurView-master/library/build.gradle:60)
+	at build_bvxcpc5hdgq78j9cjpvofu9po.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944350660-0/src/BlurView-master/library/build.gradle:60)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
-
 BUILD FAILED in 5s
 
-2019-07-08 03:20:48,292 ERROR FullProcessService - Project build has not produced APK file
-2019-07-08 03:20:48,319 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 12:00:11,939 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 12:00:11,968 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,32 +1,33 @@
-2018-11-21 14:04:53,664 INFO  DownloadService - Downloading "https://github.com/imshyam/mintube/archive/master.zip", attempt 3
-2018-11-21 14:04:54,815 INFO  DownloadService - Downloaded https://github.com/imshyam/mintube/archive/master.zip, attempt 3
-2018-11-21 14:04:54,815 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/master.zip": 262 KB
-2018-11-21 14:04:54,815 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-21 14:04:54,820 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/master.zip: true
-2018-11-21 14:04:54,821 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src'.
-2018-11-21 14:04:54,860 INFO  FullProcessService - Size of directory with sources: 372 KB
-2018-11-21 14:04:54,860 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src]
-2018-11-21 14:04:54,878 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/.git/
+2019-07-24 12:07:57,013 INFO  DownloadService - Downloading "https://github.com/imshyam/mintube/archive/master.zip", attempt 3
+2019-07-24 12:07:59,484 INFO  DownloadService - Downloaded https://github.com/imshyam/mintube/archive/master.zip, attempt 3
+2019-07-24 12:07:59,484 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/master.zip": 264 KB
+2019-07-24 12:07:59,484 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-24 12:07:59,485 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/master.zip: true
+2019-07-24 12:07:59,485 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src'.
+2019-07-24 12:07:59,514 INFO  FullProcessService - Size of directory with sources: 373 KB
+2019-07-24 12:07:59,514 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src]
+2019-07-24 12:07:59,540 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/.git/
 
-2018-11-21 14:04:54,883 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/gradlew
-2018-11-21 14:04:54,887 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/build.gradle
-2018-11-21 14:04:54,891 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/settings.gradle
-2018-11-21 14:04:54,892 INFO  ProjectBuildService - Remote scripts: none
-2018-11-21 14:04:54,892 INFO  ProjectFixService - Fixing project...
-2018-11-21 14:04:54,901 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/local.properties
-2018-11-21 14:04:54,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2018-11-21 14:04:54,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/local.properties
-2018-11-21 14:04:54,903 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-11-21 14:04:54,903 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-11-21 14:04:54,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2018-11-21 14:04:54,904 INFO  ProjectFixService - Project was maybe fixed
-2018-11-21 14:04:54,904 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 14:04:54,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 14:05:14,420 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-21 14:05:14,420 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-21 14:05:14,420 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-21 14:05:14,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-21 14:05:17,750 ERROR SysUtils - Could not process external command
+2019-07-24 12:07:59,543 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/gradlew
+2019-07-24 12:07:59,546 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/build.gradle
+2019-07-24 12:07:59,548 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/settings.gradle
+2019-07-24 12:07:59,549 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 12:07:59,549 INFO  ProjectFixService - Fixing project...
+2019-07-24 12:07:59,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/local.properties
+2019-07-24 12:07:59,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-24 12:07:59,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-24 12:07:59,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/local.properties
+2019-07-24 12:07:59,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-24 12:07:59,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-24 12:07:59,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-24 12:07:59,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-24 12:07:59,560 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 12:07:59,560 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 12:07:59,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 12:08:07,489 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-24 12:08:07,489 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-24 12:08:07,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-24 12:08:41,674 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,343 +55,508 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-21 14:05:17,750 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 12:08:41,674 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/src/main/java/com/shapps/mintubeapp/PlayerService.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:mergeExtDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/src/main/java/com/shapps/mintubeapp/PlayerService.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/0b59d73cc1c2532fab1f284da04932a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/a8c039f384cbd8129a7544e8d1e235a3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc01.aar/d7b0a8c9397ff65e2562e15f12778537/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.4.0/8f4582bcc7c736e0bae775d562074dcdc0c335ad/converter-scalars-2.4.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/fc4aa382632bfaa7be7b41579efba41d5a71ecf3/retrofit-2.4.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/f57c514ee24be5922325840e378f9b62/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/aaf2770b81c806116185a087c9a7d1a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/4cbba01370c8b551acaeb747824fd8ca/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc01.aar/965b81103a9560d77bfee1312abc0b1f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/2ebd453eb026860bdd03b0fd2b1f9d13/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/0552d9609ee93870c20b1bbe6b7e0cc4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/ac454e7bee96a36721b4fc872f9f2578/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/32d99c91e9ac2ca3e92e788d234656c6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/7bee7525ed4264d93ec7a86c70a23a9e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc01.aar/0c955f7206ed7009d88837a3052d888a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc01.aar/a928ce45d2ce5b0151baa54fb14b2172/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/b4bac5a11c0784510ae9f8a421ace9d4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/0295476d51c5bdd6eb70c92c856dd6c5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/baf69a02255b3531cbc2f873495b6ee3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/bbdd5685de487f83870dd13e698eb5ab/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/482f9524b9c97e47fbdbf5132400c526/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/02d638e669d7123bbec8fe3c23f5a0c1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/cb81c6f3e184a172e2803e2c4a2157ae/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/07720c7531e1945b5a2ee47bf148cbe4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/cdf4e81a34316c514a5e08b73b4a251b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0-rc01/936bb431338ec51ccd899b3bf100b3961af3c25d/collections-28.0.0-rc01.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/229792d5cd592085f9de20405f3741a5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc01.aar/59e26be0cf0188f5c87094ce5cf8d47c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d75153b7e25f99d1ef9c77631b168500/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/aa3a86a0fe4d13c83a73706c6943da0e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6c1dfc82071cdcc7350e21e5698f2ade/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/51cf3a26ba039e8eed0cd7ff29611dab/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/7bd169e5ba1490162b33e74dad5e9f7d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/3a00e0d40b02ff32c197a873fa112986/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/5616317b84e0c6fa13aecb86f0641bc2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/f9eaa200c62198e8585477b189b69b95/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0-rc01/4fec72569449246ee917f3249147f8e47910b119/support-annotations-28.0.0-rc01.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.youtube.player.YouTubePlayerView'
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocketListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.Util: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.platform.AndroidPlatform: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
+Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.platform.Jdk9Platform: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.platform.JdkWithJettyBootPlatform: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.platform.Platform: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.ws.RealWebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
+Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
+Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
+Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
+Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
+Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
+Warning: okio.BufferedSource: can't find referenced class javax.annotation.Nullable
+Warning: okio.ByteString: can't find referenced class javax.annotation.Nullable
+Warning: okio.DeflaterSink: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
+Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
+Warning: okio.Okio: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+Warning: okio.Okio: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+Warning: okio.Okio$4: can't find referenced class javax.annotation.Nullable
+Warning: okio.RealBufferedSource: can't find referenced class javax.annotation.Nullable
+Warning: okio.Segment: can't find referenced class javax.annotation.Nullable
+Warning: okio.SegmentPool: can't find referenced class javax.annotation.Nullable
+Warning: okio.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.CallAdapter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$2: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Body: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Field: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Header: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Part: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Path: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Query: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryName: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RelativeUrl: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform$Android: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform$Java8: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform$Java8: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ServiceMethod: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Utils$ParameterizedTypeImpl: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.converter.scalars.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: the configuration keeps the entry point 'com.shapps.mintubeapp.CustomViews.CustomSwipeRefresh { void setCanChildScrollUpCallback(com.shapps.mintubeapp.CustomViews.CustomSwipeRefresh$CanChildScrollUpCallback); }', but not the descriptor class 'com.shapps.mintubeapp.CustomViews.CustomSwipeRefresh$CanChildScrollUpCallback'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Warning: there were 268 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: Exception while processing task java.io.IOException: Please correct the above warnings first.
+Thread(Tasks limiter_1): destruction
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease FAILED
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
 
 FAILURE: Build failed with an exception.
 
-* Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle' line: 8
-
 * What went wrong:
-A problem occurred evaluating project ':app'.
-> Failed to apply plugin [id 'com.android.application']
-   > Minimum supported Gradle version is 4.4. Current version is 4.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.4-all.zip
+Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
+> Job failed, see logs for details
 
 * Try:
-Run with --info or --debug option to get more log output.
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:192)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:150)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:125)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_c2enf2vg0xc542m6ubq0s16h1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle:8)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 97 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.4. Current version is 4.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.4-all.zip
-	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:680)
-	at com.android.build.gradle.BasePlugin.configureProject(BasePlugin.java:339)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:275)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:120)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:165)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:47)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:252)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:144)
-	... 107 more
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: Job failed, see logs for details
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.transform(ProGuardTransform.java:209)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+Caused by: java.io.IOException: Please correct the above warnings first.
+	at proguard.Initializer.execute(Initializer.java:485)
+	at proguard.ProGuard.initialize(ProGuard.java:271)
+	at proguard.ProGuard.execute(ProGuard.java:113)
+	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:66)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.doMinification(ProGuardTransform.java:274)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.access$000(ProGuardTransform.java:67)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform$1.run(ProGuardTransform.java:178)
+	at com.android.builder.tasks.Job.runTask(Job.java:47)
+	at com.android.build.gradle.tasks.SimpleWorkQueue$EmptyThreadContext.runTask(SimpleWorkQueue.java:41)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:282)
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 33s
+47 actionable tasks: 47 executed
 
-2018-11-21 14:05:17,757 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 14:05:17,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 14:05:21,153 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-21 14:05:21,153 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-21 14:05:21,154 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-21 14:05:21,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-21 14:05:24,618 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-11-21 14:05:24,618 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-FAILURE: Build failed with an exception.
-
-* Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle' line: 8
-
-* What went wrong:
-A problem occurred evaluating project ':app'.
-> Failed to apply plugin [id 'com.android.application']
-   > Minimum supported Gradle version is 4.4. Current version is 4.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.4-all.zip
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:187)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:192)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:150)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:125)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_c2enf2vg0xc542m6ubq0s16h1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542783893656-0/src/mintube-master/app/build.gradle:8)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 97 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.4. Current version is 4.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.4-all.zip
-	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:680)
-	at com.android.build.gradle.BasePlugin.configureProject(BasePlugin.java:339)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:275)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:120)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:165)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:47)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:252)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:144)
-	... 107 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 3s
-
-2018-11-21 14:05:24,625 ERROR FullProcessService - Project build has not produced APK file
-2018-11-21 14:05:24,630 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 12:08:41,731 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944877010-0/src/mintube-master/app/build/outputs/apk/debug/app-debug.apk
