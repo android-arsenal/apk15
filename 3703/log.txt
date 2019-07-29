@@ -1,33 +1,36 @@
-2019-07-08 03:13:11,496 INFO  DownloadService - Downloading "https://github.com/Zomato/AndroidPhotoFilters/archive/master.zip", attempt 3
-2019-07-08 03:13:14,762 INFO  DownloadService - Downloaded https://github.com/Zomato/AndroidPhotoFilters/archive/master.zip, attempt 3
-2019-07-08 03:13:14,762 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/master.zip": 2 MB
-2019-07-08 03:13:14,762 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 03:13:14,763 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/master.zip: true
-2019-07-08 03:13:14,763 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src'.
-2019-07-08 03:13:14,825 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-08 03:13:14,825 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src]
-2019-07-08 03:13:14,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/.git/
+2019-07-29 18:47:34,095 INFO  DownloadService - Downloading "https://github.com/Zomato/AndroidPhotoFilters/archive/master.zip", attempt 3
+2019-07-29 18:48:35,404 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-29 18:48:36,740 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-29 18:48:36,741 INFO  DownloadService - Downloading "https://github.com/Zomato/AndroidPhotoFilters/archive/master.zip", attempt 3
+2019-07-29 18:49:38,359 DEBUG FullProcessService - Repository https://github.com/Zomato/AndroidPhotoFilters available: true
+2019-07-29 18:49:38,359 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-29 18:49:38,360 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Zomato/AndroidPhotoFilters, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src]
+2019-07-29 18:49:42,245 INFO  SysUtils - 
+2019-07-29 18:49:42,251 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/.git": true
+2019-07-29 18:49:42,254 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-29 18:49:42,254 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src]
+2019-07-29 18:49:42,270 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/.git/
 
-2019-07-08 03:13:14,843 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/gradlew
-2019-07-08 03:13:14,846 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/build.gradle
-2019-07-08 03:13:14,848 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/settings.gradle
-2019-07-08 03:13:14,848 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 03:13:14,848 INFO  ProjectFixService - Fixing project...
-2019-07-08 03:13:14,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/local.properties
-2019-07-08 03:13:14,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-07-08 03:13:14,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/local.properties
-2019-07-08 03:13:14,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-07-08 03:13:14,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/local.properties
-2019-07-08 03:13:14,856 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-08 03:13:14,857 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-08 03:13:14,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-07-08 03:13:14,858 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 03:13:14,858 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:13:14,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:13:21,652 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-08 03:13:21,653 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 03:13:21,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 03:13:46,784 ERROR SysUtils - Could not process external command
+2019-07-29 18:49:42,272 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/gradlew
+2019-07-29 18:49:42,274 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/build.gradle
+2019-07-29 18:49:42,276 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/settings.gradle
+2019-07-29 18:49:42,277 INFO  ProjectBuildService - Remote scripts: none
+2019-07-29 18:49:42,277 INFO  ProjectFixService - Fixing project...
+2019-07-29 18:49:42,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/local.properties
+2019-07-29 18:49:42,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-29 18:49:42,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/local.properties
+2019-07-29 18:49:42,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-29 18:49:42,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/local.properties
+2019-07-29 18:49:42,285 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-29 18:49:42,285 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-29 18:49:42,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-29 18:49:42,287 INFO  ProjectFixService - Project was maybe fixed
+2019-07-29 18:49:42,287 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:49:42,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:49:50,868 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-29 18:49:50,868 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-29 18:49:50,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-29 18:50:18,762 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,9 +58,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:13:46,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:50:18,768 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example:checkDebugClasspath
-Download https://jcenter.bintray.com/com/github/ksoichiro/android-observablescrollview/1.5.2/android-observablescrollview-1.5.2.aar
 :example:preBuild UP-TO-DATE
 :photofilterssdk:preBuild UP-TO-DATE
 :photofilterssdk:preDebugBuild UP-TO-DATE
@@ -84,10 +86,10 @@ Download https://jcenter.bintray.com/com/github/ksoichiro/android-observablescro
 :example:splitsDiscoveryTaskDebug
 :photofilterssdk:generateDebugRFile
 :example:processDebugResources
-W/ResourceType(26275): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1266)
 
 :example:generateDebugSources
 :photofilterssdk:generateDebugBuildConfig
@@ -116,22 +118,22 @@ W/ResourceType(26275): For resource 0x0101053c, entry index(1340) is beyond type
 :photofilterssdk:generateJsonModelDebug
 :photofilterssdk:externalNativeBuildDebug
 Build NativeImageProcessor x86_64
-Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
+Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
 Android NDK:   Android.mk Application.mk    
 [x86_64] Compile++      : NativeImageProcessor <= NativeImageProcessor.cpp
 [x86_64] SharedLibrary  : libNativeImageProcessor.so
 Build NativeImageProcessor x86
-Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
+Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
 Android NDK:   Android.mk Application.mk    
 [x86] Compile++      : NativeImageProcessor <= NativeImageProcessor.cpp
 [x86] SharedLibrary  : libNativeImageProcessor.so
 Build NativeImageProcessor arm64-v8a
-Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
+Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
 Android NDK:   Android.mk Application.mk    
 [arm64-v8a] Compile++      : NativeImageProcessor <= NativeImageProcessor.cpp
 [arm64-v8a] SharedLibrary  : libNativeImageProcessor.so
 Build NativeImageProcessor armeabi-v7a
-Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
+Android NDK: WARNING: Unsupported source file extensions in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
 Android NDK:   Android.mk Application.mk    
 [armeabi-v7a] Compile++ thumb: NativeImageProcessor <= NativeImageProcessor.cpp
 [armeabi-v7a] SharedLibrary  : libNativeImageProcessor.so
@@ -171,10 +173,10 @@ Android NDK:   Android.mk Application.mk
 :example:splitsDiscoveryTaskRelease
 :photofilterssdk:generateReleaseRFile
 :example:processReleaseResources
-W/ResourceType(26275): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1266)
-W/ResourceType(26275): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1266)
+W/ResourceType(67423): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1266)
 
 :example:generateReleaseSources
 :photofilterssdk:generateReleaseBuildConfig
@@ -189,7 +191,7 @@ W/ResourceType(26275): For resource 0x0101053c, entry index(1340) is beyond type
 :example:compileReleaseSources
 :example:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4e2cdeaf96ef06aeb4cc067905be6354/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build.gradle:9: Error: Google Play requires that apps target API level 26 or higher.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build.gradle:9: Error: Google Play requires that apps target API level 26 or higher.
  [ExpiredTargetSdkVersion]
         targetSdkVersion 23
         ~~~~~~~~~~~~~~~~~~~
@@ -307,7 +309,7 @@ android {
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 24s
+BUILD FAILED in 27s
 73 actionable tasks: 73 executed
 
-2019-07-08 03:13:46,830 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530391488-0/src/AndroidPhotoFilters-master/example/build/outputs/apk/debug/example-debug.apk
+2019-07-29 18:50:18,831 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564400854092-0/src/example/build/outputs/apk/debug/example-debug.apk
