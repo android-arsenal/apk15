@@ -1,37 +1,37 @@
-2019-07-08 03:16:23,791 INFO  DownloadService - Downloading "https://github.com/firebase/firebase-jobdispatcher-android/archive/master.zip", attempt 3
-2019-07-08 03:16:24,691 INFO  DownloadService - Downloaded https://github.com/firebase/firebase-jobdispatcher-android/archive/master.zip, attempt 3
-2019-07-08 03:16:24,691 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/master.zip": 259 KB
-2019-07-08 03:16:24,692 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 03:16:24,697 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/master.zip: true
-2019-07-08 03:16:24,697 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src'.
-2019-07-08 03:16:24,728 INFO  FullProcessService - Size of directory with sources: 521 KB
-2019-07-08 03:16:24,728 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src]
-2019-07-08 03:16:24,745 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/.git/
+2019-08-06 12:46:27,917 INFO  DownloadService - Downloading "https://github.com/firebase/firebase-jobdispatcher-android/archive/master.zip", attempt 3
+2019-08-06 12:46:30,335 INFO  DownloadService - Downloaded https://github.com/firebase/firebase-jobdispatcher-android/archive/master.zip, attempt 3
+2019-08-06 12:46:30,335 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/master.zip": 259 KB
+2019-08-06 12:46:30,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:46:30,341 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/master.zip: true
+2019-08-06 12:46:30,341 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src'.
+2019-08-06 12:46:30,373 INFO  FullProcessService - Size of directory with sources: 521 KB
+2019-08-06 12:46:30,373 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src]
+2019-08-06 12:46:30,404 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/.git/
 
-2019-07-08 03:16:24,748 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew
-2019-07-08 03:16:24,751 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle
-2019-07-08 03:16:24,754 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/settings.gradle
-2019-07-08 03:16:24,754 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 03:16:24,754 INFO  ProjectFixService - Fixing project...
-2019-07-08 03:16:24,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/local.properties
-2019-07-08 03:16:24,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/local.properties
-2019-07-08 03:16:24,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/local.properties
-2019-07-08 03:16:24,770 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-08 03:16:24,770 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-08 03:16:24,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
-2019-07-08 03:16:24,773 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 03:16:24,773 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:16:24,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:16:31,070 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 03:16:31,070 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 03:16:31,070 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 03:16:31,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 03:16:36,419 ERROR SysUtils - Could not process external command
+2019-08-06 12:46:30,407 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew
+2019-08-06 12:46:30,410 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle
+2019-08-06 12:46:30,413 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/settings.gradle
+2019-08-06 12:46:30,413 INFO  ProjectBuildService - Remote scripts: none
+2019-08-06 12:46:30,413 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:46:30,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/local.properties
+2019-08-06 12:46:30,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/local.properties
+2019-08-06 12:46:30,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/local.properties
+2019-08-06 12:46:30,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-08-06 12:46:30,430 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-08-06 12:46:30,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-08-06 12:46:30,433 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:46:30,433 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:46:30,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:46:38,962 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:46:38,963 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-06 12:46:38,963 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-06 12:46:38,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/jobdispatcher/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-06 12:46:44,997 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:16:36,419 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:46:44,997 INFO  SysUtils - Configuration on demand is an incubating feature.
 publishNonDefault is deprecated and has no effect anymore. All variants are now published.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
@@ -326,13 +326,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-07-08 03:16:36,424 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:16:36,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:16:41,326 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 03:16:41,326 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 03:16:41,326 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 03:16:41,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 03:16:46,275 ERROR SysUtils - Could not process external command
+2019-08-06 12:46:45,001 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:46:45,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:46:50,384 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:46:50,384 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-06 12:46:50,384 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-06 12:46:50,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-06 12:46:55,597 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -345,7 +345,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -359,7 +359,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:16:46,275 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:46:55,597 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -627,13 +627,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 4s
 
-2019-07-08 03:16:46,279 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:16:46,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:16:51,825 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-08 03:16:51,825 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-08 03:16:51,825 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-08 03:16:51,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562530583783-0/src/firebase-jobdispatcher-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-08 03:16:57,282 ERROR SysUtils - Could not process external command
+2019-08-06 12:46:55,602 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:46:55,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:47:01,494 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:47:01,494 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-06 12:47:01,494 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-06 12:47:01,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070387912-0/src/firebase-jobdispatcher-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-06 12:47:07,526 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -646,7 +646,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -660,7 +660,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-08 03:16:57,282 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:47:07,526 INFO  SysUtils - Configuration on demand is an incubating feature.
 publishNonDefault is deprecated and has no effect anymore. All variants are now published.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
@@ -928,5 +928,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-07-08 03:16:57,286 ERROR FullProcessService - Project build has not produced APK file
-2019-07-08 03:16:57,289 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-06 12:47:07,532 ERROR FullProcessService - Project build has not produced APK file
+2019-08-06 12:47:07,535 ERROR FullProcessService - Could not find generated or existed APK file
