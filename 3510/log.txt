@@ -1,34 +1,34 @@
-2018-12-17 13:48:05,975 INFO  DownloadService - Downloading "https://github.com/Bilibili/drawee-text-view/archive/master.zip", attempt 3
-2018-12-17 13:48:07,725 INFO  DownloadService - Downloaded https://github.com/Bilibili/drawee-text-view/archive/master.zip, attempt 3
-2018-12-17 13:48:07,726 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/master.zip": 408 KB
-2018-12-17 13:48:07,726 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-17 13:48:07,726 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/master.zip: true
-2018-12-17 13:48:07,726 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src'.
-2018-12-17 13:48:07,745 INFO  FullProcessService - Size of directory with sources: 451 KB
-2018-12-17 13:48:07,745 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src]
-2018-12-17 13:48:07,764 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/.git/
+2019-08-09 12:46:56,249 INFO  DownloadService - Downloading "https://github.com/bilibili/drawee-text-view/archive/master.zip", attempt 3
+2019-08-09 12:46:57,321 INFO  DownloadService - Downloaded https://github.com/bilibili/drawee-text-view/archive/master.zip, attempt 3
+2019-08-09 12:46:57,322 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/master.zip": 408 KB
+2019-08-09 12:46:57,322 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 12:46:57,323 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/master.zip: true
+2019-08-09 12:46:57,324 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src'.
+2019-08-09 12:46:57,351 INFO  FullProcessService - Size of directory with sources: 451 KB
+2019-08-09 12:46:57,352 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src]
+2019-08-09 12:46:57,370 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/.git/
 
-2018-12-17 13:48:07,767 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew
-2018-12-17 13:48:07,770 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/build.gradle
-2018-12-17 13:48:07,773 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/settings.gradle
-2018-12-17 13:48:07,773 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 13:48:07,773 INFO  ProjectFixService - Fixing project...
-2018-12-17 13:48:07,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/local.properties
-2018-12-17 13:48:07,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-17 13:48:07,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/local.properties
-2018-12-17 13:48:07,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-17 13:48:07,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/local.properties
-2018-12-17 13:48:07,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-17 13:48:07,782 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-17 13:48:07,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-17 13:48:07,783 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 13:48:07,784 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 13:48:07,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 13:48:15,266 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 13:48:15,266 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 13:48:15,266 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 13:48:15,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 13:48:22,056 ERROR SysUtils - Could not process external command
+2019-08-09 12:46:57,375 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew
+2019-08-09 12:46:57,377 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/build.gradle
+2019-08-09 12:46:57,380 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/settings.gradle
+2019-08-09 12:46:57,380 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 12:46:57,380 INFO  ProjectFixService - Fixing project...
+2019-08-09 12:46:57,390 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/local.properties
+2019-08-09 12:46:57,391 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-09 12:46:57,392 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/local.properties
+2019-08-09 12:46:57,392 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-09 12:46:57,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/local.properties
+2019-08-09 12:46:57,395 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-08-09 12:46:57,396 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-08-09 12:46:57,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-09 12:46:57,398 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 12:46:57,398 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:46:57,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:47:13,740 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:47:13,740 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 12:47:13,740 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 12:47:13,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 12:47:19,665 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 13:48:22,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:47:19,665 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -192,15 +192,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-12-17 13:48:22,060 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 13:48:22,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 13:48:28,734 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 13:48:28,734 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 13:48:28,734 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 13:48:28,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/draweetext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 13:48:36,475 ERROR SysUtils - Could not process external command
+2019-08-09 12:47:19,671 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:47:19,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:47:25,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:47:25,535 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 12:47:25,535 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 12:47:25,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/draweetext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 12:47:31,265 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -228,7 +228,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 13:48:36,475 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:47:31,265 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -357,22 +357,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2018-12-17 13:48:36,479 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 13:48:36,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 13:48:43,273 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 13:48:43,273 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 13:48:43,273 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 13:48:43,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545029285967-0/src/drawee-text-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 13:48:49,301 ERROR SysUtils - Could not process external command
+2019-08-09 12:47:31,269 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:47:31,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:47:37,642 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:47:37,642 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 12:47:37,642 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 12:47:37,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329616244-0/src/drawee-text-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 12:47:43,531 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -400,7 +400,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 13:48:49,302 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:47:43,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -538,5 +538,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-17 13:48:49,306 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 13:48:49,309 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 12:47:43,535 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 12:47:43,539 ERROR FullProcessService - Could not find generated or existed APK file
