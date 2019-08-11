@@ -1,31 +1,31 @@
-2019-07-24 11:58:33,693 INFO  DownloadService - Downloading "https://github.com/intercom/intercom-android/archive/master.zip", attempt 3
-2019-07-24 11:58:36,213 INFO  DownloadService - Downloaded https://github.com/intercom/intercom-android/archive/master.zip, attempt 3
-2019-07-24 11:58:36,214 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/master.zip": 3 MB
-2019-07-24 11:58:36,214 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-24 11:58:36,220 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/master.zip: true
-2019-07-24 11:58:36,220 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src'.
-2019-07-24 11:58:36,254 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-07-24 11:58:36,255 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src]
-2019-07-24 11:58:36,273 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/.git/
+2019-08-11 18:59:24,867 INFO  DownloadService - Downloading "https://github.com/intercom/intercom-android/archive/master.zip", attempt 3
+2019-08-11 18:59:27,663 INFO  DownloadService - Downloaded https://github.com/intercom/intercom-android/archive/master.zip, attempt 3
+2019-08-11 18:59:27,663 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/master.zip": 3 MB
+2019-08-11 18:59:27,663 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 18:59:27,669 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/master.zip: true
+2019-08-11 18:59:27,670 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src'.
+2019-08-11 18:59:27,705 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-08-11 18:59:27,705 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src]
+2019-08-11 18:59:27,723 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/.git/
 
-2019-07-24 11:58:36,275 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/gradlew
-2019-07-24 11:58:36,278 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/build.gradle
-2019-07-24 11:58:36,279 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/settings.gradle
-2019-07-24 11:58:36,280 INFO  ProjectBuildService - Remote scripts: none
-2019-07-24 11:58:36,280 INFO  ProjectFixService - Fixing project...
-2019-07-24 11:58:36,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/local.properties
-2019-07-24 11:58:36,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 11:58:36,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/local.properties
-2019-07-24 11:58:36,287 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-24 11:58:36,287 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-24 11:58:36,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 11:58:36,288 INFO  ProjectFixService - Project was maybe fixed
-2019-07-24 11:58:36,288 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-24 11:58:36,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-24 11:58:45,316 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-07-24 11:58:45,316 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-24 11:58:45,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-24 11:58:57,846 ERROR SysUtils - Could not process external command
+2019-08-11 18:59:27,727 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/gradlew
+2019-08-11 18:59:27,729 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/build.gradle
+2019-08-11 18:59:27,732 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/settings.gradle
+2019-08-11 18:59:27,732 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 18:59:27,732 INFO  ProjectFixService - Fixing project...
+2019-08-11 18:59:27,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/local.properties
+2019-08-11 18:59:27,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:59:27,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/local.properties
+2019-08-11 18:59:27,738 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-08-11 18:59:27,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-08-11 18:59:27,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:59:27,739 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 18:59:27,739 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 18:59:27,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 18:59:34,423 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-11 18:59:34,424 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 18:59:34,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 18:59:44,636 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-24 11:58:57,846 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 18:59:44,636 INFO  SysUtils - Configuration on demand is an incubating feature.
 Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
@@ -61,11 +61,17 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 :fcm-sample:preBuild UP-TO-DATE
 :fcm-sample:preDebugBuild
 Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-base/maven-metadata.xml
-Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-base/5.4.0/intercom-sdk-base-5.4.0.pom
+Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-base/5.4.1/intercom-sdk-base-5.4.1.pom
 Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-fcm/maven-metadata.xml
-Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-fcm/5.4.0/intercom-sdk-fcm-5.4.0.pom
-Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-fcm/5.4.0/intercom-sdk-fcm-5.4.0.aar
-Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-base/5.4.0/intercom-sdk-base-5.4.0.aar
+Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-fcm/5.4.1/intercom-sdk-fcm-5.4.1.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging/17.6.0/firebase-messaging-17.6.0.aar
+Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-fcm/5.4.1/intercom-sdk-fcm-5.4.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/16.1.0/firebase-common-16.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/17.1.2/firebase-iid-17.1.2.aar
+Download https://jcenter.bintray.com/com/intercom/android-composer/2.0.2/android-composer-2.0.2.aar
+Download https://jcenter.bintray.com/io/intercom/android/intercom-sdk-base/5.4.1/intercom-sdk-base-5.4.1.aar
+Download https://jcenter.bintray.com/com/google/android/flexbox/1.0.0/flexbox-1.0.0.aar
+Download https://jcenter.bintray.com/com/intercom/android-composer-gallery/2.0.2/android-composer-gallery-2.0.2.aar
 :fcm-sample:compileDebugAidl
 :fcm-sample:compileDebugRenderscript
 :fcm-sample:checkDebugManifest
@@ -82,12 +88,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':fcm-sample:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -126,12 +132,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':fcm-sam
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:86)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
@@ -151,15 +157,15 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 12s
+BUILD FAILED in 9s
 9 actionable tasks: 9 executed
 
-2019-07-24 11:58:57,851 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-24 11:58:57,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-24 11:59:04,106 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-07-24 11:59:04,106 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-24 11:59:04,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-24 11:59:10,622 ERROR SysUtils - Could not process external command
+2019-08-11 18:59:44,641 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 18:59:44,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 18:59:50,200 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-11 18:59:50,200 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 18:59:50,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 18:59:56,336 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,7 +193,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-24 11:59:10,623 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 18:59:56,336 INFO  SysUtils - Configuration on demand is an incubating feature.
 Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
@@ -210,12 +216,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':fcm-sample:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -254,12 +260,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':fcm-sam
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563944313688-0/src/intercom-android-master/samples/fcm-sample/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524764863-0/src/intercom-android-master/samples/fcm-sample/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:86)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
@@ -279,8 +285,8 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 9 actionable tasks: 1 executed, 8 up-to-date
 
-2019-07-24 11:59:10,628 ERROR FullProcessService - Project build has not produced APK file
-2019-07-24 11:59:10,632 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-11 18:59:56,340 ERROR FullProcessService - Project build has not produced APK file
+2019-08-11 18:59:56,344 ERROR FullProcessService - Could not find generated or existed APK file
