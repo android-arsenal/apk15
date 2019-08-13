@@ -1,9 +1,519 @@
-2019-07-29 19:09:05,256 INFO  DownloadService - Downloading "https://github.com/stephanenicolas/toothpick/archive/master.zip", attempt 3
-2019-07-29 19:09:05,256 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-29 19:09:06,483 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-29 19:09:06,483 INFO  DownloadService - Downloading "https://github.com/stephanenicolas/toothpick/archive/master.zip", attempt 3
-2019-07-29 19:09:06,484 DEBUG FullProcessService - Repository https://github.com/stephanenicolas/toothpick available: false
-2019-07-29 19:09:06,484 ERROR FullProcessService - Could not find directory with sources
-2019-07-29 19:09:06,484 ERROR FullProcessService - Project will not be processed
-2019-07-29 19:09:06,484 ERROR FullProcessService - Project build has not produced APK file
-2019-07-29 19:09:06,485 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-13 15:38:59,677 INFO  DownloadService - Downloading "https://github.com/stephanenicolas/toothpick/archive/master.zip", attempt 3
+2019-08-13 15:39:04,518 INFO  DownloadService - Downloaded https://github.com/stephanenicolas/toothpick/archive/master.zip, attempt 3
+2019-08-13 15:39:04,519 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/master.zip": 737 KB
+2019-08-13 15:39:04,519 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 15:39:04,520 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/master.zip: true
+2019-08-13 15:39:04,520 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src'.
+2019-08-13 15:39:04,625 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-13 15:39:04,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src]
+2019-08-13 15:39:04,655 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/.git/
+
+2019-08-13 15:39:04,667 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/gradlew
+2019-08-13 15:39:04,679 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel-ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-javax-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit5/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick/build.gradle
+2019-08-13 15:39:04,689 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel-ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/deps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-javax-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-ktp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit5/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-compiler/build.gradle
+2019-08-13 15:39:04,690 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 15:39:04,690 INFO  ProjectFixService - Fixing project...
+2019-08-13 15:39:04,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/local.properties
+2019-08-13 15:39:04,732 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-08-13 15:39:04,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-08-13 15:39:04,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-androidx/local.properties
+2019-08-13 15:39:04,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-androidx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-androidx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-ktp/local.properties
+2019-08-13 15:39:04,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-ktp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-ktp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel-ktp/local.properties
+2019-08-13 15:39:04,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel-ktp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,751 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel-ktp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel/local.properties
+2019-08-13 15:39:04,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle-viewmodel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle/local.properties
+2019-08-13 15:39:04,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-lifecycle/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-support/local.properties
+2019-08-13 15:39:04,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie/local.properties
+2019-08-13 15:39:04,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,771 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/smoothie/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/local.properties
+2019-08-13 15:39:04,772 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-08-13 15:39:04,772 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-08-13 15:39:04,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/ktp/local.properties
+2019-08-13 15:39:04,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/ktp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/ktp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-compiler/local.properties
+2019-08-13 15:39:04,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-javax-annotations/local.properties
+2019-08-13 15:39:04,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-javax-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-javax-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-runtime/local.properties
+2019-08-13 15:39:04,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-runtime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-runtime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit4/local.properties
+2019-08-13 15:39:04,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,803 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit5/local.properties
+2019-08-13 15:39:04,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit5/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing-junit5/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing/local.properties
+2019-08-13 15:39:04,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick/local.properties
+2019-08-13 15:39:04,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-08-13 15:39:04,817 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 15:39:04,817 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:39:04,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:39:24,334 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-08-13 15:39:24,335 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 15:39:24,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 15:40:34,114 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :toothpick-parent:smoothie:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie:checkReleaseManifest
+> Task :preBuild UP-TO-DATE
+> Task :prepareLintJar
+> Task :toothpick-parent:smoothie:processReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:checkReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:processReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle:checkReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle:processReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:checkReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:processReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-ktp:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:checkReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-ktp:processReleaseManifest
+> Task :toothpick-parent:smoothie-androidx:preBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-androidx:preReleaseBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-androidx:checkReleaseManifest
+> Task :toothpick-parent:smoothie-androidx:processReleaseManifest
+> Task :toothpick-parent:smoothie:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:packageReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie:generateReleaseResValues
+> Task :toothpick-parent:smoothie:generateReleaseResources
+> Task :preReleaseBuild
+> Task :compileReleaseRenderscript NO-SOURCE
+> Task :checkReleaseManifest
+> Task :generateReleaseBuildConfig
+> Task :mainApkListPersistenceRelease
+> Task :generateReleaseResValues
+> Task :generateReleaseResources
+> Task :createReleaseCompatibleScreenManifests
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseResValues
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseResValues
+> Task :toothpick-parent:smoothie:packageReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle:packageReleaseResources
+> Task :toothpick-parent:smoothie-androidx:generateReleaseResValues
+> Task :toothpick-parent:smoothie-androidx:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:generateReleaseResources
+> Task :toothpick-parent:smoothie-androidx:packageReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseResValues
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseResources
+> Task :processReleaseManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseResValues
+> Task :toothpick-parent:smoothie:compileReleaseAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileReleaseRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseResources
+> Task :mergeReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageReleaseResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileReleaseAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileReleaseAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:compileReleaseAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileReleaseAidl NO-SOURCE
+> Task :compileReleaseShaders
+> Task :generateReleaseAssets
+> Task :signingConfigWriterRelease
+> Task :checkReleaseDuplicateClasses
+> Task :mergeReleaseJniLibFolders
+> Task :processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie:generateReleaseRFile
+> Task :toothpick-parent:smoothie-androidx:compileReleaseAidl NO-SOURCE
+> Task :compileReleaseAidl NO-SOURCE
+> Task :generateReleaseSources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseRFile
+> Task :toothpick-parent:smoothie-androidx:generateReleaseRFile
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseRFile
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseRFile
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseRFile
+> Task :toothpick-parent:toothpick:compileJava
+> Task :toothpick-parent:toothpick:processResources NO-SOURCE
+> Task :toothpick-parent:toothpick:classes
+> Task :toothpick-parent:toothpick:jar
+> Task :mergeReleaseResources
+> Task :toothpick-parent:toothpick-compiler:compileJava
+> Task :toothpick-parent:toothpick-compiler:processResources
+> Task :toothpick-parent:toothpick-compiler:classes
+> Task :toothpick-parent:toothpick-compiler:jar
+> Task :toothpick-parent:toothpick-runtime:kaptGenerateStubsKotlin
+> Task :toothpick-parent:toothpick-runtime:kaptKotlin
+> Task :toothpick-parent:toothpick-runtime:compileKotlin
+> Task :toothpick-parent:toothpick-runtime:compileJava
+> Task :toothpick-parent:toothpick-runtime:processResources NO-SOURCE
+> Task :toothpick-parent:toothpick-runtime:classes
+> Task :toothpick-parent:toothpick-runtime:inspectClassesForKotlinIC
+> Task :toothpick-parent:toothpick-runtime:jar
+> Task :toothpick-parent:smoothie:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie:prepareLintJar
+> Task :toothpick-parent:smoothie:generateReleaseSources
+> Task :toothpick-parent:smoothie:javaPreCompileRelease
+> Task :toothpick-parent:smoothie:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie:bundleLibCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:prepareLintJar
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseSources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:javaPreCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle:prepareLintJar
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseSources
+> Task :toothpick-parent:smoothie-lifecycle:javaPreCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibCompileRelease
+> Task :processReleaseResources
+> Task :toothpick-parent:ktp:kaptGenerateStubsKotlin
+> Task :toothpick-parent:ktp:kaptKotlin
+> Task :toothpick-parent:ktp:compileKotlin
+> Task :toothpick-parent:ktp:compileJava NO-SOURCE
+> Task :toothpick-parent:ktp:processResources NO-SOURCE
+> Task :toothpick-parent:ktp:classes UP-TO-DATE
+> Task :toothpick-parent:ktp:inspectClassesForKotlinIC
+> Task :toothpick-parent:ktp:jar
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileReleaseKotlin
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:prepareLintJar
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseSources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:javaPreCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileReleaseKotlin
+> Task :toothpick-parent:smoothie-lifecycle-ktp:prepareLintJar
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseSources
+> Task :toothpick-parent:smoothie-lifecycle-ktp:javaPreCompileRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibCompileRelease
+> Task :toothpick-parent:smoothie-androidx:generateReleaseBuildConfig
+> Task :toothpick-parent:smoothie-androidx:prepareLintJar
+> Task :toothpick-parent:smoothie-androidx:generateReleaseSources
+> Task :toothpick-parent:smoothie-androidx:javaPreCompileRelease
+> Task :toothpick-parent:smoothie-androidx:compileReleaseJavaWithJavac
+> Task :toothpick-parent:smoothie-androidx:bundleLibCompileRelease
+> Task :toothpick-parent:smoothie:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie-androidx:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:mergeReleaseJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :toothpick-parent:smoothie:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie:bundleLibResRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibResRelease
+> Task :toothpick-parent:smoothie-lifecycle:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibResRelease
+> Task :toothpick-parent:smoothie-androidx:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:bundleLibResRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibResRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:processReleaseJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibResRelease
+> Task :toothpick-parent:smoothie:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie-androidx:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibRuntimeRelease
+> Task :toothpick-parent:smoothie:mergeReleaseShaders
+> Task :toothpick-parent:smoothie:compileReleaseShaders
+> Task :toothpick-parent:smoothie:generateReleaseAssets
+> Task :toothpick-parent:smoothie:packageReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:mergeReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle:mergeReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle:compileReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle:generateReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle:packageReleaseAssets
+> Task :toothpick-parent:smoothie-androidx:mergeReleaseShaders
+> Task :toothpick-parent:smoothie-androidx:compileReleaseShaders
+> Task :toothpick-parent:smoothie-androidx:generateReleaseAssets
+> Task :toothpick-parent:smoothie-androidx:packageReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:mergeReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-ktp:mergeReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileReleaseShaders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateReleaseAssets
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageReleaseAssets
+> Task :toothpick-parent:smoothie:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie:checkDebugManifest
+> Task :toothpick-parent:smoothie:processDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:checkDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:processDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:checkDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:processDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle:checkDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle:processDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-ktp:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:checkDebugManifest
+> Task :toothpick-parent:smoothie-lifecycle-ktp:processDebugManifest
+> Task :toothpick-parent:smoothie-androidx:preDebugBuild UP-TO-DATE
+> Task :toothpick-parent:smoothie-androidx:checkDebugManifest
+> Task :toothpick-parent:smoothie-androidx:processDebugManifest
+> Task :toothpick-parent:smoothie:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:packageDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie:generateDebugResValues
+> Task :toothpick-parent:smoothie:generateDebugResources
+> Task :toothpick-parent:smoothie:packageDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugResValues
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageDebugResources
+> Task :toothpick-parent:smoothie-lifecycle:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugResValues
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugResources
+> Task :toothpick-parent:smoothie-lifecycle:packageDebugResources
+> Task :toothpick-parent:smoothie-androidx:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:generateDebugResValues
+> Task :toothpick-parent:smoothie-androidx:generateDebugResources
+> Task :toothpick-parent:smoothie-androidx:packageDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugResValues
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileDebugRenderscript NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugResValues
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugResources
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageDebugResources
+> Task :toothpick-parent:smoothie:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:compileDebugAidl NO-SOURCE
+> Task :toothpick-parent:smoothie:generateDebugRFile
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugRFile
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugRFile
+> Task :toothpick-parent:smoothie-androidx:generateDebugRFile
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugRFile
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugRFile
+> Task :toothpick-parent:smoothie:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie:generateDebugSources
+> Task :toothpick-parent:smoothie:javaPreCompileDebug
+> Task :toothpick-parent:smoothie:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugSources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:javaPreCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileDebugKotlin
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugSources
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:javaPreCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugSources
+> Task :toothpick-parent:smoothie-lifecycle:javaPreCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileDebugKotlin
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugSources
+> Task :toothpick-parent:smoothie-lifecycle-ktp:javaPreCompileDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie-androidx:generateDebugBuildConfig
+> Task :toothpick-parent:smoothie-androidx:generateDebugSources
+> Task :toothpick-parent:smoothie-androidx:javaPreCompileDebug
+> Task :toothpick-parent:smoothie-androidx:compileDebugJavaWithJavac
+> Task :toothpick-parent:smoothie-androidx:bundleLibCompileDebug
+> Task :toothpick-parent:smoothie:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie-lifecycle:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie-androidx:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie-androidx:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:mergeDebugJniLibFolders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :toothpick-parent:smoothie:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie:bundleLibResDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibResDebug
+> Task :toothpick-parent:smoothie-lifecycle:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibResDebug
+> Task :toothpick-parent:smoothie-androidx:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-androidx:bundleLibResDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibResDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:processDebugJavaRes NO-SOURCE
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibResDebug
+> Task :toothpick-parent:smoothie:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie-lifecycle:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie-androidx:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie-lifecycle-ktp:bundleLibRuntimeDebug
+> Task :toothpick-parent:smoothie:mergeDebugShaders
+> Task :toothpick-parent:smoothie:compileDebugShaders
+> Task :toothpick-parent:smoothie:generateDebugAssets
+> Task :toothpick-parent:smoothie:packageDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:mergeDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:compileDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:generateDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel:packageDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle:mergeDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle:compileDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle:generateDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle:packageDebugAssets
+> Task :toothpick-parent:smoothie-androidx:mergeDebugShaders
+> Task :toothpick-parent:smoothie-androidx:compileDebugShaders
+> Task :toothpick-parent:smoothie-androidx:generateDebugAssets
+> Task :toothpick-parent:smoothie-androidx:packageDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:mergeDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:compileDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:generateDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-viewmodel-ktp:packageDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-ktp:mergeDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:compileDebugShaders
+> Task :toothpick-parent:smoothie-lifecycle-ktp:generateDebugAssets
+> Task :toothpick-parent:smoothie-lifecycle-ktp:packageDebugAssets
+> Task :preDebugBuild
+> Task :compileDebugAidl NO-SOURCE
+> Task :compileDebugRenderscript NO-SOURCE
+> Task :checkDebugManifest
+> Task :generateDebugBuildConfig
+> Task :mainApkListPersistenceDebug
+> Task :generateDebugResValues
+> Task :generateDebugResources
+> Task :createDebugCompatibleScreenManifests
+> Task :processDebugManifest
+> Task :generateDebugSources
+> Task :mergeDebugShaders
+> Task :compileDebugShaders
+> Task :generateDebugAssets
+> Task :mergeReleaseAssets
+> Task :validateSigningDebug
+> Task :signingConfigWriterDebug
+> Task :checkDebugDuplicateClasses
+> Task :mergeDebugJniLibFolders
+> Task :kaptGenerateStubsReleaseKotlin
+> Task :processDebugJavaRes NO-SOURCE
+> Task :kaptReleaseKotlin
+
+> Task :compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/src/main/java/com/example/toothpick/adapter/IBackpackAdapter.kt: (5, 1): Modifier 'open' is redundant because 'abstract' is present
+
+> Task :javaPreCompileRelease
+> Task :compileReleaseJavaWithJavac
+> Task :compileReleaseSources
+> Task :transformResourcesWithMergeJavaResForRelease
+> Task :mergeDebugResources
+> Task :transformNativeLibsWithMergeJniLibsForRelease
+> Task :transformNativeLibsWithStripDebugSymbolForRelease
+> Task :mergeDebugAssets
+> Task :processDebugResources
+> Task :transformNativeLibsWithMergeJniLibsForDebug
+> Task :transformNativeLibsWithStripDebugSymbolForDebug
+> Task :transformClassesWithDexBuilderForRelease
+> Task :transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :transformDexArchiveWithDexMergerForRelease
+> Task :packageRelease
+> Task :assembleRelease
+> Task :kaptGenerateStubsDebugKotlin
+> Task :kaptDebugKotlin
+
+> Task :compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/src/main/java/com/example/toothpick/adapter/IBackpackAdapter.kt: (5, 1): Modifier 'open' is redundant because 'abstract' is present
+
+> Task :javaPreCompileDebug
+> Task :compileDebugJavaWithJavac
+> Task :compileDebugSources
+> Task :transformResourcesWithMergeJavaResForDebug
+> Task :transformClassesWithDexBuilderForDebug
+> Task :transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :transformDexArchiveWithDexMergerForDebug
+> Task :packageDebug
+> Task :assembleDebug
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 9s
+56 actionable tasks: 56 executed
+
+2019-08-13 15:40:34,248 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685539675-0/src/toothpick-master/toothpick-sample/build/outputs/apk/release/toothpick-sample-release-unsigned.apk

@@ -3,7 +3,7 @@
     "packageName" : "io.michaelrocks.libphonenumber.android.sample",
     "label" : "libphonenumber",
     "icon" : null,
-    "versionName" : "8.10.14",
+    "versionName" : "8.10.16",
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "14",
@@ -25,9 +25,9 @@
   "icon" : null,
   "dexClasses" : 637,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"8.10.14\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.michaelrocks.libphonenumber.android.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0b0005\" android:label=\"libphonenumber\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"io.michaelrocks.libphonenumber.android.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 1079769,
-  "crc32" : 3645912271,
-  "sha256" : "bdabcc841fa6153c981dc51c78e2cb5a024309f4041b6371e8a34c5cedf77d8c",
-  "buildTime" : 1563944472000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"8.10.16\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.michaelrocks.libphonenumber.android.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0b0005\" android:label=\"libphonenumber\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"io.michaelrocks.libphonenumber.android.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1079878,
+  "crc32" : 3809636208,
+  "sha256" : "9455f68ee9e78860dfaff76f3d0778a07780c3525f7318e4e86c6bb80a9db460",
+  "buildTime" : 1565685347000
 }

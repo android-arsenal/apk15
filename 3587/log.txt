@@ -1,65 +1,60 @@
-2019-07-24 12:10:17,887 INFO  DownloadService - Downloading "https://github.com/Ramotion/paper-onboarding-android/archive/master.zip", attempt 3
-2019-07-24 12:11:14,446 INFO  DownloadService - Downloaded https://github.com/Ramotion/paper-onboarding-android/archive/master.zip, attempt 3
-2019-07-24 12:11:14,446 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/master.zip": 4 MB
-2019-07-24 12:11:14,446 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-24 12:11:14,447 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/master.zip: true
-2019-07-24 12:11:14,447 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src'.
-2019-07-24 12:11:14,509 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-07-24 12:11:14,509 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src]
-2019-07-24 12:11:14,526 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/.git/
+2019-08-13 15:42:00,785 INFO  DownloadService - Downloading "https://github.com/Ramotion/paper-onboarding-android/archive/master.zip", attempt 3
+2019-08-13 15:42:06,862 INFO  DownloadService - Downloaded https://github.com/Ramotion/paper-onboarding-android/archive/master.zip, attempt 3
+2019-08-13 15:42:06,862 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/master.zip": 4 MB
+2019-08-13 15:42:06,862 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 15:42:06,864 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/master.zip: true
+2019-08-13 15:42:06,864 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src'.
+2019-08-13 15:42:06,928 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-08-13 15:42:06,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src]
+2019-08-13 15:42:06,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/.git/
 
-2019-07-24 12:11:14,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/gradlew
-2019-07-24 12:11:14,534 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/build.gradle
-2019-07-24 12:11:14,538 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/settings.gradle
-2019-07-24 12:11:14,539 INFO  ProjectBuildService - Remote scripts: none
-2019-07-24 12:11:14,539 INFO  ProjectFixService - Fixing project...
-2019-07-24 12:11:14,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/local.properties
-2019-07-24 12:11:14,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 12:11:14,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/local.properties
-2019-07-24 12:11:14,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 12:11:14,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/local.properties
-2019-07-24 12:11:14,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 12:11:14,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/local.properties
-2019-07-24 12:11:14,550 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-24 12:11:14,550 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-24 12:11:14,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-24 12:11:14,551 INFO  ProjectFixService - Project was maybe fixed
-2019-07-24 12:11:14,551 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-24 12:11:14,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-24 12:11:21,163 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-24 12:11:21,163 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-24 12:11:21,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-24 12:11:52,174 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:42:06,951 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/gradlew
+2019-08-13 15:42:06,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/build.gradle
+2019-08-13 15:42:06,961 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/settings.gradle
+2019-08-13 15:42:06,961 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 15:42:06,961 INFO  ProjectFixService - Fixing project...
+2019-08-13 15:42:06,972 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/local.properties
+2019-08-13 15:42:06,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-13 15:42:06,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/local.properties
+2019-08-13 15:42:06,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-simple-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-13 15:42:06,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/local.properties
+2019-08-13 15:42:06,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-13 15:42:06,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/local.properties
+2019-08-13 15:42:06,974 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-13 15:42:06,975 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-13 15:42:06,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-13 15:42:06,975 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 15:42:06,975 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:42:06,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:42:14,674 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-13 15:42:14,675 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 15:42:14,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 15:42:42,603 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :paper-onboarding:preBuild UP-TO-DATE
 > Task :paper-onboarding:preDebugBuild UP-TO-DATE
 > Task :paper-onboarding:checkDebugManifest
 > Task :paper-onboarding:generateDebugBuildConfig
 > Task :paper-onboarding:generateDebugResValues
-> Task :paper-onboarding:processDebugManifest
-> Task :paper-onboarding:prepareLintJar
-> Task :paper-onboarding-fragment-example:preBuild UP-TO-DATE
-> Task :paper-onboarding:packageDebugRenderscript NO-SOURCE
-> Task :paper-onboarding-fragment-example:prepareLintJar
-> Task :paper-onboarding:mergeDebugShaders
-> Task :paper-onboarding:compileDebugShaders
-> Task :paper-onboarding:generateDebugAssets
-> Task :paper-onboarding:packageDebugAssets
-> Task :paper-onboarding:processDebugJavaRes NO-SOURCE
 > Task :paper-onboarding:compileDebugAidl NO-SOURCE
 > Task :paper-onboarding:compileDebugRenderscript NO-SOURCE
 > Task :paper-onboarding:generateDebugResources
 > Task :paper-onboarding:packageDebugResources
+> Task :paper-onboarding:processDebugManifest
 > Task :paper-onboarding:generateDebugRFile
+> Task :paper-onboarding:prepareLintJar
 > Task :paper-onboarding:generateDebugSources
 > Task :paper-onboarding:javaPreCompileDebug
 
 > Task :paper-onboarding:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingEngine.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingEngine.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :paper-onboarding:bundleLibCompileDebug
+> Task :paper-onboarding-fragment-example:preBuild UP-TO-DATE
+> Task :paper-onboarding:packageDebugRenderscript NO-SOURCE
+> Task :paper-onboarding-fragment-example:prepareLintJar
 > Task :paper-onboarding-fragment-example:preDebugBuild
 > Task :paper-onboarding-fragment-example:compileDebugAidl NO-SOURCE
 > Task :paper-onboarding-fragment-example:compileDebugRenderscript NO-SOURCE
@@ -70,16 +65,21 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :paper-onboarding-fragment-example:mainApkListPersistenceDebug
 > Task :paper-onboarding-fragment-example:generateDebugResValues
 > Task :paper-onboarding-fragment-example:generateDebugResources
-> Task :paper-onboarding-fragment-example:mergeDebugResources
 > Task :paper-onboarding-fragment-example:createDebugCompatibleScreenManifests
+> Task :paper-onboarding-fragment-example:mergeDebugResources
 > Task :paper-onboarding-fragment-example:processDebugManifest
 > Task :paper-onboarding-fragment-example:processDebugResources
 > Task :paper-onboarding-fragment-example:compileDebugJavaWithJavac
 > Task :paper-onboarding-fragment-example:compileDebugSources
+> Task :paper-onboarding:mergeDebugShaders
+> Task :paper-onboarding:compileDebugShaders
+> Task :paper-onboarding:generateDebugAssets
+> Task :paper-onboarding:packageDebugAssets
 > Task :paper-onboarding-fragment-example:mergeDebugShaders
 > Task :paper-onboarding-fragment-example:compileDebugShaders
 > Task :paper-onboarding-fragment-example:generateDebugAssets
 > Task :paper-onboarding-fragment-example:mergeDebugAssets
+> Task :paper-onboarding:processDebugJavaRes NO-SOURCE
 > Task :paper-onboarding:bundleLibResDebug
 > Task :paper-onboarding:jacocoDebug
 > Task :paper-onboarding:bundleLibRuntimeDebug
@@ -111,9 +111,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :paper-onboarding:javaPreCompileRelease
 
 > Task :paper-onboarding:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingEngine.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingEngine.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding/src/main/java/com/ramotion/paperonboarding/PaperOnboardingFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :paper-onboarding:bundleLibCompileRelease
@@ -132,18 +132,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :paper-onboarding-fragment-example:createReleaseCompatibleScreenManifests
 > Task :paper-onboarding-fragment-example:processReleaseManifest
 > Task :paper-onboarding-fragment-example:processReleaseResources
+> Task :paper-onboarding-fragment-example:compileReleaseJavaWithJavac
 > Task :paper-onboarding-fragment-example:mergeExtDexDebug
 > Task :paper-onboarding-fragment-example:mergeDexDebug
 > Task :paper-onboarding-fragment-example:packageDebug
 > Task :paper-onboarding-fragment-example:assembleDebug
-> Task :paper-onboarding-fragment-example:compileReleaseJavaWithJavac
 > Task :paper-onboarding-fragment-example:compileReleaseSources
 > Task :paper-onboarding:prepareLintJarForPublish
-
 > Task :paper-onboarding-fragment-example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/32f237be824193abb5f27a7a9b3d997e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e398172bdb182745b775af230358bfb1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :paper-onboarding:processReleaseJavaRes NO-SOURCE
 > Task :paper-onboarding:bundleLibResRelease
 > Task :paper-onboarding:bundleLibRuntimeRelease
@@ -179,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 30s
+BUILD SUCCESSFUL in 27s
 92 actionable tasks: 92 executed
 
-2019-07-24 12:11:52,237 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563945017884-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build/outputs/apk/release/paper-onboarding-fragment-example-release-unsigned.apk
+2019-08-13 15:42:42,676 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685720778-0/src/paper-onboarding-android-master/paper-onboarding-fragment-example/build/outputs/apk/release/paper-onboarding-fragment-example-release-unsigned.apk
