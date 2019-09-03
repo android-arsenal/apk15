@@ -1,39 +1,42 @@
-2019-07-08 03:32:40,402 INFO  DownloadService - Downloading "https://github.com/bjoernQ/thinr/archive/master.zip", attempt 3
-2019-07-08 03:32:41,998 INFO  DownloadService - Downloaded https://github.com/bjoernQ/thinr/archive/master.zip, attempt 3
-2019-07-08 03:32:41,998 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/master.zip": 1 MB
-2019-07-08 03:32:41,998 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-08 03:32:42,004 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/master.zip: true
-2019-07-08 03:32:42,004 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src'.
-2019-07-08 03:32:42,040 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-08 03:32:42,040 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src]
-2019-07-08 03:32:42,055 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/.git/
+2019-09-03 23:53:53,544 INFO  DownloadService - Downloading "https://github.com/bjoernQ/thinr/archive/master.zip", attempt 3
+2019-09-03 23:54:54,184 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-03 23:54:55,148 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-03 23:54:55,148 INFO  DownloadService - Downloading "https://github.com/bjoernQ/thinr/archive/master.zip", attempt 3
+2019-09-03 23:55:57,221 DEBUG FullProcessService - Repository https://github.com/bjoernQ/thinr available: true
+2019-09-03 23:55:57,221 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-03 23:55:57,222 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/bjoernQ/thinr, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src]
+2019-09-03 23:55:59,862 INFO  SysUtils - 
+2019-09-03 23:55:59,870 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/.git": true
+2019-09-03 23:55:59,875 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-09-03 23:55:59,875 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src]
+2019-09-03 23:55:59,895 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/.git/
 
-2019-07-08 03:32:42,059 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/gradlew
-2019-07-08 03:32:42,063 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample_retrolambda/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/lintrules/build.gradle
-2019-07-08 03:32:42,066 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample_retrolambda/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/lintrules/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/settings.gradle
-2019-07-08 03:32:42,066 INFO  ProjectBuildService - Remote scripts: none
-2019-07-08 03:32:42,066 INFO  ProjectFixService - Fixing project...
-2019-07-08 03:32:42,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/local.properties
-2019-07-08 03:32:42,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-07-08 03:32:42,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/local.properties
-2019-07-08 03:32:42,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-08 03:32:42,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample_retrolambda/local.properties
-2019-07-08 03:32:42,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample_retrolambda/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-08 03:32:42,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrtest/local.properties
-2019-07-08 03:32:42,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrtest/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-07-08 03:32:42,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/local.properties
-2019-07-08 03:32:42,077 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-08 03:32:42,077 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-08 03:32:42,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-07-08 03:32:42,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/lintrules/local.properties
-2019-07-08 03:32:42,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/lintrules/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
-2019-07-08 03:32:42,080 INFO  ProjectFixService - Project was maybe fixed
-2019-07-08 03:32:42,080 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:32:42,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:32:50,447 INFO  ProjectTaskService - Detected possible tasks: 78
-2019-07-08 03:32:50,447 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-08 03:32:50,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-08 03:33:02,321 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 23:55:59,900 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/gradlew
+2019-09-03 23:55:59,905 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample_retrolambda/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/lintrules/build.gradle
+2019-09-03 23:55:59,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample_retrolambda/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/lintrules/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/settings.gradle
+2019-09-03 23:55:59,910 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 23:55:59,910 INFO  ProjectFixService - Fixing project...
+2019-09-03 23:55:59,920 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/local.properties
+2019-09-03 23:55:59,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-09-03 23:55:59,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/local.properties
+2019-09-03 23:55:59,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 23:55:59,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample_retrolambda/local.properties
+2019-09-03 23:55:59,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample_retrolambda/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 23:55:59,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrtest/local.properties
+2019-09-03 23:55:59,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrtest/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-09-03 23:55:59,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/local.properties
+2019-09-03 23:55:59,923 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-09-03 23:55:59,924 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-09-03 23:55:59,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-09-03 23:55:59,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/lintrules/local.properties
+2019-09-03 23:55:59,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/lintrules/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2019-09-03 23:55:59,928 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 23:55:59,928 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:55:59,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:56:11,831 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-09-03 23:56:11,832 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-03 23:56:11,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-03 23:56:25,936 INFO  SysUtils - Configuration on demand is an incubating feature.
 :thinr:preBuild UP-TO-DATE
 :thinr:preDebugBuild UP-TO-DATE
 :thinr:compileDebugAidl NO-SOURCE
@@ -46,17 +49,17 @@
 :thinr:processDebugManifest
 :thinr:generateDebugRFile
 :lintrules:compileJava
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.2.0/lint-api-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.2.0/sdk-common-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/external/com-intellij/uast/145.597.3/uast-145.597.3.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.2.0/builder-model-2.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/sdklib/25.2.0/sdklib-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.2.0/builder-test-api-2.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/repository/25.2.0/repository-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/dvlib/25.2.0/dvlib-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.2.0/layoutlib-api-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.2.0/ddmlib-25.2.0.pom
-Download https://jcenter.bintray.com/com/android/tools/common/25.2.0/common-25.2.0.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.2.0/dvlib-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.2.0/layoutlib-api-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.2.0/builder-test-api-2.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/repository/25.2.0/repository-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/common/25.2.0/common-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.2.0/annotations-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.2.0/builder-model-2.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.2.0/sdk-common-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.2.0/sdklib-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.2.0/lint-api-25.2.0.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.2.0/ddmlib-25.2.0.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 :lintrules:processResources NO-SOURCE
@@ -65,6 +68,7 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :thinr:prepareLintJar
 :thinr:generateDebugSources
 :thinr:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.0/support-annotations-27.0.0.jar
 :thinr:compileDebugJavaWithJavac
 :thinr:extractDebugAnnotations
 :thinr:mergeDebugConsumerProguardFiles
@@ -120,15 +124,15 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :thinr:assemble
 :thinr:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 13s
 47 actionable tasks: 47 executed
 
-2019-07-08 03:33:02,331 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-08 03:33:02,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-08 03:33:07,774 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-08 03:33:07,774 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-08 03:33:07,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-08 03:33:23,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 23:56:25,955 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:56:25,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:56:33,578 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-09-03 23:56:33,578 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 23:56:33,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 23:56:56,311 INFO  SysUtils - Configuration on demand is an incubating feature.
 :thinr:preBuild UP-TO-DATE
 :thinr:preDebugBuild UP-TO-DATE
 :thinr:compileDebugAidl NO-SOURCE
@@ -261,7 +265,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :thinrsample:assemble
 :thinrsample:build
 
-BUILD SUCCESSFUL in 15s
+BUILD SUCCESSFUL in 22s
 92 actionable tasks: 59 executed, 33 up-to-date
 
-2019-07-08 03:33:23,122 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562531560400-0/src/thinr-master/thinrsample/build/outputs/apk/release/thinrsample-release-unsigned.apk
+2019-09-03 23:56:56,342 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529633536-0/src/thinrsample/build/outputs/apk/release/thinrsample-release-unsigned.apk

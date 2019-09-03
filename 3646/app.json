@@ -23,11 +23,11 @@
     "permissions" : [ ]
   },
   "icon" : null,
-  "dexClasses" : 3376,
+  "dexClasses" : 3379,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.example.kotlin\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0d0145\" android:label=\"TP sample\" android:name=\"com.example.toothpick.BackpackApplication\" android:allowBackup=\"false\" android:fullBackupContent=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.example.toothpick.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.example.toothpick.activity.SimpleBackpackItemsActivity\" />\n\t\t<activity android:name=\"com.example.toothpick.activity.AdvancedBackpackItemsActivity\" />\n\t\t<activity android:name=\"com.example.toothpick.activity.AddNewActivity\" />\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.example.kotlin.lifecycle-process\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2516446,
-  "crc32" : 2735514436,
-  "sha256" : "b19d31970ff50e79d6edc7a6b1a640f070e5a5222e6410a0390498aab8045b10",
-  "buildTime" : 1565685620000
+  "fileSize" : 2517209,
+  "crc32" : 1742376901,
+  "sha256" : "e0c78d313779a7daaeefbc1957b95099fb146e085558beafbbc7a970684e6cf5",
+  "buildTime" : 1567529609000
 }

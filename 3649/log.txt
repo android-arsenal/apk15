@@ -1,342 +1,345 @@
-2019-08-13 15:36:54,058 INFO  DownloadService - Downloading "https://github.com/zendesk/belvedere/archive/master.zip", attempt 3
-2019-08-13 15:37:00,007 INFO  DownloadService - Downloaded https://github.com/zendesk/belvedere/archive/master.zip, attempt 3
-2019-08-13 15:37:00,007 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/master.zip": 2 MB
-2019-08-13 15:37:00,007 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-13 15:37:00,008 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/master.zip: true
-2019-08-13 15:37:00,008 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src'.
-2019-08-13 15:37:00,065 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-08-13 15:37:00,065 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src]
-2019-08-13 15:37:00,082 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/.git/
+2019-09-03 23:46:17,970 INFO  DownloadService - Downloading "https://github.com/zendesk/belvedere/archive/master.zip", attempt 3
+2019-09-03 23:47:18,684 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-03 23:47:20,199 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-03 23:47:20,199 INFO  DownloadService - Downloading "https://github.com/zendesk/belvedere/archive/master.zip", attempt 3
+2019-09-03 23:48:22,002 DEBUG FullProcessService - Repository https://github.com/zendesk/belvedere available: true
+2019-09-03 23:48:22,002 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-03 23:48:22,003 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/zendesk/belvedere, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src]
+2019-09-03 23:48:25,174 INFO  SysUtils - 
+2019-09-03 23:48:25,185 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/.git": true
+2019-09-03 23:48:25,193 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-09-03 23:48:25,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src]
+2019-09-03 23:48:25,216 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/.git/
 
-2019-08-13 15:37:00,087 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/gradlew
-2019-08-13 15:37:00,092 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/build.gradle
-2019-08-13 15:37:00,097 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/build-belvedere-core.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/zendesk-repos.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/build-belvedere.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/zendesk-deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/gradle-commons.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/scripts/gradle/zendesk-aggregate-javadocs.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/settings.gradle
-2019-08-13 15:37:00,097 INFO  ProjectBuildService - Remote scripts: none
-2019-08-13 15:37:00,097 INFO  ProjectFixService - Fixing project...
-2019-08-13 15:37:00,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/local.properties
-2019-08-13 15:37:00,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-08-13 15:37:00,115 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
-2019-08-13 15:37:00,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/local.properties
-2019-08-13 15:37:00,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-08-13 15:37:00,120 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
-2019-08-13 15:37:00,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/local.properties
-2019-08-13 15:37:00,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-08-13 15:37:00,125 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
-2019-08-13 15:37:00,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/local.properties
-2019-08-13 15:37:00,126 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-08-13 15:37:00,126 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-08-13 15:37:00,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-08-13 15:37:00,129 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
-2019-08-13 15:37:00,129 INFO  ProjectFixService - Project was maybe fixed
-2019-08-13 15:37:00,130 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-13 15:37:00,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-13 15:37:08,631 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-13 15:37:08,631 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-13 15:37:08,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-13 15:37:20,792 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 23:48:25,224 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/gradlew
+2019-09-03 23:48:25,232 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/build.gradle
+2019-09-03 23:48:25,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/build-belvedere-core.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/zendesk-repos.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/build-belvedere.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/zendesk-deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/gradle-commons.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/scripts/gradle/zendesk-aggregate-javadocs.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/settings.gradle
+2019-09-03 23:48:25,241 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 23:48:25,241 INFO  ProjectFixService - Fixing project...
+2019-09-03 23:48:25,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/local.properties
+2019-09-03 23:48:25,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-09-03 23:48:25,275 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
+2019-09-03 23:48:25,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/local.properties
+2019-09-03 23:48:25,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-09-03 23:48:25,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
+2019-09-03 23:48:25,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/local.properties
+2019-09-03 23:48:25,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-09-03 23:48:25,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
+2019-09-03 23:48:25,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/local.properties
+2019-09-03 23:48:25,300 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-09-03 23:48:25,301 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-09-03 23:48:25,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-09-03 23:48:25,307 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=29,targetSdkVersion=28]
+2019-09-03 23:48:25,308 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 23:48:25,308 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:48:25,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:48:37,087 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-09-03 23:48:37,088 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-03 23:48:37,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-03 23:48:54,515 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :belvedere-core:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:14: error: package android.support.v4.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:14: error: package android.support.v4.util does not exist
 import android.support.v4.util.Pair;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:8: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:8: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:9: error: package android.support.v4.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:9: error: package android.support.v4.util does not exist
 import android.support.v4.util.Pair;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:57: error: cannot find symbol
     Pair<MediaIntent, MediaResult> getCameraIntent(int requestCode){
     ^
   symbol:   class Pair
   location: class MediaSource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Callback.java:6: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Callback.java:6: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:248: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaSource.java:248: error: cannot find symbol
     private Pair<MediaIntent, MediaResult> pickImageFromCameraInternal(Context context, int requestCode){
             ^
   symbol:   class Pair
   location: class MediaSource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:40: error: cannot find symbol
     public void open(Fragment fragment) {
                      ^
   symbol:   class Fragment
   location: class MediaIntent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:171: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:171: error: cannot find symbol
         public void open(Fragment fragment) {
                          ^
   symbol:   class Fragment
   location: class CameraIntentBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:125: error: cannot find symbol
         public void open(Fragment fragment) {
                          ^
   symbol:   class Fragment
   location: class DocumentIntentBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/PermissionUtil.java:6: error: package android.support.v4.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/PermissionUtil.java:6: error: package android.support.v4.content does not exist
 import android.support.v4.content.ContextCompat;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BitmapUtils.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BitmapUtils.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.RestrictTo;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:8: error: package android.support.v4.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:8: error: package android.support.v4.content does not exist
 import android.support.v4.content.FileProvider;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:22: error: cannot find symbol
 public class BelvedereFileProvider extends FileProvider {
                                            ^
   symbol: class FileProvider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BelvedereFileProvider.java:21: error: cannot find symbol
 @RestrictTo(RestrictTo.Scope.LIBRARY)
  ^
   symbol: class RestrictTo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:48: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MediaResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:63: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class MediaResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:78: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:78: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MediaResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:189: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaResult.java:189: error: cannot find symbol
     public int compareTo(@NonNull MediaResult o) {
                           ^
   symbol:   class NonNull
   location: class MediaResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:189: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/MediaIntent.java:189: error: cannot find symbol
     public void writeToParcel(@NonNull final Parcel dest, final int flags) {
                                ^
   symbol:   class NonNull
   location: class MediaIntent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:54: error: cannot find symbol
     public static Belvedere from(@NonNull Context context) {
                                   ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:53: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:75: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:75: error: cannot find symbol
     public static void setSingletonInstance(@NonNull Belvedere belvedere) {
                                              ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:96: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:112: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:112: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:125: error: cannot find symbol
     public Intent getViewIntent(@NonNull Uri uri, @Nullable String contentType) {
                                  ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:125: error: cannot find symbol
     public Intent getViewIntent(@NonNull Uri uri, @Nullable String contentType) {
                                                    ^
   symbol:   class Nullable
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:124: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:124: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:142: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:142: error: cannot find symbol
     public Intent getShareIntent(@NonNull Uri uri, @NonNull String contentType) {
                                   ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:142: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:142: error: cannot find symbol
     public Intent getShareIntent(@NonNull Uri uri, @NonNull String contentType) {
                                                     ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:141: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:141: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:166: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:166: error: cannot find symbol
                                              @NonNull Callback<List<MediaResult>> callback) {
                                               ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:180: error: cannot find symbol
                                              @NonNull Callback<List<MediaResult>> callback,
                                               ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:197: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:197: error: cannot find symbol
     public MediaResult getFile(@NonNull String dir, @NonNull String fileName) {
                                 ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:197: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:197: error: cannot find symbol
     public MediaResult getFile(@NonNull String dir, @NonNull String fileName) {
                                                      ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:196: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:196: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
     public void resolveUris(@NonNull List<Uri> uris, @NonNull String directory, @NonNull Callback<List<MediaResult>> callback) {
                              ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
     public void resolveUris(@NonNull List<Uri> uris, @NonNull String directory, @NonNull Callback<List<MediaResult>> callback) {
                                                       ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:228: error: cannot find symbol
     public void resolveUris(@NonNull List<Uri> uris, @NonNull String directory, @NonNull Callback<List<MediaResult>> callback) {
                                                                                  ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:243: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:243: error: cannot find symbol
     public void grantPermissionsForUri(@NonNull Intent intent, @NonNull Uri uri) {
                                         ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:243: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:243: error: cannot find symbol
     public void grantPermissionsForUri(@NonNull Intent intent, @NonNull Uri uri) {
                                                                 ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:255: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/Belvedere.java:255: error: cannot find symbol
     public void revokePermissionsForUri(@NonNull Uri uri) {
                                          ^
   symbol:   class NonNull
   location: class Belvedere
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:15: error: cannot find symbol
     static void d(@NonNull String tag, @NonNull String msg) {
                    ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:15: error: cannot find symbol
     static void d(@NonNull String tag, @NonNull String msg) {
                                         ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:19: error: cannot find symbol
     static void w(@NonNull String tag, @NonNull String msg) {
                    ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:19: error: cannot find symbol
     static void w(@NonNull String tag, @NonNull String msg) {
                                         ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:23: error: cannot find symbol
     static void e(@NonNull String tag, @NonNull String msg) {
                    ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:23: error: cannot find symbol
     static void e(@NonNull String tag, @NonNull String msg) {
                                         ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
     static void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e) {
                    ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
     static void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e) {
                                         ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:27: error: cannot find symbol
     static void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e) {
                                                              ^
   symbol:   class NonNull
   location: class L
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:93: error: cannot find symbol
         void d(@NonNull String tag, @NonNull String msg);
                 ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:93: error: cannot find symbol
         void d(@NonNull String tag, @NonNull String msg);
                                      ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:101: error: cannot find symbol
         void w(@NonNull String tag, @NonNull String msg);
                 ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:101: error: cannot find symbol
         void w(@NonNull String tag, @NonNull String msg);
                                      ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:109: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:109: error: cannot find symbol
         void e(@NonNull String tag, @NonNull String msg);
                 ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:109: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:109: error: cannot find symbol
         void e(@NonNull String tag, @NonNull String msg);
                                      ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
         void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e);
                 ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
         void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e);
                                      ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/L.java:119: error: cannot find symbol
         void e(@NonNull String tag, @NonNull String msg, @NonNull Throwable e);
                                                           ^
   symbol:   class NonNull
   location: interface Logger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/src/main/java/zendesk/belvedere/BitmapUtils.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/src/main/java/zendesk/belvedere/BitmapUtils.java:23: error: cannot find symbol
     public static Pair<Integer, Integer> getImageDimensions(@NonNull File file) {
                                                              ^
   symbol:   class NonNull
@@ -448,15 +451,15 @@ javadoc: warning - Class NonNull not found.
 > Task :belvedere-core:assemble
 > Task :belvedere-core:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 17s
 48 actionable tasks: 48 executed
 
-2019-08-13 15:37:20,823 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-13 15:37:20,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-13 15:37:27,513 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-08-13 15:37:27,513 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-13 15:37:27,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-13 15:38:48,957 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 23:48:54,552 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 23:48:54,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 23:49:01,700 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-09-03 23:49:01,700 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 23:49:01,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 23:50:10,681 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :belvedere:preBuild UP-TO-DATE
 > Task :belvedere:preDebugBuild UP-TO-DATE
 > Task :belvedere-core:preBuild UP-TO-DATE
@@ -492,14 +495,14 @@ BUILD SUCCESSFUL in 11s
 > Task :belvedere:javaPreCompileDebug
 
 > Task :belvedere:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/src/main/java/zendesk/belvedere/ImageStreamUi.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/src/main/java/zendesk/belvedere/ImageStreamUi.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :belvedere:processDebugJavaRes NO-SOURCE
 > Task :belvedere:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 
 > Task :belvedere-sample:checkDebugClasspath
-WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle:
+WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle:
 dependencies {
     implementation("com.android.support:support-annotations:28.0.0")
 }
@@ -591,14 +594,14 @@ dependencies {
 > Task :belvedere:javaPreCompileRelease
 
 > Task :belvedere:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/src/main/java/zendesk/belvedere/ImageStreamUi.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/src/main/java/zendesk/belvedere/ImageStreamUi.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :belvedere:processReleaseJavaRes NO-SOURCE
 > Task :belvedere:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 
 > Task :belvedere-sample:checkReleaseClasspath
-WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle:
+WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle:
 dependencies {
     implementation("com.android.support:support-annotations:28.0.0")
 }
@@ -662,7 +665,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :belvedere-sample:assembleRelease
 
 > Task :belvedere-sample:checkTravisClasspath
-WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build.gradle:
+WARNING: Conflict with dependency 'com.android.support:support-annotations' in project ':belvedere-sample'. Resolved versions for runtime classpath (28.0.0) and compile classpath (27.1.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build.gradle:
 dependencies {
     implementation("com.android.support:support-annotations:28.0.0")
 }
@@ -731,10 +734,10 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.square
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c4612a7baf8961a9c90007f3bd2091cd/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/intermediates/javac/travis/compileTravisJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/intermediates/transforms/mergeJavaRes/travis/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/intermediates/javac/travis/compileTravisJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/intermediates/transforms/mergeJavaRes/travis/0.jar] (filtered)
 Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.2/core-lambda-stubs.jar]
@@ -931,24 +934,24 @@ Note: there were 1 library classes explicitly being kept.
 Note: there were 5 unresolved dynamic references to classes or interfaces.
       You should check if you need to specify additional program jars.
       (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1280
 Warning: there were 176 unresolved references to classes or interfaces.
          You may need to add missing library jars or update their versions.
          If your code works fine without the missing classes, you can suppress
          the warnings with '-dontwarn' options.
          (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
-Note: you're ignoring all warnings!
-Ignoring unused library classes...
-  Original number of library classes: 4803
-  Final number of library classes:    1280
 Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/outputs/mapping/travis/usage.txt]...
 
 > Task :belvedere-sample:transformClassesAndResourcesWithProguardForTravis
 Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
 thread-pool size=4
 
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/outputs/mapping/travis/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2700
   Final number of program classes:    2700
@@ -1020,7 +1023,7 @@ Optimizing (pass 2/5)...
   Number of string peephole optimizations:       247
   Number of math peephole optimizations:         0
   Number of simplified instructions:             60
-  Number of removed instructions:                3071
+  Number of removed instructions:                3075
   Number of removed local variables:             148
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     113
@@ -1058,7 +1061,7 @@ Optimizing (pass 3/5)...
   Number of string peephole optimizations:       3
   Number of math peephole optimizations:         0
   Number of simplified instructions:             9
-  Number of removed instructions:                348
+  Number of removed instructions:                350
   Number of removed local variables:             8
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     11
@@ -1096,7 +1099,7 @@ Optimizing (pass 4/5)...
   Number of string peephole optimizations:       3
   Number of math peephole optimizations:         0
   Number of simplified instructions:             10
-  Number of removed instructions:                143
+  Number of removed instructions:                140
   Number of removed local variables:             2
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     3
@@ -1134,7 +1137,7 @@ Optimizing (pass 5/5)...
   Number of string peephole optimizations:       0
   Number of math peephole optimizations:         0
   Number of simplified instructions:             0
-  Number of removed instructions:                3
+  Number of removed instructions:                1
   Number of removed local variables:             0
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     0
@@ -1143,10 +1146,10 @@ Removing unused program classes and class elements...
   Original number of program classes: 2700
   Final number of program classes:    2700
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/outputs/mapping/travis/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/outputs/mapping/travis/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/intermediates/transforms/proguard/travis/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/intermediates/transforms/proguard/travis/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/c8f4aa847ea0dae2392875c43e8804f6/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/83d4656e1cecea72a8a123c37f87a911/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/d55efe14b3ee101ae7b358deafdfd430/jars/classes.jar] (filtered)
@@ -1180,10 +1183,10 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c4612a7baf8961a9c90007f3bd2091cd/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-core/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/intermediates/javac/travis/compileTravisJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/intermediates/transforms/mergeJavaRes/travis/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-core/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/intermediates/javac/travis/compileTravisJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/intermediates/transforms/mergeJavaRes/travis/0.jar] (filtered)
 
 > Task :belvedere-sample:transformClassesWithDexBuilderForTravis
 > Task :belvedere-sample:transformDexArchiveWithDexMergerForTravis
@@ -1196,7 +1199,7 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 > Task :belvedere-sample:assemble
 > Task :belvedere-sample:build
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 1m 8s
 157 actionable tasks: 125 executed, 32 up-to-date
 
-2019-08-13 15:38:49,084 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685414053-0/src/belvedere-master/belvedere-sample/build/outputs/apk/release/belvedere-sample-release-unsigned.apk
+2019-09-03 23:50:10,816 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567529177951-0/src/belvedere-sample/build/outputs/apk/release/belvedere-sample-release-unsigned.apk
